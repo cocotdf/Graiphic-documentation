@@ -11,20 +11,30 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="100%"><table>
+      <td valign="top" width="70%"><p><img alt="Sampler Parameters" src="assets/cnclst.png" width="32"/> <strong>Sampler Parameters : <em>cluster</em></strong></p>
+
+<table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Sampler Parameters" src="assets/cnclst.png" width="42"/></td>
-      <td valign="top"><strong>Sampler Parameters : <em>cluster</em></strong>
-<ul>
-  <li><img alt="temperature" src="assets/csgl.png" width="32"/> <strong>temperature : <em>float</em></strong></li>
-  <li><img alt="top_p" src="assets/csgl.png" width="32"/> <strong>top_p : <em>float</em></strong></li>
-  <li><img alt="min_p" src="assets/csgl.png" width="32"/> <strong>min_p : <em>float</em></strong></li>
-  <li><img alt="top_k" src="assets/ci32.png" width="32"/> <strong>top_k : <em>integer</em></strong></li>
-</ul></td>
+      <td width="64" valign="top"><img alt="temperature" src="assets/csgl.png" width="42"/></td>
+      <td valign="top"><strong>temperature : <em>float</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="top_p" src="assets/csgl.png" width="42"/></td>
+      <td valign="top"><strong>top_p : <em>float</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="min_p" src="assets/csgl.png" width="42"/></td>
+      <td valign="top"><strong>min_p : <em>float</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="top_k" src="assets/ci32.png" width="42"/></td>
+      <td valign="top"><strong>top_k : <em>integer</em></strong></td>
     </tr>
   </tbody>
-</table></td>
+</table>
+      </td>
+      <td valign="top" width="30%"><p align="center"><img alt="Sampler Parameters" src="assets/Sampler Parameters.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>

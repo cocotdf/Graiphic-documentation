@@ -35,34 +35,56 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="100%"><table>
+      <td valign="top" width="70%"><p><img alt="response" src="assets/icclst.png" width="32"/> <strong>response : <em>cluster</em></strong></p>
+
+<table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="response" src="assets/icclst.png" width="42"/></td>
-      <td valign="top"><strong>response : <em>cluster</em></strong>
-<ul>
-  <li><img alt="id" src="assets/istr.png" width="32"/> <strong>id : <em>string</em></strong></li>
-  <li><img alt="type" src="assets/istr.png" width="32"/> <strong>type : <em>string</em></strong></li>
-  <li><img alt="role" src="assets/istr.png" width="32"/> <strong>role : <em>string</em></strong></li>
-  <li><img alt="model" src="assets/istr.png" width="32"/> <strong>model : <em>string</em></strong></li>
-  <li><img alt="content" src="assets/i1dcclst.png" width="32"/> <strong>content : <em>array of cluster</em></strong>
+      <td width="64" valign="top"><img alt="id" src="assets/istr.png" width="42"/></td>
+      <td valign="top"><strong>id : <em>string</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="type" src="assets/istr.png" width="42"/></td>
+      <td valign="top"><strong>type : <em>string</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="role" src="assets/istr.png" width="42"/></td>
+      <td valign="top"><strong>role : <em>string</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="model" src="assets/istr.png" width="42"/></td>
+      <td valign="top"><strong>model : <em>string</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="content" src="assets/i1dcclst.png" width="42"/></td>
+      <td valign="top"><strong>content : <em>array of cluster</em></strong>
 <ul>
   <li><img alt="type" src="assets/istr.png" width="32"/> <strong>type : <em>string</em></strong></li>
   <li><img alt="text" src="assets/istr.png" width="32"/> <strong>text : <em>string</em></strong></li>
-</ul></li>
-  <li><img alt="stop_reason" src="assets/istr.png" width="32"/> <strong>stop_reason : <em>string</em></strong></li>
-  <li><img alt="stop_sequence" src="assets/istr.png" width="32"/> <strong>stop_sequence : <em>string</em></strong></li>
-  <li><img alt="usage" src="assets/inclst.png" width="32"/> <strong>usage : <em>cluster</em></strong>
+</ul></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="stop_reason" src="assets/istr.png" width="42"/></td>
+      <td valign="top"><strong>stop_reason : <em>string</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="stop_sequence" src="assets/istr.png" width="42"/></td>
+      <td valign="top"><strong>stop_sequence : <em>string</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="usage" src="assets/inclst.png" width="42"/></td>
+      <td valign="top"><strong>usage : <em>cluster</em></strong>
 <ul>
   <li><img alt="input_tokens" src="assets/iu32.png" width="32"/> <strong>input_tokens : <em>integer</em></strong></li>
   <li><img alt="cache_creation_input_tokens" src="assets/iu32.png" width="32"/> <strong>cache_creation_input_tokens : <em>integer</em></strong></li>
   <li><img alt="cache_read_input_tokens" src="assets/iu32.png" width="32"/> <strong>cache_read_input_tokens : <em>integer</em></strong></li>
   <li><img alt="output_tokens" src="assets/iu32.png" width="32"/> <strong>output_tokens : <em>integer</em></strong></li>
-</ul></li>
 </ul></td>
     </tr>
   </tbody>
-</table></td>
+</table>
+      </td>
+      <td valign="top" width="30%"><p align="center"><img alt="response" src="assets/response.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>

@@ -11,22 +11,38 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="100%"><table>
+      <td valign="top" width="70%"><p><img alt="Session Parameters" src="assets/ccclst.png" width="32"/> <strong>Session Parameters : <em>cluster</em></strong></p>
+
+<table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Session Parameters" src="assets/ccclst.png" width="42"/></td>
-      <td valign="top"><strong>Session Parameters : <em>cluster</em></strong>
-<ul>
-  <li><img alt="Model File Path" src="assets/cpath.png" width="32"/> <strong>Model File Path : <em>path</em></strong></li>
-  <li><img alt="MMProj File Path" src="assets/cpath.png" width="32"/> <strong>MMProj File Path : <em>path</em></strong></li>
-  <li><img alt="n cpu threads" src="assets/ci32.png" width="32"/> <strong>n cpu threads : <em>integer</em></strong></li>
-  <li><img alt="nb gpu layers" src="assets/ci32.png" width="32"/> <strong>nb gpu layers : <em>integer</em></strong></li>
-  <li><img alt="n_ctx" src="assets/ci32.png" width="32"/> <strong>n_ctx : <em>integer</em></strong></li>
-  <li><img alt="system prompt" src="assets/cstr.png" width="32"/> <strong>system prompt : <em>string</em></strong></li>
-</ul></td>
+      <td width="64" valign="top"><img alt="Model File Path" src="assets/cpath.png" width="42"/></td>
+      <td valign="top"><strong>Model File Path : <em>path</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="MMProj File Path" src="assets/cpath.png" width="42"/></td>
+      <td valign="top"><strong>MMProj File Path : <em>path</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="n cpu threads" src="assets/ci32.png" width="42"/></td>
+      <td valign="top"><strong>n cpu threads : <em>integer</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="nb gpu layers" src="assets/ci32.png" width="42"/></td>
+      <td valign="top"><strong>nb gpu layers : <em>integer</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="n_ctx" src="assets/ci32.png" width="42"/></td>
+      <td valign="top"><strong>n_ctx : <em>integer</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="system prompt" src="assets/cstr.png" width="42"/></td>
+      <td valign="top"><strong>system prompt : <em>string</em></strong></td>
     </tr>
   </tbody>
-</table></td>
+</table>
+      </td>
+      <td valign="top" width="30%"><p align="center"><img alt="Session Parameters" src="assets/Session Parameters.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>
@@ -34,20 +50,30 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="100%"><table>
+      <td valign="top" width="70%"><p><img alt="Sampler Parameters" src="assets/cnclst.png" width="32"/> <strong>Sampler Parameters : <em>cluster</em></strong></p>
+
+<table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Sampler Parameters" src="assets/cnclst.png" width="42"/></td>
-      <td valign="top"><strong>Sampler Parameters : <em>cluster</em></strong>
-<ul>
-  <li><img alt="temperature" src="assets/csgl.png" width="32"/> <strong>temperature : <em>float</em></strong></li>
-  <li><img alt="top_p" src="assets/csgl.png" width="32"/> <strong>top_p : <em>float</em></strong></li>
-  <li><img alt="min_p" src="assets/csgl.png" width="32"/> <strong>min_p : <em>float</em></strong></li>
-  <li><img alt="top_k" src="assets/ci32.png" width="32"/> <strong>top_k : <em>integer</em></strong></li>
-</ul></td>
+      <td width="64" valign="top"><img alt="temperature" src="assets/csgl.png" width="42"/></td>
+      <td valign="top"><strong>temperature : <em>float</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="top_p" src="assets/csgl.png" width="42"/></td>
+      <td valign="top"><strong>top_p : <em>float</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="min_p" src="assets/csgl.png" width="42"/></td>
+      <td valign="top"><strong>min_p : <em>float</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="top_k" src="assets/ci32.png" width="42"/></td>
+      <td valign="top"><strong>top_k : <em>integer</em></strong></td>
     </tr>
   </tbody>
-</table></td>
+</table>
+      </td>
+      <td valign="top" width="30%"><p align="center"><img alt="Sampler Parameters" src="assets/Sampler Parameters.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>

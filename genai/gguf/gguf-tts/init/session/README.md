@@ -11,20 +11,30 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="100%"><table>
+      <td valign="top" width="70%"><p><img alt="Parameters" src="assets/ccclst.png" width="32"/> <strong>Parameters : <em>cluster</em></strong></p>
+
+<table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Parameters" src="assets/ccclst.png" width="42"/></td>
-      <td valign="top"><strong>Parameters : <em>cluster</em></strong>
-<ul>
-  <li><img alt="Model Path" src="assets/cpath.png" width="32"/> <strong>Model Path : <em>path</em></strong></li>
-  <li><img alt="Tokenizer Path" src="assets/cpath.png" width="32"/> <strong>Tokenizer Path : <em>path</em></strong></li>
-  <li><img alt="n gpu layers" src="assets/ci32.png" width="32"/> <strong>n gpu layers : <em>integer</em></strong></li>
-  <li><img alt="use guide tokens" src="assets/cbool.png" width="32"/> <strong>use guide tokens : <em>boolean</em></strong></li>
-</ul></td>
+      <td width="64" valign="top"><img alt="Model Path" src="assets/cpath.png" width="42"/></td>
+      <td valign="top"><strong>Model Path : <em>path</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="Tokenizer Path" src="assets/cpath.png" width="42"/></td>
+      <td valign="top"><strong>Tokenizer Path : <em>path</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="n gpu layers" src="assets/ci32.png" width="42"/></td>
+      <td valign="top"><strong>n gpu layers : <em>integer</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="use guide tokens" src="assets/cbool.png" width="42"/></td>
+      <td valign="top"><strong>use guide tokens : <em>boolean</em></strong></td>
     </tr>
   </tbody>
-</table></td>
+</table>
+      </td>
+      <td valign="top" width="30%"><p align="center"><img alt="Parameters" src="assets/Parameters.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>

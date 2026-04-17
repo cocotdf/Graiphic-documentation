@@ -1,4 +1,4 @@
-﻿<h1>Init Playback</h1>
+<h1>Init Playback</h1>
 <h2>Description</h2>
 
 <p>This section groups the experimental GenAI documentation available under Init Playback.</p>
@@ -9,4 +9,3 @@
   <li><a href="./play-sound-from-a-buffer/README.md">Play Sound From A Buffer</a></li>
   <li><a href="./play-sound-from-a-file/README.md">Play Sound From A File</a></li>
 </ul>
-

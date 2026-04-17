@@ -24,19 +24,26 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="100%"><table>
+      <td valign="top" width="70%"><p><img alt="Parameters" src="assets/cnclst.png" width="32"/> <strong>Parameters : <em>cluster</em></strong></p>
+
+<table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Parameters" src="assets/cnclst.png" width="42"/></td>
-      <td valign="top"><strong>Parameters : <em>cluster</em></strong>
-<ul>
-  <li><img alt="volume" src="assets/csgl.png" width="32"/> <strong>volume : <em>float</em></strong></li>
-  <li><img alt="sampleRate" src="assets/ci32.png" width="32"/> <strong>sampleRate : <em>integer</em></strong></li>
-  <li><img alt="Channels" src="assets/ci32.png" width="32"/> <strong>Channels : <em>integer</em></strong></li>
-</ul></td>
+      <td width="64" valign="top"><img alt="volume" src="assets/csgl.png" width="42"/></td>
+      <td valign="top"><strong>volume : <em>float</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="sampleRate" src="assets/ci32.png" width="42"/></td>
+      <td valign="top"><strong>sampleRate : <em>integer</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="Channels" src="assets/ci32.png" width="42"/></td>
+      <td valign="top"><strong>Channels : <em>integer</em></strong></td>
     </tr>
   </tbody>
-</table></td>
+</table>
+      </td>
+      <td valign="top" width="30%"><p align="center"><img alt="Parameters" src="assets/Parameters.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>

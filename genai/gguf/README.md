@@ -1,4 +1,4 @@
-﻿<h1>GGUF</h1>
+<h1>GGUF</h1>
 <h2>Description</h2>
 
 <p>This section groups the experimental GenAI documentation available under GGUF.</p>
@@ -10,5 +10,3 @@
   <li><a href="./gguf-tts/README.md">GGUF TTS</a></li>
   <li><a href="./text-generation/README.md">Text Generation</a></li>
 </ul>
-
-

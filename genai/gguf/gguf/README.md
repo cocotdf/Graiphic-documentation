@@ -1,4 +1,4 @@
-﻿<h1>GGUF</h1>
+<h1>GGUF</h1>
 <h2>Description</h2>
 
 <p>This section groups the experimental GenAI documentation available under GGUF.</p>
@@ -8,4 +8,3 @@
 <ul>
   <li><a href="./chat/README.md">Chat</a></li>
 </ul>
-
