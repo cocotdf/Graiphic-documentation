@@ -21,6 +21,14 @@
 <h2>Explore The Toolkit</h2>
 
 <div class="graiphic-home-grid">
+  <a class="graiphic-home-card" href="installation-guide/README.md">
+    <span class="graiphic-home-card-title">Installation Guide</span>
+    <span class="graiphic-home-card-copy">Set up the toolkit, choose between cloud and local runtimes, and validate the first GenAI flows in LabVIEW.</span>
+  </a>
+  <a class="graiphic-home-card" href="general/README.md">
+    <span class="graiphic-home-card-title">General</span>
+    <span class="graiphic-home-card-copy">Start with the introduction, beginner guidance, compatibility notes, deployment advice, and FAQ.</span>
+  </a>
   <a class="graiphic-home-card" href="anthropic/README.md">
     <span class="graiphic-home-card-title">Anthropic</span>
     <span class="graiphic-home-card-copy">Build advanced text, image, and PDF message payloads for Anthropic-oriented LabVIEW workflows.</span>
@@ -46,6 +54,9 @@
 <h2>Quick Access</h2>
 
 <ul>
+  <li><a href="general/introduction/README.md">Introduction</a></li>
+  <li><a href="general/beginners-guide/README.md">Beginner's Guide</a></li>
+  <li><a href="installation-guide/genai-toolkit/README.md">GenAI Toolkit setup</a></li>
   <li><a href="anthropic/message/README.md">Anthropic Message</a></li>
   <li><a href="anthropic/message/advanced-message/README.md">Advanced Message</a></li>
   <li><a href="audio-process/play/init-playback/play-sound-from-a-buffer/README.md">Play Sound From a Buffer</a></li>

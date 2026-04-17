@@ -7487,6 +7487,86 @@
           "kind": "category",
           "children": [
             {
+              "title": "Installation guide",
+              "path": "/genai/installation-guide/README.md",
+              "kind": "category",
+              "children": [
+                {
+                  "title": "GenAI Toolkit",
+                  "path": "/genai/installation-guide/genai-toolkit/README.md",
+                  "kind": "page",
+                  "children": []
+                },
+                {
+                  "title": "Anthropic",
+                  "path": "/genai/installation-guide/anthropic/README.md",
+                  "kind": "page",
+                  "children": []
+                },
+                {
+                  "title": "GGUF",
+                  "path": "/genai/installation-guide/gguf/README.md",
+                  "kind": "page",
+                  "children": []
+                },
+                {
+                  "title": "Audio Playback",
+                  "path": "/genai/installation-guide/audio-playback/README.md",
+                  "kind": "page",
+                  "children": []
+                },
+                {
+                  "title": "Troubleshooting",
+                  "path": "/genai/installation-guide/troubleshooting/README.md",
+                  "kind": "page",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "General",
+              "path": "/genai/general/README.md",
+              "kind": "category",
+              "children": [
+                {
+                  "title": "Introduction",
+                  "path": "/genai/general/introduction/README.md",
+                  "kind": "page",
+                  "children": []
+                },
+                {
+                  "title": "Beginner's Guide",
+                  "path": "/genai/general/beginners-guide/README.md",
+                  "kind": "page",
+                  "children": []
+                },
+                {
+                  "title": "Hardware Compatibility",
+                  "path": "/genai/general/hardware-compatibility/README.md",
+                  "kind": "page",
+                  "children": []
+                },
+                {
+                  "title": "Deployment",
+                  "path": "/genai/general/deployment/README.md",
+                  "kind": "page",
+                  "children": []
+                },
+                {
+                  "title": "Troubleshooting",
+                  "path": "/genai/general/troubleshooting/README.md",
+                  "kind": "page",
+                  "children": []
+                },
+                {
+                  "title": "FAQ",
+                  "path": "/genai/general/faq/README.md",
+                  "kind": "page",
+                  "children": []
+                }
+              ]
+            },
+            {
               "title": "Anthropic",
               "path": "/genai/anthropic/README.md",
               "kind": "category",

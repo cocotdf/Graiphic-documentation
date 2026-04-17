@@ -1,6 +1,6 @@
 {
   "generated_from": "nav-tree.json",
-  "count": 1594,
+  "count": 1607,
   "items": [
     {
       "title": "SOTA",
@@ -9051,520 +9051,598 @@
       "content": "Unified LabVIEW documentation for AI, vision, acceleration, and deployable systems. Explore Graiphic's toolkit documentation from a single GitHub Pages experience covering SOTA, Accelerator, Deep Learning, Computer Vision, and CUDA. Search any guide, VI, or toolkit page directly from the left panel. Graph Orchestration LabVIEW Toolkits AI Deployment Vision &amp; CUDA Toolkits SOTA Visual orchestration and graph execution for deployable AI systems. Accelerator Toolkit ONNX Runtime acceleration for LabVIEW graphs and hardware aware execution. Deep Learning Toolkit Design, train, and deploy neural architectures directly inside LabVIEW. Computer Vision Toolkit Build imaging pipelines, UI display flows, and vision model deployments. CUDA Toolkit Direct GPU execution, memory control, and CUDA powered operators for LabVIEW. Documentation Overview SOTA SOTA (State Of The Art) is the visual orchestration framework that links LabVIEW with ONNX Runtime and deployable execution backends. Documentation: Introduction Installation Guide Licensing Accelerator Toolkit The LabVIEW Accelerator Toolkit connects LabVIEW applications to ONNX Runtime for hardware accelerated graph execution. Documentation: Installation Guide Introduction Beginner's Guide Examples Guide Hardware Compatibility Deployment Troubleshooting FAQ Deep Learning Toolkit The LabVIEW Deep Learning Toolkit provides native tools for neural network creation, training, and inference inside LabVIEW. Documentation: Installation Guide General Architecture Overview Introduction Beginner's Guide Examples Guide Hardware Compatibility Deployment Troubleshooting FAQ Computer Vision Toolkit The Computer Vision Toolkit brings modern vision pipelines and ONNX backed image processing into LabVIEW. Documentation: Installation Guide Gener"
     },
     {
-      "title": "GenAI",
+      "title": "GenAI Toolkit",
       "path": "/genai/README.md",
-      "keywords": "genai",
-      "content": "GenAI Toolkit LLM workflows, speech pipelines, and multimodal inference for LabVIEW. The GenAI Toolkit gathers Anthropic messaging flows, GGUF runtime setup, local text generation, text-to-speech building blocks, and audio playback utilities inside one documentation entry point. Anthropic GGUF Text Generation Audio Process Explore The Toolkit Anthropic Build advanced text, image, and PDF message payloads for Anthropic-oriented LabVIEW workflows. Audio Process Play generated audio from files or buffers to integrate speech output into interactive applications. GGUF Runtime Configure chat sessions, samplers, and runtime parameters for local GGUF model execution. GGUF TTS Initialize, tune, and run text-to-speech pipelines powered by GGUF-compatible models. Text Generation Launch text-only and visual generation sessions with reusable init flows and shared settings. Quick Access Anthropic Message Advanced Message Play Sound From a Buffer GGUF Chat Samplers GGUF TTS Session and Sampler Text Generation Session and Sampler"
+      "keywords": "genai genai toolkit",
+      "content": "GenAI Toolkit LLM workflows, speech pipelines, and multimodal inference for LabVIEW. The GenAI Toolkit gathers Anthropic messaging flows, GGUF runtime setup, local text generation, text to speech building blocks, and audio playback utilities inside one documentation entry point. Anthropic GGUF Text Generation Audio Process Explore The Toolkit Installation Guide Set up the toolkit, choose between cloud and local runtimes, and validate the first GenAI flows in LabVIEW. General Start with the introduction, beginner guidance, compatibility notes, deployment advice, and FAQ. Anthropic Build advanced text, image, and PDF message payloads for Anthropic oriented LabVIEW workflows. Audio Process Play generated audio from files or buffers to integrate speech output into interactive applications. GGUF Runtime Configure chat sessions, samplers, and runtime parameters for local GGUF model execution. GGUF TTS Initialize, tune, and run text to speech pipelines powered by GGUF compatible models. Text Generation Launch text only and visual generation sessions with reusable init flows and shared settings. Quick Access Introduction Beginner's Guide GenAI Toolkit setup Anthropic Message Advanced Message Play Sound From a Buffer GGUF Chat Samplers GGUF TTS Session and Sampler Text Generation Session and Sampler"
+    },
+    {
+      "title": "Installation guide",
+      "path": "/genai/installation-guide/README.md",
+      "keywords": "genai installation guide genai toolkit installation guide",
+      "content": "Installation guide Articles GenAI Toolkit Anthropic GGUF Audio Playback Troubleshooting"
+    },
+    {
+      "title": "Getting Started",
+      "path": "/genai/installation-guide/genai-toolkit/README.md",
+      "keywords": "genai installation guide genai toolkit genai toolkit installation guide getting started",
+      "content": "Getting Started This page helps you prepare the GenAI Toolkit inside LabVIEW before choosing a cloud or local runtime. Install the GenAI Toolkit package that matches your LabVIEW environment. Restart LabVIEW and confirm that the GenAI palette appears in the functions menu. Choose your first execution mode: Anthropic for hosted text, image, and PDF message workflows. GGUF for local chat, text generation, or text to speech pipelines. Keep model files, prompts, and runtime settings in stable paths that will still exist when your application is moved or deployed. Run a first smoke test with a simple page such as Simplify Text Message or Session And Sampler . Recommended first checks Verify that the toolkit VIs open without missing dependencies. Confirm that local model paths can be resolved from LabVIEW. For cloud workflows, validate that network access and credentials are available at runtime. For audio workflows, confirm that a valid playback device is visible on the machine. Next steps Anthropic for hosted messaging setup. GGUF for local model setup. Audio Playback for speech output validation."
+    },
+    {
+      "title": "Anthropic",
+      "path": "/genai/installation-guide/anthropic/README.md",
+      "keywords": "genai installation guide anthropic genai toolkit installation guide anthropic",
+      "content": "Anthropic Anthropic pages are the cloud oriented entry point of the GenAI Toolkit. Setup checklist Prepare an Anthropic account and a valid API credential for the environment where LabVIEW will run. Store the credential outside of block diagram constants whenever possible, for example in a configuration layer handled by your application. Make sure the machine can reach the Anthropic API over HTTPS. Start with a minimal request by using Simplify Text Message . Once the basic flow works, move to Advanced Message when you need structured multi message payloads. What to validate first The request is accepted and returns a populated response cluster. The application correctly extracts the generated text from response.content[].text . Timeout and credential errors are handled cleanly in your own calling VI."
+    },
+    {
+      "title": "GGUF",
+      "path": "/genai/installation-guide/gguf/README.md",
+      "keywords": "genai installation guide gguf genai toolkit installation guide gguf",
+      "content": "GGUF GGUF pages cover local model execution for chat, text generation, and text to speech scenarios. Setup checklist Place the GGUF model files in a local path that will remain valid for development and deployment. Start with a small validation flow such as Text Only / Session And Sampler . Use conservative runtime values first for n cpu threads , nb gpu layers , and n ctx . Confirm that the model opens before enabling more advanced sampler tuning. Extend to visual or TTS flows only after the base text path is stable. Useful validation pages GGUF Chat Samplers N CTX GGUF TTS Session & Sampler Visual Session And Sampler"
+    },
+    {
+      "title": "Audio Playback",
+      "path": "/genai/installation-guide/audio-playback/README.md",
+      "keywords": "genai installation guide audio playback genai toolkit installation guide audio playback",
+      "content": "Audio Playback Audio playback pages let you validate the final stage of a speech pipeline once a sound buffer or sound file is available. Setup checklist Confirm that the target machine exposes at least one valid output device. Validate playback with Play Sound From A File if you already have an audio file. Then validate in memory playback with Play Sound From A Buffer . Check that sample rate, channel count, and buffer format are consistent with the producer VI. Recommended use When you are chaining local TTS with playback, validate the speech generation step first, then verify that the playback device and volume settings behave as expected on the target machine."
+    },
+    {
+      "title": "Troubleshooting",
+      "path": "/genai/installation-guide/troubleshooting/README.md",
+      "keywords": "genai installation guide troubleshooting genai toolkit installation guide troubleshooting",
+      "content": "Troubleshooting Palette or VIs do not appear Restart LabVIEW after installation. Confirm that the GenAI Toolkit package matches the active LabVIEW environment. Anthropic requests fail Check the credential source used by your application. Verify that the machine can reach the remote API. Start from Simplify Text Message before debugging larger request payloads. GGUF session does not initialize Confirm that the model path is valid on disk. Reduce runtime values such as GPU layers or context size for the first test. Try a text only initialization flow before moving to visual or TTS variants. No sound is played Validate the selected output device. Check sample rate, channel count, and volume values. Test playback from file before testing playback from a generated buffer."
+    },
+    {
+      "title": "General",
+      "path": "/genai/general/README.md",
+      "keywords": "genai general genai toolkit general",
+      "content": "General Articles Introduction Beginner's Guide Hardware Compatibility Deployment Troubleshooting FAQ"
+    },
+    {
+      "title": "Introduction",
+      "path": "/genai/general/introduction/README.md",
+      "keywords": "genai general introduction genai toolkit general introduction",
+      "content": "Introduction Welcome to the GenAI Toolkit documentation base. The GenAI Toolkit extends LabVIEW with a set of building blocks for hosted and local generative AI workflows. The current documentation covers: Anthropic message oriented cloud requests for text, image, and PDF prompts. GGUF local chat and text generation sessions, including sampler and session tuning. GGUF TTS local text to speech initialization, modification, and run flows. Audio Process playback helpers to turn generated audio into an end user experience. The toolkit is designed so you can stay inside LabVIEW while choosing the runtime that best fits your use case: cloud hosted models, local GGUF models, or a speech pipeline that combines both generation and playback."
+    },
+    {
+      "title": "Beginner's Guide",
+      "path": "/genai/general/beginners-guide/README.md",
+      "keywords": "genai general beginners guide genai toolkit general beginner s guide",
+      "content": "Beginner's Guide Choose your first path Cloud first : start with Simplify Text Message to send a single prompt and inspect the returned response cluster. Local text generation : start with Text Only / Session And Sampler to open a local model and validate a first generation flow. Speech output : start with GGUF TTS Session & Sampler , then finish with Play Sound From A Buffer . Recommended progression Validate one simple prompt or one simple local session first. Inspect the main output cluster so you understand what the runtime returns. Add sampler or session tuning only after the baseline path is stable. Move to visual, PDF, or audio workflows after text only validation succeeds. Good first pages Advanced Message Samplers Visual Session And Sampler Play Sound From A File"
+    },
+    {
+      "title": "Hardware Compatibility",
+      "path": "/genai/general/hardware-compatibility/README.md",
+      "keywords": "genai general hardware compatibility genai toolkit general hardware compatibility",
+      "content": "Hardware Compatibility Compatibility in the GenAI Toolkit depends on the execution style you choose. Anthropic Anthropic messaging flows are primarily network dependent. The local machine still needs enough resources to run LabVIEW comfortably, but the heavy model execution happens remotely. GGUF local runtimes Local GGUF execution depends on the selected model size and on parameters such as n cpu threads , nb gpu layers , and n ctx . Larger models and longer contexts require more RAM and, when enabled, more VRAM. GGUF TTS and audio Speech generation and playback require a valid local audio path. Before debugging synthesis quality, confirm that the target machine exposes an output device and that the selected format is supported by your playback flow. Recommendation Start with the smallest workflow that proves the path works on your machine, then scale model size, context length, and GPU usage gradually."
+    },
+    {
+      "title": "Deployment",
+      "path": "/genai/general/deployment/README.md",
+      "keywords": "genai general deployment genai toolkit general deployment",
+      "content": "Deployment GenAI deployments usually combine application packaging with runtime specific configuration. Cloud oriented deployment Keep provider credentials outside of static diagram constants. Inject API settings through your application configuration layer. Validate outbound network access on the deployed machine. Local GGUF deployment Ship or provision the GGUF model files in a stable path. Avoid hardcoded development only file paths. Retest session initialization on the target machine with production values. Audio deployment Check the default playback device used by the deployed environment. Verify that buffer oriented and file oriented playback both behave as expected. Final validation Before release, run one cloud scenario, one local generation scenario, and one end to end speech or multimodal scenario that matches your real application."
+    },
+    {
+      "title": "Troubleshooting",
+      "path": "/genai/general/troubleshooting/README.md",
+      "keywords": "genai general troubleshooting genai toolkit general troubleshooting",
+      "content": "Troubleshooting Anthropic returns empty or unexpected content Inspect the full response cluster before simplifying the output handling. Start with Simplify Text Message to reduce request complexity. Local generation is too slow Reduce model size or context length for the first validation pass. Review session settings such as CPU threads and GPU layers. Add sampler tuning only after the model opens and responds reliably. TTS pipeline works but nothing is heard Validate output device selection. Test playback from a file and from a buffer separately. Check volume, sample rate, and channel configuration. Visual or multimodal flows fail first Return to a text only or simple cloud flow, validate the base session, then reintroduce images, PDFs, or audio one layer at a time."
+    },
+    {
+      "title": "FAQ",
+      "path": "/genai/general/faq/README.md",
+      "keywords": "genai general faq genai toolkit general faq",
+      "content": "FAQ What is the fastest way to validate the toolkit? Use Simplify Text Message for a hosted flow or Text Only / Session And Sampler for a local flow. When should I use Anthropic instead of GGUF? Use Anthropic when you want a hosted API workflow. Use GGUF when you want local execution and direct control over session and sampler settings. Do I need sampler tuning for a first test? No. Start with a minimal working flow, then tune sampler parameters after the session is stable. Can I use the audio pages without the full TTS pipeline? Yes. The audio pages can validate playback on their own with either a file based or buffer based source. What should I validate before deployment? Validate model paths, provider credentials, network access, and audio device behavior on the target machine, not only on the development PC."
     },
     {
       "title": "Anthropic",
       "path": "/genai/anthropic/README.md",
-      "keywords": "genai anthropic",
+      "keywords": "genai anthropic genai toolkit anthropic",
       "content": "Anthropic Description This section groups the GenAI documentation available under Anthropic. Categories Message"
     },
     {
       "title": "Message",
       "path": "/genai/anthropic/message/README.md",
-      "keywords": "genai anthropic message",
+      "keywords": "genai anthropic message genai toolkit anthropic message",
       "content": "Message Description This section groups the GenAI documentation available under Message. Pages Advanced Message Simplify Image Message Simplify PDF Message Simplify Text Message"
     },
     {
       "title": "Advanced Message",
       "path": "/genai/anthropic/message/advanced-message/README.md",
-      "keywords": "genai anthropic message advanced message",
-      "content": "Advanced Message Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi-turn conversations. Type : polymorphic. Input parameters Anthropic in : class json_request : string Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop_reason : string stop_sequence : string usage : cluster input_tokens : integer cache_creation_input_tokens : integer cache_read_input_tokens : integer output_tokens : integer last_response : string"
+      "keywords": "genai anthropic message advanced message genai toolkit anthropic message advanced message",
+      "content": "Advanced Message Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi turn conversations. Type : polymorphic. Input parameters Anthropic in : class json request : string Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop reason : string stop sequence : string usage : cluster input tokens : integer cache creation input tokens : integer cache read input tokens : integer output tokens : integer last response : string"
     },
     {
       "title": "Simplify Image Message",
       "path": "/genai/anthropic/message/simplify-image-message/README.md",
-      "keywords": "genai anthropic message simplify image message",
-      "content": "Simplify Image Message Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi-turn conversations. Type : polymorphic. Input parameters Anthropic in : class message : string file_path : path Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop_reason : string stop_sequence : string usage : cluster input_tokens : integer cache_creation_input_tokens : integer cache_read_input_tokens : integer output_tokens : integer last_response : string"
+      "keywords": "genai anthropic message simplify image message genai toolkit anthropic message simplify image message",
+      "content": "Simplify Image Message Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi turn conversations. Type : polymorphic. Input parameters Anthropic in : class message : string file path : path Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop reason : string stop sequence : string usage : cluster input tokens : integer cache creation input tokens : integer cache read input tokens : integer output tokens : integer last response : string"
     },
     {
       "title": "Simplify PDF Message",
       "path": "/genai/anthropic/message/simplify-pdf-message/README.md",
-      "keywords": "genai anthropic message simplify pdf message",
-      "content": "Simplify PDF Message Description Claude works with any standard PDF. You can ask Claude about any text, pictures, charts, and tables in the PDFs you provide. Some sample use cases: - Analyzing financial reports and understanding charts/tables - Extracting key information from legal documents - Translation assistance for documents - Converting document information into structured formats Type : polymorphic. Input parameters Anthropic in : class message : string file_path : path Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop_reason : string stop_sequence : string usage : cluster input_tokens : integer cache_creation_input_tokens : integer cache_read_input_tokens : integer output_tokens : integer last_response : string"
+      "keywords": "genai anthropic message simplify pdf message genai toolkit anthropic message simplify pdf message",
+      "content": "Simplify PDF Message Description Claude works with any standard PDF. You can ask Claude about any text, pictures, charts, and tables in the PDFs you provide. Some sample use cases: Analyzing financial reports and understanding charts/tables Extracting key information from legal documents Translation assistance for documents Converting document information into structured formats Type : polymorphic. Input parameters Anthropic in : class message : string file path : path Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop reason : string stop sequence : string usage : cluster input tokens : integer cache creation input tokens : integer cache read input tokens : integer output tokens : integer last response : string"
     },
     {
       "title": "Simplify Text Message",
       "path": "/genai/anthropic/message/simplify-text-message/README.md",
-      "keywords": "genai anthropic message simplify text message",
-      "content": "Simplify Text Message Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi-turn conversations. Type : polymorphic. Input parameters Anthropic in : class message : string Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop_reason : string stop_sequence : string usage : cluster input_tokens : integer cache_creation_input_tokens : integer cache_read_input_tokens : integer output_tokens : integer last_response : string"
+      "keywords": "genai anthropic message simplify text message genai toolkit anthropic message simplify text message",
+      "content": "Simplify Text Message Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi turn conversations. Type : polymorphic. Input parameters Anthropic in : class message : string Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop reason : string stop sequence : string usage : cluster input tokens : integer cache creation input tokens : integer cache read input tokens : integer output tokens : integer last response : string"
     },
     {
       "title": "Audio Process",
       "path": "/genai/audio-process/README.md",
-      "keywords": "genai audio process",
+      "keywords": "genai audio process genai toolkit audio process",
       "content": "Audio Process Description This section groups the GenAI documentation available under Audio Process. Categories Play"
     },
     {
       "title": "Play",
       "path": "/genai/audio-process/play/README.md",
-      "keywords": "genai audio process play",
+      "keywords": "genai audio process play genai toolkit audio process play",
       "content": "Play Description This section groups the GenAI documentation available under Play. Categories Init Playback"
     },
     {
       "title": "Init Playback",
       "path": "/genai/audio-process/play/init-playback/README.md",
-      "keywords": "genai audio process play init playback",
+      "keywords": "genai audio process play init playback genai toolkit audio process play init playback",
       "content": "Init Playback Description This section groups the GenAI documentation available under Init Playback. Pages Play Sound From A Buffer Play Sound From A File"
     },
     {
       "title": "Play Sound From A Buffer",
       "path": "/genai/audio-process/play/init-playback/play-sound-from-a-buffer/README.md",
-      "keywords": "genai audio process play init playback play sound from a buffer",
-      "content": "Play Sound From A Buffer Description Play a Sound Buffer. Typically used alongside a TTS (Text-to-Speech) buffer. Type : polymorphic. Input parameters Sound Buffer : integer Output Device : integer Parameters : cluster volume : float sampleRate : integer Channels : integer Output parameters PlayBuffer out : class"
+      "keywords": "genai audio process play init playback play sound from a buffer genai toolkit audio process play init playback play sound from a buffer",
+      "content": "Play Sound From A Buffer Description Play a Sound Buffer. Typically used alongside a TTS (Text to Speech) buffer. Type : polymorphic. Input parameters Sound Buffer : integer Output Device : integer Parameters : cluster volume : float sampleRate : integer Channels : integer Output parameters PlayBuffer out : class"
     },
     {
       "title": "Play Sound From A File",
       "path": "/genai/audio-process/play/init-playback/play-sound-from-a-file/README.md",
-      "keywords": "genai audio process play init playback play sound from a file",
+      "keywords": "genai audio process play init playback play sound from a file genai toolkit audio process play init playback play sound from a file",
       "content": "Play Sound From A File Description Play the Sound File Path. Type : polymorphic. Input parameters Sound File Path : path Output Device : integer volume : float Output parameters Play out : class"
     },
     {
       "title": "GGUF",
       "path": "/genai/gguf/README.md",
-      "keywords": "genai gguf",
+      "keywords": "genai gguf genai toolkit gguf",
       "content": "GGUF Description This section groups the GenAI documentation available under GGUF. Categories GGUF GGUF TTS Text Generation"
     },
     {
       "title": "GGUF",
       "path": "/genai/gguf/gguf/README.md",
-      "keywords": "genai gguf",
+      "keywords": "genai gguf gguf genai toolkit gguf gguf",
       "content": "GGUF Description This section groups the GenAI documentation available under GGUF. Categories Chat"
     },
     {
       "title": "Chat",
       "path": "/genai/gguf/gguf/chat/README.md",
-      "keywords": "genai gguf chat",
+      "keywords": "genai gguf gguf chat genai toolkit gguf gguf chat",
       "content": "Chat Description This section groups the GenAI documentation available under Chat. Categories Set"
     },
     {
       "title": "Set",
       "path": "/genai/gguf/gguf/chat/set/README.md",
-      "keywords": "genai gguf chat set",
+      "keywords": "genai gguf gguf chat set genai toolkit gguf gguf chat set",
       "content": "Set Description This section groups the GenAI documentation available under Set. Categories Sampler Session"
     },
     {
       "title": "Sampler",
       "path": "/genai/gguf/gguf/chat/set/sampler/README.md",
-      "keywords": "genai gguf chat set sampler",
+      "keywords": "genai gguf gguf chat set sampler genai toolkit gguf gguf chat set sampler",
       "content": "Sampler Description This section groups the GenAI documentation available under Sampler. Pages Dry Allowed Length Dry Base Dry Multiplier Dry Penalty Last N Dynatemp Exponent Dynatemp Range Min Keep Min P Mirostat Mirostat Eta Mirostat Tau N Prev N Probs Penalty Freq Penalty Last N Penalty Present Repeat Penalty Samplers Temperature Top K Top P Typ P Xtc Probability Xtc Threshold"
     },
     {
       "title": "Dry Allowed Length",
       "path": "/genai/gguf/gguf/chat/set/sampler/dry-allowed-length/README.md",
-      "keywords": "genai gguf chat set sampler dry allowed length",
-      "content": "Dry Allowed Length Description Set dry_allowed_length to common_params stored in local. NB : tokens extending repetitions beyond this receive penalty Type : polymorphic. Input parameters GGUF in : class dry_allowed_length : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler dry allowed length genai toolkit gguf gguf chat set sampler dry allowed length",
+      "content": "Dry Allowed Length Description Set dry allowed length to common params stored in local. NB : tokens extending repetitions beyond this receive penalty Type : polymorphic. Input parameters GGUF in : class dry allowed length : integer Output parameters GGUF out : class"
     },
     {
       "title": "Dry Base",
       "path": "/genai/gguf/gguf/chat/set/sampler/dry-base/README.md",
-      "keywords": "genai gguf chat set sampler dry base",
-      "content": "Dry Base Description Set dry_base to common_params stored in local. NB : 0.0 = disabled multiplier * base ^ (length of sequence before token - allowed length) Type : polymorphic. Input parameters GGUF in : class dry_base : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler dry base genai toolkit gguf gguf chat set sampler dry base",
+      "content": "Dry Base Description Set dry base to common params stored in local. NB : 0.0 = disabled multiplier base ^ (length of sequence before token allowed length) Type : polymorphic. Input parameters GGUF in : class dry base : float Output parameters GGUF out : class"
     },
     {
       "title": "Dry Multiplier",
       "path": "/genai/gguf/gguf/chat/set/sampler/dry-multiplier/README.md",
-      "keywords": "genai gguf chat set sampler dry multiplier",
-      "content": "Dry Multiplier Description Set dry_multiplier to common_params stored in local. NB : 0.0 = disabled DRY repetition penalty for tokens extending repetition: Type : polymorphic. Input parameters GGUF in : class dry_multiplier : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler dry multiplier genai toolkit gguf gguf chat set sampler dry multiplier",
+      "content": "Dry Multiplier Description Set dry multiplier to common params stored in local. NB : 0.0 = disabled DRY repetition penalty for tokens extending repetition: Type : polymorphic. Input parameters GGUF in : class dry multiplier : float Output parameters GGUF out : class"
     },
     {
       "title": "Dry Penalty Last N",
       "path": "/genai/gguf/gguf/chat/set/sampler/dry-penalty-last-n/README.md",
-      "keywords": "genai gguf chat set sampler dry penalty last n",
-      "content": "Dry Penalty Last N Description Set dry_penalty_last_n to common_params stored in local. NB :how many tokens to scan for repetitions (0 = disable penalty, -1 = context size) Type : polymorphic. Input parameters GGUF in : class dry_penalty_last_n : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler dry penalty last n genai toolkit gguf gguf chat set sampler dry penalty last n",
+      "content": "Dry Penalty Last N Description Set dry penalty last n to common params stored in local. NB :how many tokens to scan for repetitions (0 = disable penalty, 1 = context size) Type : polymorphic. Input parameters GGUF in : class dry penalty last n : integer Output parameters GGUF out : class"
     },
     {
       "title": "Dynatemp Exponent",
       "path": "/genai/gguf/gguf/chat/set/sampler/dynatemp-exponent/README.md",
-      "keywords": "genai gguf chat set sampler dynatemp exponent",
-      "content": "Dynatemp Exponent Description Set dynatemp_exponent to common_params stored in local. NB : controls how entropy maps to temperature in dynamic temperature sampler Type : polymorphic. Input parameters GGUF in : class dynatemp_exponent : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler dynatemp exponent genai toolkit gguf gguf chat set sampler dynatemp exponent",
+      "content": "Dynatemp Exponent Description Set dynatemp exponent to common params stored in local. NB : controls how entropy maps to temperature in dynamic temperature sampler Type : polymorphic. Input parameters GGUF in : class dynatemp exponent : float Output parameters GGUF out : class"
     },
     {
       "title": "Dynatemp Range",
       "path": "/genai/gguf/gguf/chat/set/sampler/dynatemp-range/README.md",
-      "keywords": "genai gguf chat set sampler dynatemp range",
-      "content": "Dynatemp Range Description Set dynatemp_range to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class dynatemp_range : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler dynatemp range genai toolkit gguf gguf chat set sampler dynatemp range",
+      "content": "Dynatemp Range Description Set dynatemp range to common params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class dynatemp range : float Output parameters GGUF out : class"
     },
     {
       "title": "Min Keep",
       "path": "/genai/gguf/gguf/chat/set/sampler/min-keep/README.md",
-      "keywords": "genai gguf chat set sampler min keep",
-      "content": "Min Keep Description Set min_keep to common_params stored in local. NB : 0 = disabled, otherwise samplers should return at least min_keep tokens Type : polymorphic. Input parameters GGUF in : class min_keep : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler min keep genai toolkit gguf gguf chat set sampler min keep",
+      "content": "Min Keep Description Set min keep to common params stored in local. NB : 0 = disabled, otherwise samplers should return at least min keep tokens Type : polymorphic. Input parameters GGUF in : class min keep : integer Output parameters GGUF out : class"
     },
     {
       "title": "Min P",
       "path": "/genai/gguf/gguf/chat/set/sampler/min-p/README.md",
-      "keywords": "genai gguf chat set sampler min p",
-      "content": "Min P Description Set min_p to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class min_p : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler min p genai toolkit gguf gguf chat set sampler min p",
+      "content": "Min P Description Set min p to common params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class min p : float Output parameters GGUF out : class"
     },
     {
       "title": "Mirostat",
       "path": "/genai/gguf/gguf/chat/set/sampler/mirostat/README.md",
-      "keywords": "genai gguf chat set sampler mirostat",
-      "content": "Mirostat Description Set mirostat to common_params stored in local. NB : 0 = disabled, 1 = mirostat, 2 = mirostat 2.0 Type : polymorphic. Input parameters GGUF in : class mirostat : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler mirostat genai toolkit gguf gguf chat set sampler mirostat",
+      "content": "Mirostat Description Set mirostat to common params stored in local. NB : 0 = disabled, 1 = mirostat, 2 = mirostat 2.0 Type : polymorphic. Input parameters GGUF in : class mirostat : integer Output parameters GGUF out : class"
     },
     {
       "title": "Mirostat Eta",
       "path": "/genai/gguf/gguf/chat/set/sampler/mirostat-eta/README.md",
-      "keywords": "genai gguf chat set sampler mirostat eta",
-      "content": "Mirostat Eta Description Set mirostat_tau to common_params stored in local. NB : learning rate Type : polymorphic. Input parameters GGUF in : class mirostat_eta : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler mirostat eta genai toolkit gguf gguf chat set sampler mirostat eta",
+      "content": "Mirostat Eta Description Set mirostat tau to common params stored in local. NB : learning rate Type : polymorphic. Input parameters GGUF in : class mirostat eta : float Output parameters GGUF out : class"
     },
     {
       "title": "Mirostat Tau",
       "path": "/genai/gguf/gguf/chat/set/sampler/mirostat-tau/README.md",
-      "keywords": "genai gguf chat set sampler mirostat tau",
-      "content": "Mirostat Tau Description Set mirostat_tau to common_params stored in local. NB : target entropy Type : polymorphic. Input parameters GGUF in : class mirostat_tau : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler mirostat tau genai toolkit gguf gguf chat set sampler mirostat tau",
+      "content": "Mirostat Tau Description Set mirostat tau to common params stored in local. NB : target entropy Type : polymorphic. Input parameters GGUF in : class mirostat tau : float Output parameters GGUF out : class"
     },
     {
       "title": "N Prev",
       "path": "/genai/gguf/gguf/chat/set/sampler/n-prev/README.md",
-      "keywords": "genai gguf chat set sampler n prev",
-      "content": "N Prev Description Set n_prev to common_params stored in local. NB : number of previous tokens to remember Type : polymorphic. Input parameters GGUF in : class n_prev : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler n prev genai toolkit gguf gguf chat set sampler n prev",
+      "content": "N Prev Description Set n prev to common params stored in local. NB : number of previous tokens to remember Type : polymorphic. Input parameters GGUF in : class n prev : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Probs",
       "path": "/genai/gguf/gguf/chat/set/sampler/n-probs/README.md",
-      "keywords": "genai gguf chat set sampler n probs",
-      "content": "N Probs Description Set n_probs to common_params stored in local. NB : if greater than 0, output the probabilities of top n_probs tokens. Type : polymorphic. Input parameters GGUF in : class n_probs : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler n probs genai toolkit gguf gguf chat set sampler n probs",
+      "content": "N Probs Description Set n probs to common params stored in local. NB : if greater than 0, output the probabilities of top n probs tokens. Type : polymorphic. Input parameters GGUF in : class n probs : integer Output parameters GGUF out : class"
     },
     {
       "title": "Penalty Freq",
       "path": "/genai/gguf/gguf/chat/set/sampler/penalty-freq/README.md",
-      "keywords": "genai gguf chat set sampler penalty freq",
-      "content": "Penalty Freq Description Set penalty_freq to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class penalty_freq : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler penalty freq genai toolkit gguf gguf chat set sampler penalty freq",
+      "content": "Penalty Freq Description Set penalty freq to common params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class penalty freq : float Output parameters GGUF out : class"
     },
     {
       "title": "Penalty Last N",
       "path": "/genai/gguf/gguf/chat/set/sampler/penalty-last-n/README.md",
-      "keywords": "genai gguf chat set sampler penalty last n",
-      "content": "Penalty Last N Description Set penalty_last_n to common_params stored in local. NB : last n tokens to penalize (0 = disable penalty, -1 = context size) Type : polymorphic. Input parameters GGUF in : class penalty_last_n : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler penalty last n genai toolkit gguf gguf chat set sampler penalty last n",
+      "content": "Penalty Last N Description Set penalty last n to common params stored in local. NB : last n tokens to penalize (0 = disable penalty, 1 = context size) Type : polymorphic. Input parameters GGUF in : class penalty last n : integer Output parameters GGUF out : class"
     },
     {
       "title": "Penalty Present",
       "path": "/genai/gguf/gguf/chat/set/sampler/penalty-present/README.md",
-      "keywords": "genai gguf chat set sampler penalty present",
-      "content": "Penalty Present Description Set penalty_present to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class penalty_present : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler penalty present genai toolkit gguf gguf chat set sampler penalty present",
+      "content": "Penalty Present Description Set penalty present to common params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class penalty present : float Output parameters GGUF out : class"
     },
     {
       "title": "Repeat Penalty",
       "path": "/genai/gguf/gguf/chat/set/sampler/repeat-penalty/README.md",
-      "keywords": "genai gguf chat set sampler repeat penalty",
-      "content": "Repeat Penalty Description Set repeat_penalty to common_params stored in local. NB : 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class repeat penalty : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler repeat penalty genai toolkit gguf gguf chat set sampler repeat penalty",
+      "content": "Repeat Penalty Description Set repeat penalty to common params stored in local. NB : 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class repeat penalty : float Output parameters GGUF out : class"
     },
     {
       "title": "Samplers",
       "path": "/genai/gguf/gguf/chat/set/sampler/samplers/README.md",
-      "keywords": "genai gguf chat set sampler samplers",
-      "content": "Samplers Description Set samplers to common_params stored in local. NB : it define which parameters and in which order these parameters are used to select the tokens Type : polymorphic. Input parameters GGUF in : class samplers : array of enum Enum : enum Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler samplers genai toolkit gguf gguf chat set sampler samplers",
+      "content": "Samplers Description Set samplers to common params stored in local. NB : it define which parameters and in which order these parameters are used to select the tokens Type : polymorphic. Input parameters GGUF in : class samplers : array of enum Enum : enum Output parameters GGUF out : class"
     },
     {
       "title": "Temperature",
       "path": "/genai/gguf/gguf/chat/set/sampler/temperature/README.md",
-      "keywords": "genai gguf chat set sampler temperature",
-      "content": "Temperature Description Set temperature to common_params stored in local. NB : <= 0.0 to sample greedily, 0.0 to not output probabilities Type : polymorphic. Input parameters GGUF in : class temperature : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler temperature genai toolkit gguf gguf chat set sampler temperature",
+      "content": "Temperature Description Set temperature to common params stored in local. NB : Input parameters GGUF in : class temperature : float Output parameters GGUF out : class"
     },
     {
       "title": "Top K",
       "path": "/genai/gguf/gguf/chat/set/sampler/top-k/README.md",
-      "keywords": "genai gguf chat set sampler top k",
-      "content": "Top K Description Set top_k to common_params stored in local. NB : <= 0 to use vocab size Type : polymorphic. Input parameters GGUF in : class top_k : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler top k genai toolkit gguf gguf chat set sampler top k",
+      "content": "Top K Description Set top k to common params stored in local. NB : Input parameters GGUF in : class top k : integer Output parameters GGUF out : class"
     },
     {
       "title": "Top P",
       "path": "/genai/gguf/gguf/chat/set/sampler/top-p/README.md",
-      "keywords": "genai gguf chat set sampler top p",
-      "content": "Top P Description Set top_p to common_params stored in local. NB : 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class top_p : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler top p genai toolkit gguf gguf chat set sampler top p",
+      "content": "Top P Description Set top p to common params stored in local. NB : 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class top p : float Output parameters GGUF out : class"
     },
     {
       "title": "Typ P",
       "path": "/genai/gguf/gguf/chat/set/sampler/typ-p/README.md",
-      "keywords": "genai gguf chat set sampler typ p",
-      "content": "Typ P Description Set typ_p to common_params stored in local. NB : typical_p, 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class typ_p : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler typ p genai toolkit gguf gguf chat set sampler typ p",
+      "content": "Typ P Description Set typ p to common params stored in local. NB : typical p, 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class typ p : float Output parameters GGUF out : class"
     },
     {
       "title": "Xtc Probability",
       "path": "/genai/gguf/gguf/chat/set/sampler/xtc-probability/README.md",
-      "keywords": "genai gguf chat set sampler xtc probability",
-      "content": "Xtc Probability Description Set xtc_probability to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class xtc_probability : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler xtc probability genai toolkit gguf gguf chat set sampler xtc probability",
+      "content": "Xtc Probability Description Set xtc probability to common params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class xtc probability : float Output parameters GGUF out : class"
     },
     {
       "title": "Xtc Threshold",
       "path": "/genai/gguf/gguf/chat/set/sampler/xtc-threshold/README.md",
-      "keywords": "genai gguf chat set sampler xtc threshold",
-      "content": "Xtc Threshold Description Set xtc_threshold to common_params stored in local. NB : > 0.5 disables XTC Type : polymorphic. Input parameters GGUF in : class xtc_threshold : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set sampler xtc threshold genai toolkit gguf gguf chat set sampler xtc threshold",
+      "content": "Xtc Threshold Description Set xtc threshold to common params stored in local. NB : 0.5 disables XTC Type : polymorphic. Input parameters GGUF in : class xtc threshold : float Output parameters GGUF out : class"
     },
     {
       "title": "Session",
       "path": "/genai/gguf/gguf/chat/set/session/README.md",
-      "keywords": "genai gguf chat set session",
+      "keywords": "genai gguf gguf chat set session genai toolkit gguf gguf chat set session",
       "content": "Session Description This section groups the GenAI documentation available under Session. Pages CPU Threads Defrag Thold Grp Attn N Grp Attn W N Batch N Chunks N CTX N Keep N Parallel N Predict N Sequences N Ybatch Nb GPU Layers Rope Freq Base Rope Freq Scale Yarn Attn Factor Yarn Beta Fast Yarn Beta Slow Yarn Ext Factor Yarn Orig CTX"
     },
     {
       "title": "CPU Threads",
       "path": "/genai/gguf/gguf/chat/set/session/cpu-threads/README.md",
-      "keywords": "genai gguf chat set session cpu threads",
-      "content": "CPU Threads Description Set n_cpu_threads to common_params stored in local. NB : <= 0 automatic definition Type : polymorphic. Input parameters GGUF in : class n_cpu_threads : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session cpu threads genai toolkit gguf gguf chat set session cpu threads",
+      "content": "CPU Threads Description Set n cpu threads to common params stored in local. NB : Input parameters GGUF in : class n cpu threads : integer Output parameters GGUF out : class"
     },
     {
       "title": "Defrag Thold",
       "path": "/genai/gguf/gguf/chat/set/session/defrag-thold/README.md",
-      "keywords": "genai gguf chat set session defrag thold",
-      "content": "Defrag Thold Description Set defrag_thold to common_params stored in local. NB : KV cache defragmentation threshold Type : polymorphic. Input parameters GGUF in : class defrag_thold : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session defrag thold genai toolkit gguf gguf chat set session defrag thold",
+      "content": "Defrag Thold Description Set defrag thold to common params stored in local. NB : KV cache defragmentation threshold Type : polymorphic. Input parameters GGUF in : class defrag thold : float Output parameters GGUF out : class"
     },
     {
       "title": "Grp Attn N",
       "path": "/genai/gguf/gguf/chat/set/session/grp-attn-n/README.md",
-      "keywords": "genai gguf chat set session grp attn n",
-      "content": "Grp Attn N Description Set grp_attn_n to common_params stored in local. NB : group-attention factor Type : polymorphic. Input parameters GGUF in : class grp_attn_n : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session grp attn n genai toolkit gguf gguf chat set session grp attn n",
+      "content": "Grp Attn N Description Set grp attn n to common params stored in local. NB : group attention factor Type : polymorphic. Input parameters GGUF in : class grp attn n : integer Output parameters GGUF out : class"
     },
     {
       "title": "Grp Attn W",
       "path": "/genai/gguf/gguf/chat/set/session/grp-attn-w/README.md",
-      "keywords": "genai gguf chat set session grp attn w",
-      "content": "Grp Attn W Description Set grp_attn_w to common_params stored in local. NB : group-attention width Type : polymorphic. Input parameters GGUF in : class grp_attn_w : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session grp attn w genai toolkit gguf gguf chat set session grp attn w",
+      "content": "Grp Attn W Description Set grp attn w to common params stored in local. NB : group attention width Type : polymorphic. Input parameters GGUF in : class grp attn w : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Batch",
       "path": "/genai/gguf/gguf/chat/set/session/n-batch/README.md",
-      "keywords": "genai gguf chat set session n batch",
-      "content": "N Batch Description Set n_batch to common_params stored in local. NB : logical batch size for prompt processing (must be >=32 to use BLAS) Type : polymorphic. Input parameters GGUF in : class n_batch : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session n batch genai toolkit gguf gguf chat set session n batch",
+      "content": "N Batch Description Set n batch to common params stored in local. NB : logical batch size for prompt processing (must be =32 to use BLAS) Type : polymorphic. Input parameters GGUF in : class n batch : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Chunks",
       "path": "/genai/gguf/gguf/chat/set/session/n-chunks/README.md",
-      "keywords": "genai gguf chat set session n chunks",
-      "content": "N Chunks Description Set n_chunks to common_params stored in local. NB : max number of chunks to process (-1 = unlimited) Type : polymorphic. Input parameters GGUF in : class n_chunks : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session n chunks genai toolkit gguf gguf chat set session n chunks",
+      "content": "N Chunks Description Set n chunks to common params stored in local. NB : max number of chunks to process ( 1 = unlimited) Type : polymorphic. Input parameters GGUF in : class n chunks : integer Output parameters GGUF out : class"
     },
     {
       "title": "N CTX",
       "path": "/genai/gguf/gguf/chat/set/session/n-ctx/README.md",
-      "keywords": "genai gguf chat set session n ctx",
-      "content": "N CTX Description Set n_ctx to common_params stored in local. n_ctx is the maximum context size in tokens that a model can take into account for a prompt and its responses, thus defining the model's active memory during inference. Type : polymorphic. Input parameters GGUF in : class n_ctx : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session n ctx genai toolkit gguf gguf chat set session n ctx",
+      "content": "N CTX Description Set n ctx to common params stored in local. n ctx is the maximum context size in tokens that a model can take into account for a prompt and its responses, thus defining the model's active memory during inference. Type : polymorphic. Input parameters GGUF in : class n ctx : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Keep",
       "path": "/genai/gguf/gguf/chat/set/session/n-keep/README.md",
-      "keywords": "genai gguf chat set session n keep",
-      "content": "N Keep Description Set n_keep to common_params stored in local. NB : number of tokens to keep from initial prompt Type : polymorphic. Input parameters GGUF in : class n_keep : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session n keep genai toolkit gguf gguf chat set session n keep",
+      "content": "N Keep Description Set n keep to common params stored in local. NB : number of tokens to keep from initial prompt Type : polymorphic. Input parameters GGUF in : class n keep : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Parallel",
       "path": "/genai/gguf/gguf/chat/set/session/n-parallel/README.md",
-      "keywords": "genai gguf chat set session n parallel",
-      "content": "N Parallel Description Set n_parallel to common_params stored in local. NB : number of parallel sequences to decode Type : polymorphic. Input parameters GGUF in : class n_parallel : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session n parallel genai toolkit gguf gguf chat set session n parallel",
+      "content": "N Parallel Description Set n parallel to common params stored in local. NB : number of parallel sequences to decode Type : polymorphic. Input parameters GGUF in : class n parallel : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Predict",
       "path": "/genai/gguf/gguf/chat/set/session/n-predict/README.md",
-      "keywords": "genai gguf chat set session n predict",
-      "content": "N Predict Description Set nb token to predict to common_params stored in local. Type : polymorphic. Input parameters GGUF in : class n_predict : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session n predict genai toolkit gguf gguf chat set session n predict",
+      "content": "N Predict Description Set nb token to predict to common params stored in local. Type : polymorphic. Input parameters GGUF in : class n predict : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Sequences",
       "path": "/genai/gguf/gguf/chat/set/session/n-sequences/README.md",
-      "keywords": "genai gguf chat set session n sequences",
-      "content": "N Sequences Description Set n_sequences to common_params stored in local. NB : number of sequences to decode Type : polymorphic. Input parameters GGUF in : class n_sequences : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session n sequences genai toolkit gguf gguf chat set session n sequences",
+      "content": "N Sequences Description Set n sequences to common params stored in local. NB : number of sequences to decode Type : polymorphic. Input parameters GGUF in : class n sequences : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Ybatch",
       "path": "/genai/gguf/gguf/chat/set/session/n-ybatch/README.md",
-      "keywords": "genai gguf chat set session n ybatch",
-      "content": "N Ybatch Description Set n_batch to common_params stored in local. NB : logical batch size for prompt processing (must be >=32 to use BLAS) Type : polymorphic. Input parameters GGUF in : class n_ubatch : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session n ybatch genai toolkit gguf gguf chat set session n ybatch",
+      "content": "N Ybatch Description Set n batch to common params stored in local. NB : logical batch size for prompt processing (must be =32 to use BLAS) Type : polymorphic. Input parameters GGUF in : class n ubatch : integer Output parameters GGUF out : class"
     },
     {
       "title": "Nb GPU Layers",
       "path": "/genai/gguf/gguf/chat/set/session/nb-gpu-layers/README.md",
-      "keywords": "genai gguf chat set session nb gpu layers",
-      "content": "Nb GPU Layers Description Set nb_gpu_layers to common_params stored in local. Type : polymorphic. Input parameters GGUF in : class nb gpu layers : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session nb gpu layers genai toolkit gguf gguf chat set session nb gpu layers",
+      "content": "Nb GPU Layers Description Set nb gpu layers to common params stored in local. Type : polymorphic. Input parameters GGUF in : class nb gpu layers : integer Output parameters GGUF out : class"
     },
     {
       "title": "Rope Freq Base",
       "path": "/genai/gguf/gguf/chat/set/session/rope-freq-base/README.md",
-      "keywords": "genai gguf chat set session rope freq base",
-      "content": "Rope Freq Base Description Set rope_freq_base to common_params stored in local. NB : RoPE base frequency Type : polymorphic. Input parameters GGUF in : class rope_freq_base : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session rope freq base genai toolkit gguf gguf chat set session rope freq base",
+      "content": "Rope Freq Base Description Set rope freq base to common params stored in local. NB : RoPE base frequency Type : polymorphic. Input parameters GGUF in : class rope freq base : float Output parameters GGUF out : class"
     },
     {
       "title": "Rope Freq Scale",
       "path": "/genai/gguf/gguf/chat/set/session/rope-freq-scale/README.md",
-      "keywords": "genai gguf chat set session rope freq scale",
-      "content": "Rope Freq Scale Description Set rope_freq_scale to common_params stored in local. NB : RoPE frequency scaling factor Type : polymorphic. Input parameters GGUF in : class rope_freq_scale : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session rope freq scale genai toolkit gguf gguf chat set session rope freq scale",
+      "content": "Rope Freq Scale Description Set rope freq scale to common params stored in local. NB : RoPE frequency scaling factor Type : polymorphic. Input parameters GGUF in : class rope freq scale : float Output parameters GGUF out : class"
     },
     {
       "title": "Yarn Attn Factor",
       "path": "/genai/gguf/gguf/chat/set/session/yarn-attn-factor/README.md",
-      "keywords": "genai gguf chat set session yarn attn factor",
-      "content": "Yarn Attn Factor Description Set yarn_attn_factor to common_params stored in local. NB : YaRN magnitude scaling factor Type : polymorphic. Input parameters GGUF in : class yarn_attn_factor : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session yarn attn factor genai toolkit gguf gguf chat set session yarn attn factor",
+      "content": "Yarn Attn Factor Description Set yarn attn factor to common params stored in local. NB : YaRN magnitude scaling factor Type : polymorphic. Input parameters GGUF in : class yarn attn factor : float Output parameters GGUF out : class"
     },
     {
       "title": "Yarn Beta Fast",
       "path": "/genai/gguf/gguf/chat/set/session/yarn-beta-fast/README.md",
-      "keywords": "genai gguf chat set session yarn beta fast",
-      "content": "Yarn Beta Fast Description Set yarn_beta_fast to common_params stored in local. NB : YaRN low correction dim Type : polymorphic. Input parameters GGUF in : class yarn_beta_fast : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session yarn beta fast genai toolkit gguf gguf chat set session yarn beta fast",
+      "content": "Yarn Beta Fast Description Set yarn beta fast to common params stored in local. NB : YaRN low correction dim Type : polymorphic. Input parameters GGUF in : class yarn beta fast : float Output parameters GGUF out : class"
     },
     {
       "title": "Yarn Beta Slow",
       "path": "/genai/gguf/gguf/chat/set/session/yarn-beta-slow/README.md",
-      "keywords": "genai gguf chat set session yarn beta slow",
-      "content": "Yarn Beta Slow Description Set yarn_beta_slow to common_params stored in local. NB : YaRN high correction dim Type : polymorphic. Input parameters GGUF in : class yarn_beta_slow : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session yarn beta slow genai toolkit gguf gguf chat set session yarn beta slow",
+      "content": "Yarn Beta Slow Description Set yarn beta slow to common params stored in local. NB : YaRN high correction dim Type : polymorphic. Input parameters GGUF in : class yarn beta slow : float Output parameters GGUF out : class"
     },
     {
       "title": "Yarn Ext Factor",
       "path": "/genai/gguf/gguf/chat/set/session/yarn-ext-factor/README.md",
-      "keywords": "genai gguf chat set session yarn ext factor",
-      "content": "Yarn Ext Factor Description Set yarn_ext_factor to common_params stored in local. NB : YaRN extrapolation mix factor Type : polymorphic. Input parameters GGUF in : class yarn_ext_factor : float Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session yarn ext factor genai toolkit gguf gguf chat set session yarn ext factor",
+      "content": "Yarn Ext Factor Description Set yarn ext factor to common params stored in local. NB : YaRN extrapolation mix factor Type : polymorphic. Input parameters GGUF in : class yarn ext factor : float Output parameters GGUF out : class"
     },
     {
       "title": "Yarn Orig CTX",
       "path": "/genai/gguf/gguf/chat/set/session/yarn-orig-ctx/README.md",
-      "keywords": "genai gguf chat set session yarn orig ctx",
-      "content": "Yarn Orig CTX Description Set n_print to common_params stored in local. NB : YaRN original context length Type : polymorphic. Input parameters GGUF in : class yarn_orig_ctx : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf gguf chat set session yarn orig ctx genai toolkit gguf gguf chat set session yarn orig ctx",
+      "content": "Yarn Orig CTX Description Set n print to common params stored in local. NB : YaRN original context length Type : polymorphic. Input parameters GGUF in : class yarn orig ctx : integer Output parameters GGUF out : class"
     },
     {
       "title": "GGUF TTS",
       "path": "/genai/gguf/gguf-tts/README.md",
-      "keywords": "genai gguf gguf tts",
+      "keywords": "genai gguf gguf tts genai toolkit gguf gguf tts",
       "content": "GGUF TTS Description This section groups the GenAI documentation available under GGUF TTS. Categories Init Modify Run Pages Close"
     },
     {
       "title": "Close",
       "path": "/genai/gguf/gguf-tts/close/README.md",
-      "keywords": "genai gguf gguf tts close",
+      "keywords": "genai gguf gguf tts close genai toolkit gguf gguf tts close",
       "content": "Close Description Initialize a session and its buffer Type : polymorphic. Input parameters TTS in : class Output parameters TTS out : class"
     },
     {
       "title": "Init",
       "path": "/genai/gguf/gguf-tts/init/README.md",
-      "keywords": "genai gguf gguf tts init",
+      "keywords": "genai gguf gguf tts init genai toolkit gguf gguf tts init",
       "content": "Init Description This section groups the GenAI documentation available under Init. Pages Sampler Session Session & Sampler"
     },
     {
       "title": "Sampler",
       "path": "/genai/gguf/gguf-tts/init/sampler/README.md",
-      "keywords": "genai gguf gguf tts init sampler",
-      "content": "Sampler Description Initialize TTS sampler Type : polymorphic. Input parameters Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer TTS in : class Output parameters TTS out : class"
+      "keywords": "genai gguf gguf tts init sampler genai toolkit gguf gguf tts init sampler",
+      "content": "Sampler Description Initialize TTS sampler Type : polymorphic. Input parameters Sampler Parameters : cluster temperature : float top p : float min p : float top k : integer TTS in : class Output parameters TTS out : class"
     },
     {
       "title": "Session",
       "path": "/genai/gguf/gguf-tts/init/session/README.md",
-      "keywords": "genai gguf gguf tts init session",
+      "keywords": "genai gguf gguf tts init session genai toolkit gguf gguf tts init session",
       "content": "Session Description Initialize a session Type : polymorphic. Input parameters Parameters : cluster Model Path : path Tokenizer Path : path n gpu layers : integer use guide tokens : boolean Output parameters TTS out : class"
     },
     {
       "title": "Session & Sampler",
       "path": "/genai/gguf/gguf-tts/init/session-sampler/README.md",
-      "keywords": "genai gguf gguf tts init session sampler",
-      "content": "Session & Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Parameters : cluster Model Path : path Tokenizer Path : path n gpu layers : integer use guide tokens : boolean Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters TTS out : class"
+      "keywords": "genai gguf gguf tts init session sampler genai toolkit gguf gguf tts init session and sampler",
+      "content": "Session & Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Parameters : cluster Model Path : path Tokenizer Path : path n gpu layers : integer use guide tokens : boolean Sampler Parameters : cluster temperature : float top p : float min p : float top k : integer Output parameters TTS out : class"
     },
     {
       "title": "Modify",
       "path": "/genai/gguf/gguf-tts/modify/README.md",
-      "keywords": "genai gguf gguf tts modify",
+      "keywords": "genai gguf gguf tts modify genai toolkit gguf gguf tts modify",
       "content": "Modify Description This section groups the GenAI documentation available under Modify. Pages Audio Buffer Sampler"
     },
     {
       "title": "Audio Buffer",
       "path": "/genai/gguf/gguf-tts/modify/audio-buffer/README.md",
-      "keywords": "genai gguf gguf tts modify audio buffer",
+      "keywords": "genai gguf gguf tts modify audio buffer genai toolkit gguf gguf tts modify audio buffer",
       "content": "Audio Buffer Description Free the audio buffer and create a new one (empty). Type : polymorphic. Input parameters TTS in : class Output parameters TTS out : class"
     },
     {
       "title": "Sampler",
       "path": "/genai/gguf/gguf-tts/modify/sampler/README.md",
-      "keywords": "genai gguf gguf tts modify sampler",
-      "content": "Sampler Description Free the sampler and create a new one with the input parameters. Type : polymorphic. Input parameters TTS in : class Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters TTS out : class"
+      "keywords": "genai gguf gguf tts modify sampler genai toolkit gguf gguf tts modify sampler",
+      "content": "Sampler Description Free the sampler and create a new one with the input parameters. Type : polymorphic. Input parameters TTS in : class Sampler Parameters : cluster temperature : float top p : float min p : float top k : integer Output parameters TTS out : class"
     },
     {
       "title": "Run",
       "path": "/genai/gguf/gguf-tts/run/README.md",
-      "keywords": "genai gguf gguf tts run",
+      "keywords": "genai gguf gguf tts run genai toolkit gguf gguf tts run",
       "content": "Run Description This section groups the GenAI documentation available under Run. Pages Buffer File"
     },
     {
       "title": "Buffer",
       "path": "/genai/gguf/gguf-tts/run/buffer/README.md",
-      "keywords": "genai gguf gguf tts run buffer",
-      "content": "Buffer Description Run TTS and add the result into buffer. Type : polymorphic. Input parameters TTS in : class Prompt : string voice : string Output parameters TTS out : class audio_buffer : integer"
+      "keywords": "genai gguf gguf tts run buffer genai toolkit gguf gguf tts run buffer",
+      "content": "Buffer Description Run TTS and add the result into buffer. Type : polymorphic. Input parameters TTS in : class Prompt : string voice : string Output parameters TTS out : class audio buffer : integer"
     },
     {
       "title": "File",
       "path": "/genai/gguf/gguf-tts/run/file/README.md",
-      "keywords": "genai gguf gguf tts run file",
+      "keywords": "genai gguf gguf tts run file genai toolkit gguf gguf tts run file",
       "content": "File Description Run TTS and save the result into .wav file. Type : polymorphic. Input parameters TTS in : class Prompt : string Wav File Path : path voice : string Output parameters TTS out : class"
     },
     {
       "title": "Text Generation",
       "path": "/genai/gguf/text-generation/README.md",
-      "keywords": "genai gguf text generation",
+      "keywords": "genai gguf text generation genai toolkit gguf text generation",
       "content": "Text Generation Description This section groups the GenAI documentation available under Text Generation. Categories GGUF Init"
     },
     {
       "title": "GGUF Init",
       "path": "/genai/gguf/text-generation/gguf-init/README.md",
-      "keywords": "genai gguf text generation gguf init",
+      "keywords": "genai gguf text generation gguf init genai toolkit gguf text generation gguf init",
       "content": "GGUF Init Description This section groups the GenAI documentation available under GGUF Init. Categories Text Only Visual"
     },
     {
       "title": "Text Only",
       "path": "/genai/gguf/text-generation/gguf-init/text-only/README.md",
-      "keywords": "genai gguf text generation gguf init text only",
+      "keywords": "genai gguf text generation gguf init text only genai toolkit gguf text generation gguf init text only",
       "content": "Text Only Description This section groups the GenAI documentation available under Text Only. Pages Session Session And Sampler"
     },
     {
       "title": "Session",
       "path": "/genai/gguf/text-generation/gguf-init/text-only/session/README.md",
-      "keywords": "genai gguf text generation gguf init text only session",
-      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Output parameters TextOnly out : class"
+      "keywords": "genai gguf text generation gguf init text only session genai toolkit gguf text generation gguf init text only session",
+      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path n cpu threads : integer nb gpu layers : integer n ctx : integer system prompt : string always keep system prompt : boolean Output parameters TextOnly out : class"
     },
     {
       "title": "Session And Sampler",
       "path": "/genai/gguf/text-generation/gguf-init/text-only/session-and-sampler/README.md",
-      "keywords": "genai gguf text generation gguf init text only session and sampler",
-      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters TextOnly out : class"
+      "keywords": "genai gguf text generation gguf init text only session and sampler genai toolkit gguf text generation gguf init text only session and sampler",
+      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path n cpu threads : integer nb gpu layers : integer n ctx : integer system prompt : string always keep system prompt : boolean Sampler Parameters : cluster temperature : float top p : float min p : float top k : integer Output parameters TextOnly out : class"
     },
     {
       "title": "Visual",
       "path": "/genai/gguf/text-generation/gguf-init/visual/README.md",
-      "keywords": "genai gguf text generation gguf init visual",
+      "keywords": "genai gguf text generation gguf init visual genai toolkit gguf text generation gguf init visual",
       "content": "Visual Description This section groups the GenAI documentation available under Visual. Categories Gemma 3 Qwen 2.5VL"
     },
     {
       "title": "Gemma 3",
       "path": "/genai/gguf/text-generation/gguf-init/visual/gemma-3/README.md",
-      "keywords": "genai gguf text generation gguf init visual gemma 3",
+      "keywords": "genai gguf text generation gguf init visual gemma 3 genai toolkit gguf text generation gguf init visual gemma 3",
       "content": "Gemma 3 Description This section groups the GenAI documentation available under Gemma 3. Pages Session Session And Sampler"
     },
     {
       "title": "Session",
       "path": "/genai/gguf/text-generation/gguf-init/visual/gemma-3/session/README.md",
-      "keywords": "genai gguf text generation gguf init visual gemma 3 session",
-      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string Output parameters Gemma3 out : class"
+      "keywords": "genai gguf text generation gguf init visual gemma 3 session genai toolkit gguf text generation gguf init visual gemma 3 session",
+      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n ctx : integer system prompt : string Output parameters Gemma3 out : class"
     },
     {
       "title": "Session And Sampler",
       "path": "/genai/gguf/text-generation/gguf-init/visual/gemma-3/session-and-sampler/README.md",
-      "keywords": "genai gguf text generation gguf init visual gemma 3 session and sampler",
-      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters Gemma3 out : class"
+      "keywords": "genai gguf text generation gguf init visual gemma 3 session and sampler genai toolkit gguf text generation gguf init visual gemma 3 session and sampler",
+      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n ctx : integer system prompt : string Sampler Parameters : cluster temperature : float top p : float min p : float top k : integer Output parameters Gemma3 out : class"
     },
     {
       "title": "Qwen 2.5VL",
       "path": "/genai/gguf/text-generation/gguf-init/visual/qwen-2-5vl/README.md",
-      "keywords": "genai gguf text generation gguf init visual qwen 2 5vl",
+      "keywords": "genai gguf text generation gguf init visual qwen 2 5vl genai toolkit gguf text generation gguf init visual qwen 2 5vl",
       "content": "Qwen 2.5VL Description This section groups the GenAI documentation available under Qwen 2.5VL. Pages Session Session And Sampler"
     },
     {
       "title": "Session",
       "path": "/genai/gguf/text-generation/gguf-init/visual/qwen-2-5vl/session/README.md",
-      "keywords": "genai gguf text generation gguf init visual qwen 2 5vl session",
-      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Output parameters Qwen25VL out : class"
+      "keywords": "genai gguf text generation gguf init visual qwen 2 5vl session genai toolkit gguf text generation gguf init visual qwen 2 5vl session",
+      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n ctx : integer system prompt : string always keep system prompt : boolean Output parameters Qwen25VL out : class"
     },
     {
       "title": "Session And Sampler",
       "path": "/genai/gguf/text-generation/gguf-init/visual/qwen-2-5vl/session-and-sampler/README.md",
-      "keywords": "genai gguf text generation gguf init visual qwen 2 5vl session and sampler",
-      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters Qwen25VL out : class"
+      "keywords": "genai gguf text generation gguf init visual qwen 2 5vl session and sampler genai toolkit gguf text generation gguf init visual qwen 2 5vl session and sampler",
+      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n ctx : integer system prompt : string always keep system prompt : boolean Sampler Parameters : cluster temperature : float top p : float min p : float top k : integer Output parameters Qwen25VL out : class"
     }
   ]
 }
