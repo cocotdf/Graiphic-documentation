@@ -7536,18 +7536,18 @@
                   "children": [
                     {
                       "title": "Init Playback",
-                      "path": "/genai/audio-process/play/poly-init-playback/README.md",
+                      "path": "/genai/audio-process/play/init-playback/README.md",
                       "kind": "category",
                       "children": [
                         {
                           "title": "Play Sound From A Buffer",
-                          "path": "/genai/audio-process/play/poly-init-playback/play-sound-from-a-buffer/README.md",
+                          "path": "/genai/audio-process/play/init-playback/play-sound-from-a-buffer/README.md",
                           "kind": "page",
                           "children": []
                         },
                         {
                           "title": "Play Sound From A File",
-                          "path": "/genai/audio-process/play/poly-init-playback/play-sound-from-a-file/README.md",
+                          "path": "/genai/audio-process/play/init-playback/play-sound-from-a-file/README.md",
                           "kind": "page",
                           "children": []
                         }
@@ -7564,165 +7564,165 @@
               "children": [
                 {
                   "title": "GGUF",
-                  "path": "/genai/gguf/poly-gguf/README.md",
+                  "path": "/genai/gguf/gguf/README.md",
                   "kind": "category",
                   "children": [
                     {
                       "title": "Chat",
-                      "path": "/genai/gguf/poly-gguf/chat/README.md",
+                      "path": "/genai/gguf/gguf/chat/README.md",
                       "kind": "category",
                       "children": [
                         {
                           "title": "Set",
-                          "path": "/genai/gguf/poly-gguf/chat/set/README.md",
+                          "path": "/genai/gguf/gguf/chat/set/README.md",
                           "kind": "category",
                           "children": [
                             {
                               "title": "Sampler",
-                              "path": "/genai/gguf/poly-gguf/chat/set/sampler/README.md",
+                              "path": "/genai/gguf/gguf/chat/set/sampler/README.md",
                               "kind": "category",
                               "children": [
                                 {
                                   "title": "Dry Allowed Length",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/dry-allowed-length/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/dry-allowed-length/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Dry Base",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/dry-base/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/dry-base/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Dry Multiplier",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/dry-multiplier/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/dry-multiplier/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Dry Penalty Last N",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/dry-penalty-last-n/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/dry-penalty-last-n/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Dynatemp Exponent",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/dynatemp-exponent/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/dynatemp-exponent/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Dynatemp Range",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/dynatemp-range/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/dynatemp-range/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Min Keep",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/min-keep/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/min-keep/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Min P",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/min-p/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/min-p/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Mirostat",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/mirostat/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/mirostat/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Mirostat Eta",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/mirostat-eta/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/mirostat-eta/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Mirostat Tau",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/mirostat-tau/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/mirostat-tau/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "N Prev",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/n-prev/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/n-prev/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "N Probs",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/n-probs/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/n-probs/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Penalty Freq",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/penalty-freq/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/penalty-freq/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Penalty Last N",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/penalty-last-n/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/penalty-last-n/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Penalty Present",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/penalty-present/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/penalty-present/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Repeat Penalty",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/repeat-penalty/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/repeat-penalty/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Samplers",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/samplers/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/samplers/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Temperature",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/temperature/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/temperature/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Top K",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/top-k/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/top-k/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Top P",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/top-p/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/top-p/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Typ P",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/typ-p/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/typ-p/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Xtc Probability",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/xtc-probability/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/xtc-probability/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Xtc Threshold",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/sampler/xtc-threshold/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/xtc-threshold/README.md",
                                   "kind": "page",
                                   "children": []
                                 }
@@ -7730,126 +7730,126 @@
                             },
                             {
                               "title": "Session",
-                              "path": "/genai/gguf/poly-gguf/chat/set/session/README.md",
+                              "path": "/genai/gguf/gguf/chat/set/session/README.md",
                               "kind": "category",
                               "children": [
                                 {
                                   "title": "CPU Threads",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/cpu-threads/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/cpu-threads/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Defrag Thold",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/defrag-thold/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/defrag-thold/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Grp Attn N",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/grp-attn-n/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/grp-attn-n/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Grp Attn W",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/grp-attn-w/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/grp-attn-w/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "N Batch",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/n-batch/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/n-batch/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "N Chunks",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/n-chunks/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/n-chunks/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "N CTX",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/n-ctx/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/n-ctx/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "N Keep",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/n-keep/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/n-keep/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "N Parallel",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/n-parallel/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/n-parallel/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "N Predict",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/n-predict/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/n-predict/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "N Sequences",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/n-sequences/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/n-sequences/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "N Ybatch",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/n-ybatch/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/n-ybatch/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Nb GPU Layers",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/nb-gpu-layers/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/nb-gpu-layers/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Rope Freq Base",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/rope-freq-base/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/rope-freq-base/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Rope Freq Scale",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/rope-freq-scale/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/rope-freq-scale/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Yarn Attn Factor",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/yarn-attn-factor/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/yarn-attn-factor/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Yarn Beta Fast",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/yarn-beta-fast/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/yarn-beta-fast/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Yarn Beta Slow",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/yarn-beta-slow/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/yarn-beta-slow/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Yarn Ext Factor",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/yarn-ext-factor/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/yarn-ext-factor/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Yarn Orig CTX",
-                                  "path": "/genai/gguf/poly-gguf/chat/set/session/yarn-orig-ctx/README.md",
+                                  "path": "/genai/gguf/gguf/chat/set/session/yarn-orig-ctx/README.md",
                                   "kind": "page",
                                   "children": []
                                 }
@@ -7863,35 +7863,35 @@
                 },
                 {
                   "title": "GGUF TTS",
-                  "path": "/genai/gguf/poly-gguf-tts/README.md",
+                  "path": "/genai/gguf/gguf-tts/README.md",
                   "kind": "category",
                   "children": [
                     {
                       "title": "Close",
-                      "path": "/genai/gguf/poly-gguf-tts/close/README.md",
+                      "path": "/genai/gguf/gguf-tts/close/README.md",
                       "kind": "page",
                       "children": []
                     },
                     {
                       "title": "Init",
-                      "path": "/genai/gguf/poly-gguf-tts/init/README.md",
+                      "path": "/genai/gguf/gguf-tts/init/README.md",
                       "kind": "category",
                       "children": [
                         {
                           "title": "Sampler",
-                          "path": "/genai/gguf/poly-gguf-tts/init/sampler/README.md",
+                          "path": "/genai/gguf/gguf-tts/init/sampler/README.md",
                           "kind": "page",
                           "children": []
                         },
                         {
                           "title": "Session",
-                          "path": "/genai/gguf/poly-gguf-tts/init/session/README.md",
+                          "path": "/genai/gguf/gguf-tts/init/session/README.md",
                           "kind": "page",
                           "children": []
                         },
                         {
                           "title": "Session & Sampler",
-                          "path": "/genai/gguf/poly-gguf-tts/init/session-sampler/README.md",
+                          "path": "/genai/gguf/gguf-tts/init/session-sampler/README.md",
                           "kind": "page",
                           "children": []
                         }
@@ -7899,18 +7899,18 @@
                     },
                     {
                       "title": "Modify",
-                      "path": "/genai/gguf/poly-gguf-tts/modify/README.md",
+                      "path": "/genai/gguf/gguf-tts/modify/README.md",
                       "kind": "category",
                       "children": [
                         {
                           "title": "Audio Buffer",
-                          "path": "/genai/gguf/poly-gguf-tts/modify/audio-buffer/README.md",
+                          "path": "/genai/gguf/gguf-tts/modify/audio-buffer/README.md",
                           "kind": "page",
                           "children": []
                         },
                         {
                           "title": "Sampler",
-                          "path": "/genai/gguf/poly-gguf-tts/modify/sampler/README.md",
+                          "path": "/genai/gguf/gguf-tts/modify/sampler/README.md",
                           "kind": "page",
                           "children": []
                         }
@@ -7918,18 +7918,18 @@
                     },
                     {
                       "title": "Run",
-                      "path": "/genai/gguf/poly-gguf-tts/run/README.md",
+                      "path": "/genai/gguf/gguf-tts/run/README.md",
                       "kind": "category",
                       "children": [
                         {
                           "title": "Buffer",
-                          "path": "/genai/gguf/poly-gguf-tts/run/buffer/README.md",
+                          "path": "/genai/gguf/gguf-tts/run/buffer/README.md",
                           "kind": "page",
                           "children": []
                         },
                         {
                           "title": "File",
-                          "path": "/genai/gguf/poly-gguf-tts/run/file/README.md",
+                          "path": "/genai/gguf/gguf-tts/run/file/README.md",
                           "kind": "page",
                           "children": []
                         }
@@ -7944,23 +7944,23 @@
                   "children": [
                     {
                       "title": "GGUF Init",
-                      "path": "/genai/gguf/text-generation/poly-gguf-init/README.md",
+                      "path": "/genai/gguf/text-generation/gguf-init/README.md",
                       "kind": "category",
                       "children": [
                         {
                           "title": "Text Only",
-                          "path": "/genai/gguf/text-generation/poly-gguf-init/text-only/README.md",
+                          "path": "/genai/gguf/text-generation/gguf-init/text-only/README.md",
                           "kind": "category",
                           "children": [
                             {
                               "title": "Session",
-                              "path": "/genai/gguf/text-generation/poly-gguf-init/text-only/session/README.md",
+                              "path": "/genai/gguf/text-generation/gguf-init/text-only/session/README.md",
                               "kind": "page",
                               "children": []
                             },
                             {
                               "title": "Session And Sampler",
-                              "path": "/genai/gguf/text-generation/poly-gguf-init/text-only/session-and-sampler/README.md",
+                              "path": "/genai/gguf/text-generation/gguf-init/text-only/session-and-sampler/README.md",
                               "kind": "page",
                               "children": []
                             }
@@ -7968,23 +7968,23 @@
                         },
                         {
                           "title": "Visual",
-                          "path": "/genai/gguf/text-generation/poly-gguf-init/visual/README.md",
+                          "path": "/genai/gguf/text-generation/gguf-init/visual/README.md",
                           "kind": "category",
                           "children": [
                             {
                               "title": "Gemma 3",
-                              "path": "/genai/gguf/text-generation/poly-gguf-init/visual/gemma-3/README.md",
+                              "path": "/genai/gguf/text-generation/gguf-init/visual/gemma-3/README.md",
                               "kind": "category",
                               "children": [
                                 {
                                   "title": "Session",
-                                  "path": "/genai/gguf/text-generation/poly-gguf-init/visual/gemma-3/session/README.md",
+                                  "path": "/genai/gguf/text-generation/gguf-init/visual/gemma-3/session/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Session And Sampler",
-                                  "path": "/genai/gguf/text-generation/poly-gguf-init/visual/gemma-3/session-and-sampler/README.md",
+                                  "path": "/genai/gguf/text-generation/gguf-init/visual/gemma-3/session-and-sampler/README.md",
                                   "kind": "page",
                                   "children": []
                                 }
@@ -7992,18 +7992,18 @@
                             },
                             {
                               "title": "Qwen 2.5VL",
-                              "path": "/genai/gguf/text-generation/poly-gguf-init/visual/qwen-2-5vl/README.md",
+                              "path": "/genai/gguf/text-generation/gguf-init/visual/qwen-2-5vl/README.md",
                               "kind": "category",
                               "children": [
                                 {
                                   "title": "Session",
-                                  "path": "/genai/gguf/text-generation/poly-gguf-init/visual/qwen-2-5vl/session/README.md",
+                                  "path": "/genai/gguf/text-generation/gguf-init/visual/qwen-2-5vl/session/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
                                 {
                                   "title": "Session And Sampler",
-                                  "path": "/genai/gguf/text-generation/poly-gguf-init/visual/qwen-2-5vl/session-and-sampler/README.md",
+                                  "path": "/genai/gguf/text-generation/gguf-init/visual/qwen-2-5vl/session-and-sampler/README.md",
                                   "kind": "page",
                                   "children": []
                                 }
@@ -11306,4 +11306,5 @@
     "/_unmigrated/README.md"
   ]
 }
+
 

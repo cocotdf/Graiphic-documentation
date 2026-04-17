@@ -6,6 +6,7 @@
 <h3>Categories</h3>
 
 <ul>
-  <li><a href="./poly-gguf-init/README.md">GGUF Init</a></li>
+  <li><a href="./gguf-init/README.md">GGUF Init</a></li>
 </ul>
+
 

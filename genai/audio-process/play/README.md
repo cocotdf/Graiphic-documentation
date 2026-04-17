@@ -6,6 +6,7 @@
 <h3>Categories</h3>
 
 <ul>
-  <li><a href="./poly-init-playback/README.md">Init Playback</a></li>
+  <li><a href="./init-playback/README.md">Init Playback</a></li>
 </ul>
+
 

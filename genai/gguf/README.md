@@ -6,8 +6,9 @@
 <h3>Categories</h3>
 
 <ul>
-  <li><a href="./poly-gguf/README.md">GGUF</a></li>
-  <li><a href="./poly-gguf-tts/README.md">GGUF TTS</a></li>
+  <li><a href="./gguf/README.md">GGUF</a></li>
+  <li><a href="./gguf-tts/README.md">GGUF TTS</a></li>
   <li><a href="./text-generation/README.md">Text Generation</a></li>
 </ul>
+
 
