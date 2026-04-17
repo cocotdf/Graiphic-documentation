@@ -1,7 +1,7 @@
-<h1>Poly GGUF TTS</h1>
+﻿<h1>GGUF TTS</h1>
 <h2>Description</h2>
 
-<p>This section groups the experimental GenAI documentation available under Poly GGUF TTS.</p>
+<p>This section groups the experimental GenAI documentation available under GGUF TTS.</p>
 
 <h3>Categories</h3>
 
@@ -16,3 +16,4 @@
 <ul>
   <li><a href="./close/README.md">Close</a></li>
 </ul>
+

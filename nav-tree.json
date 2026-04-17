@@ -1,4 +1,4 @@
-{
+﻿{
   "sections": [
     {
       "title": "Toolkits",
@@ -103,7 +103,7 @@
                   "children": []
                 },
                 {
-                  "title": "Beginner’s Guide",
+                  "title": "Beginnerâ€™s Guide",
                   "path": "/accelerator/quick_start-general/beginners-guide/README.md",
                   "kind": "page",
                   "children": []
@@ -752,7 +752,7 @@
                   "children": []
                 },
                 {
-                  "title": "Beginner’s Guide",
+                  "title": "Beginnerâ€™s Guide",
                   "path": "/deep-learning/general/beginners-guide/README.md",
                   "kind": "page",
                   "children": []
@@ -7535,7 +7535,7 @@
                   "kind": "category",
                   "children": [
                     {
-                      "title": "Poly Init Playback",
+                      "title": "Init Playback",
                       "path": "/genai/audio-process/play/poly-init-playback/README.md",
                       "kind": "category",
                       "children": [
@@ -7563,7 +7563,7 @@
               "kind": "category",
               "children": [
                 {
-                  "title": "Poly GGUF",
+                  "title": "GGUF",
                   "path": "/genai/gguf/poly-gguf/README.md",
                   "kind": "category",
                   "children": [
@@ -7862,7 +7862,7 @@
                   ]
                 },
                 {
-                  "title": "Poly GGUF TTS",
+                  "title": "GGUF TTS",
                   "path": "/genai/gguf/poly-gguf-tts/README.md",
                   "kind": "category",
                   "children": [
@@ -7943,7 +7943,7 @@
                   "kind": "category",
                   "children": [
                     {
-                      "title": "Poly GGUF Init",
+                      "title": "GGUF Init",
                       "path": "/genai/gguf/text-generation/poly-gguf-init/README.md",
                       "kind": "category",
                       "children": [
@@ -8049,7 +8049,7 @@
                   "children": []
                 },
                 {
-                  "title": "Beginner’s Guide",
+                  "title": "Beginnerâ€™s Guide",
                   "path": "/computer-vision/general-computer-vision/beginners-guide/README.md",
                   "kind": "page",
                   "children": []
@@ -8959,7 +8959,7 @@
                   "children": []
                 },
                 {
-                  "title": "Beginner’s Guide",
+                  "title": "Beginnerâ€™s Guide",
                   "path": "/cuda/general-cuda/beginners-guide/README.md",
                   "kind": "page",
                   "children": []
@@ -11306,3 +11306,4 @@
     "/_unmigrated/README.md"
   ]
 }
+
