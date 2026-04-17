@@ -8,8 +8,10 @@
 
 <h2>Description</h2>
 
-<p>This section groups the experimental Anthropic pages currently integrated into the GenAI Toolkit documentation.</p>
+<p>This section groups the experimental GenAI documentation available under Anthropic.</p>
 
-<h3>Pages</h3>
+<h3>Categories</h3>
 
-- [Poly Anthropic Message](./poly-anthropic-message/README.md)
+<ul>
+  <li><a href="./message/README.md">Message</a></li>
+</ul>

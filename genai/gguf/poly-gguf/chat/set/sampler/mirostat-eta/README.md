@@ -1,0 +1,39 @@
+<h1>Mirostat Eta</h1>
+
+<!-- GENAI_EXPERIMENTAL_NOTICE_START -->
+<blockquote>
+<p><strong>Experimental documentation.</strong> This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated.</p>
+</blockquote>
+<!-- GENAI_EXPERIMENTAL_NOTICE_END -->
+
+<h2>Description</h2>
+
+<p>Set mirostat_tau to common_params stored in local. NB : learning rate Type : polymorphic.</p>
+
+<p align="center"><img src="assets/mirostat-eta.png" alt="Mirostat Eta" width="270" /></p>
+
+<h3>Input parameters</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="64" valign="top"><img alt="GGUF in" src="assets/cGGUFlvclass.png" width="42"/></td>
+      <td valign="top"><strong>GGUF in : <em>class</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="mirostat_eta" src="assets/csgl.png" width="42"/></td>
+      <td valign="top"><strong>mirostat_eta : <em>float</em></strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Output parameters</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="64" valign="top"><img alt="GGUF out" src="assets/iGGUFlvclass.png" width="42"/></td>
+      <td valign="top"><strong>GGUF out : <em>class</em></strong></td>
+    </tr>
+  </tbody>
+</table>
