@@ -27,7 +27,7 @@
   </a>
   <a class="graiphic-home-card" href="general/README.md">
     <span class="graiphic-home-card-title">General</span>
-    <span class="graiphic-home-card-copy">Start with the introduction, beginner guidance, compatibility notes, deployment advice, and FAQ.</span>
+    <span class="graiphic-home-card-copy">Start with the introduction and FAQ to understand how the toolkit is organized and how to approach the first flows.</span>
   </a>
   <a class="graiphic-home-card" href="anthropic/README.md">
     <span class="graiphic-home-card-title">Anthropic</span>
@@ -55,7 +55,6 @@
 
 <ul>
   <li><a href="general/introduction/README.md">Introduction</a></li>
-  <li><a href="general/beginners-guide/README.md">Beginner's Guide</a></li>
   <li><a href="installation-guide/genai-toolkit/README.md">GenAI Toolkit setup</a></li>
   <li><a href="anthropic/message/README.md">Anthropic Message</a></li>
   <li><a href="anthropic/message/advanced-message/README.md">Advanced Message</a></li>

@@ -7535,30 +7535,6 @@
                   "children": []
                 },
                 {
-                  "title": "Beginner's Guide",
-                  "path": "/genai/general/beginners-guide/README.md",
-                  "kind": "page",
-                  "children": []
-                },
-                {
-                  "title": "Hardware Compatibility",
-                  "path": "/genai/general/hardware-compatibility/README.md",
-                  "kind": "page",
-                  "children": []
-                },
-                {
-                  "title": "Deployment",
-                  "path": "/genai/general/deployment/README.md",
-                  "kind": "page",
-                  "children": []
-                },
-                {
-                  "title": "Troubleshooting",
-                  "path": "/genai/general/troubleshooting/README.md",
-                  "kind": "page",
-                  "children": []
-                },
-                {
                   "title": "FAQ",
                   "path": "/genai/general/faq/README.md",
                   "kind": "page",
