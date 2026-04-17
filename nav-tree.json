@@ -7482,6 +7482,51 @@
           ]
         },
         {
+          "title": "GenAI",
+          "path": "/genai/README.md",
+          "kind": "category",
+          "children": [
+            {
+              "title": "Anthropic",
+              "path": "/genai/anthropic/README.md",
+              "kind": "category",
+              "children": [
+                {
+                  "title": "Poly Anthropic Message",
+                  "path": "/genai/anthropic/poly-anthropic-message/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Advanced Message",
+                      "path": "/genai/anthropic/poly-anthropic-message/advanced-message/README.md",
+                      "kind": "page",
+                      "children": []
+                    },
+                    {
+                      "title": "Simplify Image Message",
+                      "path": "/genai/anthropic/poly-anthropic-message/simplify-image-message/README.md",
+                      "kind": "page",
+                      "children": []
+                    },
+                    {
+                      "title": "Simplify PDF Message",
+                      "path": "/genai/anthropic/poly-anthropic-message/simplify-pdf-message/README.md",
+                      "kind": "page",
+                      "children": []
+                    },
+                    {
+                      "title": "Simplify Text Message",
+                      "path": "/genai/anthropic/poly-anthropic-message/simplify-text-message/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "title": "Computer Vision Toolkit",
           "path": "/computer-vision/README.md",
           "kind": "category",

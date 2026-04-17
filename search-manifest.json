@@ -1,6 +1,6 @@
 {
   "generated_from": "nav-tree.json",
-  "count": 1508,
+  "count": 1515,
   "items": [
     {
       "title": "SOTA",
@@ -9049,6 +9049,48 @@
       "path": "/README.md",
       "keywords": "home graiphic documentation toolkits",
       "content": "Unified LabVIEW documentation for AI, vision, acceleration, and deployable systems. Explore Graiphic's toolkit documentation from a single GitHub Pages experience covering SOTA, Accelerator, Deep Learning, Computer Vision, and CUDA. Search any guide, VI, or toolkit page directly from the left panel. Graph Orchestration LabVIEW Toolkits AI Deployment Vision &amp; CUDA Toolkits SOTA Visual orchestration and graph execution for deployable AI systems. Accelerator Toolkit ONNX Runtime acceleration for LabVIEW graphs and hardware aware execution. Deep Learning Toolkit Design, train, and deploy neural architectures directly inside LabVIEW. Computer Vision Toolkit Build imaging pipelines, UI display flows, and vision model deployments. CUDA Toolkit Direct GPU execution, memory control, and CUDA powered operators for LabVIEW. Documentation Overview SOTA SOTA (State Of The Art) is the visual orchestration framework that links LabVIEW with ONNX Runtime and deployable execution backends. Documentation: Introduction Installation Guide Licensing Accelerator Toolkit The LabVIEW Accelerator Toolkit connects LabVIEW applications to ONNX Runtime for hardware accelerated graph execution. Documentation: Installation Guide Introduction Beginner's Guide Examples Guide Hardware Compatibility Deployment Troubleshooting FAQ Deep Learning Toolkit The LabVIEW Deep Learning Toolkit provides native tools for neural network creation, training, and inference inside LabVIEW. Documentation: Installation Guide General Architecture Overview Introduction Beginner's Guide Examples Guide Hardware Compatibility Deployment Troubleshooting FAQ Computer Vision Toolkit The Computer Vision Toolkit brings modern vision pipelines and ONNX backed image processing into LabVIEW. Documentation: Installation Guide Gener"
+    },
+    {
+      "title": "GenAI",
+      "path": "/genai/README.md",
+      "keywords": "genai gen ai experimental documentation toolkit anthropic",
+      "content": "GenAI Experimental documentation pages for the GenAI Toolkit. Anthropic Poly Anthropic Message Advanced Message Simplify Image Message Simplify PDF Message Simplify Text Message"
+    },
+    {
+      "title": "Anthropic",
+      "path": "/genai/anthropic/README.md",
+      "keywords": "genai anthropic experimental documentation",
+      "content": "Anthropic Experimental Anthropic pages currently integrated into the GenAI Toolkit documentation. Poly Anthropic Message"
+    },
+    {
+      "title": "Poly Anthropic Message",
+      "path": "/genai/anthropic/poly-anthropic-message/README.md",
+      "keywords": "genai anthropic poly anthropic message experimental documentation",
+      "content": "Poly Anthropic Message Experimental Anthropic message VIs generated from the current HTML exports. Advanced Message Simplify Image Message Simplify PDF Message Simplify Text Message"
+    },
+    {
+      "title": "Advanced Message",
+      "path": "/genai/anthropic/poly-anthropic-message/advanced-message/README.md",
+      "keywords": "genai anthropic poly anthropic message advanced message experimental",
+      "content": "Advanced Message Send a structured list of input messages with text and or image content and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi turn conversations. Type polymorphic."
+    },
+    {
+      "title": "Simplify Image Message",
+      "path": "/genai/anthropic/poly-anthropic-message/simplify-image-message/README.md",
+      "keywords": "genai anthropic poly anthropic message simplify image message experimental",
+      "content": "Simplify Image Message Send a structured list of input messages with text and or image content and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi turn conversations. Type polymorphic."
+    },
+    {
+      "title": "Simplify PDF Message",
+      "path": "/genai/anthropic/poly-anthropic-message/simplify-pdf-message/README.md",
+      "keywords": "genai anthropic poly anthropic message simplify pdf message experimental",
+      "content": "Simplify PDF Message Claude works with any standard PDF. You can ask Claude about any text pictures charts and tables in the PDFs you provide. Type polymorphic."
+    },
+    {
+      "title": "Simplify Text Message",
+      "path": "/genai/anthropic/poly-anthropic-message/simplify-text-message/README.md",
+      "keywords": "genai anthropic poly anthropic message simplify text message experimental",
+      "content": "Simplify Text Message Send a structured list of input messages with text and or image content and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi turn conversations. Type polymorphic."
     }
   ]
 }
