@@ -1,4 +1,4 @@
-<h1>Beginner’s Guide</h1>
+<h1>Beginner's Guide</h1>
 
 <p>In this <strong>quick tutorial section</strong>, we will learn how to use efficently CUDA toolkit from scratch to advanced level.</p>
 

@@ -1,4 +1,4 @@
-<h1>Beginner’s Guide</h1>
+<h1>Beginner's Guide</h1>
 
 <p>In this <strong>quick tutorial section</strong>, we will show how to open an image, grab a camera, play video and use computer vision functionalities.</p>
 
