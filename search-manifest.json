@@ -1,6 +1,6 @@
 {
   "generated_from": "nav-tree.json",
-  "count": 1867,
+  "count": 1865,
   "items": [
     {
       "title": "SOTA",
@@ -9054,7 +9054,7 @@
       "title": "GenAI Toolkit",
       "path": "/genai/README.md",
       "keywords": "genai",
-      "content": "GenAI Toolkit LLM workflows, speech pipelines, and multimodal inference for LabVIEW. The GenAI Toolkit gathers Anthropic messaging flows, OpenAI assistants and messages, GGUF runtime setup, local text generation, text-to-speech building blocks, examples, and audio processing utilities inside one documentation entry point. Installation Guide General Anthropic OpenAI GGUF Audio Process Examples Explore The Toolkit Installation Guide Set up the toolkit, choose between cloud and local runtimes, and validate the first GenAI flows in LabVIEW. General Start with the introduction and FAQ to understand how the toolkit is organized and how to approach the first flows. Anthropic Build advanced text, image, and PDF message payloads for Anthropic-oriented LabVIEW workflows. OpenAI Work with assistants, files, threads, audio, and advanced OpenAI request structures directly from LabVIEW. Audio Process Play or record audio buffers and files to integrate speech output and capture workflows into interactive applications. GGUF Runtime Configure chat sessions, samplers, and runtime parameters for local GGUF model execution. GGUF TTS Initialize, tune, and run text-to-speech pipelines powered by GGUF-compatible models. Examples Base Start from packaged GenAI examples to validate end-to-end flows before wiring the toolkit into a larger application. Quick Access Introduction GenAI Toolkit Setup Anthropic Message Advanced Message OpenAI Send Message Play Sound From a Buffer GGUF Chat Samplers GGUF TTS Session and Sampler Text Generation Session and Sampler GEN Examples"
+      "content": "GenAI Toolkit LLM workflows, speech pipelines, and multimodal inference for LabVIEW. The GenAI Toolkit gathers Anthropic messaging flows, OpenAI assistants and messages, GGUF runtime setup, local text generation, text-to-speech building blocks, and audio processing utilities inside one documentation entry point. Installation Guide General Anthropic OpenAI GGUF Audio Process Explore The Toolkit Installation Guide Set up the toolkit, choose between cloud and local runtimes, and validate the first GenAI flows in LabVIEW. General Start with the introduction and FAQ to understand how the toolkit is organized and how to approach the first flows. Anthropic Build advanced text, image, and PDF message payloads for Anthropic-oriented LabVIEW workflows. OpenAI Work with assistants, files, threads, audio, and advanced OpenAI request structures directly from LabVIEW. Audio Process Play or record audio buffers and files to integrate speech output and capture workflows into interactive applications. GGUF Runtime Configure chat sessions, samplers, and runtime parameters for local GGUF model execution. GGUF TTS Initialize, tune, and run text-to-speech pipelines powered by GGUF-compatible models. Quick Access Introduction GenAI Toolkit Setup Anthropic Message Advanced Message OpenAI Send Message Play Sound From a Buffer GGUF Chat Samplers GGUF TTS Session and Sampler Text Generation Session and Sampler"
     },
     {
       "title": "Installation guide",
@@ -9505,18 +9505,6 @@
       "path": "/genai/audio-process/record/record-lvclass/stoprecording-vi/stoprecording/README.md",
       "keywords": "genai audio process record record lvclass stoprecording vi stoprecording",
       "content": "StopRecording Description Type : VI. Input parameters Record in : class Output parameters Record out : class"
-    },
-    {
-      "title": "Examples Base",
-      "path": "/genai/examples-base/README.md",
-      "keywords": "genai examples base",
-      "content": "Examples Base Description This section groups the GenAI documentation available under Examples Base. Pages GEN Examples"
-    },
-    {
-      "title": "GEN Examples",
-      "path": "/genai/examples-base/gen-examples/README.md",
-      "keywords": "genai examples base gen examples",
-      "content": "GEN Examples Description Easily browse all available examples Type : VI. Input parameters None. Output parameters None."
     },
     {
       "title": "GGUF",

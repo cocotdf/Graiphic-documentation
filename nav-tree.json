@@ -7975,19 +7975,6 @@
               ]
             },
             {
-              "title": "Examples Base",
-              "path": "/genai/examples-base/README.md",
-              "kind": "category",
-              "children": [
-                {
-                  "title": "GEN Examples",
-                  "path": "/genai/examples-base/gen-examples/README.md",
-                  "kind": "page",
-                  "children": []
-                }
-              ]
-            },
-            {
               "title": "GGUF",
               "path": "/genai/gguf/README.md",
               "kind": "category",

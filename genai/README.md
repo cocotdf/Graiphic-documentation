@@ -8,7 +8,7 @@
   </p>
   <p class="graiphic-home-lead">
     The GenAI Toolkit gathers Anthropic messaging flows, OpenAI assistants and messages, GGUF runtime setup,
-    local text generation, text-to-speech building blocks, examples, and audio processing utilities
+    local text generation, text-to-speech building blocks, and audio processing utilities
     inside one documentation entry point.
   </p>
   <div class="graiphic-home-pills">
@@ -18,7 +18,6 @@
     <span class="graiphic-home-pill">OpenAI</span>
     <span class="graiphic-home-pill">GGUF</span>
     <span class="graiphic-home-pill">Audio Process</span>
-    <span class="graiphic-home-pill">Examples</span>
   </div>
 </div>
 
@@ -53,10 +52,6 @@
     <span class="graiphic-home-card-title">GGUF TTS</span>
     <span class="graiphic-home-card-copy">Initialize, tune, and run text-to-speech pipelines powered by GGUF-compatible models.</span>
   </a>
-  <a class="graiphic-home-card" href="examples-base/README.md">
-    <span class="graiphic-home-card-title">Examples Base</span>
-    <span class="graiphic-home-card-copy">Start from packaged GenAI examples to validate end-to-end flows before wiring the toolkit into a larger application.</span>
-  </a>
 </div>
 
 <h2>Quick Access</h2>
@@ -71,5 +66,4 @@
   <li><a href="gguf/gguf/chat/set/sampler/samplers/README.md">GGUF Chat Samplers</a></li>
   <li><a href="gguf/gguf-tts/init/session-sampler/README.md">GGUF TTS Session and Sampler</a></li>
   <li><a href="gguf/text-generation/gguf-init/text-only/session-and-sampler/README.md">Text Generation Session and Sampler</a></li>
-  <li><a href="examples-base/gen-examples/README.md">GEN Examples</a></li>
 </ul>
