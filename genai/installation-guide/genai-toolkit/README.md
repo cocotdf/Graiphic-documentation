@@ -12,7 +12,7 @@
 <li>Launch SOTA: After the installation is complete, launch SOTA from your desktop or start menu.</li>
 </ol>
 
-<p><a href="https://www.youtube.com/watch?v=MuKw8PRjy8U">Get started - GenAI installation guide</a></p>
+<p><a href="https://www.youtube.com/embed/4LJfdXmnj2w?feature=oembed">Get started - SOTA installation guide</a></p>
 
 <h3>Install the GenAI Toolkit</h3>
 
@@ -22,6 +22,8 @@
 <li>Accept License Agreement: Accept the terms of the license agreement to install the toolkit.</li>
 <li>Launch LabVIEW: Once the installation is complete, launch LabVIEW and confirm that the <strong>GenAI</strong> palette appears in the functions menu.</li>
 </ol>
+
+<p><a href="https://www.youtube.com/watch?v=MuKw8PRjy8U">Get started - GenAI installation guide</a></p>
 
 <p><strong>Congratulations! You have successfully installed the GenAI Toolkit using SOTA, and you are now ready to build hosted or local generative AI workflows inside LabVIEW.</strong></p>
 
