@@ -2973,26 +2973,8 @@
                               "kind": "category",
                               "children": [
                                 {
-                                  "title": "Unique",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/multi-output-nodes-dl/unique/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "StringSplit",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/multi-output-nodes-dl/stringsplit/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QuantizeBFP",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/multi-output-nodes-dl/quantizebfp/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MicrosoftUnique",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/multi-output-nodes-dl/microsoftunique/README.md",
+                                  "title": "DynamicQuantizeLinear",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/multi-output-nodes-dl/dynamicquantizelinear/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
@@ -3003,8 +2985,26 @@
                                   "children": []
                                 },
                                 {
-                                  "title": "DynamicQuantizeLinear",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/multi-output-nodes-dl/dynamicquantizelinear/README.md",
+                                  "title": "MicrosoftUnique",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/multi-output-nodes-dl/microsoftunique/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QuantizeBFP",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/multi-output-nodes-dl/quantizebfp/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "StringSplit",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/multi-output-nodes-dl/stringsplit/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Unique",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/multi-output-nodes-dl/unique/README.md",
                                   "kind": "page",
                                   "children": []
                                 }
@@ -3022,606 +3022,6 @@
                               "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/README.md",
                               "kind": "category",
                               "children": [
-                                {
-                                  "title": "Xor",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/xor/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "WordConvEmbedding",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/wordconvembedding/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Where",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/where/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Unsqueeze",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/unsqueeze/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Trilu",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/trilu/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "TransposeMatMul",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/transposematmul/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "TorchEmbedding",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/torchembedding/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Tile",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/tile/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Sub",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/sub/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "StringConcat",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/stringconcat/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "STFT",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/stft/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Squeeze",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/squeeze/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "SplitToSequence",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/splittosequence/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "SparseToDenseMatMul",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/sparsetodensematmul/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Slice",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/slice/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Sinh",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/sinh/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "SequenceInsert",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/sequenceinsert/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "SequenceErase",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/sequenceerase/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "SequenceAt",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/sequenceat/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ScatterND",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/scatternd/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ScatterElements",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/scatterelements/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "RotaryEmbedding",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/rotaryembedding/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "RoiAlign",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/roialign/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ReverseSequence",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reversesequence/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "RestorePadding",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/restorepadding/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Resize",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/resize/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Reshape",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reshape/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "RelativePositionBias",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/relativepositionbias/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ReduceSumSquare",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducesumsquare/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ReduceSum",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducesum/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ReduceProd",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reduceprod/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ReduceMin",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducemin/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ReduceMean",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducemean/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ReduceMax",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducemax/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ReduceLogSumExp",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducelogsumexp/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ReduceLogSum",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducelogsum/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ReduceL2",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducel2/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ReduceL1",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducel1/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Range",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/range/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QuantizeWithOrder",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/quantizewithorder/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QuantizeLinear",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/quantizelinear/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QOrderedMatMul",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qorderedmatmul/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QOrderedLongformerAttention",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qorderedlongformerattention/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QOrderedLayerNormalization",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qorderedlayernormalization/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QOrderedGelu",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qorderedgelu/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QOrderedAttention",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qorderedattention/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QMoE",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qmoe/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QLinearWhere",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearwhere/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QLinearSoftmax",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearsoftmax/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QLinearSigmoid",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearsigmoid/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QLinearReduceMean",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearreducemean/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QLinearMul",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearmul/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QLinearMatMul",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearmatmul/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QLinearLeakyRelu",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearleakyrelu/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QLinearGlobalAveragePool",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearglobalaveragepool/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QLinearConv",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearconv/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QLinearConcat",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearconcat/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QLinearAveragePool",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearaveragepool/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QLinearAdd",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearadd/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QGemm",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qgemm/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Pow",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/pow/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Pad",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/pad/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "PackedMultiHeadAttention",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/packedmultiheadattention/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "PackedAttention",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/packedattention/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Or",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/or/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "OneHot",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/onehot/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "NonMaxSuppression",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/nonmaxsuppression/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "NhwcFusedConv",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/nhwcfusedconv/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "NhwcConv",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/nhwcconv/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "NGramRepeatBlock",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/ngramrepeatblock/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "NegativeLogLikelihoodLoss",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/negativeloglikelihoodloss/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MulInteger",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/mulinteger/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Mul",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/mul/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MoE",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/moe/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Mod",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/mod/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MicrosoftTrilu",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/microsofttrilu/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MicrosoftRange",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/microsoftrange/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MicrosoftQuantizeLinear",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/microsoftquantizelinear/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MicrosoftQLinearConv",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/microsoftqlinearconv/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MicrosoftPad",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/microsoftpad/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MicrosoftGridSample",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/microsoftgridsample/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MicrosoftGatherND",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/microsoftgathernd/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MicrosoftDequantizeLinear",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/microsoftdequantizelinear/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MelWeightMatrix",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/melweightmatrix/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MaxUnPool",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/maxunpool/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MaxRoiPool",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/maxroipool/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MaxPoolWithMask",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/maxpoolwithmask/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MatMulNBits",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmulnbits/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MatMulIntergerToFloat",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmulintergertofloat/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MatMulInteger16",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmulinteger16/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MatMulInteger",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmulinteger/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MatMulFpQ4",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmulfpq4/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MatMulBnb4",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmulbnb4/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MatMul",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmul/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "LongformerAttention",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/longformerattention/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "LessOrEqual",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/lessorequal/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Less",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/less/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "InstanceNormalization",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/instancenormalization/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "GroupNorm",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/groupnorm/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "GridSample",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/gridsample/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
                                 {
                                   "title": "AffineGrid",
                                   "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/affinegrid/README.md",
@@ -3893,8 +3293,608 @@
                                   "children": []
                                 },
                                 {
+                                  "title": "GridSample",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/gridsample/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "GroupNorm",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/groupnorm/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "InstanceNormalization",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/instancenormalization/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Less",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/less/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "LessOrEqual",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/lessorequal/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "LongformerAttention",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/longformerattention/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MatMul",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmul/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MatMulBnb4",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmulbnb4/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MatMulFpQ4",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmulfpq4/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MatMulInteger",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmulinteger/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MatMulInteger16",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmulinteger16/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
                                   "title": "MatMulIntegerToFloat",
                                   "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmulintegertofloat/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MatMulIntergerToFloat",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmulintergertofloat/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MatMulNBits",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmulnbits/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MaxPoolWithMask",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/maxpoolwithmask/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MaxRoiPool",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/maxroipool/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MaxUnPool",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/maxunpool/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MelWeightMatrix",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/melweightmatrix/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MicrosoftDequantizeLinear",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/microsoftdequantizelinear/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MicrosoftGatherND",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/microsoftgathernd/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MicrosoftGridSample",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/microsoftgridsample/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MicrosoftPad",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/microsoftpad/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MicrosoftQLinearConv",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/microsoftqlinearconv/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MicrosoftQuantizeLinear",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/microsoftquantizelinear/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MicrosoftRange",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/microsoftrange/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MicrosoftTrilu",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/microsofttrilu/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Mod",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/mod/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MoE",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/moe/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Mul",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/mul/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MulInteger",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/mulinteger/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "NegativeLogLikelihoodLoss",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/negativeloglikelihoodloss/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "NGramRepeatBlock",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/ngramrepeatblock/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "NhwcConv",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/nhwcconv/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "NhwcFusedConv",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/nhwcfusedconv/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "NonMaxSuppression",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/nonmaxsuppression/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "OneHot",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/onehot/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Or",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/or/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "PackedAttention",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/packedattention/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "PackedMultiHeadAttention",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/packedmultiheadattention/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Pad",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/pad/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Pow",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/pow/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QGemm",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qgemm/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QLinearAdd",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearadd/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QLinearAveragePool",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearaveragepool/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QLinearConcat",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearconcat/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QLinearConv",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearconv/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QLinearGlobalAveragePool",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearglobalaveragepool/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QLinearLeakyRelu",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearleakyrelu/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QLinearMatMul",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearmatmul/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QLinearMul",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearmul/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QLinearReduceMean",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearreducemean/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QLinearSigmoid",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearsigmoid/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QLinearSoftmax",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearsoftmax/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QLinearWhere",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qlinearwhere/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QMoE",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qmoe/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QOrderedAttention",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qorderedattention/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QOrderedGelu",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qorderedgelu/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QOrderedLayerNormalization",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qorderedlayernormalization/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QOrderedLongformerAttention",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qorderedlongformerattention/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QOrderedMatMul",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/qorderedmatmul/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QuantizeLinear",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/quantizelinear/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QuantizeWithOrder",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/quantizewithorder/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Range",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/range/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ReduceL1",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducel1/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ReduceL2",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducel2/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ReduceLogSum",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducelogsum/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ReduceLogSumExp",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducelogsumexp/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ReduceMax",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducemax/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ReduceMean",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducemean/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ReduceMin",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducemin/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ReduceProd",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reduceprod/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ReduceSum",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducesum/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ReduceSumSquare",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reducesumsquare/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "RelativePositionBias",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/relativepositionbias/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Reshape",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reshape/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Resize",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/resize/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "RestorePadding",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/restorepadding/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ReverseSequence",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/reversesequence/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "RoiAlign",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/roialign/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "RotaryEmbedding",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/rotaryembedding/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ScatterElements",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/scatterelements/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ScatterND",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/scatternd/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "SequenceAt",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/sequenceat/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "SequenceErase",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/sequenceerase/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "SequenceInsert",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/sequenceinsert/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Sinh",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/sinh/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Slice",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/slice/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "SparseToDenseMatMul",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/sparsetodensematmul/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "SplitToSequence",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/splittosequence/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Squeeze",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/squeeze/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "STFT",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/stft/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "StringConcat",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/stringconcat/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Sub",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/sub/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Tile",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/tile/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "TorchEmbedding",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/torchembedding/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "TransposeMatMul",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/transposematmul/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Trilu",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/trilu/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Unsqueeze",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/unsqueeze/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Where",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/where/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "WordConvEmbedding",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/wordconvembedding/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Xor",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/xor/README.md",
                                   "kind": "page",
                                   "children": []
                                 }
@@ -3906,176 +3906,8 @@
                               "kind": "category",
                               "children": [
                                 {
-                                  "title": "WhisperBeamSearch",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/whisperbeamsearch/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "TopK",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/topk/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "SparseAttention",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/sparseattention/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "SoftmaxCrossEntropyLoss",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/softmaxcrossentropyloss/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "SkipSimplifiedLayerNormalization",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/skipsimplifiedlayernormalization/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "SkipLayerNormalization",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/skiplayernormalization/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "SkipGroupNorm",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/skipgroupnorm/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Sampling",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/sampling/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "RNN",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/rnn/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "RemovePadding",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/removepadding/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QAttention",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/qattention/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MicrosoftMultiHeadAttention",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/microsoftmultiheadattention/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "LSTM",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/lstm-5/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "LayerNormalization",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/layernormalization-4/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "GRU",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/gru-5/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "GroupQueryAttention",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/groupqueryattention/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "GemmaRotaryEmbedding",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/gemmarotaryembedding/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "EmbedLayerNormalization",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/embedlayernormalization/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "DynamicQuantizeLSTM",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/dynamicquantizelstm/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "DynamicQuantizeLinear",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/dynamicquantizelinear/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Dropout",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/dropout/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "DecoderMaskedSelfAttention",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/decodermaskedselfattention/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "DecoderMaskedMultiHeadAttention",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/decodermaskedmultiheadattention/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "DecoderAttention",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/decoderattention/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "BitmaskDropout",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/bitmaskdropout/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "BitmaskBiasDropout",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/bitmaskbiasdropout/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "BifurcationDetector",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/bifurcationdetector/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "BiasDropout",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/biasdropout/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "BatchNormalization",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/batchnormalization-4/README.md",
+                                  "title": "Attention",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/attention-4/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
@@ -4086,8 +3918,176 @@
                                   "children": []
                                 },
                                 {
-                                  "title": "Attention",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/attention-4/README.md",
+                                  "title": "BatchNormalization",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/batchnormalization-4/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "BiasDropout",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/biasdropout/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "BifurcationDetector",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/bifurcationdetector/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "BitmaskBiasDropout",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/bitmaskbiasdropout/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "BitmaskDropout",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/bitmaskdropout/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "DecoderAttention",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/decoderattention/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "DecoderMaskedMultiHeadAttention",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/decodermaskedmultiheadattention/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "DecoderMaskedSelfAttention",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/decodermaskedselfattention/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Dropout",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/dropout/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "DynamicQuantizeLinear",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/dynamicquantizelinear/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "DynamicQuantizeLSTM",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/dynamicquantizelstm/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "EmbedLayerNormalization",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/embedlayernormalization/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "GemmaRotaryEmbedding",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/gemmarotaryembedding/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "GroupQueryAttention",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/groupqueryattention/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "GRU",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/gru-5/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "LayerNormalization",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/layernormalization-4/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "LSTM",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/lstm-5/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MicrosoftMultiHeadAttention",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/microsoftmultiheadattention/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QAttention",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/qattention/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "RemovePadding",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/removepadding/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "RNN",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/rnn/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Sampling",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/sampling/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "SkipGroupNorm",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/skipgroupnorm/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "SkipLayerNormalization",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/skiplayernormalization/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "SkipSimplifiedLayerNormalization",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/skipsimplifiedlayernormalization/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "SoftmaxCrossEntropyLoss",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/softmaxcrossentropyloss/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "SparseAttention",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/sparseattention/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "TopK",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/topk/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "WhisperBeamSearch",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/multi-output/whisperbeamsearch/README.md",
                                   "kind": "page",
                                   "children": []
                                 }
@@ -4099,8 +4099,8 @@
                               "kind": "category",
                               "children": [
                                 {
-                                  "title": "Split",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/variadic-output/split/README.md",
+                                  "title": "Scan",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/variadic-output/scan/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
@@ -4111,8 +4111,8 @@
                                   "children": []
                                 },
                                 {
-                                  "title": "Scan",
-                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/variadic-output/scan/README.md",
+                                  "title": "Split",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/variadic-output/split/README.md",
                                   "kind": "page",
                                   "children": []
                                 }
@@ -4126,44 +4126,8 @@
                           "kind": "category",
                           "children": [
                             {
-                              "title": "Sum",
-                              "path": "/deep-learning/architecture/nodes/nodes/variadic-input/sum-2/README.md",
-                              "kind": "page",
-                              "children": []
-                            },
-                            {
-                              "title": "Snpe",
-                              "path": "/deep-learning/architecture/nodes/nodes/variadic-input/snpe/README.md",
-                              "kind": "page",
-                              "children": []
-                            },
-                            {
-                              "title": "SequenceConstruct",
-                              "path": "/deep-learning/architecture/nodes/nodes/variadic-input/sequenceconstruct/README.md",
-                              "kind": "page",
-                              "children": []
-                            },
-                            {
-                              "title": "Min",
-                              "path": "/deep-learning/architecture/nodes/nodes/variadic-input/min/README.md",
-                              "kind": "page",
-                              "children": []
-                            },
-                            {
-                              "title": "Mean",
-                              "path": "/deep-learning/architecture/nodes/nodes/variadic-input/mean-2/README.md",
-                              "kind": "page",
-                              "children": []
-                            },
-                            {
-                              "title": "Max",
-                              "path": "/deep-learning/architecture/nodes/nodes/variadic-input/max/README.md",
-                              "kind": "page",
-                              "children": []
-                            },
-                            {
-                              "title": "EPContext",
-                              "path": "/deep-learning/architecture/nodes/nodes/variadic-input/epcontext/README.md",
+                              "title": "Concat",
+                              "path": "/deep-learning/architecture/nodes/nodes/variadic-input/concat/README.md",
                               "kind": "page",
                               "children": []
                             },
@@ -4174,8 +4138,44 @@
                               "children": []
                             },
                             {
-                              "title": "Concat",
-                              "path": "/deep-learning/architecture/nodes/nodes/variadic-input/concat/README.md",
+                              "title": "EPContext",
+                              "path": "/deep-learning/architecture/nodes/nodes/variadic-input/epcontext/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Max",
+                              "path": "/deep-learning/architecture/nodes/nodes/variadic-input/max/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Mean",
+                              "path": "/deep-learning/architecture/nodes/nodes/variadic-input/mean-2/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Min",
+                              "path": "/deep-learning/architecture/nodes/nodes/variadic-input/min/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "SequenceConstruct",
+                              "path": "/deep-learning/architecture/nodes/nodes/variadic-input/sequenceconstruct/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Snpe",
+                              "path": "/deep-learning/architecture/nodes/nodes/variadic-input/snpe/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Sum",
+                              "path": "/deep-learning/architecture/nodes/nodes/variadic-input/sum-2/README.md",
                               "kind": "page",
                               "children": []
                             }
