@@ -1,6 +1,6 @@
 {
   "generated_from": "nav-tree.json",
-  "count": 1865,
+  "count": 2084,
   "items": [
     {
       "title": "SOTA",
@@ -11191,6 +11191,1320 @@
       "path": "/genai/openai/send-message/send-message/README.md",
       "keywords": "genai openai send message",
       "content": "Send Message Description Type : VI. Input parameters Assistants in : class message_parameters : cluster role (required) : string content (required) : class attachments (optional) : array of cluster file_id : string tools : array of cluster incomplete_details : cluster type : string metadata (optional) : class run_parameters : cluster assistant_id (required) : string model (optional) : string instructions (optional) : string additional_instructions (optional) : string additional_messages (optional) : array of cluster role : string content : class attachments : array of cluster file_id : string tools : array of cluster incomplete_details : cluster type : string metadata : class tools (optional) : class metadata (optional) : class temperature (optional) : float top_p (optional) : float stream (optional) : boolean max_prompt_tokens (optional) : integer max_completion_tokens (optional) : integer truncation_strategy (optional) : cluster type : string last_messages : float tool_choice (optional) : class parallel_tool_calls (optional) : boolean Output parameters Assistants out : class"
+    },
+    {
+      "title": "Convert Raw Data Cluster Array To CUDA Ptr Cluster Array",
+      "path": "/accelerator/api-execution/cuda_advanced/convert/convert-raw-data-cluster-array-to-cuda-ptr-cluster-array/README.md",
+      "keywords": "accelerator toolkit execution cuda advanced convert convert raw data cluster array to cuda ptr cluster array accelerator api execution",
+      "content": "Convert Raw Data Cluster Array To CUDA Ptr Cluster Array Description Allocate and copy data to Cuda Ptr for all inputs and store the ptr into the cluster. Warning : The Cuda Ptr allocated by this functions need to be free. Type : polymorphic. Input parameters Data in : array of cluster frw_input_cluster : cluster input_order : integer Inputs Info : cluster inputs_data : array of integer Numeric : integer inputs_shapes : array of integer Numeric : integer inputs string length : array of integer Numeric : integer inputs_ranks : array of integer Numeric : integer inputs_types : array of enum dtype : enum Output parameters Data in : array of cluster frw_input_cluster : cluster input_order : integer Inputs Info : cluster inputs_ptr : integer inputs_shapes : array of integer Numeric : integer inputs_ranks : integer inputs_types : enum"
+    },
+    {
+      "title": "Upload Raw Data Cluster Array Into CUDA Ptr Cluster Array",
+      "path": "/accelerator/api-execution/cuda_advanced/convert/upload-raw-data-cluster-array-into-cuda-ptr-cluster-array/README.md",
+      "keywords": "accelerator toolkit execution cuda advanced convert upload raw data cluster array into cuda ptr cluster array accelerator api execution",
+      "content": "Upload Raw Data Cluster Array Into CUDA Ptr Cluster Array Description Upload data from CPU Data into DirectML Data when both input_order match. Warning : You need to link a valid DirectML Execution Session. Type : polymorphic. Input parameters CPU Data : array of cluster frw_input_cluster : cluster input_order : integer Inputs Info : cluster inputs_data : array of integer Numeric : integer inputs_shapes : array of integer Numeric : integer inputs string length : array of integer Numeric : integer inputs_ranks : array of integer Numeric : integer inputs_types : array of enum dtype : enum CUDA Data : array of cluster frw_input_cluster : cluster input_order : integer Inputs Info : cluster inputs_ptr : integer inputs_shapes : array of integer Numeric : integer inputs_ranks : integer inputs_types : enum Output parameters Dup CUDA Data : array of cluster frw_input_cluster : cluster input_order : integer Inputs Info : cluster inputs_ptr : integer inputs_shapes : array of integer Numeric : integer inputs_ranks : integer inputs_types : enum"
+    },
+    {
+      "title": "Copy Data From CUDA Ptr To LabVIEW Array",
+      "path": "/accelerator/api-execution/cuda_advanced/function/copy-data-from-cuda-ptr-to-labview-array/README.md",
+      "keywords": "accelerator toolkit execution cuda advanced function copy data from cuda ptr to labview array accelerator api execution",
+      "content": "Copy Data From CUDA Ptr To LabVIEW Array Description This function copy the data stored inside cuda ptr to store it locally in LabVIEW arrays. Type : polymorphic. Input parameters Inference in : class Output parameters Inference out : class"
+    },
+    {
+      "title": "Memory",
+      "path": "/accelerator/api-execution/cuda_advanced/memory/README.md",
+      "keywords": "accelerator toolkit execution cuda advanced memory accelerator api execution",
+      "content": "# Memory ## Sous-categories - [Memcpy](memcpy/README.md) ## Articles - [Free](free/README.md) - [Malloc](malloc/README.md)"
+    },
+    {
+      "title": "Free",
+      "path": "/accelerator/api-execution/cuda_advanced/memory/free/README.md",
+      "keywords": "accelerator toolkit execution cuda advanced memory free accelerator api execution",
+      "content": "Free Description Frees memory on the device. Type : polymorphic. Input parameters devPtr : integer Output parameters None."
+    },
+    {
+      "title": "Malloc",
+      "path": "/accelerator/api-execution/cuda_advanced/memory/malloc/README.md",
+      "keywords": "accelerator toolkit execution cuda advanced memory malloc accelerator api execution",
+      "content": "Malloc Description Allocate memory on the device. Type : polymorphic. Input parameters size (bytes) : integer Output parameters devPtr : integer"
+    },
+    {
+      "title": "Memcpy",
+      "path": "/accelerator/api-execution/cuda_advanced/memory/memcpy/README.md",
+      "keywords": "accelerator toolkit execution cuda advanced memory memcpy accelerator api execution",
+      "content": "# Memcpy ## Sous-categories - [Device To Host](device-to-host/README.md) - [Host To Device](host-to-device/README.md)"
+    },
+    {
+      "title": "Device To Host",
+      "path": "/accelerator/api-execution/cuda_advanced/memory/memcpy/device-to-host/README.md",
+      "keywords": "accelerator toolkit execution cuda advanced memory memcpy device to host accelerator api execution",
+      "content": "# Device To Host ## Articles - [SGL](sgl/README.md) - [UInt8](uint8/README.md)"
+    },
+    {
+      "title": "SGL",
+      "path": "/accelerator/api-execution/cuda_advanced/memory/memcpy/device-to-host/sgl/README.md",
+      "keywords": "accelerator toolkit execution cuda advanced memory memcpy device to host sgl accelerator api execution",
+      "content": "SGL Description Copy Float Data from the Device to Host. Type : polymorphic. Input parameters devPtr : integer size : integer Output parameters data : array of float Numeric : float"
+    },
+    {
+      "title": "UInt8",
+      "path": "/accelerator/api-execution/cuda_advanced/memory/memcpy/device-to-host/uint8/README.md",
+      "keywords": "accelerator toolkit execution cuda advanced memory memcpy device to host uint8 accelerator api execution",
+      "content": "UInt8 Description Frees memory on the device. Type : polymorphic. Input parameters devPtr : integer size : integer Output parameters data : array of integer Numeric : integer"
+    },
+    {
+      "title": "Host To Device",
+      "path": "/accelerator/api-execution/cuda_advanced/memory/memcpy/host-to-device/README.md",
+      "keywords": "accelerator toolkit execution cuda advanced memory memcpy host to device accelerator api execution",
+      "content": "# Host To Device ## Articles - [Int16](int16/README.md) - [SGL](sgl/README.md) - [UInt8](uint8/README.md)"
+    },
+    {
+      "title": "Int16",
+      "path": "/accelerator/api-execution/cuda_advanced/memory/memcpy/host-to-device/int16/README.md",
+      "keywords": "accelerator toolkit execution cuda advanced memory memcpy host to device int16 accelerator api execution",
+      "content": "Int16 Description Copy data from Int16 LabVIEW Array to Cuda Ptr. Type : polymorphic. Input parameters devPtr : integer size : integer data : array of integer Numeric : integer Output parameters dup devPtr : integer"
+    },
+    {
+      "title": "SGL",
+      "path": "/accelerator/api-execution/cuda_advanced/memory/memcpy/host-to-device/sgl/README.md",
+      "keywords": "accelerator toolkit execution cuda advanced memory memcpy host to device sgl accelerator api execution",
+      "content": "SGL Description Copy data from U8 LabVIEW Array to Cuda Ptr. Type : polymorphic. Input parameters devPtr : integer size : integer data : array of float Numeric : float Output parameters dup devPtr : integer"
+    },
+    {
+      "title": "UInt8",
+      "path": "/accelerator/api-execution/cuda_advanced/memory/memcpy/host-to-device/uint8/README.md",
+      "keywords": "accelerator toolkit execution cuda advanced memory memcpy host to device uint8 accelerator api execution",
+      "content": "UInt8 Description Copy data from U8 LabVIEW Array to Cuda Ptr. Type : polymorphic. Input parameters devPtr : integer size : integer data : array of integer Numeric : integer Output parameters dup devPtr : integer"
+    },
+    {
+      "title": "DirectML Advanced",
+      "path": "/accelerator/api-execution/directml_advanced/README.md",
+      "keywords": "accelerator toolkit execution directml advanced accelerator api execution",
+      "content": "# DirectML Advanced ## Sous-categories - [Convert](convert/README.md) - [Free DML Ptrs](free-dml-ptrs/README.md) - [Function](function/README.md)"
+    },
+    {
+      "title": "Convert",
+      "path": "/accelerator/api-execution/directml_advanced/convert/README.md",
+      "keywords": "accelerator toolkit execution directml advanced convert accelerator api execution",
+      "content": "# Convert ## Articles - [Convert Raw Data Cluster Array To DML Ptr Cluster Array](convert-raw-data-cluster-array-to-dml-ptr-cluster-array/README.md) - [Upload Raw Data Cluster Array Into DML Ptr Cluster Array](upload-raw-data-cluster-array-into-dml-ptr-cluster-array/README.md)"
+    },
+    {
+      "title": "Convert Raw Data Cluster Array To DML Ptr Cluster Array",
+      "path": "/accelerator/api-execution/directml_advanced/convert/convert-raw-data-cluster-array-to-dml-ptr-cluster-array/README.md",
+      "keywords": "accelerator toolkit execution directml advanced convert convert raw data cluster array to dml ptr cluster array accelerator api execution",
+      "content": "Convert Raw Data Cluster Array To DML Ptr Cluster Array Description Allocate and copy data to DirectML Ptr for all inputs and store the ptr into the cluster. Warning : The DirectML Ptr allocated by this functions need to be free. You also need to link a valid DirectML Execution Session. Type : polymorphic. Input parameters Data in : array of cluster frw_input_cluster : cluster input_order : integer Inputs Info : cluster inputs_data : array of integer Numeric : integer inputs_shapes : array of integer Numeric : integer inputs string length : array of integer Numeric : integer inputs_ranks : array of integer Numeric : integer inputs_types : array of enum dtype : enum Inference in : class Output parameters Data in : array of cluster frw_input_cluster : cluster input_order : integer Inputs Info : cluster inputs_ptr : integer inputs_shapes : array of integer Numeric : integer inputs_ranks : integer inputs_types : enum Inference out : class"
+    },
+    {
+      "title": "Upload Raw Data Cluster Array Into DML Ptr Cluster Array",
+      "path": "/accelerator/api-execution/directml_advanced/convert/upload-raw-data-cluster-array-into-dml-ptr-cluster-array/README.md",
+      "keywords": "accelerator toolkit execution directml advanced convert upload raw data cluster array into dml ptr cluster array accelerator api execution",
+      "content": "Upload Raw Data Cluster Array Into DML Ptr Cluster Array Description Upload data from CPU Data into DirectML Data when both input_order match. Warning : You need to link a valid DirectML Execution Session. Type : polymorphic. Input parameters CPU Data : array of cluster frw_input_cluster : cluster input_order : integer Inputs Info : cluster inputs_data : array of integer Numeric : integer inputs_shapes : array of integer Numeric : integer inputs string length : array of integer Numeric : integer inputs_ranks : array of integer Numeric : integer inputs_types : array of enum dtype : enum Inference in : class DirectML Data : array of cluster frw_input_cluster : cluster input_order : integer Inputs Info : cluster inputs_ptr : integer inputs_shapes : array of integer Numeric : integer inputs_ranks : integer inputs_types : enum Output parameters Dup DirectML Data : array of cluster frw_input_cluster : cluster input_order : integer Inputs Info : cluster inputs_ptr : integer inputs_shapes : array of integer Numeric : integer inputs_ranks : integer inputs_types : enum Inference out : class"
+    },
+    {
+      "title": "Free DML Ptrs",
+      "path": "/accelerator/api-execution/directml_advanced/free-dml-ptrs/README.md",
+      "keywords": "accelerator toolkit execution directml advanced free dml ptrs accelerator api execution",
+      "content": "# Free DML Ptrs ## Articles - [Free DML Ptr Data Cluster Array](free-dml-ptr-data-cluster-array/README.md)"
+    },
+    {
+      "title": "Free DML Ptr Data Cluster Array",
+      "path": "/accelerator/api-execution/directml_advanced/free-dml-ptrs/free-dml-ptr-data-cluster-array/README.md",
+      "keywords": "accelerator toolkit execution directml advanced free dml ptrs free dml ptr data cluster array accelerator api execution",
+      "content": "Free DML Ptr Data Cluster Array Description Free all the ptrs inside the Data in array. Type : VI. Input parameters Data in : array of cluster frw_input_cluster : cluster input_order : integer Inputs Info : cluster inputs_ptr : integer inputs_shapes : array of integer Numeric : integer inputs_ranks : integer inputs_types : enum Inference in : class Output parameters Inference out : class"
+    },
+    {
+      "title": "Function",
+      "path": "/accelerator/api-execution/directml_advanced/function/README.md",
+      "keywords": "accelerator toolkit execution directml advanced function accelerator api execution",
+      "content": "# Function ## Articles - [Copy Data From DirectML Ptr To LabVIEW Array](copy-data-from-directml-ptr-to-labview-array/README.md)"
+    },
+    {
+      "title": "Copy Data From DirectML Ptr To LabVIEW Array",
+      "path": "/accelerator/api-execution/directml_advanced/function/copy-data-from-directml-ptr-to-labview-array/README.md",
+      "keywords": "accelerator toolkit execution directml advanced function copy data from directml ptr to labview array accelerator api execution",
+      "content": "Copy Data From DirectML Ptr To LabVIEW Array Description This function copy the data stored inside DirectML ptr to store it locally in LabVIEW arrays. Type : polymorphic. Input parameters Inference in : class Output parameters Inference out : class"
+    },
+    {
+      "title": "CPU",
+      "path": "/accelerator/api-execution/open/file/cpu/README.md",
+      "keywords": "accelerator toolkit execution open file cpu accelerator api execution",
+      "content": "CPU Description Create CPU Session with its Session Options on the stored local Env. Type : polymorphic. Input parameters Inference in : class Sessions Parameters : cluster intra_op_num_threads : integer inter_op_num_threads : integer execution_mode : enum deterministic_compute : boolean graph_optimization_level : integer optimized_model_file_path : path profiling output dir : path model_path : path Output parameters Inference out : class EP By Node : array of cluster node_ep : cluster Execution Provider : string Nodes Name : array of string String : string Nb Nodes : integer"
+    },
+    {
+      "title": "DirectML",
+      "path": "/accelerator/api-execution/open/file/directml/README.md",
+      "keywords": "accelerator toolkit execution open file directml accelerator api execution",
+      "content": "DirectML Description Create DirectML Session with its Session Options on the stored local Env. Type : polymorphic. Input parameters Inference in : class Sessions Parameters : cluster intra_op_num_threads : integer inter_op_num_threads : integer execution_mode : enum deterministic_compute : boolean graph_optimization_level : integer optimized_model_file_path : path profiling output dir : path model_path : path Output parameters Inference out : class EP By Node : array of cluster node_ep : cluster Execution Provider : string Nodes Name : array of string String : string Nb Nodes : integer"
+    },
+    {
+      "title": "CPU",
+      "path": "/accelerator/api-execution/open/graph/cpu/README.md",
+      "keywords": "accelerator toolkit execution open graph cpu accelerator api execution",
+      "content": "CPU Description Generate the ONNX Graph then create a CPU Session from it. Type : polymorphic. Input parameters Model in : class Sessions Parameters : cluster intra_op_num_threads : integer inter_op_num_threads : integer execution_mode : enum deterministic_compute : boolean graph_optimization_level : integer optimized_model_file_path : path profiling output dir : path Output parameters Inference out : class EP By Node : array of cluster node_ep : cluster Execution Provider : string Nodes Name : array of string String : string Nb Nodes : integer"
+    },
+    {
+      "title": "DirectML",
+      "path": "/accelerator/api-execution/open/graph/directml/README.md",
+      "keywords": "accelerator toolkit execution open graph directml accelerator api execution",
+      "content": "DirectML Description Generate the ONNX Graph then create a DirectML Session from it. Type : polymorphic. Input parameters Model in : class Sessions Parameters : cluster intra_op_num_threads : integer inter_op_num_threads : integer execution_mode : enum deterministic_compute : boolean graph_optimization_level : integer optimized_model_file_path : path profiling output dir : path Output parameters Inference out : class EP By Node : array of cluster node_ep : cluster Execution Provider : string Nodes Name : array of string String : string Nb Nodes : integer"
+    },
+    {
+      "title": "Graph",
+      "path": "/accelerator/graph/README.md",
+      "keywords": "accelerator toolkit graph accelerator",
+      "content": "# Graph ## Sous-categories - [Array](array/README.md) - [Boolean](boolean/README.md) - [Comparison](comparison/README.md) - [Mathematic](mathematic/README.md) - [Merge](merge/README.md) - [Numeric](numeric/README.md) - [Signal Treatment](signal-treatment/README.md) - [Split](split/README.md) ## Articles - [Netron](netron/README.md) - [Netron From File](netron-from-file/README.md) - [Save](save/README.md)"
+    },
+    {
+      "title": "Array",
+      "path": "/accelerator/graph/array/README.md",
+      "keywords": "accelerator toolkit graph array accelerator",
+      "content": "# Array ## Sous-categories - [Build Array](build-array/README.md) - [Init Array](init-array/README.md)"
+    },
+    {
+      "title": "Build Array",
+      "path": "/accelerator/graph/array/build-array/README.md",
+      "keywords": "accelerator toolkit graph array build array accelerator",
+      "content": "# Build Array ## Articles - [Build Tensor](build-tensor/README.md) - [Concat Tensor](concat-tensor/README.md)"
+    },
+    {
+      "title": "Build Tensor",
+      "path": "/accelerator/graph/array/build-array/build-tensor/README.md",
+      "keywords": "accelerator toolkit graph array build array build tensor accelerator",
+      "content": "Build Tensor Description Concatenates multiple arrays or appends elements to an n-dimensional array. Type : polymorphic. Input parameters array/element : class array/element : class Output parameters appended array : class"
+    },
+    {
+      "title": "Concat Tensor",
+      "path": "/accelerator/graph/array/build-array/concat-tensor/README.md",
+      "keywords": "accelerator toolkit graph array build array concat tensor accelerator",
+      "content": "Concat Tensor Description Concatenates multiple arrays or appends elements to an n-dimensional array. Type : polymorphic. Input parameters array/element : class array/element : class Output parameters appended array : class"
+    },
+    {
+      "title": "Init Array",
+      "path": "/accelerator/graph/array/init-array/README.md",
+      "keywords": "accelerator toolkit graph array init array accelerator",
+      "content": "# Init Array ## Sous-categories - [Initialize Tensor](initialize-tensor/README.md)"
+    },
+    {
+      "title": "Initialize Tensor",
+      "path": "/accelerator/graph/array/init-array/initialize-tensor/README.md",
+      "keywords": "accelerator toolkit graph array init array initialize tensor accelerator",
+      "content": "# Initialize Tensor ## Articles - [Int64](int64/README.md) - [SGL](sgl/README.md)"
+    },
+    {
+      "title": "Int64",
+      "path": "/accelerator/graph/array/init-array/initialize-tensor/int64/README.md",
+      "keywords": "accelerator toolkit graph array init array initialize tensor int64 accelerator",
+      "content": "Int64 Description Creates an int64 n-dimensional array in which every element is initialized to the value of element. Type : polymorphic. Input parameters element : integer shape : array of integer Numeric : integer Output parameters int64 initialized array : class"
+    },
+    {
+      "title": "SGL",
+      "path": "/accelerator/graph/array/init-array/initialize-tensor/sgl/README.md",
+      "keywords": "accelerator toolkit graph array init array initialize tensor sgl accelerator",
+      "content": "SGL Description Creates an float n-dimensional array in which every element is initialized to the value of element. Type : polymorphic. Input parameters element : float shape : array of integer Numeric : integer Output parameters float initialized array : class"
+    },
+    {
+      "title": "Boolean",
+      "path": "/accelerator/graph/boolean/README.md",
+      "keywords": "accelerator toolkit graph boolean accelerator",
+      "content": "# Boolean ## Sous-categories - [And](and/README.md) - [Implies](implies/README.md) - [Nand](nand/README.md) - [Nor](nor/README.md) - [Or](or/README.md) - [Xnor](xnor/README.md) - [Xor](xor/README.md)"
+    },
+    {
+      "title": "And",
+      "path": "/accelerator/graph/boolean/and/README.md",
+      "keywords": "accelerator toolkit graph boolean and accelerator",
+      "content": "# And ## Articles - [And Scalar Tensor](and-scalar-tensor/README.md) - [And Tensor Scalar](and-tensor-scalar/README.md) - [And Tensor Tensor](and-tensor-tensor/README.md)"
+    },
+    {
+      "title": "And Scalar Tensor",
+      "path": "/accelerator/graph/boolean/and/and-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph boolean and and scalar tensor accelerator",
+      "content": "And Scalar Tensor Description Computes the logical AND of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are TRUE, the function returns TRUE. Otherwise, it returns FALSE. Type : polymorphic. Input parameters x : boolean y : class Output parameters x .and. y ? : class"
+    },
+    {
+      "title": "And Tensor Scalar",
+      "path": "/accelerator/graph/boolean/and/and-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph boolean and and tensor scalar accelerator",
+      "content": "And Tensor Scalar Description Computes the logical AND of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are TRUE, the function returns TRUE. Otherwise, it returns FALSE. Type : polymorphic. Input parameters x : class y : boolean Output parameters x .and. y ? : class"
+    },
+    {
+      "title": "And Tensor Tensor",
+      "path": "/accelerator/graph/boolean/and/and-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph boolean and and tensor tensor accelerator",
+      "content": "And Tensor Tensor Description Computes the logical AND of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are TRUE, the function returns TRUE. Otherwise, it returns FALSE. Type : polymorphic. Input parameters x : class y : class Output parameters x .and. y ? : class"
+    },
+    {
+      "title": "Implies",
+      "path": "/accelerator/graph/boolean/implies/README.md",
+      "keywords": "accelerator toolkit graph boolean implies accelerator",
+      "content": "# Implies ## Articles - [Implies Scalar Tensor](implies-scalar-tensor/README.md) - [Implies Tensor Scalar](implies-tensor-scalar/README.md) - [Implies Tensor Tensor](implies-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Implies Scalar Tensor",
+      "path": "/accelerator/graph/boolean/implies/implies-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph boolean implies implies scalar tensor accelerator",
+      "content": "Implies Scalar Tensor Description Negates x and then computes the logical OR of y and the negated x. Both inputs must be Boolean values, numeric values. If x is TRUE and y is FALSE, the function returns FALSE. Otherwise, it returns TRUE. Type : polymorphic. Input parameters x : boolean y : class Output parameters x .implies. y ? : class"
+    },
+    {
+      "title": "Implies Tensor Scalar",
+      "path": "/accelerator/graph/boolean/implies/implies-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph boolean implies implies tensor scalar accelerator",
+      "content": "Implies Tensor Scalar Description Negates x and then computes the logical OR of y and the negated x. Both inputs must be Boolean values, numeric values. If x is TRUE and y is FALSE, the function returns FALSE. Otherwise, it returns TRUE. Type : polymorphic. Input parameters x : class y : boolean Output parameters x .implies. y ? : class"
+    },
+    {
+      "title": "Implies Tensor Tensor",
+      "path": "/accelerator/graph/boolean/implies/implies-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph boolean implies implies tensor tensor accelerator",
+      "content": "Implies Tensor Tensor Description Negates x and then computes the logical OR of y and the negated x. Both inputs must be Boolean values, numeric values. If x is TRUE and y is FALSE, the function returns FALSE. Otherwise, it returns TRUE. Type : polymorphic. Input parameters x : class y : class Output parameters x .implies. y ? : class"
+    },
+    {
+      "title": "Nand",
+      "path": "/accelerator/graph/boolean/nand/README.md",
+      "keywords": "accelerator toolkit graph boolean nand accelerator",
+      "content": "# Nand ## Articles - [Nand Scalar Tensor](nand-scalar-tensor/README.md) - [Nand Tensor Scalar](nand-tensor-scalar/README.md) - [Nand Tensor Tensor](nand-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Nand Scalar Tensor",
+      "path": "/accelerator/graph/boolean/nand/nand-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph boolean nand nand scalar tensor accelerator",
+      "content": "Nand Scalar Tensor Description Computes the logical NAND of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are TRUE, the function returns FALSE. Otherwise, it returns TRUE. Type : polymorphic. Input parameters x : boolean y : class Output parameters x .nand. y ? : class"
+    },
+    {
+      "title": "Nand Tensor Scalar",
+      "path": "/accelerator/graph/boolean/nand/nand-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph boolean nand nand tensor scalar accelerator",
+      "content": "Nand Tensor Scalar Description Computes the logical NAND of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are TRUE, the function returns FALSE. Otherwise, it returns TRUE. Type : polymorphic. Input parameters x : class y : boolean Output parameters x .nand. y ? : class"
+    },
+    {
+      "title": "Nand Tensor Tensor",
+      "path": "/accelerator/graph/boolean/nand/nand-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph boolean nand nand tensor tensor accelerator",
+      "content": "Nand Tensor Tensor Description Computes the logical NAND of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are TRUE, the function returns FALSE. Otherwise, it returns TRUE. Type : polymorphic. Input parameters x : class y : class Output parameters x .nand. y ? : class"
+    },
+    {
+      "title": "Nor",
+      "path": "/accelerator/graph/boolean/nor/README.md",
+      "keywords": "accelerator toolkit graph boolean nor accelerator",
+      "content": "# Nor ## Articles - [Nor Scalar Tensor](nor-scalar-tensor/README.md) - [Nor Tensor Scalar](nor-tensor-scalar/README.md) - [Nor Tensor Tensor](nor-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Nor Scalar Tensor",
+      "path": "/accelerator/graph/boolean/nor/nor-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph boolean nor nor scalar tensor accelerator",
+      "content": "Nor Scalar Tensor Description Computes the logical NOR of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are FALSE, the function returns TRUE. Otherwise, it returns FALSE. Type : polymorphic. Input parameters x : boolean y : class Output parameters x .nor. y ? : class"
+    },
+    {
+      "title": "Nor Tensor Scalar",
+      "path": "/accelerator/graph/boolean/nor/nor-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph boolean nor nor tensor scalar accelerator",
+      "content": "Nor Tensor Scalar Description Computes the logical NOR of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are FALSE, the function returns TRUE. Otherwise, it returns FALSE. Type : polymorphic. Input parameters x : class y : boolean Output parameters x .nor. y ? : class"
+    },
+    {
+      "title": "Nor Tensor Tensor",
+      "path": "/accelerator/graph/boolean/nor/nor-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph boolean nor nor tensor tensor accelerator",
+      "content": "Nor Tensor Tensor Description Computes the logical NOR of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are FALSE, the function returns TRUE. Otherwise, it returns FALSE. Type : polymorphic. Input parameters x : class y : class Output parameters x .nor. y ? : class"
+    },
+    {
+      "title": "Or",
+      "path": "/accelerator/graph/boolean/or/README.md",
+      "keywords": "accelerator toolkit graph boolean or accelerator",
+      "content": "# Or ## Articles - [Or Scalar Tensor](or-scalar-tensor/README.md) - [Or Tensor Scalar](or-tensor-scalar/README.md) - [Or Tensor Tensor](or-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Or Scalar Tensor",
+      "path": "/accelerator/graph/boolean/or/or-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph boolean or or scalar tensor accelerator",
+      "content": "Or Scalar Tensor Description Computes the logical OR of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are FALSE, the function returns FALSE. Type : polymorphic. Input parameters x : boolean y : class Output parameters x .or. y ? : class"
+    },
+    {
+      "title": "Or Tensor Scalar",
+      "path": "/accelerator/graph/boolean/or/or-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph boolean or or tensor scalar accelerator",
+      "content": "Or Tensor Scalar Description Computes the logical OR of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are FALSE, the function returns FALSE. Type : polymorphic. Input parameters x : class y : boolean Output parameters x .or. y ? : class"
+    },
+    {
+      "title": "Or Tensor Tensor",
+      "path": "/accelerator/graph/boolean/or/or-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph boolean or or tensor tensor accelerator",
+      "content": "Or Tensor Tensor Description Computes the logical OR of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are FALSE, the function returns FALSE. Type : polymorphic. Input parameters x : class y : class Output parameters x .or. y ? : class"
+    },
+    {
+      "title": "Xnor",
+      "path": "/accelerator/graph/boolean/xnor/README.md",
+      "keywords": "accelerator toolkit graph boolean xnor accelerator",
+      "content": "# Xnor ## Articles - [XNor Scalar Tensor](xnor-scalar-tensor/README.md) - [XNor Tensor Scalar](xnor-tensor-scalar/README.md) - [XNor Tensor Tensor](xnor-tensor-tensor/README.md)"
+    },
+    {
+      "title": "XNor Scalar Tensor",
+      "path": "/accelerator/graph/boolean/xnor/xnor-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph boolean xnor xnor scalar tensor accelerator",
+      "content": "XNor Scalar Tensor Description Computes the logical negation of the logical exclusive or (XOR) of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are TRUE or both inputs are FALSE, the function returns TRUE. Otherwise, it returns FALSE. Type : polymorphic. Input parameters x : boolean y : class Output parameters x .xnor. y ? : class"
+    },
+    {
+      "title": "XNor Tensor Scalar",
+      "path": "/accelerator/graph/boolean/xnor/xnor-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph boolean xnor xnor tensor scalar accelerator",
+      "content": "XNor Tensor Scalar Description Computes the logical negation of the logical exclusive or (XOR) of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are TRUE or both inputs are FALSE, the function returns TRUE. Otherwise, it returns FALSE. Type : polymorphic. Input parameters x : class y : boolean Output parameters x .xnor. y ? : class"
+    },
+    {
+      "title": "XNor Tensor Tensor",
+      "path": "/accelerator/graph/boolean/xnor/xnor-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph boolean xnor xnor tensor tensor accelerator",
+      "content": "XNor Tensor Tensor Description Computes the logical negation of the logical exclusive or (XOR) of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are TRUE or both inputs are FALSE, the function returns TRUE. Otherwise, it returns FALSE. Type : polymorphic. Input parameters x : class y : class Output parameters x .xnor. y ? : class"
+    },
+    {
+      "title": "Xor",
+      "path": "/accelerator/graph/boolean/xor/README.md",
+      "keywords": "accelerator toolkit graph boolean xor accelerator",
+      "content": "# Xor ## Articles - [Xor Scalar Tensor](xor-scalar-tensor/README.md) - [Xor Tensor Scalar](xor-tensor-scalar/README.md) - [Xor Tensor Tensor](xor-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Xor Scalar Tensor",
+      "path": "/accelerator/graph/boolean/xor/xor-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph boolean xor xor scalar tensor accelerator",
+      "content": "Xor Scalar Tensor Description Computes the logical exclusive or (XOR) of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are TRUE or both inputs are FALSE, the function returns FALSE. Otherwise, it returns TRUE. Type : polymorphic. Input parameters x : boolean y : class Output parameters x .xor. y ? : class"
+    },
+    {
+      "title": "Xor Tensor Scalar",
+      "path": "/accelerator/graph/boolean/xor/xor-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph boolean xor xor tensor scalar accelerator",
+      "content": "Xor Tensor Scalar Description Computes the logical exclusive or (XOR) of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are TRUE or both inputs are FALSE, the function returns FALSE. Otherwise, it returns TRUE. Type : polymorphic. Input parameters x : class y : boolean Output parameters x .xor. y ? : class"
+    },
+    {
+      "title": "Xor Tensor Tensor",
+      "path": "/accelerator/graph/boolean/xor/xor-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph boolean xor xor tensor tensor accelerator",
+      "content": "Xor Tensor Tensor Description Computes the logical exclusive or (XOR) of the inputs. Both inputs must be Boolean values, numeric values. If both inputs are TRUE or both inputs are FALSE, the function returns FALSE. Otherwise, it returns TRUE. Type : polymorphic. Input parameters x : class y : class Output parameters x .xor. y ? : class"
+    },
+    {
+      "title": "Comparison",
+      "path": "/accelerator/graph/comparison/README.md",
+      "keywords": "accelerator toolkit graph comparison accelerator",
+      "content": "# Comparison ## Sous-categories - [Equal](equal/README.md) - [Greater](greater/README.md) - [Greater Or Equal](greater-or-equal/README.md) - [Less](less/README.md) - [Less Or Equal](less-or-equal/README.md) - [Not Equal](not-equal/README.md)"
+    },
+    {
+      "title": "Equal",
+      "path": "/accelerator/graph/comparison/equal/README.md",
+      "keywords": "accelerator toolkit graph comparison equal accelerator",
+      "content": "# Equal ## Articles - [Equal Scalar Tensor](equal-scalar-tensor/README.md) - [Equal Tensor Scalar](equal-tensor-scalar/README.md) - [Equal Tensor Tensor](equal-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Equal Scalar Tensor",
+      "path": "/accelerator/graph/comparison/equal/equal-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph comparison equal equal scalar tensor accelerator",
+      "content": "Equal Scalar Tensor Description Returns TRUE if x is equal to y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters x : integer y : class Output parameters x = y ? : class"
+    },
+    {
+      "title": "Equal Tensor Scalar",
+      "path": "/accelerator/graph/comparison/equal/equal-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph comparison equal equal tensor scalar accelerator",
+      "content": "Equal Tensor Scalar Description Returns TRUE if x is equal to y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters y : integer x : class Output parameters x = y ? : class"
+    },
+    {
+      "title": "Equal Tensor Tensor",
+      "path": "/accelerator/graph/comparison/equal/equal-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph comparison equal equal tensor tensor accelerator",
+      "content": "Equal Tensor Tensor Description Returns TRUE if x is equal to y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters x : class y : class Output parameters x = y ? : class"
+    },
+    {
+      "title": "Greater Or Equal",
+      "path": "/accelerator/graph/comparison/greater-or-equal/README.md",
+      "keywords": "accelerator toolkit graph comparison greater or equal accelerator",
+      "content": "# Greater Or Equal ## Articles - [Greater Or Equal Scalar Tensor](greater-or-equal-scalar-tensor/README.md) - [Greater Or Equal Tensor Scalar](greater-or-equal-tensor-scalar/README.md) - [Greater Or Equal Tensor Tensor](greater-or-equal-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Greater Or Equal Scalar Tensor",
+      "path": "/accelerator/graph/comparison/greater-or-equal/greater-or-equal-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph comparison greater or equal greater or equal scalar tensor accelerator",
+      "content": "Greater Or Equal Scalar Tensor Description Returns TRUE if x is greater than or equal to y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters x : integer y : class Output parameters x >= y ? : class"
+    },
+    {
+      "title": "Greater Or Equal Tensor Scalar",
+      "path": "/accelerator/graph/comparison/greater-or-equal/greater-or-equal-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph comparison greater or equal greater or equal tensor scalar accelerator",
+      "content": "Greater Or Equal Tensor Scalar Description Returns TRUE if x is greater than or equal to y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters y : integer x : class Output parameters x >= y ? : class"
+    },
+    {
+      "title": "Greater Or Equal Tensor Tensor",
+      "path": "/accelerator/graph/comparison/greater-or-equal/greater-or-equal-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph comparison greater or equal greater or equal tensor tensor accelerator",
+      "content": "Greater Or Equal Tensor Tensor Description Returns TRUE if x is greater than or equal to y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters x : class y : class Output parameters x >= y ? : class"
+    },
+    {
+      "title": "Greater",
+      "path": "/accelerator/graph/comparison/greater/README.md",
+      "keywords": "accelerator toolkit graph comparison greater accelerator",
+      "content": "# Greater ## Articles - [Greater Scalar Tensor](greater-scalar-tensor/README.md) - [Greater Tensor Scalar](greater-tensor-scalar/README.md) - [Greater Tensor Tensor](greater-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Greater Scalar Tensor",
+      "path": "/accelerator/graph/comparison/greater/greater-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph comparison greater greater scalar tensor accelerator",
+      "content": "Greater Scalar Tensor Description Returns TRUE if x is greater than y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters x : integer y : class Output parameters x > y ? : class"
+    },
+    {
+      "title": "Greater Tensor Scalar",
+      "path": "/accelerator/graph/comparison/greater/greater-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph comparison greater greater tensor scalar accelerator",
+      "content": "Greater Tensor Scalar Description Returns TRUE if x is greater than y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters y : integer x : class Output parameters x > y ? : class"
+    },
+    {
+      "title": "Greater Tensor Tensor",
+      "path": "/accelerator/graph/comparison/greater/greater-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph comparison greater greater tensor tensor accelerator",
+      "content": "Greater Tensor Tensor Description Returns TRUE if x is greater than y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters x : class y : class Output parameters x > y ? : class"
+    },
+    {
+      "title": "Less Or Equal",
+      "path": "/accelerator/graph/comparison/less-or-equal/README.md",
+      "keywords": "accelerator toolkit graph comparison less or equal accelerator",
+      "content": "# Less Or Equal ## Articles - [Less Or Equal Scalar Tensor](less-or-equal-scalar-tensor/README.md) - [Less Or Equal Tensor Scalar](less-or-equal-tensor-scalar/README.md) - [Less Or Equal Tensor Tensor](less-or-equal-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Less Or Equal Scalar Tensor",
+      "path": "/accelerator/graph/comparison/less-or-equal/less-or-equal-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph comparison less or equal less or equal scalar tensor accelerator",
+      "content": "Less Or Equal Scalar Tensor Description Returns TRUE if x is less than or equal to y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters x : integer y : class Output parameters x <= y ? : class"
+    },
+    {
+      "title": "Less Or Equal Tensor Scalar",
+      "path": "/accelerator/graph/comparison/less-or-equal/less-or-equal-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph comparison less or equal less or equal tensor scalar accelerator",
+      "content": "Less Or Equal Tensor Scalar Description Returns TRUE if x is less than or equal to y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters y : integer x : class Output parameters x <= y ? : class"
+    },
+    {
+      "title": "Less Or Equal Tensor Tensor",
+      "path": "/accelerator/graph/comparison/less-or-equal/less-or-equal-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph comparison less or equal less or equal tensor tensor accelerator",
+      "content": "Less Or Equal Tensor Tensor Description Returns TRUE if x is less than or equal to y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters x : class y : class Output parameters x <= y ? : class"
+    },
+    {
+      "title": "Less",
+      "path": "/accelerator/graph/comparison/less/README.md",
+      "keywords": "accelerator toolkit graph comparison less accelerator",
+      "content": "# Less ## Articles - [Less Scalar Tensor](less-scalar-tensor/README.md) - [Less Tensor Scalar](less-tensor-scalar/README.md) - [Less Tensor Tensor](less-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Less Scalar Tensor",
+      "path": "/accelerator/graph/comparison/less/less-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph comparison less less scalar tensor accelerator",
+      "content": "Less Scalar Tensor Description Returns TRUE if x is less than y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters x : integer y : class Output parameters x < y ? : class"
+    },
+    {
+      "title": "Less Tensor Scalar",
+      "path": "/accelerator/graph/comparison/less/less-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph comparison less less tensor scalar accelerator",
+      "content": "Less Tensor Scalar Description Returns TRUE if x is less than y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters y : integer x : class Output parameters x < y ? : class"
+    },
+    {
+      "title": "Less Tensor Tensor",
+      "path": "/accelerator/graph/comparison/less/less-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph comparison less less tensor tensor accelerator",
+      "content": "Less Tensor Tensor Description Returns TRUE if x is less than y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters x : class y : class Output parameters x < y ? : class"
+    },
+    {
+      "title": "Not Equal",
+      "path": "/accelerator/graph/comparison/not-equal/README.md",
+      "keywords": "accelerator toolkit graph comparison not equal accelerator",
+      "content": "# Not Equal ## Articles - [Not Equal Scalar Tensor](not-equal-scalar-tensor/README.md) - [Not Equal Tensor Scalar](not-equal-tensor-scalar/README.md) - [Not Equal Tensor Tensor](not-equal-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Not Equal Scalar Tensor",
+      "path": "/accelerator/graph/comparison/not-equal/not-equal-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph comparison not equal not equal scalar tensor accelerator",
+      "content": "Not Equal Scalar Tensor Description Returns TRUE if x is not equal to y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters x : integer y : class Output parameters x != y ? : class"
+    },
+    {
+      "title": "Not Equal Tensor Scalar",
+      "path": "/accelerator/graph/comparison/not-equal/not-equal-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph comparison not equal not equal tensor scalar accelerator",
+      "content": "Not Equal Tensor Scalar Description Returns TRUE if x is not equal to y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters x : class x : integer Output parameters x != y ? : class"
+    },
+    {
+      "title": "Not Equal Tensor Tensor",
+      "path": "/accelerator/graph/comparison/not-equal/not-equal-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph comparison not equal not equal tensor tensor accelerator",
+      "content": "Not Equal Tensor Tensor Description Returns TRUE if x is not equal to y. Otherwise, this function returns FALSE. Type : polymorphic. Input parameters x : class y : class Output parameters x != y ? : class"
+    },
+    {
+      "title": "Mathematic",
+      "path": "/accelerator/graph/mathematic/README.md",
+      "keywords": "accelerator toolkit graph mathematic accelerator",
+      "content": "# Mathematic ## Sous-categories - [Elementary](elementary/README.md) - [Linear Algebra](linear-algebra/README.md) - [Numeric](numeric/README.md)"
+    },
+    {
+      "title": "Elementary",
+      "path": "/accelerator/graph/mathematic/elementary/README.md",
+      "keywords": "accelerator toolkit graph mathematic elementary accelerator",
+      "content": "# Elementary ## Sous-categories - [Exponential](exponential/README.md)"
+    },
+    {
+      "title": "Exponential",
+      "path": "/accelerator/graph/mathematic/elementary/exponential/README.md",
+      "keywords": "accelerator toolkit graph mathematic elementary exponential accelerator",
+      "content": "# Exponential ## Sous-categories - [Pow](pow/README.md) - [Root](root/README.md)"
+    },
+    {
+      "title": "Pow",
+      "path": "/accelerator/graph/mathematic/elementary/exponential/pow/README.md",
+      "keywords": "accelerator toolkit graph mathematic elementary exponential pow accelerator",
+      "content": "# Pow ## Articles - [Pow Scalar Tensor](pow-scalar-tensor/README.md) - [Pow Tensor Scalar](pow-tensor-scalar/README.md) - [Pow Tensor Tensor](pow-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Pow Scalar Tensor",
+      "path": "/accelerator/graph/mathematic/elementary/exponential/pow/pow-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph mathematic elementary exponential pow pow scalar tensor accelerator",
+      "content": "Pow Scalar Tensor Description Type : polymorphic. Input parameters y : float x : class Output parameters x^y : class"
+    },
+    {
+      "title": "Pow Tensor Scalar",
+      "path": "/accelerator/graph/mathematic/elementary/exponential/pow/pow-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph mathematic elementary exponential pow pow tensor scalar accelerator",
+      "content": "Pow Tensor Scalar Description Type : polymorphic. Input parameters x : float y : class Output parameters x^y : class"
+    },
+    {
+      "title": "Pow Tensor Tensor",
+      "path": "/accelerator/graph/mathematic/elementary/exponential/pow/pow-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph mathematic elementary exponential pow pow tensor tensor accelerator",
+      "content": "Pow Tensor Tensor Description Computes x raised to the y power. Accepted Dtype x : FLOAT/FLOAT16/BFLOAT16/DOUBLE/INT32/INT64 y : FLOAT/FLOAT16/BFLOAT16/DOUBLE/INT8/INT16/INT32/INT64 Type : polymorphic. Input parameters x : class y : class Output parameters x^y : class"
+    },
+    {
+      "title": "Root",
+      "path": "/accelerator/graph/mathematic/elementary/exponential/root/README.md",
+      "keywords": "accelerator toolkit graph mathematic elementary exponential root accelerator",
+      "content": "# Root ## Articles - [Root Scalar Tensor](root-scalar-tensor/README.md) - [Root Tensor Scalar](root-tensor-scalar/README.md) - [Root Tensor Tensor](root-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Root Scalar Tensor",
+      "path": "/accelerator/graph/mathematic/elementary/exponential/root/root-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph mathematic elementary exponential root root scalar tensor accelerator",
+      "content": "Root Scalar Tensor Description Type : polymorphic. Input parameters y : class x : float Output parameters y-th root(x) : class"
+    },
+    {
+      "title": "Root Tensor Scalar",
+      "path": "/accelerator/graph/mathematic/elementary/exponential/root/root-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph mathematic elementary exponential root root tensor scalar accelerator",
+      "content": "Root Tensor Scalar Description Type : polymorphic. Input parameters x : class y : float Output parameters y-th root(x) : class"
+    },
+    {
+      "title": "Root Tensor Tensor",
+      "path": "/accelerator/graph/mathematic/elementary/exponential/root/root-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph mathematic elementary exponential root root tensor tensor accelerator",
+      "content": "Root Tensor Tensor Description Returns the yth root of the input value x. If x is not complex, x must be greater than or equal to zero unless y is an integer. Otherwise, the result is NaN. Accepted Dtype x : FLOAT/FLOAT16/BFLOAT16/DOUBLE/INT32/INT64 y : FLOAT/FLOAT16/BFLOAT16/DOUBLE Type : polymorphic. Input parameters x : class y : class Output parameters y-th root(x) : class"
+    },
+    {
+      "title": "Linear Algebra",
+      "path": "/accelerator/graph/mathematic/linear-algebra/README.md",
+      "keywords": "accelerator toolkit graph mathematic linear algebra accelerator",
+      "content": "# Linear Algebra ## Sous-categories - [A X B](a-x-b/README.md) - [Kronecker Product](kronecker-product/README.md) - [Outer Product](outer-product/README.md)"
+    },
+    {
+      "title": "A X B",
+      "path": "/accelerator/graph/mathematic/linear-algebra/a-x-b/README.md",
+      "keywords": "accelerator toolkit graph mathematic linear algebra a x b accelerator",
+      "content": "# A X B ## Articles - [Mat Mul](mat-mul/README.md)"
+    },
+    {
+      "title": "Mat Mul",
+      "path": "/accelerator/graph/mathematic/linear-algebra/a-x-b/mat-mul/README.md",
+      "keywords": "accelerator toolkit graph mathematic linear algebra a x b mat mul accelerator",
+      "content": "Mat Mul Description Performs the multiplication of two input matrices or an input matrix and an input vector. Accepted Dtype X Vector | Y Vector : FLOAT/FLOAT16/BFLOAT16/DOUBLE/UINT32/UINT64/INT32/INT64 Type : VI. Input parameters A : class B : class Output parameters A x B : class"
+    },
+    {
+      "title": "Kronecker Product",
+      "path": "/accelerator/graph/mathematic/linear-algebra/kronecker-product/README.md",
+      "keywords": "accelerator toolkit graph mathematic linear algebra kronecker product accelerator",
+      "content": "# Kronecker Product ## Articles - [Kronecker Product](kronecker-product/README.md)"
+    },
+    {
+      "title": "Kronecker Product",
+      "path": "/accelerator/graph/mathematic/linear-algebra/kronecker-product/kronecker-product/README.md",
+      "keywords": "accelerator toolkit graph mathematic linear algebra kronecker product accelerator",
+      "content": "Kronecker Product Description Calculates the Kronecker product of the input matrices A and B. Accepted Dtype X Vector | Y Vector : FLOAT/FLOAT16/BFLOAT16/DOUBLE/UINT8..UINT64/INT8..INT64 Type : VI. Input parameters A : class B : class Output parameters Kronecker Product : class"
+    },
+    {
+      "title": "Outer Product",
+      "path": "/accelerator/graph/mathematic/linear-algebra/outer-product/README.md",
+      "keywords": "accelerator toolkit graph mathematic linear algebra outer product accelerator",
+      "content": "# Outer Product ## Articles - [Outer Product](outer-product/README.md)"
+    },
+    {
+      "title": "Outer Product",
+      "path": "/accelerator/graph/mathematic/linear-algebra/outer-product/outer-product/README.md",
+      "keywords": "accelerator toolkit graph mathematic linear algebra outer product accelerator",
+      "content": "Outer Product Description Computes the outer product of X Vector and Y Vector. Accepted Dtype X Vector | Y Vector : FLOAT/FLOAT16/BFLOAT16/DOUBLE/UINT8..UINT64/INT8..INT64 Type : VI. Input parameters X Vector : class Y Vector : class Output parameters Outer Product : class"
+    },
+    {
+      "title": "Numeric",
+      "path": "/accelerator/graph/mathematic/numeric/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric accelerator",
+      "content": "# Numeric ## Sous-categories - [Add](add/README.md) - [Div](div/README.md) - [Mul](mul/README.md) - [Reciprocal](reciprocal/README.md) - [Sub](sub/README.md)"
+    },
+    {
+      "title": "Add",
+      "path": "/accelerator/graph/mathematic/numeric/add/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric add accelerator",
+      "content": "# Add ## Articles - [Add Scalar Tensor](add-scalar-tensor/README.md) - [Add Tensor Scalar](add-tensor-scalar/README.md) - [Add Tensor Tensor](add-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Add Scalar Tensor",
+      "path": "/accelerator/graph/mathematic/numeric/add/add-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric add add scalar tensor accelerator",
+      "content": "Add Scalar Tensor Description Computes the sum of the inputs. Type : VI. Input parameters x : float y : class Output parameters x+y : class"
+    },
+    {
+      "title": "Add Tensor Scalar",
+      "path": "/accelerator/graph/mathematic/numeric/add/add-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric add add tensor scalar accelerator",
+      "content": "Add Tensor Scalar Description Computes the sum of the inputs. Type : VI. Input parameters y : float x : class Output parameters x+y : class"
+    },
+    {
+      "title": "Add Tensor Tensor",
+      "path": "/accelerator/graph/mathematic/numeric/add/add-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric add add tensor tensor accelerator",
+      "content": "Add Tensor Tensor Description Computes the sum of the inputs. Accepted Dtype x | y : SGL,DBL,FLOAT16,BFLOAT16,INT8...INT64,UINT8..UINT64,COMPLEX FLOAT, COMPLEX DOUBLE Type : VI. Input parameters x : class y : class Output parameters x+y : class"
+    },
+    {
+      "title": "Div",
+      "path": "/accelerator/graph/mathematic/numeric/div/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric div accelerator",
+      "content": "# Div ## Articles - [Div Scalar Tensor](div-scalar-tensor/README.md) - [Div Tensor Scalar](div-tensor-scalar/README.md) - [Div Tensor Tensor](div-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Div Scalar Tensor",
+      "path": "/accelerator/graph/mathematic/numeric/div/div-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric div div scalar tensor accelerator",
+      "content": "Div Scalar Tensor Description Computes the quotient of the inputs. Type : polymorphic. Input parameters x : float y : class Output parameters x/y : class"
+    },
+    {
+      "title": "Div Tensor Scalar",
+      "path": "/accelerator/graph/mathematic/numeric/div/div-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric div div tensor scalar accelerator",
+      "content": "Div Tensor Scalar Description Computes the quotient of the inputs. Type : polymorphic. Input parameters y : float x : class Output parameters x/y : class"
+    },
+    {
+      "title": "Div Tensor Tensor",
+      "path": "/accelerator/graph/mathematic/numeric/div/div-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric div div tensor tensor accelerator",
+      "content": "Div Tensor Tensor Description Computes the quotient of the inputs. Accepted Dtype x | y : SGL,DBL,FLOAT16,BFLOAT16,INT8...INT64,UINT8..UINT64,COMPLEX FLOAT, COMPLEX DOUBLE Type : polymorphic. Input parameters x : class y : class Output parameters x/y : class"
+    },
+    {
+      "title": "Mul",
+      "path": "/accelerator/graph/mathematic/numeric/mul/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric mul accelerator",
+      "content": "# Mul ## Articles - [Mul Scalar Tensor](mul-scalar-tensor/README.md) - [Mul Tensor Scalar](mul-tensor-scalar/README.md) - [Mul Tensor Tensor](mul-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Mul Scalar Tensor",
+      "path": "/accelerator/graph/mathematic/numeric/mul/mul-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric mul mul scalar tensor accelerator",
+      "content": "Mul Scalar Tensor Description Returns the product of the inputs. Type : polymorphic. Input parameters x : float y : class Output parameters x*y : class"
+    },
+    {
+      "title": "Mul Tensor Scalar",
+      "path": "/accelerator/graph/mathematic/numeric/mul/mul-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric mul mul tensor scalar accelerator",
+      "content": "Mul Tensor Scalar Description Returns the product of the inputs. Type : polymorphic. Input parameters y : float x : class Output parameters x*y : class"
+    },
+    {
+      "title": "Mul Tensor Tensor",
+      "path": "/accelerator/graph/mathematic/numeric/mul/mul-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric mul mul tensor tensor accelerator",
+      "content": "Mul Tensor Tensor Description Returns the product of the inputs. Accepted Dtype x | y : SGL,DBL,FLOAT16,BFLOAT16,INT8...INT64,UINT8..UINT64,COMPLEX FLOAT, COMPLEX DOUBLE Type : polymorphic. Input parameters x : class y : class Output parameters x*y : class"
+    },
+    {
+      "title": "Reciprocal",
+      "path": "/accelerator/graph/mathematic/numeric/reciprocal/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric reciprocal accelerator",
+      "content": "# Reciprocal ## Articles - [Reciprocal](reciprocal/README.md) - [Reciprocal Scalar](reciprocal-scalar/README.md) - [Reciprocal Tensor](reciprocal-tensor/README.md)"
+    },
+    {
+      "title": "Reciprocal Scalar",
+      "path": "/accelerator/graph/mathematic/numeric/reciprocal/reciprocal-scalar/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric reciprocal reciprocal scalar accelerator",
+      "content": "Reciprocal Scalar Description Divides 1 by the input value. Type : polymorphic. Input parameters x : float Output parameters 1/x : class"
+    },
+    {
+      "title": "Reciprocal Tensor",
+      "path": "/accelerator/graph/mathematic/numeric/reciprocal/reciprocal-tensor/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric reciprocal reciprocal tensor accelerator",
+      "content": "Reciprocal Tensor Description Divides 1 by the input value. Type : polymorphic. Input parameters x : array of float x : float Output parameters 1/x : class"
+    },
+    {
+      "title": "Reciprocal",
+      "path": "/accelerator/graph/mathematic/numeric/reciprocal/reciprocal/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric reciprocal accelerator",
+      "content": "Reciprocal Description Divides 1 by the input value. Accepted Dtype x : SGL,DBL,FLOAT16,BFLOAT16,INT8...INT64 Type : polymorphic. Input parameters x : class Output parameters 1/x : class"
+    },
+    {
+      "title": "Sub",
+      "path": "/accelerator/graph/mathematic/numeric/sub/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric sub accelerator",
+      "content": "# Sub ## Articles - [Sub Scalar Tensor](sub-scalar-tensor/README.md) - [Sub Tensor Scalar](sub-tensor-scalar/README.md) - [Sub Tensor Tensor](sub-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Sub Scalar Tensor",
+      "path": "/accelerator/graph/mathematic/numeric/sub/sub-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric sub sub scalar tensor accelerator",
+      "content": "Sub Scalar Tensor Description Computes the difference of the inputs. Type : polymorphic. Input parameters x : float y : class Output parameters x-y : class"
+    },
+    {
+      "title": "Sub Tensor Scalar",
+      "path": "/accelerator/graph/mathematic/numeric/sub/sub-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric sub sub tensor scalar accelerator",
+      "content": "Sub Tensor Scalar Description Computes the difference of the inputs. Type : polymorphic. Input parameters y : float x : class Output parameters x-y : class"
+    },
+    {
+      "title": "Sub Tensor Tensor",
+      "path": "/accelerator/graph/mathematic/numeric/sub/sub-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph mathematic numeric sub sub tensor tensor accelerator",
+      "content": "Sub Tensor Tensor Description Computes the difference of the inputs. Accepted Dtype x | y : SGL,DBL,FLOAT16,BFLOAT16,INT8...INT64,UINT8..UINT64,COMPLEX FLOAT, COMPLEX DOUBLE Type : polymorphic. Input parameters x : class y : class Output parameters x-y : class"
+    },
+    {
+      "title": "Merge",
+      "path": "/accelerator/graph/merge/README.md",
+      "keywords": "accelerator toolkit graph merge accelerator",
+      "content": "# Merge ## Articles - [Advanced](advanced/README.md) - [Simple](simple/README.md)"
+    },
+    {
+      "title": "Advanced",
+      "path": "/accelerator/graph/merge/advanced/README.md",
+      "keywords": "accelerator toolkit graph merge advanced accelerator",
+      "content": "Advanced Description Merge multiples graph to create a merged one. Type : polymorphic. Input parameters Graphs in : array of class Graph in : class Output parameters Graph out : class"
+    },
+    {
+      "title": "Simple",
+      "path": "/accelerator/graph/merge/simple/README.md",
+      "keywords": "accelerator toolkit graph merge simple accelerator",
+      "content": "Simple Description Merge multiples graph to create a merged one. Type : polymorphic. Input parameters Graph in : class Graph in 2 : class Output parameters Graph out : class"
+    },
+    {
+      "title": "Netron From File",
+      "path": "/accelerator/graph/netron-from-file/README.md",
+      "keywords": "accelerator toolkit graph netron from file accelerator",
+      "content": "Netron From File Description Open Netron visualization of the given file. Type : polymorphic. Input parameters File Path : path Output parameters File Path : path"
+    },
+    {
+      "title": "Netron",
+      "path": "/accelerator/graph/netron/README.md",
+      "keywords": "accelerator toolkit graph netron accelerator",
+      "content": "Netron Description Open Netron visualization of the given model. Type : polymorphic. Input parameters Model : class open directory? : boolean Output parameters Dup Model : class"
+    },
+    {
+      "title": "Numeric",
+      "path": "/accelerator/graph/numeric/README.md",
+      "keywords": "accelerator toolkit graph numeric accelerator",
+      "content": "# Numeric ## Sous-categories - [Add](add/README.md) - [Div](div/README.md) - [Mul](mul/README.md) - [Reciprocal](reciprocal/README.md) - [Sub](sub/README.md)"
+    },
+    {
+      "title": "Add",
+      "path": "/accelerator/graph/numeric/add/README.md",
+      "keywords": "accelerator toolkit graph numeric add accelerator",
+      "content": "# Add ## Articles - [Add Scalar Tensor](add-scalar-tensor/README.md) - [Add Tensor Scalar](add-tensor-scalar/README.md) - [Add Tensor Tensor](add-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Add Scalar Tensor",
+      "path": "/accelerator/graph/numeric/add/add-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph numeric add add scalar tensor accelerator",
+      "content": "Add Scalar Tensor Description Computes the sum of the inputs. Type : VI. Input parameters x : float y : class Output parameters x+y : class"
+    },
+    {
+      "title": "Add Tensor Scalar",
+      "path": "/accelerator/graph/numeric/add/add-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph numeric add add tensor scalar accelerator",
+      "content": "Add Tensor Scalar Description Computes the sum of the inputs. Type : VI. Input parameters y : float x : class Output parameters x+y : class"
+    },
+    {
+      "title": "Add Tensor Tensor",
+      "path": "/accelerator/graph/numeric/add/add-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph numeric add add tensor tensor accelerator",
+      "content": "Add Tensor Tensor Description Computes the sum of the inputs. Accepted Dtype x | y : SGL,DBL,FLOAT16,BFLOAT16,INT8...INT64,UINT8..UINT64,COMPLEX FLOAT, COMPLEX DOUBLE Type : VI. Input parameters x : class y : class Output parameters x+y : class"
+    },
+    {
+      "title": "Div",
+      "path": "/accelerator/graph/numeric/div/README.md",
+      "keywords": "accelerator toolkit graph numeric div accelerator",
+      "content": "# Div ## Articles - [Div Scalar Tensor](div-scalar-tensor/README.md) - [Div Tensor Scalar](div-tensor-scalar/README.md) - [Div Tensor Tensor](div-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Div Scalar Tensor",
+      "path": "/accelerator/graph/numeric/div/div-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph numeric div div scalar tensor accelerator",
+      "content": "Div Scalar Tensor Description Computes the quotient of the inputs. Type : polymorphic. Input parameters x : float y : class Output parameters x/y : class"
+    },
+    {
+      "title": "Div Tensor Scalar",
+      "path": "/accelerator/graph/numeric/div/div-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph numeric div div tensor scalar accelerator",
+      "content": "Div Tensor Scalar Description Computes the quotient of the inputs. Type : polymorphic. Input parameters y : float x : class Output parameters x/y : class"
+    },
+    {
+      "title": "Div Tensor Tensor",
+      "path": "/accelerator/graph/numeric/div/div-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph numeric div div tensor tensor accelerator",
+      "content": "Div Tensor Tensor Description Computes the quotient of the inputs. Accepted Dtype x | y : SGL,DBL,FLOAT16,BFLOAT16,INT8...INT64,UINT8..UINT64,COMPLEX FLOAT, COMPLEX DOUBLE Type : polymorphic. Input parameters x : class y : class Output parameters x/y : class"
+    },
+    {
+      "title": "Mul",
+      "path": "/accelerator/graph/numeric/mul/README.md",
+      "keywords": "accelerator toolkit graph numeric mul accelerator",
+      "content": "# Mul ## Articles - [Mul Scalar Tensor](mul-scalar-tensor/README.md) - [Mul Tensor Scalar](mul-tensor-scalar/README.md) - [Mul Tensor Tensor](mul-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Mul Scalar Tensor",
+      "path": "/accelerator/graph/numeric/mul/mul-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph numeric mul mul scalar tensor accelerator",
+      "content": "Mul Scalar Tensor Description Returns the product of the inputs. Type : polymorphic. Input parameters x : float y : class Output parameters x*y : class"
+    },
+    {
+      "title": "Mul Tensor Scalar",
+      "path": "/accelerator/graph/numeric/mul/mul-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph numeric mul mul tensor scalar accelerator",
+      "content": "Mul Tensor Scalar Description Returns the product of the inputs. Type : polymorphic. Input parameters y : float x : class Output parameters x*y : class"
+    },
+    {
+      "title": "Mul Tensor Tensor",
+      "path": "/accelerator/graph/numeric/mul/mul-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph numeric mul mul tensor tensor accelerator",
+      "content": "Mul Tensor Tensor Description Returns the product of the inputs. Accepted Dtype x | y : SGL,DBL,FLOAT16,BFLOAT16,INT8...INT64,UINT8..UINT64,COMPLEX FLOAT, COMPLEX DOUBLE Type : polymorphic. Input parameters x : class y : class Output parameters x*y : class"
+    },
+    {
+      "title": "Reciprocal",
+      "path": "/accelerator/graph/numeric/reciprocal/README.md",
+      "keywords": "accelerator toolkit graph numeric reciprocal accelerator",
+      "content": "# Reciprocal ## Articles - [Reciprocal](reciprocal/README.md) - [Reciprocal Scalar](reciprocal-scalar/README.md) - [Reciprocal Tensor](reciprocal-tensor/README.md)"
+    },
+    {
+      "title": "Reciprocal Scalar",
+      "path": "/accelerator/graph/numeric/reciprocal/reciprocal-scalar/README.md",
+      "keywords": "accelerator toolkit graph numeric reciprocal reciprocal scalar accelerator",
+      "content": "Reciprocal Scalar Description Divides 1 by the input value. Type : polymorphic. Input parameters x : float Output parameters 1/x : class"
+    },
+    {
+      "title": "Reciprocal Tensor",
+      "path": "/accelerator/graph/numeric/reciprocal/reciprocal-tensor/README.md",
+      "keywords": "accelerator toolkit graph numeric reciprocal reciprocal tensor accelerator",
+      "content": "Reciprocal Tensor Description Divides 1 by the input value. Type : polymorphic. Input parameters x : array of float x : float Output parameters 1/x : class"
+    },
+    {
+      "title": "Reciprocal",
+      "path": "/accelerator/graph/numeric/reciprocal/reciprocal/README.md",
+      "keywords": "accelerator toolkit graph numeric reciprocal accelerator",
+      "content": "Reciprocal Description Divides 1 by the input value. Accepted Dtype x : SGL,DBL,FLOAT16,BFLOAT16,INT8...INT64 Type : polymorphic. Input parameters x : class Output parameters 1/x : class"
+    },
+    {
+      "title": "Sub",
+      "path": "/accelerator/graph/numeric/sub/README.md",
+      "keywords": "accelerator toolkit graph numeric sub accelerator",
+      "content": "# Sub ## Articles - [Sub Scalar Tensor](sub-scalar-tensor/README.md) - [Sub Tensor Scalar](sub-tensor-scalar/README.md) - [Sub Tensor Tensor](sub-tensor-tensor/README.md)"
+    },
+    {
+      "title": "Sub Scalar Tensor",
+      "path": "/accelerator/graph/numeric/sub/sub-scalar-tensor/README.md",
+      "keywords": "accelerator toolkit graph numeric sub sub scalar tensor accelerator",
+      "content": "Sub Scalar Tensor Description Computes the difference of the inputs. Type : polymorphic. Input parameters x : float y : class Output parameters x-y : class"
+    },
+    {
+      "title": "Sub Tensor Scalar",
+      "path": "/accelerator/graph/numeric/sub/sub-tensor-scalar/README.md",
+      "keywords": "accelerator toolkit graph numeric sub sub tensor scalar accelerator",
+      "content": "Sub Tensor Scalar Description Computes the difference of the inputs. Type : polymorphic. Input parameters y : float x : class Output parameters x-y : class"
+    },
+    {
+      "title": "Sub Tensor Tensor",
+      "path": "/accelerator/graph/numeric/sub/sub-tensor-tensor/README.md",
+      "keywords": "accelerator toolkit graph numeric sub sub tensor tensor accelerator",
+      "content": "Sub Tensor Tensor Description Computes the difference of the inputs. Accepted Dtype x | y : SGL,DBL,FLOAT16,BFLOAT16,INT8...INT64,UINT8..UINT64,COMPLEX FLOAT, COMPLEX DOUBLE Type : polymorphic. Input parameters x : class y : class Output parameters x-y : class"
+    },
+    {
+      "title": "Save",
+      "path": "/accelerator/graph/save/README.md",
+      "keywords": "accelerator toolkit graph save accelerator",
+      "content": "Save Description Generate ONNX Model File, it can be used to init an Inference Session. Type : polymorphic. Input parameters Model in : class File Path : path Output parameters Model out : class"
+    },
+    {
+      "title": "Signal Treatment",
+      "path": "/accelerator/graph/signal-treatment/README.md",
+      "keywords": "accelerator toolkit graph signal treatment accelerator",
+      "content": "# Signal Treatment ## Sous-categories - [Transforms](transforms/README.md)"
+    },
+    {
+      "title": "Transforms",
+      "path": "/accelerator/graph/signal-treatment/transforms/README.md",
+      "keywords": "accelerator toolkit graph signal treatment transforms accelerator",
+      "content": "# Transforms ## Sous-categories - [IFFT](ifft/README.md)"
+    },
+    {
+      "title": "1D Complex (only CPU)",
+      "path": "/accelerator/graph/signal-treatment/transforms/ifft/1d-complex-only-cpu/README.md",
+      "keywords": "accelerator toolkit graph signal treatment transforms ifft 1d complex only cpu accelerator",
+      "content": "1D Complex (only CPU) Description Computes the inverse discrete Fourier transform (IDFT) of the input sequence FFT {X}. Warning : This function is only available in CPU. Accepted Dtype FFT {X} : COMPLEX FLOAT/COMPLEX DOUBLE Accepted Rank FFT {X} : 1D (output of FFT with Complex X) Type : polymorphic. Input parameters FFT {X} : class Output parameters X : class"
+    },
+    {
+      "title": "1D Complex Optimized (only CUDA)",
+      "path": "/accelerator/graph/signal-treatment/transforms/ifft/1d-complex-optimized-only-cuda/README.md",
+      "keywords": "accelerator toolkit graph signal treatment transforms ifft 1d complex optimized only cuda accelerator",
+      "content": "1D Complex Optimized (only CUDA) Description Computes the inverse discrete Fourier transform (IDFT) of the input sequence FFT {X}. Warning : This function is only available in CUDA. Accepted Dtype FFT {X} : COMPLEX FLOAT/COMPLEX DOUBLE Accepted Rank FFT {X} : 1D (output of FFT with X : 1D even Complex X) Type : polymorphic. Input parameters FFT {X} : class Output parameters X : class"
+    },
+    {
+      "title": "1D Real (only CPU)",
+      "path": "/accelerator/graph/signal-treatment/transforms/ifft/1d-real-only-cpu/README.md",
+      "keywords": "accelerator toolkit graph signal treatment transforms ifft 1d real only cpu accelerator",
+      "content": "1D Real (only CPU) Description Computes the inverse discrete Fourier transform (IDFT) of the input sequence FFT {X}. Warning : This function is only available in CPU. Accepted Dtype FFT {X} : COMPLEX FLOAT/COMPLEX DOUBLE Accepted Rank FFT {X} : 1D (output of FFT with Real X) Type : polymorphic. Input parameters FFT {X} : class Output parameters X : class"
+    },
+    {
+      "title": "1D Real Optimized (only CUDA)",
+      "path": "/accelerator/graph/signal-treatment/transforms/ifft/1d-real-optimized-only-cuda/README.md",
+      "keywords": "accelerator toolkit graph signal treatment transforms ifft 1d real optimized only cuda accelerator",
+      "content": "1D Real Optimized (only CUDA) Description Computes the inverse discrete Fourier transform (IDFT) of the input sequence FFT {X}. Warning : This function is only available in CUDA. Accepted Dtype FFT {X} : COMPLEX FLOAT/COMPLEX DOUBLE Accepted Rank FFT {X} : 1D (output of FFT with even Real X) Type : polymorphic. Input parameters FFT {X} : class Output parameters X : class"
+    },
+    {
+      "title": "IFFT",
+      "path": "/accelerator/graph/signal-treatment/transforms/ifft/README.md",
+      "keywords": "accelerator toolkit graph signal treatment transforms ifft accelerator",
+      "content": "# IFFT ## Articles - [1D Complex (only CPU)](1d-complex-only-cpu/README.md) - [1D Complex Optimized (only CUDA)](1d-complex-optimized-only-cuda/README.md) - [1D Real (only CPU)](1d-real-only-cpu/README.md) - [1D Real Optimized (only CUDA)](1d-real-optimized-only-cuda/README.md)"
+    },
+    {
+      "title": "Split",
+      "path": "/accelerator/graph/split/README.md",
+      "keywords": "accelerator toolkit graph split accelerator",
+      "content": "# Split ## Articles - [Advanced](advanced/README.md) - [Simple](simple/README.md)"
+    },
+    {
+      "title": "Advanced",
+      "path": "/accelerator/graph/split/advanced/README.md",
+      "keywords": "accelerator toolkit graph split advanced accelerator",
+      "content": "Advanced Description Allows you to retrieve the different merged graphs. For example you can use it to add a new layer to a branch. Type : polymorphic. Input parameters Graph in : class Output parameters graphs_out : array of cluster model : class last_layer_name : string"
+    },
+    {
+      "title": "Simple",
+      "path": "/accelerator/graph/split/simple/README.md",
+      "keywords": "accelerator toolkit graph split simple accelerator",
+      "content": "Simple Description Allows you to retrieve the different merged graphs. For example you can use it to add a new layer to a branch. Type : polymorphic. Input parameters Graph in : class Output parameters graph out 1 : cluster model : class last_layer_name : string graph out 2 : cluster model : class last_layer_name : string"
+    },
+    {
+      "title": "Write",
+      "path": "/computer-vision/tools/files/write/README.md",
+      "keywords": "computer vision toolkit tools files write computer vision",
+      "content": "# Write ## Articles - [JPEG2000 File](jpeg2000-file/README.md) - [PNG File](png-file/README.md)"
+    },
+    {
+      "title": "JPEG2000 File",
+      "path": "/computer-vision/tools/files/write/jpeg2000-file/README.md",
+      "keywords": "computer vision toolkit tools files write jpeg2000 file computer vision",
+      "content": "JPEG2000 File Description Type : VI. Input parameters File Path : path Image Src : class Compression Rate : float Lossless : boolean Output parameters Succeed? : boolean Image Dst : class"
+    },
+    {
+      "title": "PNG File",
+      "path": "/computer-vision/tools/files/write/png-file/README.md",
+      "keywords": "computer vision toolkit tools files write png file computer vision",
+      "content": "PNG File Description Type : VI. Input parameters File Path : path Image Src : class Compression Rate : integer Output parameters Succeed? : boolean Image Dst : class"
+    },
+    {
+      "title": "Version",
+      "path": "/computer-vision/version/README.md",
+      "keywords": "computer vision toolkit version computer vision",
+      "content": "# Version ## Articles - [TR Get TIGR Version](tr-get-tigr-version/README.md)"
+    },
+    {
+      "title": "TR Get TIGR Version",
+      "path": "/computer-vision/version/tr-get-tigr-version/README.md",
+      "keywords": "computer vision toolkit version tr get tigr version computer vision",
+      "content": "TR Get TIGR Version Description Get the version of TIGR toolkit Type : VI. Input parameters None. Output parameters None."
+    },
+    {
+      "title": "IRFFT",
+      "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/irfft/README.md",
+      "keywords": "deep learning toolkit architecture nodes mono input mono output irfft deep learning",
+      "content": "IRFFT Description Setup and add Irfft node into the model during the definition graph step. Type : polymorphic. Input parameters X : class Parameters : cluster normalized : integer onesided : boolean signal_ndim : integer training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
+    },
+    {
+      "title": "IsInf",
+      "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/isinf/README.md",
+      "keywords": "deep learning toolkit architecture nodes mono input mono output isinf deep learning",
+      "content": "IsInf Description Setup and add IsInf node into the model during the definition graph step. Type : polymorphic. Input parameters X : class Parameters : cluster detect_negative : cluster value : boolean use_it : boolean detect_positive : cluster value : boolean use_it : boolean training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
+    },
+    {
+      "title": "IsNaN",
+      "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/isnan/README.md",
+      "keywords": "deep learning toolkit architecture nodes mono input mono output isnan deep learning",
+      "content": "IsNaN Description Setup and add IsNaN node into the model during the definition graph step. Type : polymorphic. Input parameters X : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
+    },
+    {
+      "title": "AffineGrid",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/affinegrid/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output affinegrid deep learning multi input dl",
+      "content": "AffineGrid Description Setup and add AffineGrid node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster theta : class size : class Parameters : cluster align_corners : boolean training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters grid : class"
+    },
+    {
+      "title": "And",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/and/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output and deep learning multi input dl",
+      "content": "And Description Setup and add And node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters C : class"
+    },
+    {
+      "title": "BiasAdd",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/biasadd/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output biasadd deep learning multi input dl",
+      "content": "BiasAdd Description Setup and add BiasAdd node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster X : class bias : class skip : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
+    },
+    {
+      "title": "BiasGelu",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/biasgelu/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output biasgelu deep learning multi input dl",
+      "content": "BiasGelu Description Setup and add BiasGelu node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters C : class"
+    },
+    {
+      "title": "BiasSoftmax",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/biassoftmax/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output biassoftmax deep learning multi input dl",
+      "content": "BiasSoftmax Description Setup and add BiasSoftmax node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster data : class bias : class Parameters : cluster axis : integer is inner broadcast : boolean training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters output : class"
+    },
+    {
+      "title": "BiasSplitGelu",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/biassplitgelu/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output biassplitgelu deep learning multi input dl",
+      "content": "BiasSplitGelu Description Setup and add BiasSplitGelu node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster X : class bias : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
+    },
+    {
+      "title": "BitShift",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/bitshift/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output bitshift deep learning multi input dl",
+      "content": "BitShift Description Setup and add BitShift node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster X : class Y : class Parameters : cluster direction : enum training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Z : class"
+    },
+    {
+      "title": "BitwiseAnd",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/bitwiseand/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output bitwiseand deep learning multi input dl",
+      "content": "BitwiseAnd Description Setup and add BitwiseAnd node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters C : class"
+    },
+    {
+      "title": "BitwiseOr",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/bitwiseor/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output bitwiseor deep learning multi input dl",
+      "content": "BitwiseOr Description Setup and add BitwiseOr node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters C : class"
+    },
+    {
+      "title": "BitwiseXor",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/bitwisexor/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output bitwisexor deep learning multi input dl",
+      "content": "BitwiseXor Description Setup and add BitwiseXor node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters C : class"
+    },
+    {
+      "title": "CastLike",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/castlike/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output castlike deep learning multi input dl",
+      "content": "CastLike Description Setup and add CastLike node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster input : class target_type : class Parameters : cluster saturate : boolean training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters output : class"
+    },
+    {
+      "title": "CDist",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/cdist/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output cdist deep learning multi input dl",
+      "content": "CDist Description Setup and add CDist node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class Parameters : cluster metric : enum training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters C : class"
+    },
+    {
+      "title": "CenterCropPad",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/centercroppad/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output centercroppad deep learning multi input dl",
+      "content": "CenterCropPad Description Setup and add CenterCropPad node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster input_data : class shape : class Parameters : cluster axes : array of integer Numeric : integer training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters output_data : class"
+    },
+    {
+      "title": "Clip",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/clip/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output clip deep learning multi input dl",
+      "content": "Clip Description Setup and add Clip node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster input : class min : class max : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters output : class"
+    },
+    {
+      "title": "Col2Im",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/col2im/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output col2im deep learning multi input dl",
+      "content": "Col2Im Description Setup and add Col2Im node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster input : class image_shape : class block_shape : class Parameters : cluster dilations : array of integer Numeric : integer pads : array of integer Numeric : integer strides : array of integer Numeric : integer training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters output : class"
+    },
+    {
+      "title": "ComplexMul",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/complexmul/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output complexmul deep learning multi input dl",
+      "content": "ComplexMul Description Setup and add ComplexMul node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters C : class"
+    },
+    {
+      "title": "ComplexMulConj",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/complexmulconj/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output complexmulconj deep learning multi input dl",
+      "content": "ComplexMulConj Description Setup and add ComplexMulConj node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters C : class"
+    },
+    {
+      "title": "Compress",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/compress/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output compress deep learning multi input dl",
+      "content": "Compress Description Setup and add Compress node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster input : class condition : class Parameters : cluster axis : cluster value : integer use_it : boolean training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters output : class"
+    },
+    {
+      "title": "Conv",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/conv/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output conv deep learning multi input dl",
+      "content": "Conv Description Setup and add ConvNode node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster X : class W : class B : class Parameters : cluster auto_pad : enum dilations : array of integer Numeric : integer group : integer kernel_shape : array of integer Numeric : integer pads : array of integer Numeric : integer strides : array of integer Numeric : integer training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
+    },
+    {
+      "title": "ConvInteger",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/convinteger/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output convinteger deep learning multi input dl",
+      "content": "ConvInteger Description Setup and add ConvInteger node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster x : class w : class x_zero_point : class w_zero_point : class Parameters : cluster auto_pad : enum dilations : array of integer Numeric : integer group : integer kernel_shape : array of integer Numeric : integer pads : array of integer Numeric : integer strides : array of integer Numeric : integer training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters y : class"
+    },
+    {
+      "title": "ConvTranspose",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/convtranspose/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output convtranspose deep learning multi input dl",
+      "content": "ConvTranspose Description Setup and add ConvTransposeNode node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster X : class W : class B : class Parameters : cluster auto_pad : enum dilations : array of integer Numeric : integer group : integer kernel_shape : array of integer Numeric : integer output_padding : array of integer Numeric : integer output_shape : array of integer Numeric : integer pads : array of integer Numeric : integer strides : array of integer Numeric : integer training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
+    },
+    {
+      "title": "ConvTransposeWithDynamicPads",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/convtransposewithdynamicpads/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output convtransposewithdynamicpads deep learning multi input dl",
+      "content": "ConvTransposeWithDynamicPads Description Setup and add ConvTransposeWithDynamicPads node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster X : class W : class Pads : class B : class Parameters : cluster auto_pad : enum dilations : array of integer Numeric : integer group : integer kernel_shape : array of integer Numeric : integer output_padding : array of integer Numeric : integer strides : array of integer Numeric : integer training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
+    },
+    {
+      "title": "CropAndResize",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/cropandresize/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output cropandresize deep learning multi input dl",
+      "content": "CropAndResize Description Setup and add CropAndResize node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster X : class rois : class batch_indices : class crop_size : class Parameters : cluster extrapolation_value : float mode : enum training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
+    },
+    {
+      "title": "CumSum",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/cumsum/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output cumsum deep learning multi input dl",
+      "content": "CumSum Description Setup and add CumSum node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster x : class axis : class Parameters : cluster exclusive : boolean reserve : boolean training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters y : class"
+    },
+    {
+      "title": "DequantizeBFP",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/dequantizebfp/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output dequantizebfp deep learning multi input dl",
+      "content": "DequantizeBFP Description Setup and add DequantizeBFP node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster x : class shape : class strides : class Parameters : cluster bfp_type : enum block_dim : float dtype : enum training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters y : class"
+    },
+    {
+      "title": "DequantizeLinear",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/dequantizelinear/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output dequantizelinear deep learning multi input dl",
+      "content": "DequantizeLinear Description Setup and add DequantizeLinear node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster x : class x_scale : class x_zero_point : class Parameters : cluster axis : cluster value : integer use_it : boolean training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters y : class"
+    },
+    {
+      "title": "DequantizeWithOrder",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/dequantizewithorder/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output dequantizewithorder deep learning multi input dl",
+      "content": "DequantizeWithOrder Description Setup and add DequantizeWithOrder node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster input : class scale_input : class Parameters : cluster order_input : enum order_output : enum to : integer training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters output : class"
+    },
+    {
+      "title": "DFT",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/dft/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output dft deep learning multi input dl",
+      "content": "DFT Description Setup and add DFT node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster input : class dft_length : class axis : class Parameters : cluster inverse : boolean onesided : boolean training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters output : class"
+    },
+    {
+      "title": "Div",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/div/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output div deep learning multi input dl",
+      "content": "Div Description Setup and add Div node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters C : class"
+    },
+    {
+      "title": "DynamicQuantizeMatMul",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/dynamicquantizematmul/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output dynamicquantizematmul deep learning multi input dl",
+      "content": "DynamicQuantizeMatMul Description Setup and add DynamicQuantizeMatMul node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class b_scale : class b_zero_point : class bias : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
+    },
+    {
+      "title": "Equal",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/equal/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output equal deep learning multi input dl",
+      "content": "Equal Description Setup and add Equal node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters C : class"
+    },
+    {
+      "title": "Expand",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/expand/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output expand deep learning multi input dl",
+      "content": "Expand Description Setup and add Expand node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster input : class shape : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters output : class"
+    },
+    {
+      "title": "ExpandDims",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/expanddims/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output expanddims deep learning multi input dl",
+      "content": "ExpandDims Description Setup and add ExpandDims node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster X : class axis : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
+    },
+    {
+      "title": "FastGelu",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/fastgelu/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output fastgelu deep learning multi input dl",
+      "content": "FastGelu Description Setup and add FastGelu node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster X : class bias : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
+    },
+    {
+      "title": "FusedConv",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/fusedconv/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output fusedconv deep learning multi input dl",
+      "content": "FusedConv Description Setup and add FusedConv node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster X : class W : class B : class Z : class Parameters : cluster activation : enum activation_params : array of float Numeric : float auto_pad : enum dilations : array of integer Numeric : integer group : integer kernel_shape : array of integer Numeric : integer output_padding : array of integer Numeric : integer strides : array of integer Numeric : integer training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
+    },
+    {
+      "title": "FusedGemm",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/fusedgemm/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output fusedgemm deep learning multi input dl",
+      "content": "FusedGemm Description Setup and add FusedGemm node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class C : class Parameters : cluster activation : enum activation_alpha : float activation_beta : float activation_gamma : float alpha : float beta : float transA : boolean transB : boolean training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
+    },
+    {
+      "title": "FusedMatMul",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/fusedmatmul/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output fusedmatmul deep learning multi input dl",
+      "content": "FusedMatMul Description Setup and add FusedMatMul node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class Parameters : cluster alpha : float transA : boolean transB : boolean transBatchA : boolean transBatchB : boolean training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
+    },
+    {
+      "title": "GatedRelativePositionBias",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/gatedrelativepositionbias/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output gatedrelativepositionbias deep learning multi input dl",
+      "content": "GatedRelativePositionBias Description Setup and add GatedRelativePositionBias node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster query_layer : class query_bias : class rel_pos : class weight : class bias : class eco_a : class token_offset : class Parameters : cluster num_heads : integer training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters output : class"
+    },
+    {
+      "title": "Gather",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/gather/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output gather deep learning multi input dl",
+      "content": "Gather Description Setup and add Gather node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster data : class indices : class Parameters : cluster axis : integer training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters output : class"
+    },
+    {
+      "title": "GatherElements",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/gatherelements/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output gatherelements deep learning multi input dl",
+      "content": "GatherElements Description Setup and add GatherElements node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster data : class indices : class Parameters : cluster axis : integer training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters output : class"
+    },
+    {
+      "title": "GatherND",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/gathernd/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output gathernd deep learning multi input dl",
+      "content": "GatherND Description Setup and add GatherND node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster data : class indices : class Parameters : cluster batch_dims : integer training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters output : class"
+    },
+    {
+      "title": "Gemm",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/gemm/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output gemm deep learning multi input dl",
+      "content": "Gemm Description Setup and add Gemm node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class C : class Parameters : cluster alpha : float beta : float transA : boolean transB : boolean training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
+    },
+    {
+      "title": "Greater",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/greater/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output greater deep learning multi input dl",
+      "content": "Greater Description Setup and add Greater node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters C : class"
+    },
+    {
+      "title": "GreaterOrEqual",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/greaterorequal/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output greaterorequal deep learning multi input dl",
+      "content": "GreaterOrEqual Description Setup and add GreaterOrEqual node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters C : class"
+    },
+    {
+      "title": "GreedySearch",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/greedysearch/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output greedysearch deep learning multi input dl",
+      "content": "GreedySearch Description Setup and add GreedySearch node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster input_ids : class max_length : class min_length : class repetition_penalty : class vocab_mask : class prefix_vocal_mask : class attention_mask : class Parameters : cluster decoder : class decoder_start_token_id : integer encoder : class eos_token_id : integer init_decoder : class model_type : enum no_repeat_ngram_size : integer pad_token_id : integer vocab_size : integer training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters sequences : class"
+    },
+    {
+      "title": "MatMulIntegerToFloat",
+      "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmulintegertofloat/README.md",
+      "keywords": "deep learning toolkit architecture nodes multi input mono output matmulintegertofloat deep learning multi input dl",
+      "content": "MatMulIntegerToFloat Description Setup and add MatMulIntegerToFloat node into the model during the definition graph step. Type : polymorphic. Input parameters Graphs in : cluster A : class B : class a_scale : class b_scale : class a_zero_point : class b_zero_point : class bias : class Parameters : cluster training? : boolean lda coeff : float name : string specified_outputs_name : array of string String : string Output parameters Y : class"
     }
   ]
 }

@@ -316,6 +316,12 @@
                           "path": "/accelerator/api-execution/cuda_advanced/function/copy-cuda/README.md",
                           "kind": "page",
                           "children": []
+                        },
+                        {
+                          "title": "Copy Data From CUDA Ptr To LabVIEW Array",
+                          "path": "/accelerator/api-execution/cuda_advanced/function/copy-data-from-cuda-ptr-to-labview-array/README.md",
+                          "kind": "page",
+                          "children": []
                         }
                       ]
                     },
@@ -329,7 +335,90 @@
                       "title": "Convert",
                       "path": "/accelerator/api-execution/cuda_advanced/convert/README.md",
                       "kind": "page",
-                      "children": []
+                      "children": [
+                        {
+                          "title": "Convert Raw Data Cluster Array To CUDA Ptr Cluster Array",
+                          "path": "/accelerator/api-execution/cuda_advanced/convert/convert-raw-data-cluster-array-to-cuda-ptr-cluster-array/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Upload Raw Data Cluster Array Into CUDA Ptr Cluster Array",
+                          "path": "/accelerator/api-execution/cuda_advanced/convert/upload-raw-data-cluster-array-into-cuda-ptr-cluster-array/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Memory",
+                      "path": "/accelerator/api-execution/cuda_advanced/memory/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Free",
+                          "path": "/accelerator/api-execution/cuda_advanced/memory/free/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Malloc",
+                          "path": "/accelerator/api-execution/cuda_advanced/memory/malloc/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Memcpy",
+                          "path": "/accelerator/api-execution/cuda_advanced/memory/memcpy/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Device To Host",
+                              "path": "/accelerator/api-execution/cuda_advanced/memory/memcpy/device-to-host/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "SGL",
+                                  "path": "/accelerator/api-execution/cuda_advanced/memory/memcpy/device-to-host/sgl/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "UInt8",
+                                  "path": "/accelerator/api-execution/cuda_advanced/memory/memcpy/device-to-host/uint8/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Host To Device",
+                              "path": "/accelerator/api-execution/cuda_advanced/memory/memcpy/host-to-device/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Int16",
+                                  "path": "/accelerator/api-execution/cuda_advanced/memory/memcpy/host-to-device/int16/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "SGL",
+                                  "path": "/accelerator/api-execution/cuda_advanced/memory/memcpy/host-to-device/sgl/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "UInt8",
+                                  "path": "/accelerator/api-execution/cuda_advanced/memory/memcpy/host-to-device/uint8/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -540,6 +629,18 @@
                           "path": "/accelerator/api-execution/open/file/default/README.md",
                           "kind": "page",
                           "children": []
+                        },
+                        {
+                          "title": "CPU",
+                          "path": "/accelerator/api-execution/open/file/cpu/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "DirectML",
+                          "path": "/accelerator/api-execution/open/file/directml/README.md",
+                          "kind": "page",
+                          "children": []
                         }
                       ]
                     },
@@ -563,6 +664,18 @@
                         {
                           "title": "Default",
                           "path": "/accelerator/api-execution/open/graph/default/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "CPU",
+                          "path": "/accelerator/api-execution/open/graph/cpu/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "DirectML",
+                          "path": "/accelerator/api-execution/open/graph/directml/README.md",
                           "kind": "page",
                           "children": []
                         }
@@ -680,6 +793,938 @@
                   "path": "/accelerator/api-execution/close/README.md",
                   "kind": "page",
                   "children": []
+                },
+                {
+                  "title": "DirectML Advanced",
+                  "path": "/accelerator/api-execution/directml_advanced/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Convert",
+                      "path": "/accelerator/api-execution/directml_advanced/convert/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Convert Raw Data Cluster Array To DML Ptr Cluster Array",
+                          "path": "/accelerator/api-execution/directml_advanced/convert/convert-raw-data-cluster-array-to-dml-ptr-cluster-array/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Upload Raw Data Cluster Array Into DML Ptr Cluster Array",
+                          "path": "/accelerator/api-execution/directml_advanced/convert/upload-raw-data-cluster-array-into-dml-ptr-cluster-array/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Free DML Ptrs",
+                      "path": "/accelerator/api-execution/directml_advanced/free-dml-ptrs/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Free DML Ptr Data Cluster Array",
+                          "path": "/accelerator/api-execution/directml_advanced/free-dml-ptrs/free-dml-ptr-data-cluster-array/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Function",
+                      "path": "/accelerator/api-execution/directml_advanced/function/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Copy Data From DirectML Ptr To LabVIEW Array",
+                          "path": "/accelerator/api-execution/directml_advanced/function/copy-data-from-directml-ptr-to-labview-array/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Graph",
+              "path": "/accelerator/graph/README.md",
+              "kind": "category",
+              "children": [
+                {
+                  "title": "Array",
+                  "path": "/accelerator/graph/array/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Build Array",
+                      "path": "/accelerator/graph/array/build-array/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Build Tensor",
+                          "path": "/accelerator/graph/array/build-array/build-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Concat Tensor",
+                          "path": "/accelerator/graph/array/build-array/concat-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Init Array",
+                      "path": "/accelerator/graph/array/init-array/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Initialize Tensor",
+                          "path": "/accelerator/graph/array/init-array/initialize-tensor/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Int64",
+                              "path": "/accelerator/graph/array/init-array/initialize-tensor/int64/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "SGL",
+                              "path": "/accelerator/graph/array/init-array/initialize-tensor/sgl/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Boolean",
+                  "path": "/accelerator/graph/boolean/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "And",
+                      "path": "/accelerator/graph/boolean/and/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "And Scalar Tensor",
+                          "path": "/accelerator/graph/boolean/and/and-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "And Tensor Scalar",
+                          "path": "/accelerator/graph/boolean/and/and-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "And Tensor Tensor",
+                          "path": "/accelerator/graph/boolean/and/and-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Implies",
+                      "path": "/accelerator/graph/boolean/implies/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Implies Scalar Tensor",
+                          "path": "/accelerator/graph/boolean/implies/implies-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Implies Tensor Scalar",
+                          "path": "/accelerator/graph/boolean/implies/implies-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Implies Tensor Tensor",
+                          "path": "/accelerator/graph/boolean/implies/implies-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Nand",
+                      "path": "/accelerator/graph/boolean/nand/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Nand Scalar Tensor",
+                          "path": "/accelerator/graph/boolean/nand/nand-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Nand Tensor Scalar",
+                          "path": "/accelerator/graph/boolean/nand/nand-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Nand Tensor Tensor",
+                          "path": "/accelerator/graph/boolean/nand/nand-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Nor",
+                      "path": "/accelerator/graph/boolean/nor/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Nor Scalar Tensor",
+                          "path": "/accelerator/graph/boolean/nor/nor-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Nor Tensor Scalar",
+                          "path": "/accelerator/graph/boolean/nor/nor-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Nor Tensor Tensor",
+                          "path": "/accelerator/graph/boolean/nor/nor-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Or",
+                      "path": "/accelerator/graph/boolean/or/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Or Scalar Tensor",
+                          "path": "/accelerator/graph/boolean/or/or-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Or Tensor Scalar",
+                          "path": "/accelerator/graph/boolean/or/or-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Or Tensor Tensor",
+                          "path": "/accelerator/graph/boolean/or/or-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Xnor",
+                      "path": "/accelerator/graph/boolean/xnor/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "XNor Scalar Tensor",
+                          "path": "/accelerator/graph/boolean/xnor/xnor-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "XNor Tensor Scalar",
+                          "path": "/accelerator/graph/boolean/xnor/xnor-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "XNor Tensor Tensor",
+                          "path": "/accelerator/graph/boolean/xnor/xnor-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Xor",
+                      "path": "/accelerator/graph/boolean/xor/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Xor Scalar Tensor",
+                          "path": "/accelerator/graph/boolean/xor/xor-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Xor Tensor Scalar",
+                          "path": "/accelerator/graph/boolean/xor/xor-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Xor Tensor Tensor",
+                          "path": "/accelerator/graph/boolean/xor/xor-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Comparison",
+                  "path": "/accelerator/graph/comparison/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Equal",
+                      "path": "/accelerator/graph/comparison/equal/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Equal Scalar Tensor",
+                          "path": "/accelerator/graph/comparison/equal/equal-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Equal Tensor Scalar",
+                          "path": "/accelerator/graph/comparison/equal/equal-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Equal Tensor Tensor",
+                          "path": "/accelerator/graph/comparison/equal/equal-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Greater Or Equal",
+                      "path": "/accelerator/graph/comparison/greater-or-equal/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Greater Or Equal Scalar Tensor",
+                          "path": "/accelerator/graph/comparison/greater-or-equal/greater-or-equal-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Greater Or Equal Tensor Scalar",
+                          "path": "/accelerator/graph/comparison/greater-or-equal/greater-or-equal-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Greater Or Equal Tensor Tensor",
+                          "path": "/accelerator/graph/comparison/greater-or-equal/greater-or-equal-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Greater",
+                      "path": "/accelerator/graph/comparison/greater/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Greater Scalar Tensor",
+                          "path": "/accelerator/graph/comparison/greater/greater-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Greater Tensor Scalar",
+                          "path": "/accelerator/graph/comparison/greater/greater-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Greater Tensor Tensor",
+                          "path": "/accelerator/graph/comparison/greater/greater-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Less Or Equal",
+                      "path": "/accelerator/graph/comparison/less-or-equal/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Less Or Equal Scalar Tensor",
+                          "path": "/accelerator/graph/comparison/less-or-equal/less-or-equal-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Less Or Equal Tensor Scalar",
+                          "path": "/accelerator/graph/comparison/less-or-equal/less-or-equal-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Less Or Equal Tensor Tensor",
+                          "path": "/accelerator/graph/comparison/less-or-equal/less-or-equal-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Less",
+                      "path": "/accelerator/graph/comparison/less/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Less Scalar Tensor",
+                          "path": "/accelerator/graph/comparison/less/less-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Less Tensor Scalar",
+                          "path": "/accelerator/graph/comparison/less/less-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Less Tensor Tensor",
+                          "path": "/accelerator/graph/comparison/less/less-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Not Equal",
+                      "path": "/accelerator/graph/comparison/not-equal/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Not Equal Scalar Tensor",
+                          "path": "/accelerator/graph/comparison/not-equal/not-equal-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Not Equal Tensor Scalar",
+                          "path": "/accelerator/graph/comparison/not-equal/not-equal-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Not Equal Tensor Tensor",
+                          "path": "/accelerator/graph/comparison/not-equal/not-equal-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Mathematic",
+                  "path": "/accelerator/graph/mathematic/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Elementary",
+                      "path": "/accelerator/graph/mathematic/elementary/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Exponential",
+                          "path": "/accelerator/graph/mathematic/elementary/exponential/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Pow",
+                              "path": "/accelerator/graph/mathematic/elementary/exponential/pow/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Pow Scalar Tensor",
+                                  "path": "/accelerator/graph/mathematic/elementary/exponential/pow/pow-scalar-tensor/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Pow Tensor Scalar",
+                                  "path": "/accelerator/graph/mathematic/elementary/exponential/pow/pow-tensor-scalar/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Pow Tensor Tensor",
+                                  "path": "/accelerator/graph/mathematic/elementary/exponential/pow/pow-tensor-tensor/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Root",
+                              "path": "/accelerator/graph/mathematic/elementary/exponential/root/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Root Scalar Tensor",
+                                  "path": "/accelerator/graph/mathematic/elementary/exponential/root/root-scalar-tensor/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Root Tensor Scalar",
+                                  "path": "/accelerator/graph/mathematic/elementary/exponential/root/root-tensor-scalar/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Root Tensor Tensor",
+                                  "path": "/accelerator/graph/mathematic/elementary/exponential/root/root-tensor-tensor/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Linear Algebra",
+                      "path": "/accelerator/graph/mathematic/linear-algebra/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "A X B",
+                          "path": "/accelerator/graph/mathematic/linear-algebra/a-x-b/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Mat Mul",
+                              "path": "/accelerator/graph/mathematic/linear-algebra/a-x-b/mat-mul/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Kronecker Product",
+                          "path": "/accelerator/graph/mathematic/linear-algebra/kronecker-product/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Kronecker Product",
+                              "path": "/accelerator/graph/mathematic/linear-algebra/kronecker-product/kronecker-product/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Outer Product",
+                          "path": "/accelerator/graph/mathematic/linear-algebra/outer-product/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Outer Product",
+                              "path": "/accelerator/graph/mathematic/linear-algebra/outer-product/outer-product/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Numeric",
+                      "path": "/accelerator/graph/mathematic/numeric/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Add",
+                          "path": "/accelerator/graph/mathematic/numeric/add/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Add Scalar Tensor",
+                              "path": "/accelerator/graph/mathematic/numeric/add/add-scalar-tensor/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Add Tensor Scalar",
+                              "path": "/accelerator/graph/mathematic/numeric/add/add-tensor-scalar/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Add Tensor Tensor",
+                              "path": "/accelerator/graph/mathematic/numeric/add/add-tensor-tensor/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Div",
+                          "path": "/accelerator/graph/mathematic/numeric/div/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Div Scalar Tensor",
+                              "path": "/accelerator/graph/mathematic/numeric/div/div-scalar-tensor/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Div Tensor Scalar",
+                              "path": "/accelerator/graph/mathematic/numeric/div/div-tensor-scalar/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Div Tensor Tensor",
+                              "path": "/accelerator/graph/mathematic/numeric/div/div-tensor-tensor/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Mul",
+                          "path": "/accelerator/graph/mathematic/numeric/mul/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Mul Scalar Tensor",
+                              "path": "/accelerator/graph/mathematic/numeric/mul/mul-scalar-tensor/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Mul Tensor Scalar",
+                              "path": "/accelerator/graph/mathematic/numeric/mul/mul-tensor-scalar/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Mul Tensor Tensor",
+                              "path": "/accelerator/graph/mathematic/numeric/mul/mul-tensor-tensor/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Reciprocal",
+                          "path": "/accelerator/graph/mathematic/numeric/reciprocal/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Reciprocal Scalar",
+                              "path": "/accelerator/graph/mathematic/numeric/reciprocal/reciprocal-scalar/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Reciprocal Tensor",
+                              "path": "/accelerator/graph/mathematic/numeric/reciprocal/reciprocal-tensor/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Reciprocal",
+                              "path": "/accelerator/graph/mathematic/numeric/reciprocal/reciprocal/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Sub",
+                          "path": "/accelerator/graph/mathematic/numeric/sub/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Sub Scalar Tensor",
+                              "path": "/accelerator/graph/mathematic/numeric/sub/sub-scalar-tensor/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Sub Tensor Scalar",
+                              "path": "/accelerator/graph/mathematic/numeric/sub/sub-tensor-scalar/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Sub Tensor Tensor",
+                              "path": "/accelerator/graph/mathematic/numeric/sub/sub-tensor-tensor/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Merge",
+                  "path": "/accelerator/graph/merge/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Advanced",
+                      "path": "/accelerator/graph/merge/advanced/README.md",
+                      "kind": "page",
+                      "children": []
+                    },
+                    {
+                      "title": "Simple",
+                      "path": "/accelerator/graph/merge/simple/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Netron From File",
+                  "path": "/accelerator/graph/netron-from-file/README.md",
+                  "kind": "page",
+                  "children": []
+                },
+                {
+                  "title": "Netron",
+                  "path": "/accelerator/graph/netron/README.md",
+                  "kind": "page",
+                  "children": []
+                },
+                {
+                  "title": "Numeric",
+                  "path": "/accelerator/graph/numeric/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Add",
+                      "path": "/accelerator/graph/numeric/add/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Add Scalar Tensor",
+                          "path": "/accelerator/graph/numeric/add/add-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Add Tensor Scalar",
+                          "path": "/accelerator/graph/numeric/add/add-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Add Tensor Tensor",
+                          "path": "/accelerator/graph/numeric/add/add-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Div",
+                      "path": "/accelerator/graph/numeric/div/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Div Scalar Tensor",
+                          "path": "/accelerator/graph/numeric/div/div-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Div Tensor Scalar",
+                          "path": "/accelerator/graph/numeric/div/div-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Div Tensor Tensor",
+                          "path": "/accelerator/graph/numeric/div/div-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Mul",
+                      "path": "/accelerator/graph/numeric/mul/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Mul Scalar Tensor",
+                          "path": "/accelerator/graph/numeric/mul/mul-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Mul Tensor Scalar",
+                          "path": "/accelerator/graph/numeric/mul/mul-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Mul Tensor Tensor",
+                          "path": "/accelerator/graph/numeric/mul/mul-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Reciprocal",
+                      "path": "/accelerator/graph/numeric/reciprocal/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Reciprocal Scalar",
+                          "path": "/accelerator/graph/numeric/reciprocal/reciprocal-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Reciprocal Tensor",
+                          "path": "/accelerator/graph/numeric/reciprocal/reciprocal-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Reciprocal",
+                          "path": "/accelerator/graph/numeric/reciprocal/reciprocal/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Sub",
+                      "path": "/accelerator/graph/numeric/sub/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Sub Scalar Tensor",
+                          "path": "/accelerator/graph/numeric/sub/sub-scalar-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Sub Tensor Scalar",
+                          "path": "/accelerator/graph/numeric/sub/sub-tensor-scalar/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Sub Tensor Tensor",
+                          "path": "/accelerator/graph/numeric/sub/sub-tensor-tensor/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Save",
+                  "path": "/accelerator/graph/save/README.md",
+                  "kind": "page",
+                  "children": []
+                },
+                {
+                  "title": "Signal Treatment",
+                  "path": "/accelerator/graph/signal-treatment/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Transforms",
+                      "path": "/accelerator/graph/signal-treatment/transforms/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "IFFT",
+                          "path": "/accelerator/graph/signal-treatment/transforms/ifft/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "1D Complex (only CPU)",
+                              "path": "/accelerator/graph/signal-treatment/transforms/ifft/1d-complex-only-cpu/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "1D Complex Optimized (only CUDA)",
+                              "path": "/accelerator/graph/signal-treatment/transforms/ifft/1d-complex-optimized-only-cuda/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "1D Real (only CPU)",
+                              "path": "/accelerator/graph/signal-treatment/transforms/ifft/1d-real-only-cpu/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "1D Real Optimized (only CUDA)",
+                              "path": "/accelerator/graph/signal-treatment/transforms/ifft/1d-real-optimized-only-cuda/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Split",
+                  "path": "/accelerator/graph/split/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Advanced",
+                      "path": "/accelerator/graph/split/advanced/README.md",
+                      "kind": "page",
+                      "children": []
+                    },
+                    {
+                      "title": "Simple",
+                      "path": "/accelerator/graph/split/simple/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
                 }
               ]
             }
@@ -1901,6 +2946,24 @@
                                   "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/abs/README.md",
                                   "kind": "page",
                                   "children": []
+                                },
+                                {
+                                  "title": "IRFFT",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/irfft/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "IsInf",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/isinf/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "IsNaN",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/isnan/README.md",
+                                  "kind": "page",
+                                  "children": []
                                 }
                               ]
                             },
@@ -2556,6 +3619,282 @@
                                 {
                                   "title": "GridSample",
                                   "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/gridsample/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "AffineGrid",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/affinegrid/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "And",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/and/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "BiasAdd",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/biasadd/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "BiasGelu",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/biasgelu/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "BiasSoftmax",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/biassoftmax/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "BiasSplitGelu",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/biassplitgelu/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "BitShift",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/bitshift/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "BitwiseAnd",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/bitwiseand/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "BitwiseOr",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/bitwiseor/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "BitwiseXor",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/bitwisexor/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "CastLike",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/castlike/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "CDist",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/cdist/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "CenterCropPad",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/centercroppad/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Clip",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/clip/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Col2Im",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/col2im/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ComplexMul",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/complexmul/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ComplexMulConj",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/complexmulconj/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Compress",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/compress/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Conv",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/conv/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ConvInteger",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/convinteger/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ConvTranspose",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/convtranspose/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ConvTransposeWithDynamicPads",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/convtransposewithdynamicpads/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "CropAndResize",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/cropandresize/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "CumSum",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/cumsum/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "DequantizeBFP",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/dequantizebfp/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "DequantizeLinear",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/dequantizelinear/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "DequantizeWithOrder",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/dequantizewithorder/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "DFT",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/dft/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Div",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/div/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "DynamicQuantizeMatMul",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/dynamicquantizematmul/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Equal",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/equal/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Expand",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/expand/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ExpandDims",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/expanddims/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "FastGelu",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/fastgelu/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "FusedConv",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/fusedconv/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "FusedGemm",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/fusedgemm/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "FusedMatMul",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/fusedmatmul/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "GatedRelativePositionBias",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/gatedrelativepositionbias/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Gather",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/gather/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "GatherElements",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/gatherelements/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "GatherND",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/gathernd/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Gemm",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/gemm/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Greater",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/greater/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "GreaterOrEqual",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/greaterorequal/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "GreedySearch",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/greedysearch/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MatMulIntegerToFloat",
+                                  "path": "/deep-learning/architecture/nodes/nodes/multi-input-dl/mono-output/matmulintegertofloat/README.md",
                                   "kind": "page",
                                   "children": []
                                 }
@@ -9920,6 +11259,25 @@
                       "path": "/computer-vision/tools/files/read-image-file/README.md",
                       "kind": "page",
                       "children": []
+                    },
+                    {
+                      "title": "Write",
+                      "path": "/computer-vision/tools/files/write/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "JPEG2000 File",
+                          "path": "/computer-vision/tools/files/write/jpeg2000-file/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "PNG File",
+                          "path": "/computer-vision/tools/files/write/png-file/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
                     }
                   ]
                 },
@@ -10698,6 +12056,19 @@
                 {
                   "title": "Release Video Writer",
                   "path": "/computer-vision/video-writter/release-video-writer/README.md",
+                  "kind": "page",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "title": "Version",
+              "path": "/computer-vision/version/README.md",
+              "kind": "category",
+              "children": [
+                {
+                  "title": "TR Get TIGR Version",
+                  "path": "/computer-vision/version/tr-get-tigr-version/README.md",
                   "kind": "page",
                   "children": []
                 }
