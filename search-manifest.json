@@ -1,6 +1,6 @@
 {
   "generated_from": "nav-tree.json",
-  "count": 1603,
+  "count": 1867,
   "items": [
     {
       "title": "SOTA",
@@ -9053,572 +9053,2156 @@
     {
       "title": "GenAI Toolkit",
       "path": "/genai/README.md",
-      "keywords": "genai genai toolkit",
-      "content": "GenAI Toolkit LLM workflows, speech pipelines, and multimodal inference for LabVIEW. The GenAI Toolkit gathers Anthropic messaging flows, GGUF runtime setup, local text generation, text to speech building blocks, and audio playback utilities inside one documentation entry point. Anthropic GGUF Text Generation Audio Process Explore The Toolkit Installation Guide Set up the toolkit, choose between cloud and local runtimes, and validate the first GenAI flows in LabVIEW. General Start with the introduction and FAQ to understand how the toolkit is organized and how to approach the first flows. Anthropic Build advanced text, image, and PDF message payloads for Anthropic oriented LabVIEW workflows. Audio Process Play generated audio from files or buffers to integrate speech output into interactive applications. GGUF Runtime Configure chat sessions, samplers, and runtime parameters for local GGUF model execution. GGUF TTS Initialize, tune, and run text to speech pipelines powered by GGUF compatible models. Text Generation Launch text only and visual generation sessions with reusable init flows and shared settings. Quick Access Introduction GenAI Toolkit setup Anthropic Message Advanced Message Play Sound From a Buffer GGUF Chat Samplers GGUF TTS Session and Sampler Text Generation Session and Sampler"
+      "keywords": "genai",
+      "content": "GenAI Toolkit LLM workflows, speech pipelines, and multimodal inference for LabVIEW. The GenAI Toolkit gathers Anthropic messaging flows, OpenAI assistants and messages, GGUF runtime setup, local text generation, text-to-speech building blocks, examples, and audio processing utilities inside one documentation entry point. Installation Guide General Anthropic OpenAI GGUF Audio Process Examples Explore The Toolkit Installation Guide Set up the toolkit, choose between cloud and local runtimes, and validate the first GenAI flows in LabVIEW. General Start with the introduction and FAQ to understand how the toolkit is organized and how to approach the first flows. Anthropic Build advanced text, image, and PDF message payloads for Anthropic-oriented LabVIEW workflows. OpenAI Work with assistants, files, threads, audio, and advanced OpenAI request structures directly from LabVIEW. Audio Process Play or record audio buffers and files to integrate speech output and capture workflows into interactive applications. GGUF Runtime Configure chat sessions, samplers, and runtime parameters for local GGUF model execution. GGUF TTS Initialize, tune, and run text-to-speech pipelines powered by GGUF-compatible models. Examples Base Start from packaged GenAI examples to validate end-to-end flows before wiring the toolkit into a larger application. Quick Access Introduction GenAI Toolkit Setup Anthropic Message Advanced Message OpenAI Send Message Play Sound From a Buffer GGUF Chat Samplers GGUF TTS Session and Sampler Text Generation Session and Sampler GEN Examples"
     },
     {
       "title": "Installation guide",
       "path": "/genai/installation-guide/README.md",
-      "keywords": "genai installation guide genai toolkit installation guide",
-      "content": "Installation guide Articles GenAI Toolkit Anthropic GGUF Audio Playback Troubleshooting"
+      "keywords": "genai installation guide",
+      "content": "# Installation guide ## Articles - [GenAI Toolkit](genai-toolkit/README.md) - [Anthropic](anthropic/README.md) - [GGUF](gguf/README.md) - [Audio Playback](audio-playback/README.md) - [Troubleshooting](troubleshooting/README.md)"
     },
     {
-      "title": "Getting Started",
+      "title": "GenAI Toolkit",
       "path": "/genai/installation-guide/genai-toolkit/README.md",
-      "keywords": "genai installation guide genai toolkit genai toolkit installation guide getting started",
-      "content": "Getting Started This section provides step by step instructions on how to install and configure the LabVIEW GenAI Toolkit. To begin, please follow these steps Install SOTA Download SOTA : In order to install the LabVIEW GenAI Toolkit, you will first need to download SOTA. You can download SOTA by visiting the following link: https://graiphic.io/download/ Install SOTA: Once you have downloaded the SOTA setup file, run the installer and follow the on screen instructions to install SOTA on your system. Launch SOTA: After the installation is complete, launch SOTA from your desktop or start menu. Get started SOTA installation guide Install the GenAI Toolkit Access the GenAI module: In the SOTA interface, locate and click on the LabVIEW GenAI module. Select Version and Install: Select your LabVIEW version and click on the install button. Accept License Agreement: Accept the terms of the license agreement to install the toolkit. Launch LabVIEW: Once the installation is complete, launch LabVIEW and confirm that the GenAI palette appears in the functions menu. Congratulations! You have successfully installed the GenAI Toolkit using SOTA, and you are now ready to build hosted or local generative AI workflows inside LabVIEW. Note: Installing the GenAI Toolkit requires SOTA to be installed first. SOTA provides the interface used to select, install, and activate the toolkit inside your LabVIEW environment. For a first validation pass, we recommend starting with one of these pages: Simplify Text Message for a hosted text request. Session And Sampler for a local GGUF session. Play Sound From A Buffer for local audio playback validation. If you encounter any issues or have any questions during the installation process, please reach out to our support team on the support community page . We appreciate your interest in the GenAI Toolkit and hope you find this installation guide helpful. System Requirements Hardware needs depend on the workflow you choose. Anthropic flows mainly require network access and valid credentials, while GGUF and TTS flows depend on local CPU, memory, model size, and audio device availability. For more orientation on local versus hosted setups, visit the Introduction and the dedicated pages for Anthropic , GGUF , and Audio Playback . Technical support The support is managed via the support community page . You can post your questions, thoughts, or suggestions about the GenAI Toolkit and other Graiphic products. Releases notes The GenAI Toolkit is actively evolving. The latest release notes are available HERE ."
+      "keywords": "genai installation guide genai toolkit",
+      "content": "Getting Started This section provides step-by-step instructions on how to install and configure the LabVIEW GenAI Toolkit. To begin, please follow these steps Install SOTA Download SOTA : In order to install the LabVIEW GenAI Toolkit, you will first need to download SOTA. You can download SOTA by visiting the following link: https://graiphic.io/download/ Install SOTA: Once you have downloaded the SOTA setup file, run the installer and follow the on-screen instructions to install SOTA on your system. Launch SOTA: After the installation is complete, launch SOTA from your desktop or start menu. Get started - SOTA installation guide Install the GenAI Toolkit Access the GenAI module: In the SOTA interface, locate and click on the LabVIEW GenAI module. Select Version and Install: Select your LabVIEW version and click on the install button. Accept License Agreement: Accept the terms of the license agreement to install the toolkit. Launch LabVIEW: Once the installation is complete, launch LabVIEW and confirm that the GenAI palette appears in the functions menu. Get started - GenAI installation guide Congratulations! You have successfully installed the GenAI Toolkit using SOTA, and you are now ready to build hosted or local generative AI workflows inside LabVIEW. Note: Installing the GenAI Toolkit requires SOTA to be installed first. SOTA provides the interface used to select, install, and activate the toolkit inside your LabVIEW environment. For a first validation pass, we recommend starting with one of these pages: Simplify Text Message for a hosted text request. Session And Sampler for a local GGUF session. Play Sound From A Buffer for local audio playback validation. If you encounter any issues or have any questions during the installation process, please reach out to our support team on the support community page . We appreciate your interest in the GenAI Toolkit and hope you find this installation guide helpful. System Requirements Hardware needs depend on the workflow you choose. Anthropic flows mainly require network access and valid credentials, while GGUF and TTS flows depend on local CPU, memory, model size, and audio-device availability. For more orientation on local versus hosted setups, visit the Introduction and the dedicated pages for Anthropic , GGUF , and Audio Playback . Technical support The support is managed via the support community page . You can post your questions, thoughts, or suggestions about the GenAI Toolkit and other Graiphic products. Releases notes The GenAI Toolkit is actively evolving. The latest release notes are available HERE ."
     },
     {
       "title": "Anthropic",
       "path": "/genai/installation-guide/anthropic/README.md",
-      "keywords": "genai installation guide anthropic genai toolkit installation guide anthropic",
-      "content": "Anthropic Anthropic pages are the cloud oriented entry point of the GenAI Toolkit. Setup checklist Prepare an Anthropic account and a valid API credential for the environment where LabVIEW will run. Store the credential outside of block diagram constants whenever possible, for example in a configuration layer handled by your application. Make sure the machine can reach the Anthropic API over HTTPS. Start with a minimal request by using Simplify Text Message . Once the basic flow works, move to Advanced Message when you need structured multi message payloads. What to validate first The request is accepted and returns a populated response cluster. The application correctly extracts the generated text from response.content[].text . Timeout and credential errors are handled cleanly in your own calling VI."
+      "keywords": "genai installation guide anthropic",
+      "content": "Anthropic Anthropic pages are the cloud-oriented entry point of the GenAI Toolkit. Setup checklist Prepare an Anthropic account and a valid API credential for the environment where LabVIEW will run. Store the credential outside of block-diagram constants whenever possible, for example in a configuration layer handled by your application. Make sure the machine can reach the Anthropic API over HTTPS. Start with a minimal request by using Simplify Text Message . Once the basic flow works, move to Advanced Message when you need structured multi-message payloads. What to validate first The request is accepted and returns a populated response cluster. The application correctly extracts the generated text from response.content[].text . Timeout and credential errors are handled cleanly in your own calling VI."
     },
     {
       "title": "GGUF",
       "path": "/genai/installation-guide/gguf/README.md",
-      "keywords": "genai installation guide gguf genai toolkit installation guide gguf",
-      "content": "GGUF GGUF pages cover local model execution for chat, text generation, and text to speech scenarios. Setup checklist Place the GGUF model files in a local path that will remain valid for development and deployment. Start with a small validation flow such as Text Only / Session And Sampler . Use conservative runtime values first for n cpu threads , nb gpu layers , and n ctx . Confirm that the model opens before enabling more advanced sampler tuning. Extend to visual or TTS flows only after the base text path is stable. Useful validation pages GGUF Chat Samplers N CTX GGUF TTS Session & Sampler Visual Session And Sampler"
+      "keywords": "genai installation guide gguf",
+      "content": "GGUF GGUF pages cover local model execution for chat, text generation, and text-to-speech scenarios. Setup checklist Place the GGUF model files in a local path that will remain valid for development and deployment. Start with a small validation flow such as Text Only / Session And Sampler . Use conservative runtime values first for n cpu threads , nb gpu layers , and n_ctx . Confirm that the model opens before enabling more advanced sampler tuning. Extend to visual or TTS flows only after the base text path is stable. Useful validation pages GGUF Chat Samplers N CTX GGUF TTS Session & Sampler Visual Session And Sampler"
     },
     {
       "title": "Audio Playback",
       "path": "/genai/installation-guide/audio-playback/README.md",
-      "keywords": "genai installation guide audio playback genai toolkit installation guide audio playback",
-      "content": "Audio Playback Audio playback pages let you validate the final stage of a speech pipeline once a sound buffer or sound file is available. Setup checklist Confirm that the target machine exposes at least one valid output device. Validate playback with Play Sound From A File if you already have an audio file. Then validate in memory playback with Play Sound From A Buffer . Check that sample rate, channel count, and buffer format are consistent with the producer VI. Recommended use When you are chaining local TTS with playback, validate the speech generation step first, then verify that the playback device and volume settings behave as expected on the target machine."
+      "keywords": "genai installation guide audio playback",
+      "content": "Audio Playback Audio playback pages let you validate the final stage of a speech pipeline once a sound buffer or sound file is available. Setup checklist Confirm that the target machine exposes at least one valid output device. Validate playback with Play Sound From A File if you already have an audio file. Then validate in-memory playback with Play Sound From A Buffer . Check that sample rate, channel count, and buffer format are consistent with the producer VI. Recommended use When you are chaining local TTS with playback, validate the speech generation step first, then verify that the playback device and volume settings behave as expected on the target machine."
     },
     {
       "title": "Troubleshooting",
       "path": "/genai/installation-guide/troubleshooting/README.md",
-      "keywords": "genai installation guide troubleshooting genai toolkit installation guide troubleshooting",
-      "content": "Troubleshooting Palette or VIs do not appear Restart LabVIEW after installation. Confirm that the GenAI Toolkit package matches the active LabVIEW environment. Anthropic requests fail Check the credential source used by your application. Verify that the machine can reach the remote API. Start from Simplify Text Message before debugging larger request payloads. GGUF session does not initialize Confirm that the model path is valid on disk. Reduce runtime values such as GPU layers or context size for the first test. Try a text only initialization flow before moving to visual or TTS variants. No sound is played Validate the selected output device. Check sample rate, channel count, and volume values. Test playback from file before testing playback from a generated buffer."
+      "keywords": "genai installation guide troubleshooting",
+      "content": "Troubleshooting Palette or VIs do not appear Restart LabVIEW after installation. Confirm that the GenAI Toolkit package matches the active LabVIEW environment. Anthropic requests fail Check the credential source used by your application. Verify that the machine can reach the remote API. Start from Simplify Text Message before debugging larger request payloads. GGUF session does not initialize Confirm that the model path is valid on disk. Reduce runtime values such as GPU layers or context size for the first test. Try a text-only initialization flow before moving to visual or TTS variants. No sound is played Validate the selected output device. Check sample rate, channel count, and volume values. Test playback from file before testing playback from a generated buffer."
     },
     {
       "title": "General",
       "path": "/genai/general/README.md",
-      "keywords": "genai general genai toolkit general",
-      "content": "General Articles Introduction FAQ"
+      "keywords": "genai general",
+      "content": "# General ## Articles - [Introduction](introduction/README.md) - [FAQ](faq/README.md)"
     },
     {
       "title": "Introduction",
       "path": "/genai/general/introduction/README.md",
-      "keywords": "genai general introduction genai toolkit general introduction",
-      "content": "Introduction Welcome to the GenAI Toolkit documentation base. The GenAI Toolkit extends LabVIEW with a set of building blocks for hosted and local generative AI workflows. The current documentation covers: Anthropic message oriented cloud requests for text, image, and PDF prompts. GGUF local chat and text generation sessions, including sampler and session tuning. GGUF TTS local text to speech initialization, modification, and run flows. Audio Process playback helpers to turn generated audio into an end user experience. The toolkit is designed so you can stay inside LabVIEW while choosing the runtime that best fits your use case: cloud hosted models, local GGUF models, or a speech pipeline that combines both generation and playback."
+      "keywords": "genai general introduction",
+      "content": "Introduction Welcome to the GenAI Toolkit documentation base. The GenAI Toolkit extends LabVIEW with a set of building blocks for hosted and local generative AI workflows. The current documentation covers: Anthropic message-oriented cloud requests for text, image, and PDF prompts. GGUF local chat and text-generation sessions, including sampler and session tuning. GGUF TTS local text-to-speech initialization, modification, and run flows. Audio Process playback helpers to turn generated audio into an end-user experience. The toolkit is designed so you can stay inside LabVIEW while choosing the runtime that best fits your use case: cloud-hosted models, local GGUF models, or a speech pipeline that combines both generation and playback."
     },
     {
       "title": "FAQ",
       "path": "/genai/general/faq/README.md",
-      "keywords": "genai general faq genai toolkit general faq",
-      "content": "FAQ What is the fastest way to validate the toolkit? Use Simplify Text Message for a hosted flow or Text Only / Session And Sampler for a local flow. When should I use Anthropic instead of GGUF? Use Anthropic when you want a hosted API workflow. Use GGUF when you want local execution and direct control over session and sampler settings. Do I need sampler tuning for a first test? No. Start with a minimal working flow, then tune sampler parameters after the session is stable. Can I use the audio pages without the full TTS pipeline? Yes. The audio pages can validate playback on their own with either a file based or buffer based source. What should I validate before deployment? Validate model paths, provider credentials, network access, and audio device behavior on the target machine, not only on the development PC."
+      "keywords": "genai general faq",
+      "content": "FAQ What is the fastest way to validate the toolkit? Use Simplify Text Message for a hosted flow or Text Only / Session And Sampler for a local flow. When should I use Anthropic instead of GGUF? Use Anthropic when you want a hosted API workflow. Use GGUF when you want local execution and direct control over session and sampler settings. Do I need sampler tuning for a first test? No. Start with a minimal working flow, then tune sampler parameters after the session is stable. Can I use the audio pages without the full TTS pipeline? Yes. The audio pages can validate playback on their own with either a file-based or buffer-based source. What should I validate before deployment? Validate model paths, provider credentials, network access, and audio-device behavior on the target machine, not only on the development PC."
     },
     {
       "title": "Anthropic",
       "path": "/genai/anthropic/README.md",
-      "keywords": "genai anthropic genai toolkit anthropic",
-      "content": "Anthropic Description This section groups the GenAI documentation available under Anthropic. Categories Message"
+      "keywords": "genai anthropic",
+      "content": "Anthropic Description This section groups the GenAI documentation available under Anthropic. Categories Authentification Close Conversation Header Message Models Open Parameters"
+    },
+    {
+      "title": "Authentification",
+      "path": "/genai/anthropic/authentification/README.md",
+      "keywords": "genai anthropic authentification",
+      "content": "Authentification Description This section groups the GenAI documentation available under Authentification. Pages Authentification"
+    },
+    {
+      "title": "Authentification",
+      "path": "/genai/anthropic/authentification/authentification/README.md",
+      "keywords": "genai anthropic authentification",
+      "content": "Authentification Description Type : VI. Input parameters Anthropic in : class api_key : string Output parameters Anthropic out : class"
+    },
+    {
+      "title": "Close",
+      "path": "/genai/anthropic/close/README.md",
+      "keywords": "genai anthropic close",
+      "content": "Close Description This section groups the GenAI documentation available under Close. Pages Close"
+    },
+    {
+      "title": "Close",
+      "path": "/genai/anthropic/close/close/README.md",
+      "keywords": "genai anthropic close",
+      "content": "Close Description Type : VI. Input parameters Anthropic in : class Output parameters Anthropic out : class"
+    },
+    {
+      "title": "Conversation",
+      "path": "/genai/anthropic/conversation/README.md",
+      "keywords": "genai anthropic conversation",
+      "content": "Conversation Description This section groups the GenAI documentation available under Conversation. Categories Edit Get Reset"
+    },
+    {
+      "title": "Edit",
+      "path": "/genai/anthropic/conversation/edit/README.md",
+      "keywords": "genai anthropic conversation edit",
+      "content": "Edit Description This section groups the GenAI documentation available under Edit. Pages Edit Conversation"
+    },
+    {
+      "title": "Edit Conversation",
+      "path": "/genai/anthropic/conversation/edit/edit-conversation/README.md",
+      "keywords": "genai anthropic conversation edit edit conversation",
+      "content": "Edit Conversation Description Type : VI. Input parameters Anthropic in : class json_request : string Output parameters Anthropic out : class"
+    },
+    {
+      "title": "Get",
+      "path": "/genai/anthropic/conversation/get/README.md",
+      "keywords": "genai anthropic conversation get",
+      "content": "Get Description This section groups the GenAI documentation available under Get. Pages Get Conversation"
+    },
+    {
+      "title": "Get Conversation",
+      "path": "/genai/anthropic/conversation/get/get-conversation/README.md",
+      "keywords": "genai anthropic conversation get get conversation",
+      "content": "Get Conversation Description Type : VI. Input parameters Anthropic in : class Output parameters Anthropic out : class json_request : string"
+    },
+    {
+      "title": "Reset",
+      "path": "/genai/anthropic/conversation/reset/README.md",
+      "keywords": "genai anthropic conversation reset",
+      "content": "Reset Description This section groups the GenAI documentation available under Reset. Pages Reset Conversation"
+    },
+    {
+      "title": "Reset Conversation",
+      "path": "/genai/anthropic/conversation/reset/reset-conversation/README.md",
+      "keywords": "genai anthropic conversation reset reset conversation",
+      "content": "Reset Conversation Description Type : VI. Input parameters Anthropic in : class Output parameters Anthropic out : class"
+    },
+    {
+      "title": "Header",
+      "path": "/genai/anthropic/header/README.md",
+      "keywords": "genai anthropic header",
+      "content": "Header Description This section groups the GenAI documentation available under Header. Categories Remove Beta Set Beta Set Version"
+    },
+    {
+      "title": "Remove Beta",
+      "path": "/genai/anthropic/header/remove-beta/README.md",
+      "keywords": "genai anthropic header remove beta",
+      "content": "Remove Beta Description This section groups the GenAI documentation available under Remove Beta. Pages Remove Beta"
+    },
+    {
+      "title": "Remove Beta",
+      "path": "/genai/anthropic/header/remove-beta/remove-beta/README.md",
+      "keywords": "genai anthropic header remove beta",
+      "content": "Remove Beta Description Type : VI. Input parameters Anthropic in : class Output parameters Anthropic out : class"
+    },
+    {
+      "title": "Set Beta",
+      "path": "/genai/anthropic/header/set-beta/README.md",
+      "keywords": "genai anthropic header set beta",
+      "content": "Set Beta Description This section groups the GenAI documentation available under Set Beta. Pages Set Beta"
+    },
+    {
+      "title": "Set Beta",
+      "path": "/genai/anthropic/header/set-beta/set-beta/README.md",
+      "keywords": "genai anthropic header set beta",
+      "content": "Set Beta Description Type : VI. Input parameters Anthropic in : class beta : string Output parameters Anthropic out : class"
+    },
+    {
+      "title": "Set Version",
+      "path": "/genai/anthropic/header/set-version/README.md",
+      "keywords": "genai anthropic header set version",
+      "content": "Set Version Description This section groups the GenAI documentation available under Set Version. Pages Set Version"
+    },
+    {
+      "title": "Set Version",
+      "path": "/genai/anthropic/header/set-version/set-version/README.md",
+      "keywords": "genai anthropic header set version",
+      "content": "Set Version Description Type : VI. Input parameters Anthropic in : class version : string Output parameters Anthropic out : class"
     },
     {
       "title": "Message",
       "path": "/genai/anthropic/message/README.md",
-      "keywords": "genai anthropic message genai toolkit anthropic message",
+      "keywords": "genai anthropic message",
       "content": "Message Description This section groups the GenAI documentation available under Message. Pages Advanced Message Simplify Image Message Simplify PDF Message Simplify Text Message"
     },
     {
       "title": "Advanced Message",
       "path": "/genai/anthropic/message/advanced-message/README.md",
-      "keywords": "genai anthropic message advanced message genai toolkit anthropic message advanced message",
-      "content": "Advanced Message Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi turn conversations. Type : polymorphic. Input parameters Anthropic in : class json request : string Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop reason : string stop sequence : string usage : cluster input tokens : integer cache creation input tokens : integer cache read input tokens : integer output tokens : integer last response : string"
+      "keywords": "genai anthropic message advanced message",
+      "content": "Advanced Message Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi-turn conversations. Type : VI. Input parameters Anthropic in : class json_request : string Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop_reason : string stop_sequence : string usage : cluster input_tokens : integer cache_creation_input_tokens : integer cache_read_input_tokens : integer output_tokens : integer last_response : string"
     },
     {
       "title": "Simplify Image Message",
       "path": "/genai/anthropic/message/simplify-image-message/README.md",
-      "keywords": "genai anthropic message simplify image message genai toolkit anthropic message simplify image message",
-      "content": "Simplify Image Message Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi turn conversations. Type : polymorphic. Input parameters Anthropic in : class message : string file path : path Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop reason : string stop sequence : string usage : cluster input tokens : integer cache creation input tokens : integer cache read input tokens : integer output tokens : integer last response : string"
+      "keywords": "genai anthropic message simplify image message",
+      "content": "Simplify Image Message Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi-turn conversations. Type : VI. Input parameters Anthropic in : class message : string file_path : path Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop_reason : string stop_sequence : string usage : cluster input_tokens : integer cache_creation_input_tokens : integer cache_read_input_tokens : integer output_tokens : integer last_response : string"
     },
     {
       "title": "Simplify PDF Message",
       "path": "/genai/anthropic/message/simplify-pdf-message/README.md",
-      "keywords": "genai anthropic message simplify pdf message genai toolkit anthropic message simplify pdf message",
-      "content": "Simplify PDF Message Description Claude works with any standard PDF. You can ask Claude about any text, pictures, charts, and tables in the PDFs you provide. Some sample use cases: Analyzing financial reports and understanding charts/tables Extracting key information from legal documents Translation assistance for documents Converting document information into structured formats Type : polymorphic. Input parameters Anthropic in : class message : string file path : path Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop reason : string stop sequence : string usage : cluster input tokens : integer cache creation input tokens : integer cache read input tokens : integer output tokens : integer last response : string"
+      "keywords": "genai anthropic message simplify pdf message",
+      "content": "Simplify PDF Message Description Claude works with any standard PDF. You can ask Claude about any text, pictures, charts, and tables in the PDFs you provide. Some sample use cases: - Analyzing financial reports and understanding charts/tables - Extracting key information from legal documents - Translation assistance for documents - Converting document information into structured formats Type : VI. Input parameters Anthropic in : class message : string file_path : path Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop_reason : string stop_sequence : string usage : cluster input_tokens : integer cache_creation_input_tokens : integer cache_read_input_tokens : integer output_tokens : integer last_response : string"
     },
     {
       "title": "Simplify Text Message",
       "path": "/genai/anthropic/message/simplify-text-message/README.md",
-      "keywords": "genai anthropic message simplify text message genai toolkit anthropic message simplify text message",
-      "content": "Simplify Text Message Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi turn conversations. Type : polymorphic. Input parameters Anthropic in : class message : string Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop reason : string stop sequence : string usage : cluster input tokens : integer cache creation input tokens : integer cache read input tokens : integer output tokens : integer last response : string"
+      "keywords": "genai anthropic message simplify text message",
+      "content": "Simplify Text Message Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi-turn conversations. Type : VI. Input parameters Anthropic in : class message : string Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop_reason : string stop_sequence : string usage : cluster input_tokens : integer cache_creation_input_tokens : integer cache_read_input_tokens : integer output_tokens : integer last_response : string"
+    },
+    {
+      "title": "Models",
+      "path": "/genai/anthropic/models/README.md",
+      "keywords": "genai anthropic models",
+      "content": "Models Description This section groups the GenAI documentation available under Models. Categories Get Info Get List"
+    },
+    {
+      "title": "Get Info",
+      "path": "/genai/anthropic/models/get-info/README.md",
+      "keywords": "genai anthropic models get info",
+      "content": "Get Info Description This section groups the GenAI documentation available under Get Info. Pages Get Model Info"
+    },
+    {
+      "title": "Get Model Info",
+      "path": "/genai/anthropic/models/get-info/get-model-info/README.md",
+      "keywords": "genai anthropic models get info get model info",
+      "content": "Get Model Info Description Type : VI. Input parameters Anthropic in : class model_id : string Output parameters Anthropic out : class response : cluster type : string id : string display_name : string created_at : string"
+    },
+    {
+      "title": "Get List",
+      "path": "/genai/anthropic/models/get-list/README.md",
+      "keywords": "genai anthropic models get list",
+      "content": "Get List Description This section groups the GenAI documentation available under Get List. Pages Get Models List"
+    },
+    {
+      "title": "Get Models List",
+      "path": "/genai/anthropic/models/get-list/get-models-list/README.md",
+      "keywords": "genai anthropic models get list get models list",
+      "content": "Get Models List Description Type : VI. Input parameters Anthropic in : class Output parameters Anthropic out : class response : cluster data : array of cluster type : string id : string display_name : string created_at : string"
+    },
+    {
+      "title": "Open",
+      "path": "/genai/anthropic/open/README.md",
+      "keywords": "genai anthropic open",
+      "content": "Open Description This section groups the GenAI documentation available under Open. Pages Open"
+    },
+    {
+      "title": "Open",
+      "path": "/genai/anthropic/open/open/README.md",
+      "keywords": "genai anthropic open",
+      "content": "Open Description Type : VI. Input parameters Anthropic in : class timeout : integer Output parameters Anthropic out : class"
+    },
+    {
+      "title": "Parameters",
+      "path": "/genai/anthropic/parameters/README.md",
+      "keywords": "genai anthropic parameters",
+      "content": "Parameters Description This section groups the GenAI documentation available under Parameters. Categories Set Max Token Set Model"
+    },
+    {
+      "title": "Set Max Token",
+      "path": "/genai/anthropic/parameters/set-max-token/README.md",
+      "keywords": "genai anthropic parameters set max token",
+      "content": "Set Max Token Description This section groups the GenAI documentation available under Set Max Token. Pages Set Max Token"
+    },
+    {
+      "title": "Set Max Token",
+      "path": "/genai/anthropic/parameters/set-max-token/set-max-token/README.md",
+      "keywords": "genai anthropic parameters set max token",
+      "content": "Set Max Token Description Type : VI. Input parameters Anthropic in : class max_tokens : integer Output parameters Anthropic out : class"
+    },
+    {
+      "title": "Set Model",
+      "path": "/genai/anthropic/parameters/set-model/README.md",
+      "keywords": "genai anthropic parameters set model",
+      "content": "Set Model Description This section groups the GenAI documentation available under Set Model. Pages Set Model"
+    },
+    {
+      "title": "Set Model",
+      "path": "/genai/anthropic/parameters/set-model/set-model/README.md",
+      "keywords": "genai anthropic parameters set model",
+      "content": "Set Model Description Type : VI. Input parameters Anthropic in : class model : string Output parameters Anthropic out : class"
     },
     {
       "title": "Audio Process",
       "path": "/genai/audio-process/README.md",
-      "keywords": "genai audio process genai toolkit audio process",
-      "content": "Audio Process Description This section groups the GenAI documentation available under Audio Process. Categories Play"
+      "keywords": "genai audio process",
+      "content": "Audio Process Description This section groups the GenAI documentation available under Audio Process. Categories Play Record"
     },
     {
       "title": "Play",
       "path": "/genai/audio-process/play/README.md",
-      "keywords": "genai audio process play genai toolkit audio process play",
-      "content": "Play Description This section groups the GenAI documentation available under Play. Categories Init Playback"
+      "keywords": "genai audio process play",
+      "content": "Play Description This section groups the GenAI documentation available under Play. Categories Play Sound Example Play.lvclass Init Playback"
+    },
+    {
+      "title": "Play Sound Example",
+      "path": "/genai/audio-process/play/play-sound-example/README.md",
+      "keywords": "genai audio process play play sound example",
+      "content": "Play Sound Example Description This section groups the GenAI documentation available under Play Sound Example. Pages Drop Content Play"
+    },
+    {
+      "title": "Drop Content Play",
+      "path": "/genai/audio-process/play/play-sound-example/drop-content-play/README.md",
+      "keywords": "genai audio process play play sound example drop content play",
+      "content": "Drop Content Play Description Play sound example. Type : VI. Input parameters None. Output parameters None."
+    },
+    {
+      "title": "Play.lvclass",
+      "path": "/genai/audio-process/play/play-lvclass/README.md",
+      "keywords": "genai audio process play play lvclass",
+      "content": "Play.lvclass Description This section groups the GenAI documentation available under Play.lvclass. Categories FreePlaybackSession.vi ReadPlaybackBuffer.vi StopPlaybackSession.vi"
+    },
+    {
+      "title": "FreePlaybackSession.vi",
+      "path": "/genai/audio-process/play/play-lvclass/freeplaybacksession-vi/README.md",
+      "keywords": "genai audio process play play lvclass freeplaybacksession vi",
+      "content": "FreePlaybackSession.vi Description This section groups the GenAI documentation available under FreePlaybackSession.vi. Pages FreePlaybackSession"
+    },
+    {
+      "title": "FreePlaybackSession",
+      "path": "/genai/audio-process/play/play-lvclass/freeplaybacksession-vi/freeplaybacksession/README.md",
+      "keywords": "genai audio process play play lvclass freeplaybacksession vi freeplaybacksession",
+      "content": "FreePlaybackSession Description Type : VI. Input parameters Play in : class Output parameters Play out : class deleted : boolean"
+    },
+    {
+      "title": "ReadPlaybackBuffer.vi",
+      "path": "/genai/audio-process/play/play-lvclass/readplaybackbuffer-vi/README.md",
+      "keywords": "genai audio process play play lvclass readplaybackbuffer vi",
+      "content": "ReadPlaybackBuffer.vi Description This section groups the GenAI documentation available under ReadPlaybackBuffer.vi. Pages ReadPlaybackBuffer"
+    },
+    {
+      "title": "ReadPlaybackBuffer",
+      "path": "/genai/audio-process/play/play-lvclass/readplaybackbuffer-vi/readplaybackbuffer/README.md",
+      "keywords": "genai audio process play play lvclass readplaybackbuffer vi readplaybackbuffer",
+      "content": "ReadPlaybackBuffer Description Type : VI. Input parameters Play in : class Output parameters Play out : class Samples : array of cluster Sample : cluster Indices : integer Value : integer"
+    },
+    {
+      "title": "StopPlaybackSession.vi",
+      "path": "/genai/audio-process/play/play-lvclass/stopplaybacksession-vi/README.md",
+      "keywords": "genai audio process play play lvclass stopplaybacksession vi",
+      "content": "StopPlaybackSession.vi Description This section groups the GenAI documentation available under StopPlaybackSession.vi. Pages StopPlaybackSession"
+    },
+    {
+      "title": "StopPlaybackSession",
+      "path": "/genai/audio-process/play/play-lvclass/stopplaybacksession-vi/stopplaybacksession/README.md",
+      "keywords": "genai audio process play play lvclass stopplaybacksession vi stopplaybacksession",
+      "content": "StopPlaybackSession Description Type : VI. Input parameters Play in : class Output parameters Play out : class"
     },
     {
       "title": "Init Playback",
       "path": "/genai/audio-process/play/init-playback/README.md",
-      "keywords": "genai audio process play init playback genai toolkit audio process play init playback",
+      "keywords": "genai audio process play init playback",
       "content": "Init Playback Description This section groups the GenAI documentation available under Init Playback. Pages Play Sound From A Buffer Play Sound From A File"
     },
     {
       "title": "Play Sound From A Buffer",
       "path": "/genai/audio-process/play/init-playback/play-sound-from-a-buffer/README.md",
-      "keywords": "genai audio process play init playback play sound from a buffer genai toolkit audio process play init playback play sound from a buffer",
-      "content": "Play Sound From A Buffer Description Play a Sound Buffer. Typically used alongside a TTS (Text to Speech) buffer. Type : polymorphic. Input parameters Sound Buffer : integer Output Device : integer Parameters : cluster volume : float sampleRate : integer Channels : integer Output parameters PlayBuffer out : class"
+      "keywords": "genai audio process play init playback play sound from a buffer",
+      "content": "Play Sound From A Buffer Description Play a Sound Buffer. Typically used alongside a TTS (Text-to-Speech) buffer. Type : polymorphic. Input parameters Sound Buffer : integer Output Device : integer Parameters : cluster volume : float sampleRate : integer Channels : integer Output parameters PlayBuffer out : class"
     },
     {
       "title": "Play Sound From A File",
       "path": "/genai/audio-process/play/init-playback/play-sound-from-a-file/README.md",
-      "keywords": "genai audio process play init playback play sound from a file genai toolkit audio process play init playback play sound from a file",
+      "keywords": "genai audio process play init playback play sound from a file",
       "content": "Play Sound From A File Description Play the Sound File Path. Type : polymorphic. Input parameters Sound File Path : path Output Device : integer volume : float Output parameters Play out : class"
+    },
+    {
+      "title": "Record",
+      "path": "/genai/audio-process/record/README.md",
+      "keywords": "genai audio process record",
+      "content": "Record Description This section groups the GenAI documentation available under Record. Categories Record Sound Example Record.lvclass"
+    },
+    {
+      "title": "Record Sound Example",
+      "path": "/genai/audio-process/record/record-sound-example/README.md",
+      "keywords": "genai audio process record record sound example",
+      "content": "Record Sound Example Description This section groups the GenAI documentation available under Record Sound Example. Pages Drop Content Record"
+    },
+    {
+      "title": "Drop Content Record",
+      "path": "/genai/audio-process/record/record-sound-example/drop-content-record/README.md",
+      "keywords": "genai audio process record record sound example drop content record",
+      "content": "Drop Content Record Description Record sound example. Type : VI. Input parameters None. Output parameters None."
+    },
+    {
+      "title": "Record.lvclass",
+      "path": "/genai/audio-process/record/record-lvclass/README.md",
+      "keywords": "genai audio process record record lvclass",
+      "content": "Record.lvclass Description This section groups the GenAI documentation available under Record.lvclass. Categories CloseAllRecordingSession.vi ReadGlobal.vi ReadRecordingBuffer.vi StartRecording.vi StopExternalRecording.vi StopRecording.vi"
+    },
+    {
+      "title": "CloseAllRecordingSession.vi",
+      "path": "/genai/audio-process/record/record-lvclass/closeallrecordingsession-vi/README.md",
+      "keywords": "genai audio process record record lvclass closeallrecordingsession vi",
+      "content": "CloseAllRecordingSession.vi Description This section groups the GenAI documentation available under CloseAllRecordingSession.vi. Pages CloseAllRecordingSession"
+    },
+    {
+      "title": "CloseAllRecordingSession",
+      "path": "/genai/audio-process/record/record-lvclass/closeallrecordingsession-vi/closeallrecordingsession/README.md",
+      "keywords": "genai audio process record record lvclass closeallrecordingsession vi closeallrecordingsession",
+      "content": "CloseAllRecordingSession Description Type : VI. Input parameters Record in : class Output parameters Record out : class"
+    },
+    {
+      "title": "ReadGlobal.vi",
+      "path": "/genai/audio-process/record/record-lvclass/readglobal-vi/README.md",
+      "keywords": "genai audio process record record lvclass readglobal vi",
+      "content": "ReadGlobal.vi Description This section groups the GenAI documentation available under ReadGlobal.vi. Pages ReadGlobal"
+    },
+    {
+      "title": "ReadGlobal",
+      "path": "/genai/audio-process/record/record-lvclass/readglobal-vi/readglobal/README.md",
+      "keywords": "genai audio process record record lvclass readglobal vi readglobal",
+      "content": "ReadGlobal Description Type : VI. Input parameters Record in : class Output parameters Record out : class Sessions : array of cluster Sample : cluster Ref : integer File Name : string"
+    },
+    {
+      "title": "ReadRecordingBuffer.vi",
+      "path": "/genai/audio-process/record/record-lvclass/readrecordingbuffer-vi/README.md",
+      "keywords": "genai audio process record record lvclass readrecordingbuffer vi",
+      "content": "ReadRecordingBuffer.vi Description This section groups the GenAI documentation available under ReadRecordingBuffer.vi. Pages ReadRecordingBuffer"
+    },
+    {
+      "title": "ReadRecordingBuffer",
+      "path": "/genai/audio-process/record/record-lvclass/readrecordingbuffer-vi/readrecordingbuffer/README.md",
+      "keywords": "genai audio process record record lvclass readrecordingbuffer vi readrecordingbuffer",
+      "content": "ReadRecordingBuffer Description Type : VI. Input parameters Record in : class Output parameters Record out : class Samples : array of cluster Sample : cluster Indices : integer Value : integer"
+    },
+    {
+      "title": "StartRecording.vi",
+      "path": "/genai/audio-process/record/record-lvclass/startrecording-vi/README.md",
+      "keywords": "genai audio process record record lvclass startrecording vi",
+      "content": "StartRecording.vi Description This section groups the GenAI documentation available under StartRecording.vi. Pages StartRecording"
+    },
+    {
+      "title": "StartRecording",
+      "path": "/genai/audio-process/record/record-lvclass/startrecording-vi/startrecording/README.md",
+      "keywords": "genai audio process record record lvclass startrecording vi startrecording",
+      "content": "StartRecording Description Type : VI. Input parameters Parameters : cluster sample Rate : integer channels : integer sample Format : enum gain : float segmentDurationSecond : float Record File Path : path Record Device : integer Output parameters Record out : class"
+    },
+    {
+      "title": "StopExternalRecording.vi",
+      "path": "/genai/audio-process/record/record-lvclass/stopexternalrecording-vi/README.md",
+      "keywords": "genai audio process record record lvclass stopexternalrecording vi",
+      "content": "StopExternalRecording.vi Description This section groups the GenAI documentation available under StopExternalRecording.vi. Pages StopExternalRecording"
+    },
+    {
+      "title": "StopExternalRecording",
+      "path": "/genai/audio-process/record/record-lvclass/stopexternalrecording-vi/stopexternalrecording/README.md",
+      "keywords": "genai audio process record record lvclass stopexternalrecording vi stopexternalrecording",
+      "content": "StopExternalRecording Description Type : VI. Input parameters Record in : class session reference : integer Output parameters Record out : class"
+    },
+    {
+      "title": "StopRecording.vi",
+      "path": "/genai/audio-process/record/record-lvclass/stoprecording-vi/README.md",
+      "keywords": "genai audio process record record lvclass stoprecording vi",
+      "content": "StopRecording.vi Description This section groups the GenAI documentation available under StopRecording.vi. Pages StopRecording"
+    },
+    {
+      "title": "StopRecording",
+      "path": "/genai/audio-process/record/record-lvclass/stoprecording-vi/stoprecording/README.md",
+      "keywords": "genai audio process record record lvclass stoprecording vi stoprecording",
+      "content": "StopRecording Description Type : VI. Input parameters Record in : class Output parameters Record out : class"
+    },
+    {
+      "title": "Examples Base",
+      "path": "/genai/examples-base/README.md",
+      "keywords": "genai examples base",
+      "content": "Examples Base Description This section groups the GenAI documentation available under Examples Base. Pages GEN Examples"
+    },
+    {
+      "title": "GEN Examples",
+      "path": "/genai/examples-base/gen-examples/README.md",
+      "keywords": "genai examples base gen examples",
+      "content": "GEN Examples Description Easily browse all available examples Type : VI. Input parameters None. Output parameters None."
     },
     {
       "title": "GGUF",
       "path": "/genai/gguf/README.md",
-      "keywords": "genai gguf genai toolkit gguf",
-      "content": "GGUF Description This section groups the GenAI documentation available under GGUF. Categories GGUF GGUF TTS Text Generation"
+      "keywords": "genai gguf",
+      "content": "GGUF Description This section groups the GenAI documentation available under GGUF. Categories GGUF GGUF TTS Text Generation Whisper"
     },
     {
       "title": "GGUF",
       "path": "/genai/gguf/gguf/README.md",
-      "keywords": "genai gguf gguf genai toolkit gguf gguf",
+      "keywords": "genai gguf",
       "content": "GGUF Description This section groups the GenAI documentation available under GGUF. Categories Chat"
     },
     {
       "title": "Chat",
       "path": "/genai/gguf/gguf/chat/README.md",
-      "keywords": "genai gguf gguf chat genai toolkit gguf gguf chat",
+      "keywords": "genai gguf chat",
       "content": "Chat Description This section groups the GenAI documentation available under Chat. Categories Set"
     },
     {
       "title": "Set",
       "path": "/genai/gguf/gguf/chat/set/README.md",
-      "keywords": "genai gguf gguf chat set genai toolkit gguf gguf chat set",
+      "keywords": "genai gguf chat set",
       "content": "Set Description This section groups the GenAI documentation available under Set. Categories Sampler Session"
     },
     {
       "title": "Sampler",
       "path": "/genai/gguf/gguf/chat/set/sampler/README.md",
-      "keywords": "genai gguf gguf chat set sampler genai toolkit gguf gguf chat set sampler",
+      "keywords": "genai gguf chat set sampler",
       "content": "Sampler Description This section groups the GenAI documentation available under Sampler. Pages Dry Allowed Length Dry Base Dry Multiplier Dry Penalty Last N Dynatemp Exponent Dynatemp Range Min Keep Min P Mirostat Mirostat Eta Mirostat Tau N Prev N Probs Penalty Freq Penalty Last N Penalty Present Repeat Penalty Samplers Temperature Top K Top P Typ P Xtc Probability Xtc Threshold"
     },
     {
       "title": "Dry Allowed Length",
       "path": "/genai/gguf/gguf/chat/set/sampler/dry-allowed-length/README.md",
-      "keywords": "genai gguf gguf chat set sampler dry allowed length genai toolkit gguf gguf chat set sampler dry allowed length",
-      "content": "Dry Allowed Length Description Set dry allowed length to common params stored in local. NB : tokens extending repetitions beyond this receive penalty Type : polymorphic. Input parameters GGUF in : class dry allowed length : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler dry allowed length",
+      "content": "Dry Allowed Length Description Set dry_allowed_length to common_params stored in local. NB : tokens extending repetitions beyond this receive penalty Type : polymorphic. Input parameters GGUF in : class dry_allowed_length : integer Output parameters GGUF out : class"
     },
     {
       "title": "Dry Base",
       "path": "/genai/gguf/gguf/chat/set/sampler/dry-base/README.md",
-      "keywords": "genai gguf gguf chat set sampler dry base genai toolkit gguf gguf chat set sampler dry base",
-      "content": "Dry Base Description Set dry base to common params stored in local. NB : 0.0 = disabled multiplier base ^ (length of sequence before token allowed length) Type : polymorphic. Input parameters GGUF in : class dry base : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler dry base",
+      "content": "Dry Base Description Set dry_base to common_params stored in local. NB : 0.0 = disabled multiplier * base ^ (length of sequence before token - allowed length) Type : polymorphic. Input parameters GGUF in : class dry_base : float Output parameters GGUF out : class"
     },
     {
       "title": "Dry Multiplier",
       "path": "/genai/gguf/gguf/chat/set/sampler/dry-multiplier/README.md",
-      "keywords": "genai gguf gguf chat set sampler dry multiplier genai toolkit gguf gguf chat set sampler dry multiplier",
-      "content": "Dry Multiplier Description Set dry multiplier to common params stored in local. NB : 0.0 = disabled DRY repetition penalty for tokens extending repetition: Type : polymorphic. Input parameters GGUF in : class dry multiplier : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler dry multiplier",
+      "content": "Dry Multiplier Description Set dry_multiplier to common_params stored in local. NB : 0.0 = disabled DRY repetition penalty for tokens extending repetition: Type : polymorphic. Input parameters GGUF in : class dry_multiplier : float Output parameters GGUF out : class"
     },
     {
       "title": "Dry Penalty Last N",
       "path": "/genai/gguf/gguf/chat/set/sampler/dry-penalty-last-n/README.md",
-      "keywords": "genai gguf gguf chat set sampler dry penalty last n genai toolkit gguf gguf chat set sampler dry penalty last n",
-      "content": "Dry Penalty Last N Description Set dry penalty last n to common params stored in local. NB :how many tokens to scan for repetitions (0 = disable penalty, 1 = context size) Type : polymorphic. Input parameters GGUF in : class dry penalty last n : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler dry penalty last n",
+      "content": "Dry Penalty Last N Description Set dry_penalty_last_n to common_params stored in local. NB :how many tokens to scan for repetitions (0 = disable penalty, -1 = context size) Type : polymorphic. Input parameters GGUF in : class dry_penalty_last_n : integer Output parameters GGUF out : class"
     },
     {
       "title": "Dynatemp Exponent",
       "path": "/genai/gguf/gguf/chat/set/sampler/dynatemp-exponent/README.md",
-      "keywords": "genai gguf gguf chat set sampler dynatemp exponent genai toolkit gguf gguf chat set sampler dynatemp exponent",
-      "content": "Dynatemp Exponent Description Set dynatemp exponent to common params stored in local. NB : controls how entropy maps to temperature in dynamic temperature sampler Type : polymorphic. Input parameters GGUF in : class dynatemp exponent : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler dynatemp exponent",
+      "content": "Dynatemp Exponent Description Set dynatemp_exponent to common_params stored in local. NB : controls how entropy maps to temperature in dynamic temperature sampler Type : polymorphic. Input parameters GGUF in : class dynatemp_exponent : float Output parameters GGUF out : class"
     },
     {
       "title": "Dynatemp Range",
       "path": "/genai/gguf/gguf/chat/set/sampler/dynatemp-range/README.md",
-      "keywords": "genai gguf gguf chat set sampler dynatemp range genai toolkit gguf gguf chat set sampler dynatemp range",
-      "content": "Dynatemp Range Description Set dynatemp range to common params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class dynatemp range : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler dynatemp range",
+      "content": "Dynatemp Range Description Set dynatemp_range to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class dynatemp_range : float Output parameters GGUF out : class"
     },
     {
       "title": "Min Keep",
       "path": "/genai/gguf/gguf/chat/set/sampler/min-keep/README.md",
-      "keywords": "genai gguf gguf chat set sampler min keep genai toolkit gguf gguf chat set sampler min keep",
-      "content": "Min Keep Description Set min keep to common params stored in local. NB : 0 = disabled, otherwise samplers should return at least min keep tokens Type : polymorphic. Input parameters GGUF in : class min keep : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler min keep",
+      "content": "Min Keep Description Set min_keep to common_params stored in local. NB : 0 = disabled, otherwise samplers should return at least min_keep tokens Type : polymorphic. Input parameters GGUF in : class min_keep : integer Output parameters GGUF out : class"
     },
     {
       "title": "Min P",
       "path": "/genai/gguf/gguf/chat/set/sampler/min-p/README.md",
-      "keywords": "genai gguf gguf chat set sampler min p genai toolkit gguf gguf chat set sampler min p",
-      "content": "Min P Description Set min p to common params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class min p : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler min p",
+      "content": "Min P Description Set min_p to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class min_p : float Output parameters GGUF out : class"
     },
     {
       "title": "Mirostat",
       "path": "/genai/gguf/gguf/chat/set/sampler/mirostat/README.md",
-      "keywords": "genai gguf gguf chat set sampler mirostat genai toolkit gguf gguf chat set sampler mirostat",
-      "content": "Mirostat Description Set mirostat to common params stored in local. NB : 0 = disabled, 1 = mirostat, 2 = mirostat 2.0 Type : polymorphic. Input parameters GGUF in : class mirostat : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler mirostat",
+      "content": "Mirostat Description Set mirostat to common_params stored in local. NB : 0 = disabled, 1 = mirostat, 2 = mirostat 2.0 Type : polymorphic. Input parameters GGUF in : class mirostat : integer Output parameters GGUF out : class"
     },
     {
       "title": "Mirostat Eta",
       "path": "/genai/gguf/gguf/chat/set/sampler/mirostat-eta/README.md",
-      "keywords": "genai gguf gguf chat set sampler mirostat eta genai toolkit gguf gguf chat set sampler mirostat eta",
-      "content": "Mirostat Eta Description Set mirostat tau to common params stored in local. NB : learning rate Type : polymorphic. Input parameters GGUF in : class mirostat eta : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler mirostat eta",
+      "content": "Mirostat Eta Description Set mirostat_tau to common_params stored in local. NB : learning rate Type : polymorphic. Input parameters GGUF in : class mirostat_eta : float Output parameters GGUF out : class"
     },
     {
       "title": "Mirostat Tau",
       "path": "/genai/gguf/gguf/chat/set/sampler/mirostat-tau/README.md",
-      "keywords": "genai gguf gguf chat set sampler mirostat tau genai toolkit gguf gguf chat set sampler mirostat tau",
-      "content": "Mirostat Tau Description Set mirostat tau to common params stored in local. NB : target entropy Type : polymorphic. Input parameters GGUF in : class mirostat tau : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler mirostat tau",
+      "content": "Mirostat Tau Description Set mirostat_tau to common_params stored in local. NB : target entropy Type : polymorphic. Input parameters GGUF in : class mirostat_tau : float Output parameters GGUF out : class"
     },
     {
       "title": "N Prev",
       "path": "/genai/gguf/gguf/chat/set/sampler/n-prev/README.md",
-      "keywords": "genai gguf gguf chat set sampler n prev genai toolkit gguf gguf chat set sampler n prev",
-      "content": "N Prev Description Set n prev to common params stored in local. NB : number of previous tokens to remember Type : polymorphic. Input parameters GGUF in : class n prev : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler n prev",
+      "content": "N Prev Description Set n_prev to common_params stored in local. NB : number of previous tokens to remember Type : polymorphic. Input parameters GGUF in : class n_prev : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Probs",
       "path": "/genai/gguf/gguf/chat/set/sampler/n-probs/README.md",
-      "keywords": "genai gguf gguf chat set sampler n probs genai toolkit gguf gguf chat set sampler n probs",
-      "content": "N Probs Description Set n probs to common params stored in local. NB : if greater than 0, output the probabilities of top n probs tokens. Type : polymorphic. Input parameters GGUF in : class n probs : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler n probs",
+      "content": "N Probs Description Set n_probs to common_params stored in local. NB : if greater than 0, output the probabilities of top n_probs tokens. Type : polymorphic. Input parameters GGUF in : class n_probs : integer Output parameters GGUF out : class"
     },
     {
       "title": "Penalty Freq",
       "path": "/genai/gguf/gguf/chat/set/sampler/penalty-freq/README.md",
-      "keywords": "genai gguf gguf chat set sampler penalty freq genai toolkit gguf gguf chat set sampler penalty freq",
-      "content": "Penalty Freq Description Set penalty freq to common params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class penalty freq : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler penalty freq",
+      "content": "Penalty Freq Description Set penalty_freq to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class penalty_freq : float Output parameters GGUF out : class"
     },
     {
       "title": "Penalty Last N",
       "path": "/genai/gguf/gguf/chat/set/sampler/penalty-last-n/README.md",
-      "keywords": "genai gguf gguf chat set sampler penalty last n genai toolkit gguf gguf chat set sampler penalty last n",
-      "content": "Penalty Last N Description Set penalty last n to common params stored in local. NB : last n tokens to penalize (0 = disable penalty, 1 = context size) Type : polymorphic. Input parameters GGUF in : class penalty last n : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler penalty last n",
+      "content": "Penalty Last N Description Set penalty_last_n to common_params stored in local. NB : last n tokens to penalize (0 = disable penalty, -1 = context size) Type : polymorphic. Input parameters GGUF in : class penalty_last_n : integer Output parameters GGUF out : class"
     },
     {
       "title": "Penalty Present",
       "path": "/genai/gguf/gguf/chat/set/sampler/penalty-present/README.md",
-      "keywords": "genai gguf gguf chat set sampler penalty present genai toolkit gguf gguf chat set sampler penalty present",
-      "content": "Penalty Present Description Set penalty present to common params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class penalty present : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler penalty present",
+      "content": "Penalty Present Description Set penalty_present to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class penalty_present : float Output parameters GGUF out : class"
     },
     {
       "title": "Repeat Penalty",
       "path": "/genai/gguf/gguf/chat/set/sampler/repeat-penalty/README.md",
-      "keywords": "genai gguf gguf chat set sampler repeat penalty genai toolkit gguf gguf chat set sampler repeat penalty",
-      "content": "Repeat Penalty Description Set repeat penalty to common params stored in local. NB : 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class repeat penalty : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler repeat penalty",
+      "content": "Repeat Penalty Description Set repeat_penalty to common_params stored in local. NB : 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class repeat penalty : float Output parameters GGUF out : class"
     },
     {
       "title": "Samplers",
       "path": "/genai/gguf/gguf/chat/set/sampler/samplers/README.md",
-      "keywords": "genai gguf gguf chat set sampler samplers genai toolkit gguf gguf chat set sampler samplers",
-      "content": "Samplers Description Set samplers to common params stored in local. NB : it define which parameters and in which order these parameters are used to select the tokens Type : polymorphic. Input parameters GGUF in : class samplers : array of enum Enum : enum Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler samplers",
+      "content": "Samplers Description Set samplers to common_params stored in local. NB : it define which parameters and in which order these parameters are used to select the tokens Type : polymorphic. Input parameters GGUF in : class samplers : array of enum Enum : enum Output parameters GGUF out : class"
     },
     {
       "title": "Temperature",
       "path": "/genai/gguf/gguf/chat/set/sampler/temperature/README.md",
-      "keywords": "genai gguf gguf chat set sampler temperature genai toolkit gguf gguf chat set sampler temperature",
-      "content": "Temperature Description Set temperature to common params stored in local. NB : Input parameters GGUF in : class temperature : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler temperature",
+      "content": "Temperature Description Set temperature to common_params stored in local. NB : <= 0.0 to sample greedily, 0.0 to not output probabilities Type : polymorphic. Input parameters GGUF in : class temperature : float Output parameters GGUF out : class"
     },
     {
       "title": "Top K",
       "path": "/genai/gguf/gguf/chat/set/sampler/top-k/README.md",
-      "keywords": "genai gguf gguf chat set sampler top k genai toolkit gguf gguf chat set sampler top k",
-      "content": "Top K Description Set top k to common params stored in local. NB : Input parameters GGUF in : class top k : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler top k",
+      "content": "Top K Description Set top_k to common_params stored in local. NB : <= 0 to use vocab size Type : polymorphic. Input parameters GGUF in : class top_k : integer Output parameters GGUF out : class"
     },
     {
       "title": "Top P",
       "path": "/genai/gguf/gguf/chat/set/sampler/top-p/README.md",
-      "keywords": "genai gguf gguf chat set sampler top p genai toolkit gguf gguf chat set sampler top p",
-      "content": "Top P Description Set top p to common params stored in local. NB : 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class top p : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler top p",
+      "content": "Top P Description Set top_p to common_params stored in local. NB : 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class top_p : float Output parameters GGUF out : class"
     },
     {
       "title": "Typ P",
       "path": "/genai/gguf/gguf/chat/set/sampler/typ-p/README.md",
-      "keywords": "genai gguf gguf chat set sampler typ p genai toolkit gguf gguf chat set sampler typ p",
-      "content": "Typ P Description Set typ p to common params stored in local. NB : typical p, 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class typ p : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler typ p",
+      "content": "Typ P Description Set typ_p to common_params stored in local. NB : typical_p, 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class typ_p : float Output parameters GGUF out : class"
     },
     {
       "title": "Xtc Probability",
       "path": "/genai/gguf/gguf/chat/set/sampler/xtc-probability/README.md",
-      "keywords": "genai gguf gguf chat set sampler xtc probability genai toolkit gguf gguf chat set sampler xtc probability",
-      "content": "Xtc Probability Description Set xtc probability to common params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class xtc probability : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler xtc probability",
+      "content": "Xtc Probability Description Set xtc_probability to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class xtc_probability : float Output parameters GGUF out : class"
     },
     {
       "title": "Xtc Threshold",
       "path": "/genai/gguf/gguf/chat/set/sampler/xtc-threshold/README.md",
-      "keywords": "genai gguf gguf chat set sampler xtc threshold genai toolkit gguf gguf chat set sampler xtc threshold",
-      "content": "Xtc Threshold Description Set xtc threshold to common params stored in local. NB : 0.5 disables XTC Type : polymorphic. Input parameters GGUF in : class xtc threshold : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set sampler xtc threshold",
+      "content": "Xtc Threshold Description Set xtc_threshold to common_params stored in local. NB : > 0.5 disables XTC Type : polymorphic. Input parameters GGUF in : class xtc_threshold : float Output parameters GGUF out : class"
     },
     {
       "title": "Session",
       "path": "/genai/gguf/gguf/chat/set/session/README.md",
-      "keywords": "genai gguf gguf chat set session genai toolkit gguf gguf chat set session",
+      "keywords": "genai gguf chat set session",
       "content": "Session Description This section groups the GenAI documentation available under Session. Pages CPU Threads Defrag Thold Grp Attn N Grp Attn W N Batch N Chunks N CTX N Keep N Parallel N Predict N Sequences N Ybatch Nb GPU Layers Rope Freq Base Rope Freq Scale Yarn Attn Factor Yarn Beta Fast Yarn Beta Slow Yarn Ext Factor Yarn Orig CTX"
     },
     {
       "title": "CPU Threads",
       "path": "/genai/gguf/gguf/chat/set/session/cpu-threads/README.md",
-      "keywords": "genai gguf gguf chat set session cpu threads genai toolkit gguf gguf chat set session cpu threads",
-      "content": "CPU Threads Description Set n cpu threads to common params stored in local. NB : Input parameters GGUF in : class n cpu threads : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session cpu threads",
+      "content": "CPU Threads Description Set n_cpu_threads to common_params stored in local. NB : <= 0 automatic definition Type : polymorphic. Input parameters GGUF in : class n_cpu_threads : integer Output parameters GGUF out : class"
     },
     {
       "title": "Defrag Thold",
       "path": "/genai/gguf/gguf/chat/set/session/defrag-thold/README.md",
-      "keywords": "genai gguf gguf chat set session defrag thold genai toolkit gguf gguf chat set session defrag thold",
-      "content": "Defrag Thold Description Set defrag thold to common params stored in local. NB : KV cache defragmentation threshold Type : polymorphic. Input parameters GGUF in : class defrag thold : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session defrag thold",
+      "content": "Defrag Thold Description Set defrag_thold to common_params stored in local. NB : KV cache defragmentation threshold Type : polymorphic. Input parameters GGUF in : class defrag_thold : float Output parameters GGUF out : class"
     },
     {
       "title": "Grp Attn N",
       "path": "/genai/gguf/gguf/chat/set/session/grp-attn-n/README.md",
-      "keywords": "genai gguf gguf chat set session grp attn n genai toolkit gguf gguf chat set session grp attn n",
-      "content": "Grp Attn N Description Set grp attn n to common params stored in local. NB : group attention factor Type : polymorphic. Input parameters GGUF in : class grp attn n : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session grp attn n",
+      "content": "Grp Attn N Description Set grp_attn_n to common_params stored in local. NB : group-attention factor Type : polymorphic. Input parameters GGUF in : class grp_attn_n : integer Output parameters GGUF out : class"
     },
     {
       "title": "Grp Attn W",
       "path": "/genai/gguf/gguf/chat/set/session/grp-attn-w/README.md",
-      "keywords": "genai gguf gguf chat set session grp attn w genai toolkit gguf gguf chat set session grp attn w",
-      "content": "Grp Attn W Description Set grp attn w to common params stored in local. NB : group attention width Type : polymorphic. Input parameters GGUF in : class grp attn w : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session grp attn w",
+      "content": "Grp Attn W Description Set grp_attn_w to common_params stored in local. NB : group-attention width Type : polymorphic. Input parameters GGUF in : class grp_attn_w : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Batch",
       "path": "/genai/gguf/gguf/chat/set/session/n-batch/README.md",
-      "keywords": "genai gguf gguf chat set session n batch genai toolkit gguf gguf chat set session n batch",
-      "content": "N Batch Description Set n batch to common params stored in local. NB : logical batch size for prompt processing (must be =32 to use BLAS) Type : polymorphic. Input parameters GGUF in : class n batch : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session n batch",
+      "content": "N Batch Description Set n_batch to common_params stored in local. NB : logical batch size for prompt processing (must be >=32 to use BLAS) Type : polymorphic. Input parameters GGUF in : class n_batch : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Chunks",
       "path": "/genai/gguf/gguf/chat/set/session/n-chunks/README.md",
-      "keywords": "genai gguf gguf chat set session n chunks genai toolkit gguf gguf chat set session n chunks",
-      "content": "N Chunks Description Set n chunks to common params stored in local. NB : max number of chunks to process ( 1 = unlimited) Type : polymorphic. Input parameters GGUF in : class n chunks : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session n chunks",
+      "content": "N Chunks Description Set n_chunks to common_params stored in local. NB : max number of chunks to process (-1 = unlimited) Type : polymorphic. Input parameters GGUF in : class n_chunks : integer Output parameters GGUF out : class"
     },
     {
       "title": "N CTX",
       "path": "/genai/gguf/gguf/chat/set/session/n-ctx/README.md",
-      "keywords": "genai gguf gguf chat set session n ctx genai toolkit gguf gguf chat set session n ctx",
-      "content": "N CTX Description Set n ctx to common params stored in local. n ctx is the maximum context size in tokens that a model can take into account for a prompt and its responses, thus defining the model's active memory during inference. Type : polymorphic. Input parameters GGUF in : class n ctx : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session n ctx",
+      "content": "N CTX Description Set n_ctx to common_params stored in local. n_ctx is the maximum context size in tokens that a model can take into account for a prompt and its responses, thus defining the model's active memory during inference. Type : polymorphic. Input parameters GGUF in : class n_ctx : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Keep",
       "path": "/genai/gguf/gguf/chat/set/session/n-keep/README.md",
-      "keywords": "genai gguf gguf chat set session n keep genai toolkit gguf gguf chat set session n keep",
-      "content": "N Keep Description Set n keep to common params stored in local. NB : number of tokens to keep from initial prompt Type : polymorphic. Input parameters GGUF in : class n keep : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session n keep",
+      "content": "N Keep Description Set n_keep to common_params stored in local. NB : number of tokens to keep from initial prompt Type : polymorphic. Input parameters GGUF in : class n_keep : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Parallel",
       "path": "/genai/gguf/gguf/chat/set/session/n-parallel/README.md",
-      "keywords": "genai gguf gguf chat set session n parallel genai toolkit gguf gguf chat set session n parallel",
-      "content": "N Parallel Description Set n parallel to common params stored in local. NB : number of parallel sequences to decode Type : polymorphic. Input parameters GGUF in : class n parallel : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session n parallel",
+      "content": "N Parallel Description Set n_parallel to common_params stored in local. NB : number of parallel sequences to decode Type : polymorphic. Input parameters GGUF in : class n_parallel : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Predict",
       "path": "/genai/gguf/gguf/chat/set/session/n-predict/README.md",
-      "keywords": "genai gguf gguf chat set session n predict genai toolkit gguf gguf chat set session n predict",
-      "content": "N Predict Description Set nb token to predict to common params stored in local. Type : polymorphic. Input parameters GGUF in : class n predict : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session n predict",
+      "content": "N Predict Description Set nb token to predict to common_params stored in local. Type : polymorphic. Input parameters GGUF in : class n_predict : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Sequences",
       "path": "/genai/gguf/gguf/chat/set/session/n-sequences/README.md",
-      "keywords": "genai gguf gguf chat set session n sequences genai toolkit gguf gguf chat set session n sequences",
-      "content": "N Sequences Description Set n sequences to common params stored in local. NB : number of sequences to decode Type : polymorphic. Input parameters GGUF in : class n sequences : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session n sequences",
+      "content": "N Sequences Description Set n_sequences to common_params stored in local. NB : number of sequences to decode Type : polymorphic. Input parameters GGUF in : class n_sequences : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Ybatch",
       "path": "/genai/gguf/gguf/chat/set/session/n-ybatch/README.md",
-      "keywords": "genai gguf gguf chat set session n ybatch genai toolkit gguf gguf chat set session n ybatch",
-      "content": "N Ybatch Description Set n batch to common params stored in local. NB : logical batch size for prompt processing (must be =32 to use BLAS) Type : polymorphic. Input parameters GGUF in : class n ubatch : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session n ybatch",
+      "content": "N Ybatch Description Set n_batch to common_params stored in local. NB : logical batch size for prompt processing (must be >=32 to use BLAS) Type : polymorphic. Input parameters GGUF in : class n_ubatch : integer Output parameters GGUF out : class"
     },
     {
       "title": "Nb GPU Layers",
       "path": "/genai/gguf/gguf/chat/set/session/nb-gpu-layers/README.md",
-      "keywords": "genai gguf gguf chat set session nb gpu layers genai toolkit gguf gguf chat set session nb gpu layers",
-      "content": "Nb GPU Layers Description Set nb gpu layers to common params stored in local. Type : polymorphic. Input parameters GGUF in : class nb gpu layers : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session nb gpu layers",
+      "content": "Nb GPU Layers Description Set nb_gpu_layers to common_params stored in local. Type : polymorphic. Input parameters GGUF in : class nb gpu layers : integer Output parameters GGUF out : class"
     },
     {
       "title": "Rope Freq Base",
       "path": "/genai/gguf/gguf/chat/set/session/rope-freq-base/README.md",
-      "keywords": "genai gguf gguf chat set session rope freq base genai toolkit gguf gguf chat set session rope freq base",
-      "content": "Rope Freq Base Description Set rope freq base to common params stored in local. NB : RoPE base frequency Type : polymorphic. Input parameters GGUF in : class rope freq base : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session rope freq base",
+      "content": "Rope Freq Base Description Set rope_freq_base to common_params stored in local. NB : RoPE base frequency Type : polymorphic. Input parameters GGUF in : class rope_freq_base : float Output parameters GGUF out : class"
     },
     {
       "title": "Rope Freq Scale",
       "path": "/genai/gguf/gguf/chat/set/session/rope-freq-scale/README.md",
-      "keywords": "genai gguf gguf chat set session rope freq scale genai toolkit gguf gguf chat set session rope freq scale",
-      "content": "Rope Freq Scale Description Set rope freq scale to common params stored in local. NB : RoPE frequency scaling factor Type : polymorphic. Input parameters GGUF in : class rope freq scale : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session rope freq scale",
+      "content": "Rope Freq Scale Description Set rope_freq_scale to common_params stored in local. NB : RoPE frequency scaling factor Type : polymorphic. Input parameters GGUF in : class rope_freq_scale : float Output parameters GGUF out : class"
     },
     {
       "title": "Yarn Attn Factor",
       "path": "/genai/gguf/gguf/chat/set/session/yarn-attn-factor/README.md",
-      "keywords": "genai gguf gguf chat set session yarn attn factor genai toolkit gguf gguf chat set session yarn attn factor",
-      "content": "Yarn Attn Factor Description Set yarn attn factor to common params stored in local. NB : YaRN magnitude scaling factor Type : polymorphic. Input parameters GGUF in : class yarn attn factor : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session yarn attn factor",
+      "content": "Yarn Attn Factor Description Set yarn_attn_factor to common_params stored in local. NB : YaRN magnitude scaling factor Type : polymorphic. Input parameters GGUF in : class yarn_attn_factor : float Output parameters GGUF out : class"
     },
     {
       "title": "Yarn Beta Fast",
       "path": "/genai/gguf/gguf/chat/set/session/yarn-beta-fast/README.md",
-      "keywords": "genai gguf gguf chat set session yarn beta fast genai toolkit gguf gguf chat set session yarn beta fast",
-      "content": "Yarn Beta Fast Description Set yarn beta fast to common params stored in local. NB : YaRN low correction dim Type : polymorphic. Input parameters GGUF in : class yarn beta fast : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session yarn beta fast",
+      "content": "Yarn Beta Fast Description Set yarn_beta_fast to common_params stored in local. NB : YaRN low correction dim Type : polymorphic. Input parameters GGUF in : class yarn_beta_fast : float Output parameters GGUF out : class"
     },
     {
       "title": "Yarn Beta Slow",
       "path": "/genai/gguf/gguf/chat/set/session/yarn-beta-slow/README.md",
-      "keywords": "genai gguf gguf chat set session yarn beta slow genai toolkit gguf gguf chat set session yarn beta slow",
-      "content": "Yarn Beta Slow Description Set yarn beta slow to common params stored in local. NB : YaRN high correction dim Type : polymorphic. Input parameters GGUF in : class yarn beta slow : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session yarn beta slow",
+      "content": "Yarn Beta Slow Description Set yarn_beta_slow to common_params stored in local. NB : YaRN high correction dim Type : polymorphic. Input parameters GGUF in : class yarn_beta_slow : float Output parameters GGUF out : class"
     },
     {
       "title": "Yarn Ext Factor",
       "path": "/genai/gguf/gguf/chat/set/session/yarn-ext-factor/README.md",
-      "keywords": "genai gguf gguf chat set session yarn ext factor genai toolkit gguf gguf chat set session yarn ext factor",
-      "content": "Yarn Ext Factor Description Set yarn ext factor to common params stored in local. NB : YaRN extrapolation mix factor Type : polymorphic. Input parameters GGUF in : class yarn ext factor : float Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session yarn ext factor",
+      "content": "Yarn Ext Factor Description Set yarn_ext_factor to common_params stored in local. NB : YaRN extrapolation mix factor Type : polymorphic. Input parameters GGUF in : class yarn_ext_factor : float Output parameters GGUF out : class"
     },
     {
       "title": "Yarn Orig CTX",
       "path": "/genai/gguf/gguf/chat/set/session/yarn-orig-ctx/README.md",
-      "keywords": "genai gguf gguf chat set session yarn orig ctx genai toolkit gguf gguf chat set session yarn orig ctx",
-      "content": "Yarn Orig CTX Description Set n print to common params stored in local. NB : YaRN original context length Type : polymorphic. Input parameters GGUF in : class yarn orig ctx : integer Output parameters GGUF out : class"
+      "keywords": "genai gguf chat set session yarn orig ctx",
+      "content": "Yarn Orig CTX Description Set n_print to common_params stored in local. NB : YaRN original context length Type : polymorphic. Input parameters GGUF in : class yarn_orig_ctx : integer Output parameters GGUF out : class"
     },
     {
       "title": "GGUF TTS",
       "path": "/genai/gguf/gguf-tts/README.md",
-      "keywords": "genai gguf gguf tts genai toolkit gguf gguf tts",
+      "keywords": "genai gguf gguf tts",
       "content": "GGUF TTS Description This section groups the GenAI documentation available under GGUF TTS. Categories Init Modify Run Pages Close"
     },
     {
       "title": "Close",
       "path": "/genai/gguf/gguf-tts/close/README.md",
-      "keywords": "genai gguf gguf tts close genai toolkit gguf gguf tts close",
+      "keywords": "genai gguf gguf tts close",
       "content": "Close Description Initialize a session and its buffer Type : polymorphic. Input parameters TTS in : class Output parameters TTS out : class"
     },
     {
       "title": "Init",
       "path": "/genai/gguf/gguf-tts/init/README.md",
-      "keywords": "genai gguf gguf tts init genai toolkit gguf gguf tts init",
+      "keywords": "genai gguf gguf tts init",
       "content": "Init Description This section groups the GenAI documentation available under Init. Pages Sampler Session Session & Sampler"
     },
     {
       "title": "Sampler",
       "path": "/genai/gguf/gguf-tts/init/sampler/README.md",
-      "keywords": "genai gguf gguf tts init sampler genai toolkit gguf gguf tts init sampler",
-      "content": "Sampler Description Initialize TTS sampler Type : polymorphic. Input parameters Sampler Parameters : cluster temperature : float top p : float min p : float top k : integer TTS in : class Output parameters TTS out : class"
+      "keywords": "genai gguf gguf tts init sampler",
+      "content": "Sampler Description Initialize TTS sampler Type : polymorphic. Input parameters Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer TTS in : class Output parameters TTS out : class"
     },
     {
       "title": "Session",
       "path": "/genai/gguf/gguf-tts/init/session/README.md",
-      "keywords": "genai gguf gguf tts init session genai toolkit gguf gguf tts init session",
+      "keywords": "genai gguf gguf tts init session",
       "content": "Session Description Initialize a session Type : polymorphic. Input parameters Parameters : cluster Model Path : path Tokenizer Path : path n gpu layers : integer use guide tokens : boolean Output parameters TTS out : class"
     },
     {
       "title": "Session & Sampler",
       "path": "/genai/gguf/gguf-tts/init/session-sampler/README.md",
-      "keywords": "genai gguf gguf tts init session sampler genai toolkit gguf gguf tts init session and sampler",
-      "content": "Session & Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Parameters : cluster Model Path : path Tokenizer Path : path n gpu layers : integer use guide tokens : boolean Sampler Parameters : cluster temperature : float top p : float min p : float top k : integer Output parameters TTS out : class"
+      "keywords": "genai gguf gguf tts init session sampler",
+      "content": "Session & Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Parameters : cluster Model Path : path Tokenizer Path : path n gpu layers : integer use guide tokens : boolean Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters TTS out : class"
     },
     {
       "title": "Modify",
       "path": "/genai/gguf/gguf-tts/modify/README.md",
-      "keywords": "genai gguf gguf tts modify genai toolkit gguf gguf tts modify",
+      "keywords": "genai gguf gguf tts modify",
       "content": "Modify Description This section groups the GenAI documentation available under Modify. Pages Audio Buffer Sampler"
     },
     {
       "title": "Audio Buffer",
       "path": "/genai/gguf/gguf-tts/modify/audio-buffer/README.md",
-      "keywords": "genai gguf gguf tts modify audio buffer genai toolkit gguf gguf tts modify audio buffer",
+      "keywords": "genai gguf gguf tts modify audio buffer",
       "content": "Audio Buffer Description Free the audio buffer and create a new one (empty). Type : polymorphic. Input parameters TTS in : class Output parameters TTS out : class"
     },
     {
       "title": "Sampler",
       "path": "/genai/gguf/gguf-tts/modify/sampler/README.md",
-      "keywords": "genai gguf gguf tts modify sampler genai toolkit gguf gguf tts modify sampler",
-      "content": "Sampler Description Free the sampler and create a new one with the input parameters. Type : polymorphic. Input parameters TTS in : class Sampler Parameters : cluster temperature : float top p : float min p : float top k : integer Output parameters TTS out : class"
+      "keywords": "genai gguf gguf tts modify sampler",
+      "content": "Sampler Description Free the sampler and create a new one with the input parameters. Type : polymorphic. Input parameters TTS in : class Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters TTS out : class"
     },
     {
       "title": "Run",
       "path": "/genai/gguf/gguf-tts/run/README.md",
-      "keywords": "genai gguf gguf tts run genai toolkit gguf gguf tts run",
+      "keywords": "genai gguf gguf tts run",
       "content": "Run Description This section groups the GenAI documentation available under Run. Pages Buffer File"
     },
     {
       "title": "Buffer",
       "path": "/genai/gguf/gguf-tts/run/buffer/README.md",
-      "keywords": "genai gguf gguf tts run buffer genai toolkit gguf gguf tts run buffer",
-      "content": "Buffer Description Run TTS and add the result into buffer. Type : polymorphic. Input parameters TTS in : class Prompt : string voice : string Output parameters TTS out : class audio buffer : integer"
+      "keywords": "genai gguf gguf tts run buffer",
+      "content": "Buffer Description Run TTS and add the result into buffer. Type : polymorphic. Input parameters TTS in : class Prompt : string voice : string Output parameters TTS out : class audio_buffer : integer"
     },
     {
       "title": "File",
       "path": "/genai/gguf/gguf-tts/run/file/README.md",
-      "keywords": "genai gguf gguf tts run file genai toolkit gguf gguf tts run file",
+      "keywords": "genai gguf gguf tts run file",
       "content": "File Description Run TTS and save the result into .wav file. Type : polymorphic. Input parameters TTS in : class Prompt : string Wav File Path : path voice : string Output parameters TTS out : class"
     },
     {
       "title": "Text Generation",
       "path": "/genai/gguf/text-generation/README.md",
-      "keywords": "genai gguf text generation genai toolkit gguf text generation",
-      "content": "Text Generation Description This section groups the GenAI documentation available under Text Generation. Categories GGUF Init"
+      "keywords": "genai gguf text generation",
+      "content": "Text Generation Description This section groups the GenAI documentation available under Text Generation. Categories Functions GGUF Init TextOnly.lvclass"
+    },
+    {
+      "title": "Functions",
+      "path": "/genai/gguf/text-generation/functions/README.md",
+      "keywords": "genai gguf text generation functions",
+      "content": "Functions Description This section groups the GenAI documentation available under Functions. Categories Init Sampler TextOnly.lvclass Visual.lvclass"
+    },
+    {
+      "title": "Init Sampler",
+      "path": "/genai/gguf/text-generation/functions/init-sampler/README.md",
+      "keywords": "genai gguf text generation functions init sampler",
+      "content": "Init Sampler Description This section groups the GenAI documentation available under Init Sampler. Pages Simplified Init Sampler"
+    },
+    {
+      "title": "Simplified Init Sampler",
+      "path": "/genai/gguf/text-generation/functions/init-sampler/simplified-init-sampler/README.md",
+      "keywords": "genai gguf text generation functions init sampler simplified init sampler",
+      "content": "Simplified Init Sampler Description Initialize the sampler of the session Type : VI. Input parameters Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer TextOnly in : class Output parameters TextOnly out : class"
+    },
+    {
+      "title": "TextOnly.lvclass",
+      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/README.md",
+      "keywords": "genai gguf text generation functions textonly lvclass",
+      "content": "TextOnly.lvclass Description This section groups the GenAI documentation available under TextOnly.lvclass. Categories Simplified Generate Streaming.vi Simplified Modify Sampler.vi Simplified Send Prompt To Model.vi Simplified Stop Generation.vi"
+    },
+    {
+      "title": "Simplified Generate Streaming.vi",
+      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-generate-streaming-vi/README.md",
+      "keywords": "genai gguf text generation functions textonly lvclass simplified generate streaming vi",
+      "content": "Simplified Generate Streaming.vi Description This section groups the GenAI documentation available under Simplified Generate Streaming.vi. Pages Simplified Generate Streaming"
+    },
+    {
+      "title": "Simplified Generate Streaming",
+      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-generate-streaming-vi/simplified-generate-streaming/README.md",
+      "keywords": "genai gguf text generation functions textonly lvclass simplified generate streaming vi simplified generate streaming",
+      "content": "Simplified Generate Streaming Description Type : VI. Input parameters TextOnly in : class Output parameters TextOnly out : class generated token : string generation ended : boolean"
+    },
+    {
+      "title": "Simplified Modify Sampler.vi",
+      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-modify-sampler-vi/README.md",
+      "keywords": "genai gguf text generation functions textonly lvclass simplified modify sampler vi",
+      "content": "Simplified Modify Sampler.vi Description This section groups the GenAI documentation available under Simplified Modify Sampler.vi. Pages Simplified Modify Sampler"
+    },
+    {
+      "title": "Simplified Modify Sampler",
+      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-modify-sampler-vi/simplified-modify-sampler/README.md",
+      "keywords": "genai gguf text generation functions textonly lvclass simplified modify sampler vi simplified modify sampler",
+      "content": "Simplified Modify Sampler Description Type : VI. Input parameters Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer TextOnly in : class Output parameters TextOnly out : class"
+    },
+    {
+      "title": "Simplified Send Prompt To Model.vi",
+      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-send-prompt-to-model-vi/README.md",
+      "keywords": "genai gguf text generation functions textonly lvclass simplified send prompt to model vi",
+      "content": "Simplified Send Prompt To Model.vi Description This section groups the GenAI documentation available under Simplified Send Prompt To Model.vi. Pages Simplified Send Prompt To Model"
+    },
+    {
+      "title": "Simplified Send Prompt To Model",
+      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-send-prompt-to-model-vi/simplified-send-prompt-to-model/README.md",
+      "keywords": "genai gguf text generation functions textonly lvclass simplified send prompt to model vi simplified send prompt to model",
+      "content": "Simplified Send Prompt To Model Description Type : VI. Input parameters TextOnly in : class Prompt : string Output parameters TextOnly out : class"
+    },
+    {
+      "title": "Simplified Stop Generation.vi",
+      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-stop-generation-vi/README.md",
+      "keywords": "genai gguf text generation functions textonly lvclass simplified stop generation vi",
+      "content": "Simplified Stop Generation.vi Description This section groups the GenAI documentation available under Simplified Stop Generation.vi. Pages Simplified Stop Generation"
+    },
+    {
+      "title": "Simplified Stop Generation",
+      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-stop-generation-vi/simplified-stop-generation/README.md",
+      "keywords": "genai gguf text generation functions textonly lvclass simplified stop generation vi simplified stop generation",
+      "content": "Simplified Stop Generation Description Type : VI. Input parameters TextOnly in : class Output parameters TextOnly out : class"
+    },
+    {
+      "title": "Visual.lvclass",
+      "path": "/genai/gguf/text-generation/functions/visual-lvclass/README.md",
+      "keywords": "genai gguf text generation functions visual lvclass",
+      "content": "Visual.lvclass Description This section groups the GenAI documentation available under Visual.lvclass. Categories Simplified Send Image To Model.vi Simplified Send Prompt And Image To Model.vi"
+    },
+    {
+      "title": "Simplified Send Image To Model.vi",
+      "path": "/genai/gguf/text-generation/functions/visual-lvclass/simplified-send-image-to-model-vi/README.md",
+      "keywords": "genai gguf text generation functions visual lvclass simplified send image to model vi",
+      "content": "Simplified Send Image To Model.vi Description This section groups the GenAI documentation available under Simplified Send Image To Model.vi. Pages Simplified Send Image To Model"
+    },
+    {
+      "title": "Simplified Send Image To Model",
+      "path": "/genai/gguf/text-generation/functions/visual-lvclass/simplified-send-image-to-model-vi/simplified-send-image-to-model/README.md",
+      "keywords": "genai gguf text generation functions visual lvclass simplified send image to model vi simplified send image to model",
+      "content": "Simplified Send Image To Model Description Type : VI. Input parameters Visual in : class image path : path Output parameters Visual out : class"
+    },
+    {
+      "title": "Simplified Send Prompt And Image To Model.vi",
+      "path": "/genai/gguf/text-generation/functions/visual-lvclass/simplified-send-prompt-and-image-to-model-vi/README.md",
+      "keywords": "genai gguf text generation functions visual lvclass simplified send prompt and image to model vi",
+      "content": "Simplified Send Prompt And Image To Model.vi Description This section groups the GenAI documentation available under Simplified Send Prompt And Image To Model.vi. Pages Simplified Send Prompt And Image To Model"
+    },
+    {
+      "title": "Simplified Send Prompt And Image To Model",
+      "path": "/genai/gguf/text-generation/functions/visual-lvclass/simplified-send-prompt-and-image-to-model-vi/simplified-send-prompt-and-image-to-model/README.md",
+      "keywords": "genai gguf text generation functions visual lvclass simplified send prompt and image to model vi simplified send prompt and image to model",
+      "content": "Simplified Send Prompt And Image To Model Description Type : VI. Input parameters image path : path Prompt : string Visual in : class Output parameters Visual out : class"
     },
     {
       "title": "GGUF Init",
       "path": "/genai/gguf/text-generation/gguf-init/README.md",
-      "keywords": "genai gguf text generation gguf init genai toolkit gguf text generation gguf init",
+      "keywords": "genai gguf text generation gguf init",
       "content": "GGUF Init Description This section groups the GenAI documentation available under GGUF Init. Categories Text Only Visual"
     },
     {
       "title": "Text Only",
       "path": "/genai/gguf/text-generation/gguf-init/text-only/README.md",
-      "keywords": "genai gguf text generation gguf init text only genai toolkit gguf text generation gguf init text only",
+      "keywords": "genai gguf text generation gguf init text only",
       "content": "Text Only Description This section groups the GenAI documentation available under Text Only. Pages Session Session And Sampler"
     },
     {
       "title": "Session",
       "path": "/genai/gguf/text-generation/gguf-init/text-only/session/README.md",
-      "keywords": "genai gguf text generation gguf init text only session genai toolkit gguf text generation gguf init text only session",
-      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path n cpu threads : integer nb gpu layers : integer n ctx : integer system prompt : string always keep system prompt : boolean Output parameters TextOnly out : class"
+      "keywords": "genai gguf text generation gguf init text only session",
+      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Output parameters TextOnly out : class"
     },
     {
       "title": "Session And Sampler",
       "path": "/genai/gguf/text-generation/gguf-init/text-only/session-and-sampler/README.md",
-      "keywords": "genai gguf text generation gguf init text only session and sampler genai toolkit gguf text generation gguf init text only session and sampler",
-      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path n cpu threads : integer nb gpu layers : integer n ctx : integer system prompt : string always keep system prompt : boolean Sampler Parameters : cluster temperature : float top p : float min p : float top k : integer Output parameters TextOnly out : class"
+      "keywords": "genai gguf text generation gguf init text only session and sampler",
+      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters TextOnly out : class"
     },
     {
       "title": "Visual",
       "path": "/genai/gguf/text-generation/gguf-init/visual/README.md",
-      "keywords": "genai gguf text generation gguf init visual genai toolkit gguf text generation gguf init visual",
+      "keywords": "genai gguf text generation gguf init visual",
       "content": "Visual Description This section groups the GenAI documentation available under Visual. Categories Gemma 3 Qwen 2.5VL"
     },
     {
       "title": "Gemma 3",
       "path": "/genai/gguf/text-generation/gguf-init/visual/gemma-3/README.md",
-      "keywords": "genai gguf text generation gguf init visual gemma 3 genai toolkit gguf text generation gguf init visual gemma 3",
+      "keywords": "genai gguf text generation gguf init visual gemma 3",
       "content": "Gemma 3 Description This section groups the GenAI documentation available under Gemma 3. Pages Session Session And Sampler"
     },
     {
       "title": "Session",
       "path": "/genai/gguf/text-generation/gguf-init/visual/gemma-3/session/README.md",
-      "keywords": "genai gguf text generation gguf init visual gemma 3 session genai toolkit gguf text generation gguf init visual gemma 3 session",
-      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n ctx : integer system prompt : string Output parameters Gemma3 out : class"
+      "keywords": "genai gguf text generation gguf init visual gemma 3 session",
+      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string Output parameters Gemma3 out : class"
     },
     {
       "title": "Session And Sampler",
       "path": "/genai/gguf/text-generation/gguf-init/visual/gemma-3/session-and-sampler/README.md",
-      "keywords": "genai gguf text generation gguf init visual gemma 3 session and sampler genai toolkit gguf text generation gguf init visual gemma 3 session and sampler",
-      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n ctx : integer system prompt : string Sampler Parameters : cluster temperature : float top p : float min p : float top k : integer Output parameters Gemma3 out : class"
+      "keywords": "genai gguf text generation gguf init visual gemma 3 session and sampler",
+      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters Gemma3 out : class"
     },
     {
       "title": "Qwen 2.5VL",
       "path": "/genai/gguf/text-generation/gguf-init/visual/qwen-2-5vl/README.md",
-      "keywords": "genai gguf text generation gguf init visual qwen 2 5vl genai toolkit gguf text generation gguf init visual qwen 2 5vl",
+      "keywords": "genai gguf text generation gguf init visual qwen 2 5vl",
       "content": "Qwen 2.5VL Description This section groups the GenAI documentation available under Qwen 2.5VL. Pages Session Session And Sampler"
     },
     {
       "title": "Session",
       "path": "/genai/gguf/text-generation/gguf-init/visual/qwen-2-5vl/session/README.md",
-      "keywords": "genai gguf text generation gguf init visual qwen 2 5vl session genai toolkit gguf text generation gguf init visual qwen 2 5vl session",
-      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n ctx : integer system prompt : string always keep system prompt : boolean Output parameters Qwen25VL out : class"
+      "keywords": "genai gguf text generation gguf init visual qwen 2 5vl session",
+      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Output parameters Qwen25VL out : class"
     },
     {
       "title": "Session And Sampler",
       "path": "/genai/gguf/text-generation/gguf-init/visual/qwen-2-5vl/session-and-sampler/README.md",
-      "keywords": "genai gguf text generation gguf init visual qwen 2 5vl session and sampler genai toolkit gguf text generation gguf init visual qwen 2 5vl session and sampler",
-      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n ctx : integer system prompt : string always keep system prompt : boolean Sampler Parameters : cluster temperature : float top p : float min p : float top k : integer Output parameters Qwen25VL out : class"
+      "keywords": "genai gguf text generation gguf init visual qwen 2 5vl session and sampler",
+      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters Qwen25VL out : class"
+    },
+    {
+      "title": "TextOnly.lvclass",
+      "path": "/genai/gguf/text-generation/textonly-lvclass/README.md",
+      "keywords": "genai gguf text generation textonly lvclass",
+      "content": "TextOnly.lvclass Description This section groups the GenAI documentation available under TextOnly.lvclass. Categories Simplified Close Session.vi"
+    },
+    {
+      "title": "Simplified Close Session.vi",
+      "path": "/genai/gguf/text-generation/textonly-lvclass/simplified-close-session-vi/README.md",
+      "keywords": "genai gguf text generation textonly lvclass simplified close session vi",
+      "content": "Simplified Close Session.vi Description This section groups the GenAI documentation available under Simplified Close Session.vi. Pages Simplified Close Session"
+    },
+    {
+      "title": "Simplified Close Session",
+      "path": "/genai/gguf/text-generation/textonly-lvclass/simplified-close-session-vi/simplified-close-session/README.md",
+      "keywords": "genai gguf text generation textonly lvclass simplified close session vi simplified close session",
+      "content": "Simplified Close Session Description Type : VI. Input parameters TextOnly in : class Output parameters TextOnly out : class"
+    },
+    {
+      "title": "Whisper",
+      "path": "/genai/gguf/whisper/README.md",
+      "keywords": "genai gguf whisper",
+      "content": "Whisper Description This section groups the GenAI documentation available under Whisper. Categories Whisper.lvclass"
+    },
+    {
+      "title": "Whisper.lvclass",
+      "path": "/genai/gguf/whisper/whisper-lvclass/README.md",
+      "keywords": "genai gguf whisper whisper lvclass",
+      "content": "Whisper.lvclass Description This section groups the GenAI documentation available under Whisper.lvclass. Categories CloseWhisper.vi InitWhisper.vi WhisperTranscribe.vi"
+    },
+    {
+      "title": "CloseWhisper.vi",
+      "path": "/genai/gguf/whisper/whisper-lvclass/closewhisper-vi/README.md",
+      "keywords": "genai gguf whisper whisper lvclass closewhisper vi",
+      "content": "CloseWhisper.vi Description This section groups the GenAI documentation available under CloseWhisper.vi. Pages CloseWhisper"
+    },
+    {
+      "title": "CloseWhisper",
+      "path": "/genai/gguf/whisper/whisper-lvclass/closewhisper-vi/closewhisper/README.md",
+      "keywords": "genai gguf whisper whisper lvclass closewhisper vi closewhisper",
+      "content": "CloseWhisper Description Type : VI. Input parameters Whisper in : class Output parameters Whisper out : class"
+    },
+    {
+      "title": "InitWhisper.vi",
+      "path": "/genai/gguf/whisper/whisper-lvclass/initwhisper-vi/README.md",
+      "keywords": "genai gguf whisper whisper lvclass initwhisper vi",
+      "content": "InitWhisper.vi Description This section groups the GenAI documentation available under InitWhisper.vi. Pages InitWhisper"
+    },
+    {
+      "title": "InitWhisper",
+      "path": "/genai/gguf/whisper/whisper-lvclass/initwhisper-vi/initwhisper/README.md",
+      "keywords": "genai gguf whisper whisper lvclass initwhisper vi initwhisper",
+      "content": "InitWhisper Description Type : VI. Input parameters Model File Path : path Output parameters Whisper out : class"
+    },
+    {
+      "title": "WhisperTranscribe.vi",
+      "path": "/genai/gguf/whisper/whisper-lvclass/whispertranscribe-vi/README.md",
+      "keywords": "genai gguf whisper whisper lvclass whispertranscribe vi",
+      "content": "WhisperTranscribe.vi Description This section groups the GenAI documentation available under WhisperTranscribe.vi. Pages WhisperTranscribe"
+    },
+    {
+      "title": "WhisperTranscribe",
+      "path": "/genai/gguf/whisper/whisper-lvclass/whispertranscribe-vi/whispertranscribe/README.md",
+      "keywords": "genai gguf whisper whisper lvclass whispertranscribe vi whispertranscribe",
+      "content": "WhisperTranscribe Description Type : VI. Input parameters Whisper in : class Wav File Path : path Additional Output : cluster Txt File Path : path Wts File Path : path Output parameters Whisper out : class transcription : string"
+    },
+    {
+      "title": "OpenAI",
+      "path": "/genai/openai/README.md",
+      "keywords": "genai openai",
+      "content": "OpenAI Description This section groups the GenAI documentation available under OpenAI. Categories Advanced Audio Authentification Close Close Conversation Files Headers Init Conversation Models Open Organization Receive Message Send Message"
+    },
+    {
+      "title": "Advanced",
+      "path": "/genai/openai/advanced/README.md",
+      "keywords": "genai openai advanced",
+      "content": "Advanced Description This section groups the GenAI documentation available under Advanced. Categories Assistants Messages Parameters Runs Threads Vector Stores"
+    },
+    {
+      "title": "Assistants",
+      "path": "/genai/openai/advanced/assistants/README.md",
+      "keywords": "genai openai advanced assistants",
+      "content": "Assistants Description This section groups the GenAI documentation available under Assistants. Categories Create Delete Edit Get Info Get List"
+    },
+    {
+      "title": "Create",
+      "path": "/genai/openai/advanced/assistants/create/README.md",
+      "keywords": "genai openai advanced assistants create",
+      "content": "Create Description This section groups the GenAI documentation available under Create. Pages Create Assistant"
+    },
+    {
+      "title": "Create Assistant",
+      "path": "/genai/openai/advanced/assistants/create/create-assistant/README.md",
+      "keywords": "genai openai advanced assistants create create assistant",
+      "content": "Create Assistant Description Create an assistant with a model and instructions. Type : VI. Input parameters OpenAI in : class request : cluster model (required) : string name (optional) : string description (optional) : string instructions (optional) : string tools (optional) : class tool_resources (optional) : class metadata (optional) : class temperature (optional) : float top_p (optional) : float Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer name : string description : string model : string instructions : string tools : class tool_resources : class metadata : class top_p : float temperature : float response_format : string"
+    },
+    {
+      "title": "Delete",
+      "path": "/genai/openai/advanced/assistants/delete/README.md",
+      "keywords": "genai openai advanced assistants delete",
+      "content": "Delete Description This section groups the GenAI documentation available under Delete. Pages Delete Assistant"
+    },
+    {
+      "title": "Delete Assistant",
+      "path": "/genai/openai/advanced/assistants/delete/delete-assistant/README.md",
+      "keywords": "genai openai advanced assistants delete delete assistant",
+      "content": "Delete Assistant Description Delete an assistant. Type : VI. Input parameters OpenAI in : class assistant_id : string Output parameters OpenAI out : class assistant_status : cluster id : string object : string deleted : boolean"
+    },
+    {
+      "title": "Edit",
+      "path": "/genai/openai/advanced/assistants/edit/README.md",
+      "keywords": "genai openai advanced assistants edit",
+      "content": "Edit Description This section groups the GenAI documentation available under Edit. Pages Edit Assistant"
+    },
+    {
+      "title": "Edit Assistant",
+      "path": "/genai/openai/advanced/assistants/edit/edit-assistant/README.md",
+      "keywords": "genai openai advanced assistants edit edit assistant",
+      "content": "Edit Assistant Description Type : VI. Input parameters OpenAI in : class assistant_id : string request : cluster model (required) : string name (optional) : string description (optional) : string instructions (optional) : string tools (optional) : class tool_resources (optional) : class metadata (optional) : class temperature (optional) : float top_p (optional) : float Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer name : string description : string model : string instructions : string tools : class tool_resources : class metadata : class top_p : float temperature : float response_format : string"
+    },
+    {
+      "title": "Get Info",
+      "path": "/genai/openai/advanced/assistants/get-info/README.md",
+      "keywords": "genai openai advanced assistants get info",
+      "content": "Get Info Description This section groups the GenAI documentation available under Get Info. Pages Get Assistant Info"
+    },
+    {
+      "title": "Get Assistant Info",
+      "path": "/genai/openai/advanced/assistants/get-info/get-assistant-info/README.md",
+      "keywords": "genai openai advanced assistants get info get assistant info",
+      "content": "Get Assistant Info Description Type : VI. Input parameters OpenAI in : class assistant_id : string Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer name : string description : string model : string instructions : string tools : class tool_resources : class metadata : class top_p : float temperature : float response_format : string"
+    },
+    {
+      "title": "Get List",
+      "path": "/genai/openai/advanced/assistants/get-list/README.md",
+      "keywords": "genai openai advanced assistants get list",
+      "content": "Get List Description This section groups the GenAI documentation available under Get List. Pages Get Assistants List"
+    },
+    {
+      "title": "Get Assistants List",
+      "path": "/genai/openai/advanced/assistants/get-list/get-assistants-list/README.md",
+      "keywords": "genai openai advanced assistants get list get assistants list",
+      "content": "Get Assistants List Description Type : VI. Input parameters OpenAI in : class parameters : cluster limit (optional) : integer order (optional) : string after (optional) : string before (optional) : string Output parameters OpenAI out : class response : cluster object : string data : array of cluster response 2 : cluster id : string object : string created_at : integer name : string description : string model : string instructions : string tools : class tool_resources : class metadata : class top_p : float temperature : float response_format : string"
+    },
+    {
+      "title": "Messages",
+      "path": "/genai/openai/advanced/messages/README.md",
+      "keywords": "genai openai advanced messages",
+      "content": "Messages Description This section groups the GenAI documentation available under Messages. Categories Create Delete Edit Get All Get Info Get Last Get List Stream"
+    },
+    {
+      "title": "Create",
+      "path": "/genai/openai/advanced/messages/create/README.md",
+      "keywords": "genai openai advanced messages create",
+      "content": "Create Description This section groups the GenAI documentation available under Create. Pages Create Message"
+    },
+    {
+      "title": "Create Message",
+      "path": "/genai/openai/advanced/messages/create/create-message/README.md",
+      "keywords": "genai openai advanced messages create create message",
+      "content": "Create Message Description Create a message. Type : VI. Input parameters OpenAI in : class request : cluster role (required) : string content (required) : class attachments (optional) : array of cluster file_id : string tools : array of cluster incomplete_details : cluster type : string metadata (optional) : class thread_id : string Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer thread_id : string status : string incomplete_details : cluster reason : string completed_at : integer incomplete_at : integer role : string content : class assistant_id : string run_id : string attachments : array of cluster file_id : string tools : array of cluster incomplete_details : cluster type : string metadata : class"
+    },
+    {
+      "title": "Delete",
+      "path": "/genai/openai/advanced/messages/delete/README.md",
+      "keywords": "genai openai advanced messages delete",
+      "content": "Delete Description This section groups the GenAI documentation available under Delete. Pages Delete Message"
+    },
+    {
+      "title": "Delete Message",
+      "path": "/genai/openai/advanced/messages/delete/delete-message/README.md",
+      "keywords": "genai openai advanced messages delete delete message",
+      "content": "Delete Message Description Deletes a message. Type : VI. Input parameters OpenAI in : class message_id : string thread_id : string Output parameters OpenAI out : class message_status : cluster id : string object : string deleted : boolean"
+    },
+    {
+      "title": "Edit",
+      "path": "/genai/openai/advanced/messages/edit/README.md",
+      "keywords": "genai openai advanced messages edit",
+      "content": "Edit Description This section groups the GenAI documentation available under Edit. Pages Edit Message"
+    },
+    {
+      "title": "Edit Message",
+      "path": "/genai/openai/advanced/messages/edit/edit-message/README.md",
+      "keywords": "genai openai advanced messages edit edit message",
+      "content": "Edit Message Description Type : VI. Input parameters OpenAI in : class message_id : string thread_id : string metadata : class Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer thread_id : string status : string incomplete_details : cluster reason : string completed_at : integer incomplete_at : integer role : string content : class assistant_id : string run_id : string attachments : array of cluster file_id : string tools : array of cluster incomplete_details : cluster type : string metadata : class"
+    },
+    {
+      "title": "Get All",
+      "path": "/genai/openai/advanced/messages/get-all/README.md",
+      "keywords": "genai openai advanced messages get all",
+      "content": "Get All Description This section groups the GenAI documentation available under Get All. Pages Get All Messages"
+    },
+    {
+      "title": "Get All Messages",
+      "path": "/genai/openai/advanced/messages/get-all/get-all-messages/README.md",
+      "keywords": "genai openai advanced messages get all get all messages",
+      "content": "Get All Messages Description Returns all messages for a given thread. Type : VI. Input parameters OpenAI in : class thread_id : string parameters : cluster limit (optional) : integer order (optional) : string after (optional) : string before (optional) : string run_id (optional) : string Output parameters OpenAI out : class all_messages : array of string delimited string : string"
+    },
+    {
+      "title": "Get Info",
+      "path": "/genai/openai/advanced/messages/get-info/README.md",
+      "keywords": "genai openai advanced messages get info",
+      "content": "Get Info Description This section groups the GenAI documentation available under Get Info. Pages Get Message Info"
+    },
+    {
+      "title": "Get Message Info",
+      "path": "/genai/openai/advanced/messages/get-info/get-message-info/README.md",
+      "keywords": "genai openai advanced messages get info get message info",
+      "content": "Get Message Info Description Type : VI. Input parameters OpenAI in : class thread_id : string message_id : string Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer thread_id : string status : string incomplete_details : cluster reason : string completed_at : integer incomplete_at : integer role : string content : class assistant_id : string run_id : string attachments : array of cluster file_id : string tools : array of cluster incomplete_details : cluster type : string metadata : class"
+    },
+    {
+      "title": "Get Last",
+      "path": "/genai/openai/advanced/messages/get-last/README.md",
+      "keywords": "genai openai advanced messages get last",
+      "content": "Get Last Description This section groups the GenAI documentation available under Get Last. Pages Get Last Message"
+    },
+    {
+      "title": "Get Last Message",
+      "path": "/genai/openai/advanced/messages/get-last/get-last-message/README.md",
+      "keywords": "genai openai advanced messages get last get last message",
+      "content": "Get Last Message Description Type : VI. Input parameters OpenAI in : class thread_id : string parameters : cluster limit (optional) : integer order (optional) : string after (optional) : string before (optional) : string run_id (optional) : string Output parameters OpenAI out : class last_message : string"
+    },
+    {
+      "title": "Get List",
+      "path": "/genai/openai/advanced/messages/get-list/README.md",
+      "keywords": "genai openai advanced messages get list",
+      "content": "Get List Description This section groups the GenAI documentation available under Get List. Pages Get Messages List"
+    },
+    {
+      "title": "Get Messages List",
+      "path": "/genai/openai/advanced/messages/get-list/get-messages-list/README.md",
+      "keywords": "genai openai advanced messages get list get messages list",
+      "content": "Get Messages List Description Type : VI. Input parameters OpenAI in : class thread_id : string parameters : cluster limit (optional) : integer order (optional) : string after (optional) : string before (optional) : string run_id (optional) : string Output parameters OpenAI out : class response : cluster object : string data : array of cluster response : cluster id : string object : string created_at : integer thread_id : string status : string incomplete_details : cluster reason : string completed_at : integer incomplete_at : integer role : string content : class assistant_id : string run_id : string attachments : array of cluster file_id : string tools : array of cluster incomplete_details : cluster type : string metadata : class"
+    },
+    {
+      "title": "Stream",
+      "path": "/genai/openai/advanced/messages/stream/README.md",
+      "keywords": "genai openai advanced messages stream",
+      "content": "Stream Description This section groups the GenAI documentation available under Stream. Pages Stream"
+    },
+    {
+      "title": "Stream",
+      "path": "/genai/openai/advanced/messages/stream/stream/README.md",
+      "keywords": "genai openai advanced messages stream",
+      "content": "Stream Description Type : VI. Input parameters OpenAI in : class Output parameters OpenAI out : class response : string done ? : boolean"
+    },
+    {
+      "title": "Parameters",
+      "path": "/genai/openai/advanced/parameters/README.md",
+      "keywords": "genai openai advanced parameters",
+      "content": "Parameters Description This section groups the GenAI documentation available under Parameters. Categories Annotations Chunking Strategy Content Metadata Tool Resources Tools Tools Choice"
+    },
+    {
+      "title": "Annotations",
+      "path": "/genai/openai/advanced/parameters/annotations/README.md",
+      "keywords": "genai openai advanced parameters annotations",
+      "content": "Annotations Description This section groups the GenAI documentation available under Annotations. Categories Read File Citation Read File Path"
+    },
+    {
+      "title": "Read File Citation",
+      "path": "/genai/openai/advanced/parameters/annotations/read-file-citation/README.md",
+      "keywords": "genai openai advanced parameters annotations read file citation",
+      "content": "Read File Citation Description This section groups the GenAI documentation available under Read File Citation. Pages Read File Citation"
+    },
+    {
+      "title": "Read File Citation",
+      "path": "/genai/openai/advanced/parameters/annotations/read-file-citation/read-file-citation/README.md",
+      "keywords": "genai openai advanced parameters annotations read file citation",
+      "content": "Read File Citation Description Type : VI. Input parameters annotations in : class Output parameters annotations out : class"
+    },
+    {
+      "title": "Read File Path",
+      "path": "/genai/openai/advanced/parameters/annotations/read-file-path/README.md",
+      "keywords": "genai openai advanced parameters annotations read file path",
+      "content": "Read File Path Description This section groups the GenAI documentation available under Read File Path. Pages Read File Path"
+    },
+    {
+      "title": "Read File Path",
+      "path": "/genai/openai/advanced/parameters/annotations/read-file-path/read-file-path/README.md",
+      "keywords": "genai openai advanced parameters annotations read file path",
+      "content": "Read File Path Description Type : VI. Input parameters annotations in : class Output parameters annotations out : class"
+    },
+    {
+      "title": "Chunking Strategy",
+      "path": "/genai/openai/advanced/parameters/chunking-strategy/README.md",
+      "keywords": "genai openai advanced parameters chunking strategy",
+      "content": "Chunking Strategy Description This section groups the GenAI documentation available under Chunking Strategy. Categories Write Auto Write Static"
+    },
+    {
+      "title": "Write Auto",
+      "path": "/genai/openai/advanced/parameters/chunking-strategy/write-auto/README.md",
+      "keywords": "genai openai advanced parameters chunking strategy write auto",
+      "content": "Write Auto Description This section groups the GenAI documentation available under Write Auto. Pages Write Auto"
+    },
+    {
+      "title": "Write Auto",
+      "path": "/genai/openai/advanced/parameters/chunking-strategy/write-auto/write-auto/README.md",
+      "keywords": "genai openai advanced parameters chunking strategy write auto",
+      "content": "Write Auto Description Type : VI. Input parameters chunking_strategy in : class Output parameters chunking_strategy out : class"
+    },
+    {
+      "title": "Write Static",
+      "path": "/genai/openai/advanced/parameters/chunking-strategy/write-static/README.md",
+      "keywords": "genai openai advanced parameters chunking strategy write static",
+      "content": "Write Static Description This section groups the GenAI documentation available under Write Static. Pages Write Static"
+    },
+    {
+      "title": "Write Static",
+      "path": "/genai/openai/advanced/parameters/chunking-strategy/write-static/write-static/README.md",
+      "keywords": "genai openai advanced parameters chunking strategy write static",
+      "content": "Write Static Description Type : VI. Input parameters chunking_strategy in : class Output parameters chunking_strategy out : class"
+    },
+    {
+      "title": "Content",
+      "path": "/genai/openai/advanced/parameters/content/README.md",
+      "keywords": "genai openai advanced parameters content",
+      "content": "Content Description This section groups the GenAI documentation available under Content. Categories Read Image File Read Image URL Read Refusal Read Text Write Image File Write Image URL Write Text"
+    },
+    {
+      "title": "Read Image File",
+      "path": "/genai/openai/advanced/parameters/content/read-image-file/README.md",
+      "keywords": "genai openai advanced parameters content read image file",
+      "content": "Read Image File Description This section groups the GenAI documentation available under Read Image File. Pages Read Image File"
+    },
+    {
+      "title": "Read Image File",
+      "path": "/genai/openai/advanced/parameters/content/read-image-file/read-image-file/README.md",
+      "keywords": "genai openai advanced parameters content read image file",
+      "content": "Read Image File Description Type : VI. Input parameters content in : class Output parameters content out : class content : array of cluster type : string image_file : cluster file_id : string detail : string"
+    },
+    {
+      "title": "Read Image URL",
+      "path": "/genai/openai/advanced/parameters/content/read-image-url/README.md",
+      "keywords": "genai openai advanced parameters content read image url",
+      "content": "Read Image URL Description This section groups the GenAI documentation available under Read Image URL. Pages Read Image URL"
+    },
+    {
+      "title": "Read Image URL",
+      "path": "/genai/openai/advanced/parameters/content/read-image-url/read-image-url/README.md",
+      "keywords": "genai openai advanced parameters content read image url",
+      "content": "Read Image URL Description Type : VI. Input parameters content in : class Output parameters content out : class content : array of cluster type : string image_url : cluster url : string detail : string"
+    },
+    {
+      "title": "Read Refusal",
+      "path": "/genai/openai/advanced/parameters/content/read-refusal/README.md",
+      "keywords": "genai openai advanced parameters content read refusal",
+      "content": "Read Refusal Description This section groups the GenAI documentation available under Read Refusal. Pages Read Refusal"
+    },
+    {
+      "title": "Read Refusal",
+      "path": "/genai/openai/advanced/parameters/content/read-refusal/read-refusal/README.md",
+      "keywords": "genai openai advanced parameters content read refusal",
+      "content": "Read Refusal Description Type : VI. Input parameters content in : class Output parameters content out : class content : array of cluster type : string refusal : string"
+    },
+    {
+      "title": "Read Text",
+      "path": "/genai/openai/advanced/parameters/content/read-text/README.md",
+      "keywords": "genai openai advanced parameters content read text",
+      "content": "Read Text Description This section groups the GenAI documentation available under Read Text. Pages Read Text"
+    },
+    {
+      "title": "Read Text",
+      "path": "/genai/openai/advanced/parameters/content/read-text/read-text/README.md",
+      "keywords": "genai openai advanced parameters content read text",
+      "content": "Read Text Description The content of the message in array of text and/or images. Text (object) : The text content that is part of a message. type (string) : Always text. text (object) : annotations (array) : see annotations documentation Type : VI. Input parameters content in : class Output parameters content out : class content : array of cluster type : string text : cluster value : string annotations : array of class annotations : class"
+    },
+    {
+      "title": "Write Image File",
+      "path": "/genai/openai/advanced/parameters/content/write-image-file/README.md",
+      "keywords": "genai openai advanced parameters content write image file",
+      "content": "Write Image File Description This section groups the GenAI documentation available under Write Image File. Pages Write Image File"
+    },
+    {
+      "title": "Write Image File",
+      "path": "/genai/openai/advanced/parameters/content/write-image-file/write-image-file/README.md",
+      "keywords": "genai openai advanced parameters content write image file",
+      "content": "Write Image File Description Type : VI. Input parameters content in : class image_file : cluster type : string image_file : cluster file_id : string detail : string Output parameters content out : class"
+    },
+    {
+      "title": "Write Image URL",
+      "path": "/genai/openai/advanced/parameters/content/write-image-url/README.md",
+      "keywords": "genai openai advanced parameters content write image url",
+      "content": "Write Image URL Description This section groups the GenAI documentation available under Write Image URL. Pages Write Image URL"
+    },
+    {
+      "title": "Write Image URL",
+      "path": "/genai/openai/advanced/parameters/content/write-image-url/write-image-url/README.md",
+      "keywords": "genai openai advanced parameters content write image url",
+      "content": "Write Image URL Description Type : VI. Input parameters content in : class image_url : cluster type : string image_url : cluster url : string detail : string Output parameters content out : class"
+    },
+    {
+      "title": "Write Text",
+      "path": "/genai/openai/advanced/parameters/content/write-text/README.md",
+      "keywords": "genai openai advanced parameters content write text",
+      "content": "Write Text Description This section groups the GenAI documentation available under Write Text. Pages Write Text"
+    },
+    {
+      "title": "Write Text",
+      "path": "/genai/openai/advanced/parameters/content/write-text/write-text/README.md",
+      "keywords": "genai openai advanced parameters content write text",
+      "content": "Write Text Description Type : VI. Input parameters content in : class text : string Output parameters content out : class"
+    },
+    {
+      "title": "Metadata",
+      "path": "/genai/openai/advanced/parameters/metadata/README.md",
+      "keywords": "genai openai advanced parameters metadata",
+      "content": "Metadata Description This section groups the GenAI documentation available under Metadata. Categories Read Metadata Write Metadata"
+    },
+    {
+      "title": "Read Metadata",
+      "path": "/genai/openai/advanced/parameters/metadata/read-metadata/README.md",
+      "keywords": "genai openai advanced parameters metadata read metadata",
+      "content": "Read Metadata Description This section groups the GenAI documentation available under Read Metadata. Pages Read Metadata"
+    },
+    {
+      "title": "Read Metadata",
+      "path": "/genai/openai/advanced/parameters/metadata/read-metadata/read-metadata/README.md",
+      "keywords": "genai openai advanced parameters metadata read metadata",
+      "content": "Read Metadata Description Type : VI. Input parameters metadata in : class Output parameters metadata out : class metadata"
+    },
+    {
+      "title": "Write Metadata",
+      "path": "/genai/openai/advanced/parameters/metadata/write-metadata/README.md",
+      "keywords": "genai openai advanced parameters metadata write metadata",
+      "content": "Write Metadata Description This section groups the GenAI documentation available under Write Metadata. Pages Write Metadata"
+    },
+    {
+      "title": "Write Metadata",
+      "path": "/genai/openai/advanced/parameters/metadata/write-metadata/write-metadata/README.md",
+      "keywords": "genai openai advanced parameters metadata write metadata",
+      "content": "Write Metadata Description Type : VI. Input parameters metadata in : class metadata Output parameters metadata out : class"
+    },
+    {
+      "title": "Tool Resources",
+      "path": "/genai/openai/advanced/parameters/tool-resources/README.md",
+      "keywords": "genai openai advanced parameters tool resources",
+      "content": "Tool Resources Description This section groups the GenAI documentation available under Tool Resources. Categories Read Code Interpreter Read File Search Write Code Interpreter Write File Search"
+    },
+    {
+      "title": "Read Code Interpreter",
+      "path": "/genai/openai/advanced/parameters/tool-resources/read-code-interpreter/README.md",
+      "keywords": "genai openai advanced parameters tool resources read code interpreter",
+      "content": "Read Code Interpreter Description This section groups the GenAI documentation available under Read Code Interpreter. Pages Read Code Interpreter"
+    },
+    {
+      "title": "Read Code Interpreter",
+      "path": "/genai/openai/advanced/parameters/tool-resources/read-code-interpreter/read-code-interpreter/README.md",
+      "keywords": "genai openai advanced parameters tool resources read code interpreter",
+      "content": "Read Code Interpreter Description Type : VI. Input parameters tool_resources in : class Output parameters tool_resources out : class tool_resources : cluster code_interpreter : cluster file_ids : array of string String : string"
+    },
+    {
+      "title": "Read File Search",
+      "path": "/genai/openai/advanced/parameters/tool-resources/read-file-search/README.md",
+      "keywords": "genai openai advanced parameters tool resources read file search",
+      "content": "Read File Search Description This section groups the GenAI documentation available under Read File Search. Pages Read File Search"
+    },
+    {
+      "title": "Read File Search",
+      "path": "/genai/openai/advanced/parameters/tool-resources/read-file-search/read-file-search/README.md",
+      "keywords": "genai openai advanced parameters tool resources read file search",
+      "content": "Read File Search Description Type : VI. Input parameters tool_resources in : class Output parameters tool_resources out : class tool_resources : cluster file_search : cluster vector_store_ids : array of string String : string"
+    },
+    {
+      "title": "Write Code Interpreter",
+      "path": "/genai/openai/advanced/parameters/tool-resources/write-code-interpreter/README.md",
+      "keywords": "genai openai advanced parameters tool resources write code interpreter",
+      "content": "Write Code Interpreter Description This section groups the GenAI documentation available under Write Code Interpreter. Pages Write Code Interpreter"
+    },
+    {
+      "title": "Write Code Interpreter",
+      "path": "/genai/openai/advanced/parameters/tool-resources/write-code-interpreter/write-code-interpreter/README.md",
+      "keywords": "genai openai advanced parameters tool resources write code interpreter",
+      "content": "Write Code Interpreter Description Type : VI. Input parameters tool_resources in : class tool_resources : cluster code_interpreter : cluster file_ids : array of string String : string Output parameters tool_resources out : class"
+    },
+    {
+      "title": "Write File Search",
+      "path": "/genai/openai/advanced/parameters/tool-resources/write-file-search/README.md",
+      "keywords": "genai openai advanced parameters tool resources write file search",
+      "content": "Write File Search Description This section groups the GenAI documentation available under Write File Search. Pages Write File Search"
+    },
+    {
+      "title": "Write File Search",
+      "path": "/genai/openai/advanced/parameters/tool-resources/write-file-search/write-file-search/README.md",
+      "keywords": "genai openai advanced parameters tool resources write file search",
+      "content": "Write File Search Description Type : VI. Input parameters tool_resources in : class tool_resources : cluster file_search : cluster vector_store_ids : array of string String : string Output parameters tool_resources out : class"
+    },
+    {
+      "title": "Tools",
+      "path": "/genai/openai/advanced/parameters/tools/README.md",
+      "keywords": "genai openai advanced parameters tools",
+      "content": "Tools Description This section groups the GenAI documentation available under Tools. Categories Read Code Interpreter Read File Search Read Function Tools.lvclass Write Code Interpreter Write File Search"
+    },
+    {
+      "title": "Read Code Interpreter",
+      "path": "/genai/openai/advanced/parameters/tools/read-code-interpreter/README.md",
+      "keywords": "genai openai advanced parameters tools read code interpreter",
+      "content": "Read Code Interpreter Description This section groups the GenAI documentation available under Read Code Interpreter. Pages Read Code Interpreter"
+    },
+    {
+      "title": "Read Code Interpreter",
+      "path": "/genai/openai/advanced/parameters/tools/read-code-interpreter/read-code-interpreter/README.md",
+      "keywords": "genai openai advanced parameters tools read code interpreter",
+      "content": "Read Code Interpreter Description Type : VI. Input parameters tools in : class Output parameters tools out : class tools : array of cluster type : string"
+    },
+    {
+      "title": "Read File Search",
+      "path": "/genai/openai/advanced/parameters/tools/read-file-search/README.md",
+      "keywords": "genai openai advanced parameters tools read file search",
+      "content": "Read File Search Description This section groups the GenAI documentation available under Read File Search. Pages Read File Search"
+    },
+    {
+      "title": "Read File Search",
+      "path": "/genai/openai/advanced/parameters/tools/read-file-search/read-file-search/README.md",
+      "keywords": "genai openai advanced parameters tools read file search",
+      "content": "Read File Search Description Type : VI. Input parameters tools in : class Output parameters tools out : class tools : array of cluster type : string file_search : cluster max_num_results : integer ranking_options : cluster ranker : string score_threshold : float"
+    },
+    {
+      "title": "Read Function",
+      "path": "/genai/openai/advanced/parameters/tools/read-function/README.md",
+      "keywords": "genai openai advanced parameters tools read function",
+      "content": "Read Function Description This section groups the GenAI documentation available under Read Function. Pages Read Function"
+    },
+    {
+      "title": "Read Function",
+      "path": "/genai/openai/advanced/parameters/tools/read-function/read-function/README.md",
+      "keywords": "genai openai advanced parameters tools read function",
+      "content": "Read Function Description Type : VI. Input parameters tools in : class Output parameters tools out : class"
+    },
+    {
+      "title": "Tools.lvclass",
+      "path": "/genai/openai/advanced/parameters/tools/tools-lvclass/README.md",
+      "keywords": "genai openai advanced parameters tools tools lvclass",
+      "content": "Tools.lvclass Description This section groups the GenAI documentation available under Tools.lvclass. Categories Write Function.vi"
+    },
+    {
+      "title": "Write Function.vi",
+      "path": "/genai/openai/advanced/parameters/tools/tools-lvclass/write-function-vi/README.md",
+      "keywords": "genai openai advanced parameters tools tools lvclass write function vi",
+      "content": "Write Function.vi Description This section groups the GenAI documentation available under Write Function.vi. Pages Write Function"
+    },
+    {
+      "title": "Write Function",
+      "path": "/genai/openai/advanced/parameters/tools/tools-lvclass/write-function-vi/write-function/README.md",
+      "keywords": "genai openai advanced parameters tools tools lvclass write function vi write function",
+      "content": "Write Function Description Type : VI. Input parameters tools in : class tools : array of cluster tools : cluster type : string function : cluster description : string name : string parameters : string strict : boolean Output parameters tools out : class"
+    },
+    {
+      "title": "Write Code Interpreter",
+      "path": "/genai/openai/advanced/parameters/tools/write-code-interpreter/README.md",
+      "keywords": "genai openai advanced parameters tools write code interpreter",
+      "content": "Write Code Interpreter Description This section groups the GenAI documentation available under Write Code Interpreter. Pages Write Code Interpreter"
+    },
+    {
+      "title": "Write Code Interpreter",
+      "path": "/genai/openai/advanced/parameters/tools/write-code-interpreter/write-code-interpreter/README.md",
+      "keywords": "genai openai advanced parameters tools write code interpreter",
+      "content": "Write Code Interpreter Description Type : VI. Input parameters tools in : class tools : array of cluster type : string Output parameters tools out : class"
+    },
+    {
+      "title": "Write File Search",
+      "path": "/genai/openai/advanced/parameters/tools/write-file-search/README.md",
+      "keywords": "genai openai advanced parameters tools write file search",
+      "content": "Write File Search Description This section groups the GenAI documentation available under Write File Search. Pages Write File Search"
+    },
+    {
+      "title": "Write File Search",
+      "path": "/genai/openai/advanced/parameters/tools/write-file-search/write-file-search/README.md",
+      "keywords": "genai openai advanced parameters tools write file search",
+      "content": "Write File Search Description Type : VI. Input parameters tools in : class tools : array of cluster type : string file_search : cluster max_num_results : integer ranking_options : cluster ranker : string score_threshold : float Output parameters tools out : class"
+    },
+    {
+      "title": "Tools Choice",
+      "path": "/genai/openai/advanced/parameters/tools-choice/README.md",
+      "keywords": "genai openai advanced parameters tools choice",
+      "content": "Tools Choice Description This section groups the GenAI documentation available under Tools Choice. Categories Read Object Read String Write Object Write String"
+    },
+    {
+      "title": "Read Object",
+      "path": "/genai/openai/advanced/parameters/tools-choice/read-object/README.md",
+      "keywords": "genai openai advanced parameters tools choice read object",
+      "content": "Read Object Description This section groups the GenAI documentation available under Read Object. Pages Read Object"
+    },
+    {
+      "title": "Read Object",
+      "path": "/genai/openai/advanced/parameters/tools-choice/read-object/read-object/README.md",
+      "keywords": "genai openai advanced parameters tools choice read object",
+      "content": "Read Object Description Type : VI. Input parameters tool_choice in : class Output parameters tool_choice out : class object : cluster type : string function : cluster name : string"
+    },
+    {
+      "title": "Read String",
+      "path": "/genai/openai/advanced/parameters/tools-choice/read-string/README.md",
+      "keywords": "genai openai advanced parameters tools choice read string",
+      "content": "Read String Description This section groups the GenAI documentation available under Read String. Pages Read String"
+    },
+    {
+      "title": "Read String",
+      "path": "/genai/openai/advanced/parameters/tools-choice/read-string/read-string/README.md",
+      "keywords": "genai openai advanced parameters tools choice read string",
+      "content": "Read String Description Type : VI. Input parameters tool_choice in : class Output parameters tool_choice out : class string : string"
+    },
+    {
+      "title": "Write Object",
+      "path": "/genai/openai/advanced/parameters/tools-choice/write-object/README.md",
+      "keywords": "genai openai advanced parameters tools choice write object",
+      "content": "Write Object Description This section groups the GenAI documentation available under Write Object. Pages Write Object"
+    },
+    {
+      "title": "Write Object",
+      "path": "/genai/openai/advanced/parameters/tools-choice/write-object/write-object/README.md",
+      "keywords": "genai openai advanced parameters tools choice write object",
+      "content": "Write Object Description Type : VI. Input parameters tool_choice in : class object : cluster type : string function : cluster name : string Output parameters tool_choice out : class"
+    },
+    {
+      "title": "Write String",
+      "path": "/genai/openai/advanced/parameters/tools-choice/write-string/README.md",
+      "keywords": "genai openai advanced parameters tools choice write string",
+      "content": "Write String Description This section groups the GenAI documentation available under Write String. Pages Write String"
+    },
+    {
+      "title": "Write String",
+      "path": "/genai/openai/advanced/parameters/tools-choice/write-string/write-string/README.md",
+      "keywords": "genai openai advanced parameters tools choice write string",
+      "content": "Write String Description Type : VI. Input parameters tool_choice in : class string : string Output parameters tool_choice out : class"
+    },
+    {
+      "title": "Runs",
+      "path": "/genai/openai/advanced/runs/README.md",
+      "keywords": "genai openai advanced runs",
+      "content": "Runs Description This section groups the GenAI documentation available under Runs. Categories Cancel Create Create Thread & Run Edit Get Info Get List Submit Tool Output"
+    },
+    {
+      "title": "Cancel",
+      "path": "/genai/openai/advanced/runs/cancel/README.md",
+      "keywords": "genai openai advanced runs cancel",
+      "content": "Cancel Description This section groups the GenAI documentation available under Cancel. Pages Cancel Run"
+    },
+    {
+      "title": "Cancel Run",
+      "path": "/genai/openai/advanced/runs/cancel/cancel-run/README.md",
+      "keywords": "genai openai advanced runs cancel cancel run",
+      "content": "Cancel Run Description Type : VI. Input parameters OpenAI in : class run_id : string thread_id : string Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer thread_id : string assistant_id : string status : string required_action : cluster type : string submit_tool_outputs : cluster tool_calls : array of cluster id : string type : string function : cluster name : string arguments : string last_error : cluster code : string message : string expires_at : integer started_at : integer cancelled_at : integer failed_at : integer completed_at : integer incomplete_details : cluster reason : string model : string instructions : string tools : class metadata : class usage : cluster completion_tokens : integer prompt_tokens : integer total_tokens : integer temperature : float top_p : float max_prompt_tokens : integer max_completion_tokens : integer truncation_strategy : cluster type : string last_messages : integer tool_choice : class parallel_tool_calls : boolean response_format : string"
+    },
+    {
+      "title": "Create",
+      "path": "/genai/openai/advanced/runs/create/README.md",
+      "keywords": "genai openai advanced runs create",
+      "content": "Create Description This section groups the GenAI documentation available under Create. Pages Create Run"
+    },
+    {
+      "title": "Create Run",
+      "path": "/genai/openai/advanced/runs/create/create-run/README.md",
+      "keywords": "genai openai advanced runs create create run",
+      "content": "Create Run Description Create a run. Type : VI. Input parameters OpenAI in : class request : cluster assistant_id (required) : string model (optional) : string instructions (optional) : string additional_instructions (optional) : string additional_messages (optional) : array of cluster role : string content : class attachments : array of cluster file_id : string tools : array of cluster incomplete_details : cluster type : string metadata : class tools (optional) : class metadata (optional) : class temperature (optional) : float top_p (optional) : float stream (optional) : boolean max_prompt_tokens (optional) : integer max_completion_tokens (optional) : integer truncation_strategy (optional) : cluster type : string last_messages : float tool_choice (optional) : class parallel_tool_calls (optional) : boolean thread_id : string Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer thread_id : string assistant_id : string status : string required_action : cluster type : string submit_tool_outputs : cluster tool_calls : array of cluster id : string type : string function : cluster name : string arguments : string last_error : cluster code : string message : string expires_at : integer started_at : integer cancelled_at : integer failed_at : integer completed_at : integer incomplete_details : cluster reason : string model : string instructions : string tools : class metadata : class usage : cluster completion_tokens : integer prompt_tokens : integer total_tokens : integer temperature : float top_p : float max_prompt_tokens : integer max_completion_tokens : integer truncation_strategy : cluster type : string last_messages : integer tool_choice : class parallel_tool_calls : boolean response_format : string"
+    },
+    {
+      "title": "Create Thread & Run",
+      "path": "/genai/openai/advanced/runs/create-thread-run/README.md",
+      "keywords": "genai openai advanced runs create thread run",
+      "content": "Create Thread & Run Description This section groups the GenAI documentation available under Create Thread & Run. Pages Create Thread & Run"
+    },
+    {
+      "title": "Create Thread & Run",
+      "path": "/genai/openai/advanced/runs/create-thread-run/create-thread-run/README.md",
+      "keywords": "genai openai advanced runs create thread run",
+      "content": "Create Thread & Run Description Type : VI. Input parameters OpenAI in : class request : cluster assistant_id (required) : string thread (optional) : array of cluster role : string content : class attachments : array of cluster file_id : string tools : array of cluster incomplete_details : cluster type : string metadata : class model (optional) : string instructions (optional) : string tools (optional) : class tool_resources.lvclass : class metadata (optional) : class temperature (optional) : float top_p (optional) : float stream (optional) : boolean max_prompt_tokens (optional) : integer max_completion_tokens (optional) : integer truncation_strategy (optional) : cluster type : string last_messages : float tool_choice (optional) : class parallel_tool_calls (optional) : boolean thread_id : string Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer thread_id : string assistant_id : string status : string required_action : cluster type : string submit_tool_outputs : cluster tool_calls : array of cluster id : string type : string function : cluster name : string arguments : string last_error : cluster code : string message : string expires_at : integer started_at : integer cancelled_at : integer failed_at : integer completed_at : integer incomplete_details : cluster reason : string model : string instructions : string tools : class metadata : class usage : cluster completion_tokens : integer prompt_tokens : integer total_tokens : integer temperature : float top_p : float max_prompt_tokens : integer max_completion_tokens : integer truncation_strategy : cluster type : string last_messages : integer tool_choice : class parallel_tool_calls : boolean response_format : string"
+    },
+    {
+      "title": "Edit",
+      "path": "/genai/openai/advanced/runs/edit/README.md",
+      "keywords": "genai openai advanced runs edit",
+      "content": "Edit Description This section groups the GenAI documentation available under Edit. Pages Edit Run"
+    },
+    {
+      "title": "Edit Run",
+      "path": "/genai/openai/advanced/runs/edit/edit-run/README.md",
+      "keywords": "genai openai advanced runs edit edit run",
+      "content": "Edit Run Description Type : VI. Input parameters OpenAI in : class run_id : string thread_id : string metadata : class Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer thread_id : string assistant_id : string status : string required_action : cluster type : string submit_tool_outputs : cluster tool_calls : array of cluster id : string type : string function : cluster name : string arguments : string last_error : cluster code : string message : string expires_at : integer started_at : integer cancelled_at : integer failed_at : integer completed_at : integer incomplete_details : cluster reason : string model : string instructions : string tools : class metadata : class usage : cluster completion_tokens : integer prompt_tokens : integer total_tokens : integer temperature : float top_p : float max_prompt_tokens : integer max_completion_tokens : integer truncation_strategy : cluster type : string last_messages : integer tool_choice : class parallel_tool_calls : boolean response_format : string"
+    },
+    {
+      "title": "Get Info",
+      "path": "/genai/openai/advanced/runs/get-info/README.md",
+      "keywords": "genai openai advanced runs get info",
+      "content": "Get Info Description This section groups the GenAI documentation available under Get Info. Pages Get Run Info"
+    },
+    {
+      "title": "Get Run Info",
+      "path": "/genai/openai/advanced/runs/get-info/get-run-info/README.md",
+      "keywords": "genai openai advanced runs get info get run info",
+      "content": "Get Run Info Description Retrieves a run. Type : VI. Input parameters OpenAI in : class thread_id : string run_id : string Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer thread_id : string assistant_id : string status : string required_action : cluster type : string submit_tool_outputs : cluster tool_calls : array of cluster id : string type : string function : cluster name : string arguments : string last_error : cluster code : string message : string expires_at : integer started_at : integer cancelled_at : integer failed_at : integer completed_at : integer incomplete_details : cluster reason : string model : string instructions : string tools : class metadata : class usage : cluster completion_tokens : integer prompt_tokens : integer total_tokens : integer temperature : float top_p : float max_prompt_tokens : integer max_completion_tokens : integer truncation_strategy : cluster type : string last_messages : integer tool_choice : class parallel_tool_calls : boolean response_format : string"
+    },
+    {
+      "title": "Get List",
+      "path": "/genai/openai/advanced/runs/get-list/README.md",
+      "keywords": "genai openai advanced runs get list",
+      "content": "Get List Description This section groups the GenAI documentation available under Get List. Pages Get Runs List"
+    },
+    {
+      "title": "Get Runs List",
+      "path": "/genai/openai/advanced/runs/get-list/get-runs-list/README.md",
+      "keywords": "genai openai advanced runs get list get runs list",
+      "content": "Get Runs List Description Type : VI. Input parameters OpenAI in : class parameters : cluster limit (optional) : integer order (optional) : string after (optional) : string before (optional) : string thread_id : string Output parameters OpenAI out : class"
+    },
+    {
+      "title": "Submit Tool Output",
+      "path": "/genai/openai/advanced/runs/submit-tool-output/README.md",
+      "keywords": "genai openai advanced runs submit tool output",
+      "content": "Submit Tool Output Description This section groups the GenAI documentation available under Submit Tool Output. Pages Submit Tool Output"
+    },
+    {
+      "title": "Submit Tool Output",
+      "path": "/genai/openai/advanced/runs/submit-tool-output/submit-tool-output/README.md",
+      "keywords": "genai openai advanced runs submit tool output",
+      "content": "Submit Tool Output Description Type : VI. Input parameters OpenAI in : class request : cluster tool_outputs (required) : array of cluster tool_call_id : string output : string stream (optional) : boolean thread_id : string run_id : string Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer thread_id : string assistant_id : string status : string required_action : cluster type : string submit_tool_outputs : cluster tool_calls : array of cluster id : string type : string function : cluster name : string arguments : string last_error : cluster code : string message : string expires_at : integer started_at : integer cancelled_at : integer failed_at : integer completed_at : integer incomplete_details : cluster reason : string model : string instructions : string tools : class metadata : class usage : cluster completion_tokens : integer prompt_tokens : integer total_tokens : integer temperature : float top_p : float max_prompt_tokens : integer max_completion_tokens : integer truncation_strategy : cluster type : string last_messages : integer tool_choice : class parallel_tool_calls : boolean response_format : string"
+    },
+    {
+      "title": "Threads",
+      "path": "/genai/openai/advanced/threads/README.md",
+      "keywords": "genai openai advanced threads",
+      "content": "Threads Description This section groups the GenAI documentation available under Threads. Categories Create Delete Edit Get Info"
+    },
+    {
+      "title": "Create",
+      "path": "/genai/openai/advanced/threads/create/README.md",
+      "keywords": "genai openai advanced threads create",
+      "content": "Create Description This section groups the GenAI documentation available under Create. Pages Create Thread"
+    },
+    {
+      "title": "Create Thread",
+      "path": "/genai/openai/advanced/threads/create/create-thread/README.md",
+      "keywords": "genai openai advanced threads create create thread",
+      "content": "Create Thread Description Create a thread. Type : VI. Input parameters OpenAI in : class request : cluster messages (optional) : array of cluster role : string content : class attachments : array of cluster file_id : string tools : array of cluster incomplete_details : cluster type : string metadata : class tool_resources (optional) : class metadata (optional) : class Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer tool_resources : class metadata : class"
+    },
+    {
+      "title": "Delete",
+      "path": "/genai/openai/advanced/threads/delete/README.md",
+      "keywords": "genai openai advanced threads delete",
+      "content": "Delete Description This section groups the GenAI documentation available under Delete. Pages Delete Thread"
+    },
+    {
+      "title": "Delete Thread",
+      "path": "/genai/openai/advanced/threads/delete/delete-thread/README.md",
+      "keywords": "genai openai advanced threads delete delete thread",
+      "content": "Delete Thread Description Delete a thread. Type : VI. Input parameters OpenAI in : class thread_id : string Output parameters OpenAI out : class thread_status : cluster id : string object : string deleted : boolean"
+    },
+    {
+      "title": "Edit",
+      "path": "/genai/openai/advanced/threads/edit/README.md",
+      "keywords": "genai openai advanced threads edit",
+      "content": "Edit Description This section groups the GenAI documentation available under Edit. Pages Edit Thread"
+    },
+    {
+      "title": "Edit Thread",
+      "path": "/genai/openai/advanced/threads/edit/edit-thread/README.md",
+      "keywords": "genai openai advanced threads edit edit thread",
+      "content": "Edit Thread Description Type : VI. Input parameters OpenAI in : class thread_id : string Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer tool_resources : class metadata : class"
+    },
+    {
+      "title": "Get Info",
+      "path": "/genai/openai/advanced/threads/get-info/README.md",
+      "keywords": "genai openai advanced threads get info",
+      "content": "Get Info Description This section groups the GenAI documentation available under Get Info. Pages Get Thread Info"
+    },
+    {
+      "title": "Get Thread Info",
+      "path": "/genai/openai/advanced/threads/get-info/get-thread-info/README.md",
+      "keywords": "genai openai advanced threads get info get thread info",
+      "content": "Get Thread Info Description Type : VI. Input parameters OpenAI in : class thread_id : string Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer tool_resources : class metadata : class"
+    },
+    {
+      "title": "Vector Stores",
+      "path": "/genai/openai/advanced/vector-stores/README.md",
+      "keywords": "genai openai advanced vector stores",
+      "content": "Vector Stores Description This section groups the GenAI documentation available under Vector Stores. Categories Create Delete Edit Get Info Get List"
+    },
+    {
+      "title": "Create",
+      "path": "/genai/openai/advanced/vector-stores/create/README.md",
+      "keywords": "genai openai advanced vector stores create",
+      "content": "Create Description This section groups the GenAI documentation available under Create. Pages Create Vector Store"
+    },
+    {
+      "title": "Create Vector Store",
+      "path": "/genai/openai/advanced/vector-stores/create/create-vector-store/README.md",
+      "keywords": "genai openai advanced vector stores create create vector store",
+      "content": "Create Vector Store Description Type : VI. Input parameters OpenAI in : class request : cluster file_ids (optional) : array of string String : string name (optional) : string expires_after (optional) : cluster anchor (required) : string days (required) : integer chunking_strategy (optional) : class metadata (optional) : class Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer name : string usage_bytes : integer file_counts : cluster in_progress : integer completed : integer failed : integer cancelled : integer total : integer status : string expires_after : cluster anchor : string days : integer expires_at : integer last_active_at : integer metadata : class"
+    },
+    {
+      "title": "Delete",
+      "path": "/genai/openai/advanced/vector-stores/delete/README.md",
+      "keywords": "genai openai advanced vector stores delete",
+      "content": "Delete Description This section groups the GenAI documentation available under Delete. Pages Delete Vector Store"
+    },
+    {
+      "title": "Delete Vector Store",
+      "path": "/genai/openai/advanced/vector-stores/delete/delete-vector-store/README.md",
+      "keywords": "genai openai advanced vector stores delete delete vector store",
+      "content": "Delete Vector Store Description Type : VI. Input parameters OpenAI in : class vector_store_id : string Output parameters OpenAI out : class vector_store_status : cluster id : string object : string deleted : boolean"
+    },
+    {
+      "title": "Edit",
+      "path": "/genai/openai/advanced/vector-stores/edit/README.md",
+      "keywords": "genai openai advanced vector stores edit",
+      "content": "Edit Description This section groups the GenAI documentation available under Edit. Pages Edit Vector Store"
+    },
+    {
+      "title": "Edit Vector Store",
+      "path": "/genai/openai/advanced/vector-stores/edit/edit-vector-store/README.md",
+      "keywords": "genai openai advanced vector stores edit edit vector store",
+      "content": "Edit Vector Store Description Type : VI. Input parameters OpenAI in : class vector_store_id : string request : cluster name (optional) : string expires_after (optional) : cluster anchor (required) : string days (required) : integer metadata (optional) : class Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer name : string usage_bytes : integer file_counts : cluster in_progress : integer completed : integer failed : integer cancelled : integer total : integer status : string expires_after : cluster anchor : string days : integer expires_at : integer last_active_at : integer metadata : class"
+    },
+    {
+      "title": "Get Info",
+      "path": "/genai/openai/advanced/vector-stores/get-info/README.md",
+      "keywords": "genai openai advanced vector stores get info",
+      "content": "Get Info Description This section groups the GenAI documentation available under Get Info. Pages Get Vector Store Info"
+    },
+    {
+      "title": "Get Vector Store Info",
+      "path": "/genai/openai/advanced/vector-stores/get-info/get-vector-store-info/README.md",
+      "keywords": "genai openai advanced vector stores get info get vector store info",
+      "content": "Get Vector Store Info Description Type : VI. Input parameters OpenAI in : class vector_store_id : string Output parameters OpenAI out : class response : cluster id : string object : string created_at : integer name : string usage_bytes : integer file_counts : cluster in_progress : integer completed : integer failed : integer cancelled : integer total : integer status : string expires_after : cluster anchor : string days : integer expires_at : integer last_active_at : integer metadata : class"
+    },
+    {
+      "title": "Get List",
+      "path": "/genai/openai/advanced/vector-stores/get-list/README.md",
+      "keywords": "genai openai advanced vector stores get list",
+      "content": "Get List Description This section groups the GenAI documentation available under Get List. Pages Get Vector Stores List"
+    },
+    {
+      "title": "Get Vector Stores List",
+      "path": "/genai/openai/advanced/vector-stores/get-list/get-vector-stores-list/README.md",
+      "keywords": "genai openai advanced vector stores get list get vector stores list",
+      "content": "Get Vector Stores List Description Type : VI. Input parameters OpenAI in : class parameters : cluster limit (optional) : integer order (optional) : string after (optional) : string before (optional) : string Output parameters OpenAI out : class response : cluster object : string data : array of cluster response : cluster id : string object : string created_at : integer name : string usage_bytes : integer file_counts : cluster in_progress : integer completed : integer failed : integer cancelled : integer total : integer status : string expires_after : cluster anchor : string days : integer expires_at : integer last_active_at : integer metadata : class"
+    },
+    {
+      "title": "Audio",
+      "path": "/genai/openai/audio/README.md",
+      "keywords": "genai openai audio",
+      "content": "Audio Description This section groups the GenAI documentation available under Audio. Categories Speech Transcription"
+    },
+    {
+      "title": "Speech",
+      "path": "/genai/openai/audio/speech/README.md",
+      "keywords": "genai openai audio speech",
+      "content": "Speech Description This section groups the GenAI documentation available under Speech. Pages Create Speech"
+    },
+    {
+      "title": "Create Speech",
+      "path": "/genai/openai/audio/speech/create-speech/README.md",
+      "keywords": "genai openai audio speech create speech",
+      "content": "Create Speech Description Type : VI. Input parameters OpenAI in : class request : cluster model (required) : string input (required) : string voice (required) : string response_format (optional) : string speed (optional) : float output_path : path Output parameters OpenAI out : class output_speech_file_path : path"
+    },
+    {
+      "title": "Transcription",
+      "path": "/genai/openai/audio/transcription/README.md",
+      "keywords": "genai openai audio transcription",
+      "content": "Transcription Description This section groups the GenAI documentation available under Transcription. Pages Create Transcription"
+    },
+    {
+      "title": "Create Transcription",
+      "path": "/genai/openai/audio/transcription/create-transcription/README.md",
+      "keywords": "genai openai audio transcription create transcription",
+      "content": "Create Transcription Description Type : VI. Input parameters OpenAI in : class request : cluster file (required) : path model (required) : string language (optional) : string prompt (optional) : string response_format (optional) : string temperature (optional) : float timestamp_granularities (optional) : array of string option : string Output parameters OpenAI out : class response : string"
+    },
+    {
+      "title": "Authentification",
+      "path": "/genai/openai/authentification/README.md",
+      "keywords": "genai openai authentification",
+      "content": "Authentification Description This section groups the GenAI documentation available under Authentification. Pages Authentification"
+    },
+    {
+      "title": "Authentification",
+      "path": "/genai/openai/authentification/authentification/README.md",
+      "keywords": "genai openai authentification",
+      "content": "Authentification Description Type : VI. Input parameters OpenAI in : class api_key : string Output parameters OpenAI out : class"
+    },
+    {
+      "title": "Close",
+      "path": "/genai/openai/close/README.md",
+      "keywords": "genai openai close",
+      "content": "Close Description This section groups the GenAI documentation available under Close. Pages Close"
+    },
+    {
+      "title": "Close",
+      "path": "/genai/openai/close/close/README.md",
+      "keywords": "genai openai close",
+      "content": "Close Description Type : VI. Input parameters OpenAI in : class Output parameters OpenAI out : class"
+    },
+    {
+      "title": "Close Conversation",
+      "path": "/genai/openai/close-conversation/README.md",
+      "keywords": "genai openai close conversation",
+      "content": "Close Conversation Description This section groups the GenAI documentation available under Close Conversation. Pages Close Conversation"
+    },
+    {
+      "title": "Close Conversation",
+      "path": "/genai/openai/close-conversation/close-conversation/README.md",
+      "keywords": "genai openai close conversation",
+      "content": "Close Conversation Description Type : VI. Input parameters Assistants in : class Output parameters Assistants out : class"
+    },
+    {
+      "title": "Files",
+      "path": "/genai/openai/files/README.md",
+      "keywords": "genai openai files",
+      "content": "Files Description This section groups the GenAI documentation available under Files. Categories Delete Delete All Download Files ID Get Info Get List Upload"
+    },
+    {
+      "title": "Delete",
+      "path": "/genai/openai/files/delete/README.md",
+      "keywords": "genai openai files delete",
+      "content": "Delete Description This section groups the GenAI documentation available under Delete. Pages Delete File"
+    },
+    {
+      "title": "Delete File",
+      "path": "/genai/openai/files/delete/delete-file/README.md",
+      "keywords": "genai openai files delete delete file",
+      "content": "Delete File Description Delete a file. Type : VI. Input parameters OpenAI in : class file_id : string Output parameters OpenAI out : class file_status : cluster id : string object : string deleted : boolean"
+    },
+    {
+      "title": "Delete All",
+      "path": "/genai/openai/files/delete-all/README.md",
+      "keywords": "genai openai files delete all",
+      "content": "Delete All Description This section groups the GenAI documentation available under Delete All. Pages Delete All Files"
+    },
+    {
+      "title": "Delete All Files",
+      "path": "/genai/openai/files/delete-all/delete-all-files/README.md",
+      "keywords": "genai openai files delete all delete all files",
+      "content": "Delete All Files Description Type : VI. Input parameters OpenAI in : class Output parameters OpenAI out : class files_status : array of cluster file_status : cluster id : string object : string deleted : boolean"
+    },
+    {
+      "title": "Download",
+      "path": "/genai/openai/files/download/README.md",
+      "keywords": "genai openai files download",
+      "content": "Download Description This section groups the GenAI documentation available under Download. Pages Download File"
+    },
+    {
+      "title": "Download File",
+      "path": "/genai/openai/files/download/download-file/README.md",
+      "keywords": "genai openai files download download file",
+      "content": "Download File Description Type : VI. Input parameters OpenAI in : class file_id : string output_path : path Output parameters OpenAI out : class"
+    },
+    {
+      "title": "Files ID",
+      "path": "/genai/openai/files/files-id/README.md",
+      "keywords": "genai openai files files id",
+      "content": "Files ID Description This section groups the GenAI documentation available under Files ID. Categories Add Delete Get"
+    },
+    {
+      "title": "Add",
+      "path": "/genai/openai/files/files-id/add/README.md",
+      "keywords": "genai openai files files id add",
+      "content": "Add Description This section groups the GenAI documentation available under Add. Pages Add File Id"
+    },
+    {
+      "title": "Add File Id",
+      "path": "/genai/openai/files/files-id/add/add-file-id/README.md",
+      "keywords": "genai openai files files id add add file id",
+      "content": "Add File Id Description Type : VI. Input parameters OpenAI in : class file_id : string Output parameters OpenAI out : class"
+    },
+    {
+      "title": "Delete",
+      "path": "/genai/openai/files/files-id/delete/README.md",
+      "keywords": "genai openai files files id delete",
+      "content": "Delete Description This section groups the GenAI documentation available under Delete. Pages Delete File Id"
+    },
+    {
+      "title": "Delete File Id",
+      "path": "/genai/openai/files/files-id/delete/delete-file-id/README.md",
+      "keywords": "genai openai files files id delete delete file id",
+      "content": "Delete File Id Description Type : VI. Input parameters OpenAI in : class file_id : string Output parameters OpenAI out : class"
+    },
+    {
+      "title": "Get",
+      "path": "/genai/openai/files/files-id/get/README.md",
+      "keywords": "genai openai files files id get",
+      "content": "Get Description This section groups the GenAI documentation available under Get. Pages Read Files Id"
+    },
+    {
+      "title": "Read Files Id",
+      "path": "/genai/openai/files/files-id/get/read-files-id/README.md",
+      "keywords": "genai openai files files id get read files id",
+      "content": "Read Files Id Description Type : VI. Input parameters OpenAI in : class Output parameters OpenAI out : class files_id : array of string String : string"
+    },
+    {
+      "title": "Get Info",
+      "path": "/genai/openai/files/get-info/README.md",
+      "keywords": "genai openai files get info",
+      "content": "Get Info Description This section groups the GenAI documentation available under Get Info. Pages Get File Info"
+    },
+    {
+      "title": "Get File Info",
+      "path": "/genai/openai/files/get-info/get-file-info/README.md",
+      "keywords": "genai openai files get info get file info",
+      "content": "Get File Info Description Type : VI. Input parameters OpenAI in : class file_id : string Output parameters OpenAI out : class file_info : cluster object : string id : string purpose : string filename : string bytes : integer created_at : integer status : string status_details : string"
+    },
+    {
+      "title": "Get List",
+      "path": "/genai/openai/files/get-list/README.md",
+      "keywords": "genai openai files get list",
+      "content": "Get List Description This section groups the GenAI documentation available under Get List. Pages Get Files List"
+    },
+    {
+      "title": "Get Files List",
+      "path": "/genai/openai/files/get-list/get-files-list/README.md",
+      "keywords": "genai openai files get list get files list",
+      "content": "Get Files List Description Type : VI. Input parameters OpenAI in : class Output parameters OpenAI out : class files : cluster object : string data : array of cluster json_output : cluster object : string id : string purpose : string filename : string bytes : integer created_at : integer status : string status_details : string has_more : boolean first_id : string last_id : string"
+    },
+    {
+      "title": "Upload",
+      "path": "/genai/openai/files/upload/README.md",
+      "keywords": "genai openai files upload",
+      "content": "Upload Description This section groups the GenAI documentation available under Upload. Pages Upload File"
+    },
+    {
+      "title": "Upload File",
+      "path": "/genai/openai/files/upload/upload-file/README.md",
+      "keywords": "genai openai files upload upload file",
+      "content": "Upload File Description Type : VI. Input parameters OpenAI in : class file_path : path purpose : string Output parameters OpenAI out : class file : cluster object : string id : string purpose : string filename : string bytes : integer created_at : integer status : string status_details : string"
+    },
+    {
+      "title": "Headers",
+      "path": "/genai/openai/headers/README.md",
+      "keywords": "genai openai headers",
+      "content": "Headers Description This section groups the GenAI documentation available under Headers. Categories Remove Beta Set Beta"
+    },
+    {
+      "title": "Remove Beta",
+      "path": "/genai/openai/headers/remove-beta/README.md",
+      "keywords": "genai openai headers remove beta",
+      "content": "Remove Beta Description This section groups the GenAI documentation available under Remove Beta. Pages Remove Beta"
+    },
+    {
+      "title": "Remove Beta",
+      "path": "/genai/openai/headers/remove-beta/remove-beta/README.md",
+      "keywords": "genai openai headers remove beta",
+      "content": "Remove Beta Description Type : VI. Input parameters OpenAI in : class Output parameters OpenAI out : class"
+    },
+    {
+      "title": "Set Beta",
+      "path": "/genai/openai/headers/set-beta/README.md",
+      "keywords": "genai openai headers set beta",
+      "content": "Set Beta Description This section groups the GenAI documentation available under Set Beta. Pages Set Beta"
+    },
+    {
+      "title": "Set Beta",
+      "path": "/genai/openai/headers/set-beta/set-beta/README.md",
+      "keywords": "genai openai headers set beta",
+      "content": "Set Beta Description To access some API functions, you must send an OpenAI-Beta request header. Type : VI. Input parameters OpenAI in : class beta : string Output parameters OpenAI out : class"
+    },
+    {
+      "title": "Init Conversation",
+      "path": "/genai/openai/init-conversation/README.md",
+      "keywords": "genai openai init conversation",
+      "content": "Init Conversation Description This section groups the GenAI documentation available under Init Conversation. Pages Init Conversation"
+    },
+    {
+      "title": "Init Conversation",
+      "path": "/genai/openai/init-conversation/init-conversation/README.md",
+      "keywords": "genai openai init conversation",
+      "content": "Init Conversation Description Type : VI. Input parameters Assistants in : class assistant_parameters : cluster model (required) : string name (optional) : string description (optional) : string instructions (optional) : string tools (optional) : class tool_resources (optional) : class metadata (optional) : class temperature (optional) : float top_p (optional) : float thread_parameters : cluster messages (optional) : array of cluster role : string content : class attachments : array of cluster file_id : string tools : array of cluster incomplete_details : cluster type : string metadata : class tool_resources (optional) : class metadata (optional) : class Output parameters Assistants out : class"
+    },
+    {
+      "title": "Models",
+      "path": "/genai/openai/models/README.md",
+      "keywords": "genai openai models",
+      "content": "Models Description This section groups the GenAI documentation available under Models. Categories Get Info Get List"
+    },
+    {
+      "title": "Get Info",
+      "path": "/genai/openai/models/get-info/README.md",
+      "keywords": "genai openai models get info",
+      "content": "Get Info Description This section groups the GenAI documentation available under Get Info. Pages Get Model Info"
+    },
+    {
+      "title": "Get Model Info",
+      "path": "/genai/openai/models/get-info/get-model-info/README.md",
+      "keywords": "genai openai models get info get model info",
+      "content": "Get Model Info Description Type : VI. Input parameters OpenAI in : class model : string Output parameters OpenAI out : class model_info : cluster id : string object : string created : integer owned_by : string"
+    },
+    {
+      "title": "Get List",
+      "path": "/genai/openai/models/get-list/README.md",
+      "keywords": "genai openai models get list",
+      "content": "Get List Description This section groups the GenAI documentation available under Get List. Pages Get Models List"
+    },
+    {
+      "title": "Get Models List",
+      "path": "/genai/openai/models/get-list/get-models-list/README.md",
+      "keywords": "genai openai models get list get models list",
+      "content": "Get Models List Description Type : VI. Input parameters OpenAI in : class Output parameters OpenAI out : class models : cluster object : string data : array of cluster id : string object : string created : integer owned_by : string"
+    },
+    {
+      "title": "Open",
+      "path": "/genai/openai/open/README.md",
+      "keywords": "genai openai open",
+      "content": "Open Description This section groups the GenAI documentation available under Open. Pages Open"
+    },
+    {
+      "title": "Open",
+      "path": "/genai/openai/open/open/README.md",
+      "keywords": "genai openai open",
+      "content": "Open Description Type : VI. Input parameters OpenAI in : class timeout : integer api_path : string Output parameters OpenAI out : class"
+    },
+    {
+      "title": "Organization",
+      "path": "/genai/openai/organization/README.md",
+      "keywords": "genai openai organization",
+      "content": "Organization Description This section groups the GenAI documentation available under Organization. Pages Organization"
+    },
+    {
+      "title": "Organization",
+      "path": "/genai/openai/organization/organization/README.md",
+      "keywords": "genai openai organization",
+      "content": "Organization Description Type : VI. Input parameters OpenAI in : class api_organization : string id_project : integer Output parameters OpenAI out : class"
+    },
+    {
+      "title": "Receive Message",
+      "path": "/genai/openai/receive-message/README.md",
+      "keywords": "genai openai receive message",
+      "content": "Receive Message Description This section groups the GenAI documentation available under Receive Message. Pages Receive Message"
+    },
+    {
+      "title": "Receive Message",
+      "path": "/genai/openai/receive-message/receive-message/README.md",
+      "keywords": "genai openai receive message",
+      "content": "Receive Message Description Type : VI. Input parameters Assistants in : class Output parameters Assistants out : class last_message : string all_messages : array of string String : string"
+    },
+    {
+      "title": "Send Message",
+      "path": "/genai/openai/send-message/README.md",
+      "keywords": "genai openai send message",
+      "content": "Send Message Description This section groups the GenAI documentation available under Send Message. Pages Send Message"
+    },
+    {
+      "title": "Send Message",
+      "path": "/genai/openai/send-message/send-message/README.md",
+      "keywords": "genai openai send message",
+      "content": "Send Message Description Type : VI. Input parameters Assistants in : class message_parameters : cluster role (required) : string content (required) : class attachments (optional) : array of cluster file_id : string tools : array of cluster incomplete_details : cluster type : string metadata (optional) : class run_parameters : cluster assistant_id (required) : string model (optional) : string instructions (optional) : string additional_instructions (optional) : string additional_messages (optional) : array of cluster role : string content : class attachments : array of cluster file_id : string tools : array of cluster incomplete_details : cluster type : string metadata : class tools (optional) : class metadata (optional) : class temperature (optional) : float top_p (optional) : float stream (optional) : boolean max_prompt_tokens (optional) : integer max_completion_tokens (optional) : integer truncation_strategy (optional) : cluster type : string last_messages : float tool_choice (optional) : class parallel_tool_calls (optional) : boolean Output parameters Assistants out : class"
     }
   ]
 }

@@ -7548,6 +7548,124 @@
               "kind": "category",
               "children": [
                 {
+                  "title": "Authentification",
+                  "path": "/genai/anthropic/authentification/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Authentification",
+                      "path": "/genai/anthropic/authentification/authentification/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Close",
+                  "path": "/genai/anthropic/close/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Close",
+                      "path": "/genai/anthropic/close/close/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Conversation",
+                  "path": "/genai/anthropic/conversation/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Edit",
+                      "path": "/genai/anthropic/conversation/edit/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Edit Conversation",
+                          "path": "/genai/anthropic/conversation/edit/edit-conversation/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Get",
+                      "path": "/genai/anthropic/conversation/get/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Get Conversation",
+                          "path": "/genai/anthropic/conversation/get/get-conversation/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Reset",
+                      "path": "/genai/anthropic/conversation/reset/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Reset Conversation",
+                          "path": "/genai/anthropic/conversation/reset/reset-conversation/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Header",
+                  "path": "/genai/anthropic/header/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Remove Beta",
+                      "path": "/genai/anthropic/header/remove-beta/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Remove Beta",
+                          "path": "/genai/anthropic/header/remove-beta/remove-beta/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Set Beta",
+                      "path": "/genai/anthropic/header/set-beta/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Set Beta",
+                          "path": "/genai/anthropic/header/set-beta/set-beta/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Set Version",
+                      "path": "/genai/anthropic/header/set-version/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Set Version",
+                          "path": "/genai/anthropic/header/set-version/set-version/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
                   "title": "Message",
                   "path": "/genai/anthropic/message/README.md",
                   "kind": "category",
@@ -7577,6 +7695,85 @@
                       "children": []
                     }
                   ]
+                },
+                {
+                  "title": "Models",
+                  "path": "/genai/anthropic/models/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Get Info",
+                      "path": "/genai/anthropic/models/get-info/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Get Model Info",
+                          "path": "/genai/anthropic/models/get-info/get-model-info/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Get List",
+                      "path": "/genai/anthropic/models/get-list/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Get Models List",
+                          "path": "/genai/anthropic/models/get-list/get-models-list/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Open",
+                  "path": "/genai/anthropic/open/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Open",
+                      "path": "/genai/anthropic/open/open/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Parameters",
+                  "path": "/genai/anthropic/parameters/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Set Max Token",
+                      "path": "/genai/anthropic/parameters/set-max-token/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Set Max Token",
+                          "path": "/genai/anthropic/parameters/set-max-token/set-max-token/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Set Model",
+                      "path": "/genai/anthropic/parameters/set-model/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Set Model",
+                          "path": "/genai/anthropic/parameters/set-model/set-model/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -7590,6 +7787,65 @@
                   "path": "/genai/audio-process/play/README.md",
                   "kind": "category",
                   "children": [
+                    {
+                      "title": "Play Sound Example",
+                      "path": "/genai/audio-process/play/play-sound-example/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Drop Content Play",
+                          "path": "/genai/audio-process/play/play-sound-example/drop-content-play/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Play.lvclass",
+                      "path": "/genai/audio-process/play/play-lvclass/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "FreePlaybackSession.vi",
+                          "path": "/genai/audio-process/play/play-lvclass/freeplaybacksession-vi/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "FreePlaybackSession",
+                              "path": "/genai/audio-process/play/play-lvclass/freeplaybacksession-vi/freeplaybacksession/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "ReadPlaybackBuffer.vi",
+                          "path": "/genai/audio-process/play/play-lvclass/readplaybackbuffer-vi/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "ReadPlaybackBuffer",
+                              "path": "/genai/audio-process/play/play-lvclass/readplaybackbuffer-vi/readplaybackbuffer/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "StopPlaybackSession.vi",
+                          "path": "/genai/audio-process/play/play-lvclass/stopplaybacksession-vi/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "StopPlaybackSession",
+                              "path": "/genai/audio-process/play/play-lvclass/stopplaybacksession-vi/stopplaybacksession/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "title": "Init Playback",
                       "path": "/genai/audio-process/play/init-playback/README.md",
@@ -7610,6 +7866,124 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "title": "Record",
+                  "path": "/genai/audio-process/record/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Record Sound Example",
+                      "path": "/genai/audio-process/record/record-sound-example/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Drop Content Record",
+                          "path": "/genai/audio-process/record/record-sound-example/drop-content-record/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Record.lvclass",
+                      "path": "/genai/audio-process/record/record-lvclass/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "CloseAllRecordingSession.vi",
+                          "path": "/genai/audio-process/record/record-lvclass/closeallrecordingsession-vi/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "CloseAllRecordingSession",
+                              "path": "/genai/audio-process/record/record-lvclass/closeallrecordingsession-vi/closeallrecordingsession/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "ReadGlobal.vi",
+                          "path": "/genai/audio-process/record/record-lvclass/readglobal-vi/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "ReadGlobal",
+                              "path": "/genai/audio-process/record/record-lvclass/readglobal-vi/readglobal/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "ReadRecordingBuffer.vi",
+                          "path": "/genai/audio-process/record/record-lvclass/readrecordingbuffer-vi/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "ReadRecordingBuffer",
+                              "path": "/genai/audio-process/record/record-lvclass/readrecordingbuffer-vi/readrecordingbuffer/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "StartRecording.vi",
+                          "path": "/genai/audio-process/record/record-lvclass/startrecording-vi/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "StartRecording",
+                              "path": "/genai/audio-process/record/record-lvclass/startrecording-vi/startrecording/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "StopExternalRecording.vi",
+                          "path": "/genai/audio-process/record/record-lvclass/stopexternalrecording-vi/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "StopExternalRecording",
+                              "path": "/genai/audio-process/record/record-lvclass/stopexternalrecording-vi/stopexternalrecording/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "StopRecording.vi",
+                          "path": "/genai/audio-process/record/record-lvclass/stoprecording-vi/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "StopRecording",
+                              "path": "/genai/audio-process/record/record-lvclass/stoprecording-vi/stoprecording/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Examples Base",
+              "path": "/genai/examples-base/README.md",
+              "kind": "category",
+              "children": [
+                {
+                  "title": "GEN Examples",
+                  "path": "/genai/examples-base/gen-examples/README.md",
+                  "kind": "page",
+                  "children": []
                 }
               ]
             },
@@ -7999,6 +8373,118 @@
                   "kind": "category",
                   "children": [
                     {
+                      "title": "Functions",
+                      "path": "/genai/gguf/text-generation/functions/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Init Sampler",
+                          "path": "/genai/gguf/text-generation/functions/init-sampler/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Simplified Init Sampler",
+                              "path": "/genai/gguf/text-generation/functions/init-sampler/simplified-init-sampler/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "TextOnly.lvclass",
+                          "path": "/genai/gguf/text-generation/functions/textonly-lvclass/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Simplified Generate Streaming.vi",
+                              "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-generate-streaming-vi/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Simplified Generate Streaming",
+                                  "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-generate-streaming-vi/simplified-generate-streaming/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Simplified Modify Sampler.vi",
+                              "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-modify-sampler-vi/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Simplified Modify Sampler",
+                                  "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-modify-sampler-vi/simplified-modify-sampler/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Simplified Send Prompt To Model.vi",
+                              "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-send-prompt-to-model-vi/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Simplified Send Prompt To Model",
+                                  "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-send-prompt-to-model-vi/simplified-send-prompt-to-model/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Simplified Stop Generation.vi",
+                              "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-stop-generation-vi/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Simplified Stop Generation",
+                                  "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-stop-generation-vi/simplified-stop-generation/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Visual.lvclass",
+                          "path": "/genai/gguf/text-generation/functions/visual-lvclass/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Simplified Send Image To Model.vi",
+                              "path": "/genai/gguf/text-generation/functions/visual-lvclass/simplified-send-image-to-model-vi/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Simplified Send Image To Model",
+                                  "path": "/genai/gguf/text-generation/functions/visual-lvclass/simplified-send-image-to-model-vi/simplified-send-image-to-model/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Simplified Send Prompt And Image To Model.vi",
+                              "path": "/genai/gguf/text-generation/functions/visual-lvclass/simplified-send-prompt-and-image-to-model-vi/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Simplified Send Prompt And Image To Model",
+                                  "path": "/genai/gguf/text-generation/functions/visual-lvclass/simplified-send-prompt-and-image-to-model-vi/simplified-send-prompt-and-image-to-model/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
                       "title": "GGUF Init",
                       "path": "/genai/gguf/text-generation/gguf-init/README.md",
                       "kind": "category",
@@ -8068,6 +8554,1253 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "title": "TextOnly.lvclass",
+                      "path": "/genai/gguf/text-generation/textonly-lvclass/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Simplified Close Session.vi",
+                          "path": "/genai/gguf/text-generation/textonly-lvclass/simplified-close-session-vi/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Simplified Close Session",
+                              "path": "/genai/gguf/text-generation/textonly-lvclass/simplified-close-session-vi/simplified-close-session/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Whisper",
+                  "path": "/genai/gguf/whisper/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Whisper.lvclass",
+                      "path": "/genai/gguf/whisper/whisper-lvclass/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "CloseWhisper.vi",
+                          "path": "/genai/gguf/whisper/whisper-lvclass/closewhisper-vi/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "CloseWhisper",
+                              "path": "/genai/gguf/whisper/whisper-lvclass/closewhisper-vi/closewhisper/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "InitWhisper.vi",
+                          "path": "/genai/gguf/whisper/whisper-lvclass/initwhisper-vi/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "InitWhisper",
+                              "path": "/genai/gguf/whisper/whisper-lvclass/initwhisper-vi/initwhisper/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "WhisperTranscribe.vi",
+                          "path": "/genai/gguf/whisper/whisper-lvclass/whispertranscribe-vi/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "WhisperTranscribe",
+                              "path": "/genai/gguf/whisper/whisper-lvclass/whispertranscribe-vi/whispertranscribe/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "OpenAI",
+              "path": "/genai/openai/README.md",
+              "kind": "category",
+              "children": [
+                {
+                  "title": "Advanced",
+                  "path": "/genai/openai/advanced/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Assistants",
+                      "path": "/genai/openai/advanced/assistants/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Create",
+                          "path": "/genai/openai/advanced/assistants/create/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Create Assistant",
+                              "path": "/genai/openai/advanced/assistants/create/create-assistant/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Delete",
+                          "path": "/genai/openai/advanced/assistants/delete/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Delete Assistant",
+                              "path": "/genai/openai/advanced/assistants/delete/delete-assistant/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Edit",
+                          "path": "/genai/openai/advanced/assistants/edit/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Edit Assistant",
+                              "path": "/genai/openai/advanced/assistants/edit/edit-assistant/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Get Info",
+                          "path": "/genai/openai/advanced/assistants/get-info/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Get Assistant Info",
+                              "path": "/genai/openai/advanced/assistants/get-info/get-assistant-info/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Get List",
+                          "path": "/genai/openai/advanced/assistants/get-list/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Get Assistants List",
+                              "path": "/genai/openai/advanced/assistants/get-list/get-assistants-list/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Messages",
+                      "path": "/genai/openai/advanced/messages/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Create",
+                          "path": "/genai/openai/advanced/messages/create/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Create Message",
+                              "path": "/genai/openai/advanced/messages/create/create-message/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Delete",
+                          "path": "/genai/openai/advanced/messages/delete/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Delete Message",
+                              "path": "/genai/openai/advanced/messages/delete/delete-message/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Edit",
+                          "path": "/genai/openai/advanced/messages/edit/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Edit Message",
+                              "path": "/genai/openai/advanced/messages/edit/edit-message/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Get All",
+                          "path": "/genai/openai/advanced/messages/get-all/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Get All Messages",
+                              "path": "/genai/openai/advanced/messages/get-all/get-all-messages/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Get Info",
+                          "path": "/genai/openai/advanced/messages/get-info/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Get Message Info",
+                              "path": "/genai/openai/advanced/messages/get-info/get-message-info/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Get Last",
+                          "path": "/genai/openai/advanced/messages/get-last/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Get Last Message",
+                              "path": "/genai/openai/advanced/messages/get-last/get-last-message/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Get List",
+                          "path": "/genai/openai/advanced/messages/get-list/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Get Messages List",
+                              "path": "/genai/openai/advanced/messages/get-list/get-messages-list/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Stream",
+                          "path": "/genai/openai/advanced/messages/stream/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Stream",
+                              "path": "/genai/openai/advanced/messages/stream/stream/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Parameters",
+                      "path": "/genai/openai/advanced/parameters/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Annotations",
+                          "path": "/genai/openai/advanced/parameters/annotations/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Read File Citation",
+                              "path": "/genai/openai/advanced/parameters/annotations/read-file-citation/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Read File Citation",
+                                  "path": "/genai/openai/advanced/parameters/annotations/read-file-citation/read-file-citation/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Read File Path",
+                              "path": "/genai/openai/advanced/parameters/annotations/read-file-path/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Read File Path",
+                                  "path": "/genai/openai/advanced/parameters/annotations/read-file-path/read-file-path/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Chunking Strategy",
+                          "path": "/genai/openai/advanced/parameters/chunking-strategy/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Write Auto",
+                              "path": "/genai/openai/advanced/parameters/chunking-strategy/write-auto/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Write Auto",
+                                  "path": "/genai/openai/advanced/parameters/chunking-strategy/write-auto/write-auto/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Write Static",
+                              "path": "/genai/openai/advanced/parameters/chunking-strategy/write-static/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Write Static",
+                                  "path": "/genai/openai/advanced/parameters/chunking-strategy/write-static/write-static/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Content",
+                          "path": "/genai/openai/advanced/parameters/content/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Read Image File",
+                              "path": "/genai/openai/advanced/parameters/content/read-image-file/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Read Image File",
+                                  "path": "/genai/openai/advanced/parameters/content/read-image-file/read-image-file/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Read Image URL",
+                              "path": "/genai/openai/advanced/parameters/content/read-image-url/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Read Image URL",
+                                  "path": "/genai/openai/advanced/parameters/content/read-image-url/read-image-url/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Read Refusal",
+                              "path": "/genai/openai/advanced/parameters/content/read-refusal/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Read Refusal",
+                                  "path": "/genai/openai/advanced/parameters/content/read-refusal/read-refusal/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Read Text",
+                              "path": "/genai/openai/advanced/parameters/content/read-text/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Read Text",
+                                  "path": "/genai/openai/advanced/parameters/content/read-text/read-text/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Write Image File",
+                              "path": "/genai/openai/advanced/parameters/content/write-image-file/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Write Image File",
+                                  "path": "/genai/openai/advanced/parameters/content/write-image-file/write-image-file/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Write Image URL",
+                              "path": "/genai/openai/advanced/parameters/content/write-image-url/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Write Image URL",
+                                  "path": "/genai/openai/advanced/parameters/content/write-image-url/write-image-url/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Write Text",
+                              "path": "/genai/openai/advanced/parameters/content/write-text/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Write Text",
+                                  "path": "/genai/openai/advanced/parameters/content/write-text/write-text/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Metadata",
+                          "path": "/genai/openai/advanced/parameters/metadata/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Read Metadata",
+                              "path": "/genai/openai/advanced/parameters/metadata/read-metadata/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Read Metadata",
+                                  "path": "/genai/openai/advanced/parameters/metadata/read-metadata/read-metadata/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Write Metadata",
+                              "path": "/genai/openai/advanced/parameters/metadata/write-metadata/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Write Metadata",
+                                  "path": "/genai/openai/advanced/parameters/metadata/write-metadata/write-metadata/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Tool Resources",
+                          "path": "/genai/openai/advanced/parameters/tool-resources/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Read Code Interpreter",
+                              "path": "/genai/openai/advanced/parameters/tool-resources/read-code-interpreter/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Read Code Interpreter",
+                                  "path": "/genai/openai/advanced/parameters/tool-resources/read-code-interpreter/read-code-interpreter/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Read File Search",
+                              "path": "/genai/openai/advanced/parameters/tool-resources/read-file-search/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Read File Search",
+                                  "path": "/genai/openai/advanced/parameters/tool-resources/read-file-search/read-file-search/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Write Code Interpreter",
+                              "path": "/genai/openai/advanced/parameters/tool-resources/write-code-interpreter/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Write Code Interpreter",
+                                  "path": "/genai/openai/advanced/parameters/tool-resources/write-code-interpreter/write-code-interpreter/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Write File Search",
+                              "path": "/genai/openai/advanced/parameters/tool-resources/write-file-search/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Write File Search",
+                                  "path": "/genai/openai/advanced/parameters/tool-resources/write-file-search/write-file-search/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Tools",
+                          "path": "/genai/openai/advanced/parameters/tools/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Read Code Interpreter",
+                              "path": "/genai/openai/advanced/parameters/tools/read-code-interpreter/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Read Code Interpreter",
+                                  "path": "/genai/openai/advanced/parameters/tools/read-code-interpreter/read-code-interpreter/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Read File Search",
+                              "path": "/genai/openai/advanced/parameters/tools/read-file-search/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Read File Search",
+                                  "path": "/genai/openai/advanced/parameters/tools/read-file-search/read-file-search/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Read Function",
+                              "path": "/genai/openai/advanced/parameters/tools/read-function/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Read Function",
+                                  "path": "/genai/openai/advanced/parameters/tools/read-function/read-function/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Tools.lvclass",
+                              "path": "/genai/openai/advanced/parameters/tools/tools-lvclass/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Write Function.vi",
+                                  "path": "/genai/openai/advanced/parameters/tools/tools-lvclass/write-function-vi/README.md",
+                                  "kind": "category",
+                                  "children": [
+                                    {
+                                      "title": "Write Function",
+                                      "path": "/genai/openai/advanced/parameters/tools/tools-lvclass/write-function-vi/write-function/README.md",
+                                      "kind": "page",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Write Code Interpreter",
+                              "path": "/genai/openai/advanced/parameters/tools/write-code-interpreter/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Write Code Interpreter",
+                                  "path": "/genai/openai/advanced/parameters/tools/write-code-interpreter/write-code-interpreter/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Write File Search",
+                              "path": "/genai/openai/advanced/parameters/tools/write-file-search/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Write File Search",
+                                  "path": "/genai/openai/advanced/parameters/tools/write-file-search/write-file-search/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Tools Choice",
+                          "path": "/genai/openai/advanced/parameters/tools-choice/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Read Object",
+                              "path": "/genai/openai/advanced/parameters/tools-choice/read-object/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Read Object",
+                                  "path": "/genai/openai/advanced/parameters/tools-choice/read-object/read-object/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Read String",
+                              "path": "/genai/openai/advanced/parameters/tools-choice/read-string/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Read String",
+                                  "path": "/genai/openai/advanced/parameters/tools-choice/read-string/read-string/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Write Object",
+                              "path": "/genai/openai/advanced/parameters/tools-choice/write-object/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Write Object",
+                                  "path": "/genai/openai/advanced/parameters/tools-choice/write-object/write-object/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Write String",
+                              "path": "/genai/openai/advanced/parameters/tools-choice/write-string/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Write String",
+                                  "path": "/genai/openai/advanced/parameters/tools-choice/write-string/write-string/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Runs",
+                      "path": "/genai/openai/advanced/runs/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Cancel",
+                          "path": "/genai/openai/advanced/runs/cancel/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Cancel Run",
+                              "path": "/genai/openai/advanced/runs/cancel/cancel-run/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Create",
+                          "path": "/genai/openai/advanced/runs/create/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Create Run",
+                              "path": "/genai/openai/advanced/runs/create/create-run/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Create Thread & Run",
+                          "path": "/genai/openai/advanced/runs/create-thread-run/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Create Thread & Run",
+                              "path": "/genai/openai/advanced/runs/create-thread-run/create-thread-run/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Edit",
+                          "path": "/genai/openai/advanced/runs/edit/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Edit Run",
+                              "path": "/genai/openai/advanced/runs/edit/edit-run/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Get Info",
+                          "path": "/genai/openai/advanced/runs/get-info/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Get Run Info",
+                              "path": "/genai/openai/advanced/runs/get-info/get-run-info/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Get List",
+                          "path": "/genai/openai/advanced/runs/get-list/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Get Runs List",
+                              "path": "/genai/openai/advanced/runs/get-list/get-runs-list/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Submit Tool Output",
+                          "path": "/genai/openai/advanced/runs/submit-tool-output/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Submit Tool Output",
+                              "path": "/genai/openai/advanced/runs/submit-tool-output/submit-tool-output/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Threads",
+                      "path": "/genai/openai/advanced/threads/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Create",
+                          "path": "/genai/openai/advanced/threads/create/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Create Thread",
+                              "path": "/genai/openai/advanced/threads/create/create-thread/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Delete",
+                          "path": "/genai/openai/advanced/threads/delete/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Delete Thread",
+                              "path": "/genai/openai/advanced/threads/delete/delete-thread/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Edit",
+                          "path": "/genai/openai/advanced/threads/edit/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Edit Thread",
+                              "path": "/genai/openai/advanced/threads/edit/edit-thread/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Get Info",
+                          "path": "/genai/openai/advanced/threads/get-info/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Get Thread Info",
+                              "path": "/genai/openai/advanced/threads/get-info/get-thread-info/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Vector Stores",
+                      "path": "/genai/openai/advanced/vector-stores/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Create",
+                          "path": "/genai/openai/advanced/vector-stores/create/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Create Vector Store",
+                              "path": "/genai/openai/advanced/vector-stores/create/create-vector-store/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Delete",
+                          "path": "/genai/openai/advanced/vector-stores/delete/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Delete Vector Store",
+                              "path": "/genai/openai/advanced/vector-stores/delete/delete-vector-store/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Edit",
+                          "path": "/genai/openai/advanced/vector-stores/edit/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Edit Vector Store",
+                              "path": "/genai/openai/advanced/vector-stores/edit/edit-vector-store/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Get Info",
+                          "path": "/genai/openai/advanced/vector-stores/get-info/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Get Vector Store Info",
+                              "path": "/genai/openai/advanced/vector-stores/get-info/get-vector-store-info/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Get List",
+                          "path": "/genai/openai/advanced/vector-stores/get-list/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Get Vector Stores List",
+                              "path": "/genai/openai/advanced/vector-stores/get-list/get-vector-stores-list/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Audio",
+                  "path": "/genai/openai/audio/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Speech",
+                      "path": "/genai/openai/audio/speech/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Create Speech",
+                          "path": "/genai/openai/audio/speech/create-speech/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Transcription",
+                      "path": "/genai/openai/audio/transcription/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Create Transcription",
+                          "path": "/genai/openai/audio/transcription/create-transcription/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Authentification",
+                  "path": "/genai/openai/authentification/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Authentification",
+                      "path": "/genai/openai/authentification/authentification/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Close",
+                  "path": "/genai/openai/close/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Close",
+                      "path": "/genai/openai/close/close/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Close Conversation",
+                  "path": "/genai/openai/close-conversation/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Close Conversation",
+                      "path": "/genai/openai/close-conversation/close-conversation/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Files",
+                  "path": "/genai/openai/files/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Delete",
+                      "path": "/genai/openai/files/delete/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Delete File",
+                          "path": "/genai/openai/files/delete/delete-file/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Delete All",
+                      "path": "/genai/openai/files/delete-all/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Delete All Files",
+                          "path": "/genai/openai/files/delete-all/delete-all-files/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Download",
+                      "path": "/genai/openai/files/download/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Download File",
+                          "path": "/genai/openai/files/download/download-file/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Files ID",
+                      "path": "/genai/openai/files/files-id/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Add",
+                          "path": "/genai/openai/files/files-id/add/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Add File Id",
+                              "path": "/genai/openai/files/files-id/add/add-file-id/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Delete",
+                          "path": "/genai/openai/files/files-id/delete/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Delete File Id",
+                              "path": "/genai/openai/files/files-id/delete/delete-file-id/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Get",
+                          "path": "/genai/openai/files/files-id/get/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Read Files Id",
+                              "path": "/genai/openai/files/files-id/get/read-files-id/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Get Info",
+                      "path": "/genai/openai/files/get-info/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Get File Info",
+                          "path": "/genai/openai/files/get-info/get-file-info/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Get List",
+                      "path": "/genai/openai/files/get-list/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Get Files List",
+                          "path": "/genai/openai/files/get-list/get-files-list/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Upload",
+                      "path": "/genai/openai/files/upload/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Upload File",
+                          "path": "/genai/openai/files/upload/upload-file/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Headers",
+                  "path": "/genai/openai/headers/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Remove Beta",
+                      "path": "/genai/openai/headers/remove-beta/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Remove Beta",
+                          "path": "/genai/openai/headers/remove-beta/remove-beta/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Set Beta",
+                      "path": "/genai/openai/headers/set-beta/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Set Beta",
+                          "path": "/genai/openai/headers/set-beta/set-beta/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Init Conversation",
+                  "path": "/genai/openai/init-conversation/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Init Conversation",
+                      "path": "/genai/openai/init-conversation/init-conversation/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Models",
+                  "path": "/genai/openai/models/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Get Info",
+                      "path": "/genai/openai/models/get-info/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Get Model Info",
+                          "path": "/genai/openai/models/get-info/get-model-info/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Get List",
+                      "path": "/genai/openai/models/get-list/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Get Models List",
+                          "path": "/genai/openai/models/get-list/get-models-list/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Open",
+                  "path": "/genai/openai/open/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Open",
+                      "path": "/genai/openai/open/open/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Organization",
+                  "path": "/genai/openai/organization/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Organization",
+                      "path": "/genai/openai/organization/organization/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Receive Message",
+                  "path": "/genai/openai/receive-message/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Receive Message",
+                      "path": "/genai/openai/receive-message/receive-message/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Send Message",
+                  "path": "/genai/openai/send-message/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Send Message",
+                      "path": "/genai/openai/send-message/send-message/README.md",
+                      "kind": "page",
+                      "children": []
                     }
                   ]
                 }

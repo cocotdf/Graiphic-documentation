@@ -2,7 +2,7 @@
 
 <h2>Description</h2>
 
-<p>Claude works with any standard PDF. You can ask Claude about any text, pictures, charts, and tables in the PDFs you provide. Some sample use cases:<br/>- Analyzing financial reports and understanding charts/tables<br/>- Extracting key information from legal documents<br/>- Translation assistance for documents<br/>- Converting document information into structured formats Type : polymorphic.</p>
+<p>Claude works with any standard PDF. You can ask Claude about any text, pictures, charts, and tables in the PDFs you provide. Some sample use cases:<br/>- Analyzing financial reports and understanding charts/tables<br/>- Extracting key information from legal documents<br/>- Translation assistance for documents<br/>- Converting document information into structured formats Type : VI.</p>
 
 <p align="center"><img src="assets/simplify-pdf-message.png" alt="Simplify PDF Message" width="270" /></p>
 

@@ -7,4 +7,5 @@
 
 <ul>
   <li><a href="./play/README.md">Play</a></li>
+  <li><a href="./record/README.md">Record</a></li>
 </ul>

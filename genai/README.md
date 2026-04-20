@@ -7,14 +7,18 @@
     <span class="graiphic-home-kicker-line">and multimodal inference for LabVIEW.</span>
   </p>
   <p class="graiphic-home-lead">
-    The GenAI Toolkit gathers Anthropic messaging flows, GGUF runtime setup, local text generation,
-    text-to-speech building blocks, and audio playback utilities inside one documentation entry point.
+    The GenAI Toolkit gathers Anthropic messaging flows, OpenAI assistants and messages, GGUF runtime setup,
+    local text generation, text-to-speech building blocks, examples, and audio processing utilities
+    inside one documentation entry point.
   </p>
   <div class="graiphic-home-pills">
+    <span class="graiphic-home-pill">Installation Guide</span>
+    <span class="graiphic-home-pill">General</span>
     <span class="graiphic-home-pill">Anthropic</span>
+    <span class="graiphic-home-pill">OpenAI</span>
     <span class="graiphic-home-pill">GGUF</span>
-    <span class="graiphic-home-pill">Text Generation</span>
     <span class="graiphic-home-pill">Audio Process</span>
+    <span class="graiphic-home-pill">Examples</span>
   </div>
 </div>
 
@@ -33,9 +37,13 @@
     <span class="graiphic-home-card-title">Anthropic</span>
     <span class="graiphic-home-card-copy">Build advanced text, image, and PDF message payloads for Anthropic-oriented LabVIEW workflows.</span>
   </a>
+  <a class="graiphic-home-card" href="openai/README.md">
+    <span class="graiphic-home-card-title">OpenAI</span>
+    <span class="graiphic-home-card-copy">Work with assistants, files, threads, audio, and advanced OpenAI request structures directly from LabVIEW.</span>
+  </a>
   <a class="graiphic-home-card" href="audio-process/README.md">
     <span class="graiphic-home-card-title">Audio Process</span>
-    <span class="graiphic-home-card-copy">Play generated audio from files or buffers to integrate speech output into interactive applications.</span>
+    <span class="graiphic-home-card-copy">Play or record audio buffers and files to integrate speech output and capture workflows into interactive applications.</span>
   </a>
   <a class="graiphic-home-card" href="gguf/gguf/README.md">
     <span class="graiphic-home-card-title">GGUF Runtime</span>
@@ -45,9 +53,9 @@
     <span class="graiphic-home-card-title">GGUF TTS</span>
     <span class="graiphic-home-card-copy">Initialize, tune, and run text-to-speech pipelines powered by GGUF-compatible models.</span>
   </a>
-  <a class="graiphic-home-card" href="gguf/text-generation/README.md">
-    <span class="graiphic-home-card-title">Text Generation</span>
-    <span class="graiphic-home-card-copy">Launch text-only and visual generation sessions with reusable init flows and shared settings.</span>
+  <a class="graiphic-home-card" href="examples-base/README.md">
+    <span class="graiphic-home-card-title">Examples Base</span>
+    <span class="graiphic-home-card-copy">Start from packaged GenAI examples to validate end-to-end flows before wiring the toolkit into a larger application.</span>
   </a>
 </div>
 
@@ -55,11 +63,13 @@
 
 <ul>
   <li><a href="general/introduction/README.md">Introduction</a></li>
-  <li><a href="installation-guide/genai-toolkit/README.md">GenAI Toolkit setup</a></li>
+  <li><a href="installation-guide/genai-toolkit/README.md">GenAI Toolkit Setup</a></li>
   <li><a href="anthropic/message/README.md">Anthropic Message</a></li>
   <li><a href="anthropic/message/advanced-message/README.md">Advanced Message</a></li>
+  <li><a href="openai/send-message/send-message/README.md">OpenAI Send Message</a></li>
   <li><a href="audio-process/play/init-playback/play-sound-from-a-buffer/README.md">Play Sound From a Buffer</a></li>
   <li><a href="gguf/gguf/chat/set/sampler/samplers/README.md">GGUF Chat Samplers</a></li>
   <li><a href="gguf/gguf-tts/init/session-sampler/README.md">GGUF TTS Session and Sampler</a></li>
   <li><a href="gguf/text-generation/gguf-init/text-only/session-and-sampler/README.md">Text Generation Session and Sampler</a></li>
+  <li><a href="examples-base/gen-examples/README.md">GEN Examples</a></li>
 </ul>

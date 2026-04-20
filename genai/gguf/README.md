@@ -9,4 +9,5 @@
   <li><a href="./gguf/README.md">GGUF</a></li>
   <li><a href="./gguf-tts/README.md">GGUF TTS</a></li>
   <li><a href="./text-generation/README.md">Text Generation</a></li>
+  <li><a href="./whisper/README.md">Whisper</a></li>
 </ul>
