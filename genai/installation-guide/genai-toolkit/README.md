@@ -12,7 +12,7 @@
 <li>Launch SOTA: After the installation is complete, launch SOTA from your desktop or start menu.</li>
 </ol>
 
-<p><a href="https://www.youtube.com/embed/4LJfdXmnj2w?feature=oembed">Get started - SOTA installation guide</a></p>
+<p><a href="https://www.youtube.com/watch?v=MuKw8PRjy8U">Get started - GenAI installation guide</a></p>
 
 <h3>Install the GenAI Toolkit</h3>
 
