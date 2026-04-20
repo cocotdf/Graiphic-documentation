@@ -2360,68 +2360,14 @@
                           "kind": "category",
                           "children": [
                             {
-                              "title": "ThresholdedRelu",
-                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-thresholded-relu/README.md",
+                              "title": "Elu",
+                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-elu/README.md",
                               "kind": "page",
                               "children": []
                             },
                             {
-                              "title": "Tanh",
-                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-tan-h/README.md",
-                              "kind": "page",
-                              "children": []
-                            },
-                            {
-                              "title": "Swish",
-                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-swish/README.md",
-                              "kind": "page",
-                              "children": []
-                            },
-                            {
-                              "title": "Softsign",
-                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-softsign/README.md",
-                              "kind": "page",
-                              "children": []
-                            },
-                            {
-                              "title": "Softplus",
-                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-softplus/README.md",
-                              "kind": "page",
-                              "children": []
-                            },
-                            {
-                              "title": "Softmax",
-                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-softmax/README.md",
-                              "kind": "page",
-                              "children": []
-                            },
-                            {
-                              "title": "Sigmoid",
-                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-sigmoid/README.md",
-                              "kind": "page",
-                              "children": []
-                            },
-                            {
-                              "title": "Selu",
-                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-selu/README.md",
-                              "kind": "page",
-                              "children": []
-                            },
-                            {
-                              "title": "Relu",
-                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-relu/README.md",
-                              "kind": "page",
-                              "children": []
-                            },
-                            {
-                              "title": "LeakyReLU",
-                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-leaky-relu/README.md",
-                              "kind": "page",
-                              "children": []
-                            },
-                            {
-                              "title": "HardSigmoid",
-                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-hard-sigmoid/README.md",
+                              "title": "Exp",
+                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-exp/README.md",
                               "kind": "page",
                               "children": []
                             },
@@ -2432,8 +2378,8 @@
                               "children": []
                             },
                             {
-                              "title": "Elu",
-                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-elu/README.md",
+                              "title": "HardSigmoid",
+                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-hard-sigmoid/README.md",
                               "kind": "page",
                               "children": []
                             },
@@ -2444,8 +2390,62 @@
                               "children": []
                             },
                             {
-                              "title": "Exp",
-                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-exp/README.md",
+                              "title": "LeakyReLU",
+                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-leaky-relu/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Relu",
+                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-relu/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Selu",
+                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-selu/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Sigmoid",
+                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-sigmoid/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Softmax",
+                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-softmax/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Softplus",
+                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-softplus/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Softsign",
+                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-softsign/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Swish",
+                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-swish/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Tanh",
+                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-tan-h/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "ThresholdedRelu",
+                              "path": "/deep-learning/architecture/nodes/nodes/activation/node-thresholded-relu/README.md",
                               "kind": "page",
                               "children": []
                             }
@@ -2462,476 +2462,8 @@
                               "kind": "category",
                               "children": [
                                 {
-                                  "title": "RawConstantOfShape",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/rawconstantofshape/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "UnfoldTensor",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/unfoldtensor/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Transpose",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/transpose/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Tokenizer",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/tokenizer/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "TfldfVectorizer",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/tfldfvectorizer/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Tan",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/tan/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "StringNormalizer",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/stringnormalizer/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Sqrt",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/sqrt/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "SpaceToDepth",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/spacetodepth/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Size",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/size/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Sinh",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/sinh/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Sin",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/sin/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Sign",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/sign/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Shrink",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/shrink/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Shape",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/shape/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "SequenceLength",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/sequencelength/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "SampleOp",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/sampleop/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Round",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/round/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Rfft",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/rfft/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "RegexFullMatch",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/regexfullmatch/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ReduceSumInteger",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/reducesuminteger/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Reciprocal",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/reciprocal/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "RandomUniformLike",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/randomuniformlike/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "RandomNormalLike",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/randomnormallike/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "QuickGelu",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/quickgelu/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "OptionalHasElement",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/optionalhaselement/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "OptionalGetElement",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/optionalgetelement/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Not",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/not/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "NonZero",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/nonzero/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "NhwcMaxPool",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/nhwcmaxpool/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Neg",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/neg/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MurmurHash3",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/murmurhash3/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Multinomial",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/multinomial/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Mish",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/mish/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MicrosoftGelu",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/microsoftgelu/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "MeanVarianceNormalization",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/meanvariancenormalization/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "LRN",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/lrn/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "LpPool",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/lppool/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "LpNormalization",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/lpnormalization/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "LogSoftmax",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/logsoftmax/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Log",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/log/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "lsNaN",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/lsnan/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "lslnf",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/lslnf/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "lrfft",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/lrfft/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Inverse",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/inverse/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ImageDecoder",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/imagedecoder/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Identity",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/node-identity/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "HardSwish",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/hardswish/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "HardMax",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/hardmax/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "HannWindow",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/hannwindow/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "HammingWindow",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/hammingwindow/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "GlobalMaxPool",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/globalmaxpool/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "GlobalLpPool",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/globallppool/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "GlobalAveragePool",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/globalaveragepool/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Floor",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/floor/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Flatten",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/flatten/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "EyeLike",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/eyelike/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Exp",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/node-exp/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Erf",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/erf/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "DynamicTimeWarping",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/dynamictimewarping/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Det",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/det/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "DepthToSpace",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/depthtospace/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Cosh",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/cosh/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Cos",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/cos/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ConcatFromSequence",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/concatfromsequence/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Celu",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/celu/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Ceil",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/ceil/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Cast",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/cast/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "BlackmanWindow",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/blackmanwindow/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "BitwiseNot",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/bitwisenot/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Bernouilli",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/bernouilli/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "AveragePool",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/averagepool/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Atanh",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/atanh/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Atan",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/atan/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Asinh",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/asinh/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Asin",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/asin/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ArgMin",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/argmin/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "ArgMax",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/argmax/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Acosh",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/acosh/README.md",
+                                  "title": "Abs",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/abs/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
@@ -2942,8 +2474,212 @@
                                   "children": []
                                 },
                                 {
-                                  "title": "Abs",
-                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/abs/README.md",
+                                  "title": "Acosh",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/acosh/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ArgMax",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/argmax/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ArgMin",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/argmin/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Asin",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/asin/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Asinh",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/asinh/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Atan",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/atan/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Atanh",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/atanh/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "AveragePool",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/averagepool/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Bernouilli",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/bernouilli/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "BitwiseNot",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/bitwisenot/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "BlackmanWindow",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/blackmanwindow/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Cast",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/cast/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Ceil",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/ceil/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Celu",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/celu/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ConcatFromSequence",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/concatfromsequence/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Cos",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/cos/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Cosh",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/cosh/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "DepthToSpace",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/depthtospace/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Det",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/det/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "DynamicTimeWarping",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/dynamictimewarping/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Erf",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/erf/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Exp",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/node-exp/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "EyeLike",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/eyelike/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Flatten",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/flatten/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Floor",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/floor/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "GlobalAveragePool",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/globalaveragepool/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "GlobalLpPool",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/globallppool/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "GlobalMaxPool",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/globalmaxpool/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "HammingWindow",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/hammingwindow/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "HannWindow",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/hannwindow/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "HardMax",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/hardmax/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "HardSwish",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/hardswish/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Identity",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/node-identity/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ImageDecoder",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/imagedecoder/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Inverse",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/inverse/README.md",
                                   "kind": "page",
                                   "children": []
                                 },
@@ -2962,6 +2698,270 @@
                                 {
                                   "title": "IsNaN",
                                   "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/isnan/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Log",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/log/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "LogSoftmax",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/logsoftmax/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "LpNormalization",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/lpnormalization/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "LpPool",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/lppool/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "lrfft",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/lrfft/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "LRN",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/lrn/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "lslnf",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/lslnf/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "lsNaN",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/lsnan/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MeanVarianceNormalization",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/meanvariancenormalization/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MicrosoftGelu",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/microsoftgelu/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Mish",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/mish/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Multinomial",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/multinomial/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "MurmurHash3",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/murmurhash3/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Neg",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/neg/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "NhwcMaxPool",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/nhwcmaxpool/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "NonZero",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/nonzero/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Not",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/not/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "OptionalGetElement",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/optionalgetelement/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "OptionalHasElement",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/optionalhaselement/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "QuickGelu",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/quickgelu/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "RandomNormalLike",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/randomnormallike/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "RandomUniformLike",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/randomuniformlike/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "RawConstantOfShape",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/rawconstantofshape/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Reciprocal",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/reciprocal/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "ReduceSumInteger",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/reducesuminteger/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "RegexFullMatch",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/regexfullmatch/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Rfft",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/rfft/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Round",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/round/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "SampleOp",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/sampleop/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "SequenceLength",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/sequencelength/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Shape",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/shape/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Shrink",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/shrink/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Sign",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/sign/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Sin",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/sin/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Sinh",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/sinh/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Size",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/size/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "SpaceToDepth",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/spacetodepth/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Sqrt",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/sqrt/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "StringNormalizer",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/stringnormalizer/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Tan",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/tan/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "TfldfVectorizer",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/tfldfvectorizer/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Tokenizer",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/tokenizer/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Transpose",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/transpose/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "UnfoldTensor",
+                                  "path": "/deep-learning/architecture/nodes/nodes/mono_input/mono_output/unfoldtensor/README.md",
                                   "kind": "page",
                                   "children": []
                                 }
