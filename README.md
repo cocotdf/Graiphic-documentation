@@ -24,7 +24,7 @@
 
 ## Documentation Overview
 
-### LabVIEW SOTA Toolkit
+### LabVIEW SOTA
 **SOTA (State-Of-The-Art)** is the visual orchestration framework that links LabVIEW with ONNX Runtime and deployable execution backends.
 
 Documentation:

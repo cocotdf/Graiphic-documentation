@@ -3,10 +3,10 @@
   "count": 2085,
   "items": [
     {
-      "title": "LabVIEW SOTA Toolkit",
+      "title": "LabVIEW SOTA",
       "path": "/sota/README.md",
       "keywords": "sota",
-      "content": "LabVIEW SOTA Toolkit Visual orchestration and installation entry point for Graiphic toolkits. SOTA is the control layer used to install, launch, and manage Graiphic environments. Start here for setup, first run guidance, and platform level information before working with the other toolkits. Installation Runtime Entry Point Release Management LabVIEW Integration Explore SOTA Installation Guide Install SOTA and prepare the environment used by the other Graiphic toolkits. General Read the core product overview, licensing notes, and general platform guidance. Quick Access SOTA installation Introduction Licensing"
+      "content": "LabVIEW SOTA Visual orchestration and installation entry point for Graiphic toolkits. SOTA is the control layer used to install, launch, and manage Graiphic environments. Start here for setup, first run guidance, and platform level information before working with the other toolkits. Installation Runtime Entry Point Release Management LabVIEW Integration Explore SOTA Installation Guide Install SOTA and prepare the environment used by the other Graiphic toolkits. General Read the core product overview, licensing notes, and general platform guidance. Quick Access SOTA installation Introduction Licensing"
     },
     {
       "title": "Installation guide",

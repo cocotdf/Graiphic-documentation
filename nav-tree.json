@@ -4,7 +4,7 @@
       "title": "Toolkits",
       "children": [
         {
-          "title": "LabVIEW SOTA Toolkit",
+          "title": "LabVIEW SOTA",
           "path": "/sota/README.md",
           "kind": "category",
           "children": [

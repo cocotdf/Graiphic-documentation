@@ -55,7 +55,7 @@
         - [Chat](/genai/gguf/gguf/chat/README.md)
       - [GGUF TTS](/genai/gguf/gguf-tts/README.md)
       - [Text Generation](/genai/gguf/text-generation/README.md)
-  - [LabVIEW SOTA Toolkit](/sota/README.md)
+  - [LabVIEW SOTA](/sota/README.md)
     - [General](/sota/general-sota/README.md)
     - [Installation Guide](/sota/installation-guide-sota/README.md)
 
