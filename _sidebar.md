@@ -31,6 +31,7 @@
   - [LabVIEW GenAI Toolkit](/genai/README.md)
     - [Installation guide](/genai/installation-guide/README.md)
       - [LabVIEW GenAI Toolkit](/genai/installation-guide/genai-toolkit/README.md)
+      - [OpenAI](/genai/installation-guide/openai/README.md)
       - [Anthropic](/genai/installation-guide/anthropic/README.md)
       - [GGUF](/genai/installation-guide/gguf/README.md)
       - [Audio Playback](/genai/installation-guide/audio-playback/README.md)

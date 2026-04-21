@@ -8837,6 +8837,12 @@
                   "children": []
                 },
                 {
+                  "title": "OpenAI",
+                  "path": "/genai/installation-guide/openai/README.md",
+                  "kind": "page",
+                  "children": []
+                },
+                {
                   "title": "Anthropic",
                   "path": "/genai/installation-guide/anthropic/README.md",
                   "kind": "page",

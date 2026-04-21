@@ -1,6 +1,6 @@
 {
   "generated_from": "nav-tree.json",
-  "count": 2084,
+  "count": 2085,
   "items": [
     {
       "title": "LabVIEW SOTA Toolkit",
@@ -9060,13 +9060,19 @@
       "title": "Installation guide",
       "path": "/genai/installation-guide/README.md",
       "keywords": "genai installation guide",
-      "content": "# Installation guide ## Articles - [LabVIEW GenAI Toolkit](genai-toolkit/README.md) - [Anthropic](anthropic/README.md) - [GGUF](gguf/README.md) - [Audio Playback](audio-playback/README.md) - [Troubleshooting](troubleshooting/README.md)"
+      "content": "# Installation guide ## Articles - [LabVIEW GenAI Toolkit](genai-toolkit/README.md) - [OpenAI](openai/README.md) - [Anthropic](anthropic/README.md) - [GGUF](gguf/README.md) - [Audio Playback](audio-playback/README.md) - [Troubleshooting](troubleshooting/README.md)"
     },
     {
       "title": "LabVIEW GenAI Toolkit",
       "path": "/genai/installation-guide/genai-toolkit/README.md",
       "keywords": "genai installation guide LabVIEW GenAI Toolkit",
       "content": "Getting Started This section provides step-by-step instructions on how to install and configure the LabVIEW GenAI Toolkit. To begin, please follow these steps Install SOTA Download SOTA : In order to install the LabVIEW GenAI Toolkit, you will first need to download SOTA. You can download SOTA by visiting the following link: https://graiphic.io/download/ Install SOTA: Once you have downloaded the SOTA setup file, run the installer and follow the on-screen instructions to install SOTA on your system. Launch SOTA: After the installation is complete, launch SOTA from your desktop or start menu. Get started - SOTA installation guide Install the LabVIEW GenAI Toolkit Access the GenAI module: In the SOTA interface, locate and click on the LabVIEW GenAI module. Select Version and Install: Select your LabVIEW version and click on the install button. Accept License Agreement: Accept the terms of the license agreement to install the toolkit. Launch LabVIEW: Once the installation is complete, launch LabVIEW and confirm that the GenAI palette appears in the functions menu. Get started - GenAI installation guide Congratulations! You have successfully installed the LabVIEW GenAI Toolkit using SOTA, and you are now ready to build hosted or local generative AI workflows inside LabVIEW. Note: Installing the LabVIEW GenAI Toolkit requires SOTA to be installed first. SOTA provides the interface used to select, install, and activate the toolkit inside your LabVIEW environment. For a first validation pass, we recommend starting with one of these pages: Simplify Text Message for a hosted text request. Session And Sampler for a local GGUF session. Play Sound From A Buffer for local audio playback validation. If you encounter any issues or have any questions during the installation process, please reach out to our support team on the support community page . We appreciate your interest in the LabVIEW GenAI Toolkit and hope you find this installation guide helpful. System Requirements Hardware needs depend on the workflow you choose. Anthropic flows mainly require network access and valid credentials, while GGUF and TTS flows depend on local CPU, memory, model size, and audio-device availability. For more orientation on local versus hosted setups, visit the Introduction and the dedicated pages for Anthropic , GGUF , and Audio Playback . Technical support The support is managed via the support community page . You can post your questions, thoughts, or suggestions about the LabVIEW GenAI Toolkit and other Graiphic products. Releases notes The LabVIEW GenAI Toolkit is actively evolving. The latest release notes are available HERE ."
+    },
+    {
+      "title": "OpenAI",
+      "path": "/genai/installation-guide/openai/README.md",
+      "keywords": "genai installation guide openai",
+      "content": "OpenAI OpenAI pages are the hosted API entry point of the LabVIEW GenAI Toolkit. Setup checklist Prepare an OpenAI account and a valid API key for the environment where LabVIEW will run. Store the API key outside of block-diagram constants whenever possible, for example in a configuration layer handled by your application. Validate the base connection first with Authentification. Start with a minimal text flow by using Send Message. Once the basic request path is stable, extend to advanced OpenAI flows such as files, assistants, audio, or threaded conversations. What to validate first The OpenAI session is correctly authenticated and reused by the calling VIs. A first request returns a populated response without timeout or credential issues. Your application extracts the generated content and handles API errors cleanly. Useful validation pages Authentification Send Message Create Message Create Speech"
     },
     {
       "title": "Anthropic",
