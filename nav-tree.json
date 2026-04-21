@@ -8821,7 +8821,7 @@
           ]
         },
         {
-          "title": "GenAI",
+          "title": "LabVIEW GenAI Toolkit",
           "path": "/genai/README.md",
           "kind": "category",
           "children": [
