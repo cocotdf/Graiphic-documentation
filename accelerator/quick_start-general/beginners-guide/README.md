@@ -2,7 +2,7 @@
 
 <h2>How a graph works ?</h2>
 
-<p>This section will quick guide to show the description to the graph design system of the accelerator toolkit for LabVIEW.</p>
+<p>This section will quick guide to show the description to the graph design system of the LabVIEW Accelerator Toolkit for LabVIEW.</p>
 
 <p><a href="https://www.youtube.com/embed/dsKtdkYDIl0?feature=oembed">Get Started - Design graph description</a></p>
 

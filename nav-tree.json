@@ -4,7 +4,7 @@
       "title": "Toolkits",
       "children": [
         {
-          "title": "SOTA",
+          "title": "LabVIEW SOTA Toolkit",
           "path": "/sota/README.md",
           "kind": "category",
           "children": [
@@ -43,7 +43,7 @@
           ]
         },
         {
-          "title": "Accelerator Toolkit",
+          "title": "LabVIEW Accelerator Toolkit",
           "path": "/accelerator/README.md",
           "kind": "category",
           "children": [
@@ -1731,7 +1731,7 @@
           ]
         },
         {
-          "title": "Deep Learning Toolkit",
+          "title": "LabVIEW Deep Learning Toolkit",
           "path": "/deep-learning/README.md",
           "kind": "category",
           "children": [
@@ -8831,7 +8831,7 @@
               "kind": "category",
               "children": [
                 {
-                  "title": "GenAI Toolkit",
+                  "title": "LabVIEW GenAI Toolkit",
                   "path": "/genai/installation-guide/genai-toolkit/README.md",
                   "kind": "page",
                   "children": []
@@ -11135,7 +11135,7 @@
           ]
         },
         {
-          "title": "Computer Vision Toolkit",
+          "title": "LabVIEW Computer Vision Toolkit",
           "path": "/computer-vision/README.md",
           "kind": "category",
           "children": [
@@ -12077,7 +12077,7 @@
           ]
         },
         {
-          "title": "CUDA Toolkit",
+          "title": "LabVIEW CUDA Toolkit",
           "path": "/cuda/README.md",
           "kind": "category",
           "children": [

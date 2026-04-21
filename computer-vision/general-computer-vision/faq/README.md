@@ -6,7 +6,7 @@
 
 <h2>Do we need Python Language installation to run the toolkit ?</h2>
 
-<p>No. HAIBAL deep learning toolkit is fully powered in LabVIEW. We worked more than 2 years to rewrite all the layers and functionalities in native LabVIEW. </p>
+<p>No. HAIBAL LabVIEW Deep Learning Toolkit is fully powered in LabVIEW. We worked more than 2 years to rewrite all the layers and functionalities in native LabVIEW. </p>
 
 <h2>Does the toolkit support evaluation ?</h2>
 

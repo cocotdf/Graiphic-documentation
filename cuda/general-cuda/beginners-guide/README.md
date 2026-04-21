@@ -1,6 +1,6 @@
 <h1>Beginner's Guide</h1>
 
-<p>In this <strong>quick tutorial section</strong>, we will learn how to use efficently CUDA toolkit from scratch to advanced level.</p>
+<p>In this <strong>quick tutorial section</strong>, we will learn how to use efficently LabVIEW CUDA Toolkit from scratch to advanced level.</p>
 
 <table>
   <tbody>
@@ -15,4 +15,4 @@
 
 <h3><yt-formatted-string>LabVIEW GPU Processing module first run </yt-formatted-string></h3>
 
-<p><a href="https://www.youtube.com/embed/jyiL3q7D2wI?feature=oembed">Get started -  PERRINE LabVIEW Accelerator toolkit first run</a></p>
+<p><a href="https://www.youtube.com/embed/jyiL3q7D2wI?feature=oembed">Get started -  PERRINE LabVIEW Accelerator Toolkit first run</a></p>

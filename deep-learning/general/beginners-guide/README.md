@@ -2,7 +2,7 @@
 
 <h2>How a model works ?</h2>
 
-<p>This section will quick guide to show the description to the model design system of the deep learning toolkit for LabVIEW.</p>
+<p>This section will quick guide to show the description to the model design system of the LabVIEW Deep Learning Toolkit for LabVIEW.</p>
 
 <p><a href="https://www.youtube.com/embed/dsKtdkYDIl0?feature=oembed">Get Started - Design graph description</a></p>
 

@@ -1,13 +1,13 @@
-<h1>GenAI Toolkit</h1>
+<h1>LabVIEW GenAI Toolkit</h1>
 
 <div class="graiphic-home-hero">
-  <p align="center"><img src="../img/GenAI.png" alt="GenAI Toolkit icon" width="128" /></p>
+  <p align="center"><img src="../img/GenAI.png" alt="LabVIEW GenAI Toolkit icon" width="128" /></p>
   <p class="graiphic-home-kicker">
     <span class="graiphic-home-kicker-line">LLM workflows, speech pipelines,</span>
     <span class="graiphic-home-kicker-line">and multimodal inference for LabVIEW.</span>
   </p>
   <p class="graiphic-home-lead">
-    The GenAI Toolkit gathers Anthropic messaging flows, OpenAI assistants and messages, GGUF runtime setup,
+    The LabVIEW GenAI Toolkit gathers Anthropic messaging flows, OpenAI assistants and messages, GGUF runtime setup,
     local text generation, text-to-speech building blocks, and audio processing utilities
     inside one documentation entry point.
   </p>
@@ -58,7 +58,7 @@
 
 <ul>
   <li><a href="general/introduction/README.md">Introduction</a></li>
-  <li><a href="installation-guide/genai-toolkit/README.md">GenAI Toolkit Setup</a></li>
+  <li><a href="installation-guide/genai-toolkit/README.md">LabVIEW GenAI Toolkit Setup</a></li>
   <li><a href="anthropic/message/README.md">Anthropic Message</a></li>
   <li><a href="anthropic/message/advanced-message/README.md">Advanced Message</a></li>
   <li><a href="openai/send-message/send-message/README.md">OpenAI Send Message</a></li>

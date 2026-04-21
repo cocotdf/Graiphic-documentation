@@ -12,7 +12,7 @@
   <tbody>
     <tr>
       <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
-      <td valign="top"><strong>Model : </strong>reference to the model. This is an instance of the <code>Model</code> class of the Deep Learning toolkit.</td>
+      <td valign="top"><strong>Model : </strong>reference to the model. This is an instance of the <code>Model</code> class of the LabVIEW Deep Learning Toolkit.</td>
     </tr>
   </tbody>
 </table>

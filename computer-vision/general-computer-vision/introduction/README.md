@@ -2,7 +2,7 @@
 
 <p align="center"><img src="assets/computervision.svg" alt="Fichier 2" width="220" /></p>
 
-<p>Welcome to the computer vision toolkit documentation base.</p>
+<p>Welcome to the LabVIEW Computer Vision Toolkit documentation base.</p>
 
 <p>Here you will find all the instructions you need to install, configure and understand the toolkit.</p>
 

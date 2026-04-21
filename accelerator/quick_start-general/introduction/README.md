@@ -2,11 +2,11 @@
 
 <p align="center"><img src="assets/accelerator.png" alt="Accelerator" width="260" /></p>
 
-<p>Welcome to the Accelerator toolkit documentation base.</p>
+<p>Welcome to the LabVIEW Accelerator Toolkit documentation base.</p>
 
 <p>Here you will find all the instructions you need to install, configure and understand the toolkit.</p>
 
-<p><strong>The LabVIEW Accelerator toolkit is the world’s first framework built on ONNX and ONNX Runtime.</strong></p>
+<p><strong>The LabVIEW Accelerator Toolkit is the world’s first framework built on ONNX and ONNX Runtime.</strong></p>
 
 <ul>
 <li><strong>ONNX</strong> (Open Neural Network Exchange) is an open standard format that enables the description and exchange of AI models in an interoperable way across tools and platforms.</li>

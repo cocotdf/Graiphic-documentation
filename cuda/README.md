@@ -1,13 +1,13 @@
-# CUDA Toolkit
+# LabVIEW CUDA Toolkit
 
 <div class="graiphic-home-hero">
-  <p align="center"><img src="../img/cuda-module_1.png" alt="CUDA Toolkit icon" width="128" /></p>
+  <p align="center"><img src="../img/cuda-module_1.png" alt="LabVIEW CUDA Toolkit icon" width="128" /></p>
   <p class="graiphic-home-kicker">
     <span class="graiphic-home-kicker-line">GPU execution, tensor memory control,</span>
     <span class="graiphic-home-kicker-line">and CUDA-oriented operators for LabVIEW.</span>
   </p>
   <p class="graiphic-home-lead">
-    The CUDA Toolkit gives direct access to GPU-accelerated primitives for arrays, numeric
+    The LabVIEW CUDA Toolkit gives direct access to GPU-accelerated primitives for arrays, numeric
     operations, transforms, tensor memory control, and CuBLAS-backed routines. It is the
     entry point for lower-level CUDA processing inside the Graiphic ecosystem.
   </p>

@@ -1,6 +1,6 @@
 <h1>Licensing SOTA</h1>
 
-<p>Our licensing system provides access to the entire toolkit suite included in SOTA. <strong>As part of this suite, by activating your license, you will be able to enjoy all the functionalities offered by LabVIEW</strong> <strong>Deep Learning toolkit.</strong></p>
+<p>Our licensing system provides access to the entire toolkit suite included in SOTA. <strong>As part of this suite, by activating your license, you will be able to enjoy all the functionalities offered by LabVIEW</strong> <strong>LabVIEW Deep Learning Toolkit.</strong></p>
 
 <h2>License types</h2>
 
@@ -79,4 +79,4 @@
 
 <h2>Technical support</h2>
 
-<p>The support is managed via the <a href="https://graiphic.io/support-community/">support community page</a>. You can post all your questions, thoughts or suggestions about LabVIEW Deep Learning toolkit and other Graiphic product.</p>
+<p>The support is managed via the <a href="https://graiphic.io/support-community/">support community page</a>. You can post all your questions, thoughts or suggestions about LabVIEW Deep Learning Toolkit and other Graiphic product.</p>

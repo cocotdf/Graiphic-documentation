@@ -24,8 +24,7 @@
 
 ## Documentation Overview
 
-### SOTA
-
+### LabVIEW SOTA Toolkit
 **SOTA (State-Of-The-Art)** is the visual orchestration framework that links LabVIEW with ONNX Runtime and deployable execution backends.
 
 Documentation:
@@ -33,7 +32,7 @@ Documentation:
 - [Installation Guide](./sota/installation-guide-sota/sota-installation/README.md)
 - [Licensing](./sota/general-sota/licensing/README.md)
 
-### Accelerator Toolkit
+### LabVIEW Accelerator Toolkit
 
 The **LabVIEW Accelerator Toolkit** connects LabVIEW applications to ONNX Runtime for hardware-accelerated graph execution.
 
@@ -47,7 +46,7 @@ Documentation:
 - [Troubleshooting](./accelerator/quick_start-general/troubleshooting/README.md)
 - [FAQ](./accelerator/quick_start-general/faq/README.md)
 
-### Deep Learning Toolkit
+### LabVIEW Deep Learning Toolkit
 
 The **LabVIEW Deep Learning Toolkit** provides native tools for neural-network creation, training, and inference inside LabVIEW.
 
@@ -63,9 +62,9 @@ Documentation:
 - [Troubleshooting](./deep-learning/general/troubleshooting/README.md)
 - [FAQ](./deep-learning/general/faq/README.md)
 
-### Computer Vision Toolkit
+### LabVIEW Computer Vision Toolkit
 
-The **Computer Vision Toolkit** brings modern vision pipelines and ONNX-backed image processing into LabVIEW.
+The **LabVIEW Computer Vision Toolkit** brings modern vision pipelines and ONNX-backed image processing into LabVIEW.
 
 Documentation:
 - [Installation Guide](./computer-vision/installation-guide-computer-vision/computer-vision-installation/README.md)
@@ -77,9 +76,9 @@ Documentation:
 - [Troubleshooting](./computer-vision/general-computer-vision/troubleshooting/README.md)
 - [FAQ](./computer-vision/general-computer-vision/faq/README.md)
 
-### CUDA Toolkit
+### LabVIEW CUDA Toolkit
 
-The **CUDA Toolkit for LabVIEW** enables direct GPU acceleration for AI models, numerical computation, and parallel processing.
+The **LabVIEW CUDA Toolkit** enables direct GPU acceleration for AI models, numerical computation, and parallel processing.
 
 Documentation:
 - [Installation Guide](./cuda/installation-guide-cuda/cuda/README.md)
@@ -89,9 +88,9 @@ Documentation:
 - [Deployment](./cuda/general-cuda/deployment/README.md)
 - [FAQ](./cuda/general-cuda/faq/README.md)
 
-### GenAI Toolkit
+### LabVIEW GenAI Toolkit
 
-The **GenAI Toolkit** gathers LLM, speech, and multimodal workflows for Anthropic APIs, GGUF runtimes, local text generation, and audio-oriented outputs inside LabVIEW.
+The **LabVIEW GenAI Toolkit** gathers LLM, speech, and multimodal workflows for Anthropic APIs, GGUF runtimes, local text generation, and audio-oriented outputs inside LabVIEW.
 
 Documentation:
 - [Toolkit Overview](./genai/README.md)

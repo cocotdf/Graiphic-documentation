@@ -1,12 +1,12 @@
 <h1>LabVIEW TensorRT Driver</h1>
 
-<p>This section explains how to install and configure TensorRT for the LabVIEW Deep Learning toolkit.</p>
+<p>This section explains how to install and configure TensorRT for the LabVIEW Deep Learning Toolkit.</p>
 
 <h2>System Requirements</h2>
 
-<p>The LabVIEW Deep Learning toolkit run actually TensorRT version. To know if your GPU is compatible with this version, please consult<a href="https://gist.github.com/standaloneSA/99788f30466516dbcc00338b36ad5acf"> this page</a>.</p>
+<p>The LabVIEW Deep Learning Toolkit run actually TensorRT version. To know if your GPU is compatible with this version, please consult<a href="https://gist.github.com/standaloneSA/99788f30466516dbcc00338b36ad5acf"> this page</a>.</p>
 
-<h2>How to install the LabVIEW Deep Learning toolkit GPU INSTALLER ?</h2>
+<h2>How to install the LabVIEW Deep Learning Toolkit GPU INSTALLER ?</h2>
 
 <p>To leverage GPU acceleration and fully utilize your TensorRT -compatible hardware in an optimized manner, you need to install TensorRT exclusively using SOTA.</p>
 
@@ -21,4 +21,4 @@
 
 <h2>Technical support</h2>
 
-<p>The support is managed via the <a href="https://graiphic.io/support-community/">support community page</a>. You can post all your questions, thoughts or suggestions about the LabVIEW Deep Learning toolkit and other Graiphic product.</p>
+<p>The support is managed via the <a href="https://graiphic.io/support-community/">support community page</a>. You can post all your questions, thoughts or suggestions about the LabVIEW Deep Learning Toolkit and other Graiphic product.</p>

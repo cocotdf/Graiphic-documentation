@@ -2,7 +2,7 @@
 
 ## Articles
 
-- [GenAI Toolkit](genai-toolkit/README.md)
+- [LabVIEW GenAI Toolkit](genai-toolkit/README.md)
 - [Anthropic](anthropic/README.md)
 - [GGUF](gguf/README.md)
 - [Audio Playback](audio-playback/README.md)

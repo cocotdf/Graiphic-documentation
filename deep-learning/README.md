@@ -1,13 +1,13 @@
-# Deep Learning Toolkit
+# LabVIEW Deep Learning Toolkit
 
 <div class="graiphic-home-hero">
-  <p align="center"><img src="../img/deeplearning.svg" alt="Deep Learning Toolkit icon" width="128" /></p>
+  <p align="center"><img src="../img/deeplearning.svg" alt="LabVIEW Deep Learning Toolkit icon" width="128" /></p>
   <p class="graiphic-home-kicker">
     <span class="graiphic-home-kicker-line">Build, train, inspect, and deploy neural architectures</span>
     <span class="graiphic-home-kicker-line">directly from LabVIEW.</span>
   </p>
   <p class="graiphic-home-lead">
-    The Deep Learning Toolkit covers model construction, graph definition, runtime execution,
+    The LabVIEW Deep Learning Toolkit covers model construction, graph definition, runtime execution,
     training metrics, weight management, and advanced helpers for ONNX-backed neural workflows.
     This page gives you a clean entry point into the main branches of the toolkit.
   </p>

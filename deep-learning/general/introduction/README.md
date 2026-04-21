@@ -6,7 +6,7 @@
 
 <p>Here you will find all the instructions you need to install, configure and understand the toolkit.</p>
 
-<p><strong>The LabVIEW Deep Learning toolkit is the world’s first framework built on ONNX and ONNX Runtime.</strong></p>
+<p><strong>The LabVIEW Deep Learning Toolkit is the world’s first framework built on ONNX and ONNX Runtime.</strong></p>
 
 <ul>
 <li><strong>ONNX</strong> (Open Neural Network Exchange) is an open standard format that enables the description and exchange of AI models in an interoperable way across tools and platforms.</li>

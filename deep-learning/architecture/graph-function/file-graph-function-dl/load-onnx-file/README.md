@@ -28,7 +28,7 @@ This VI initializes an ONNXModel object from a .onnx file, making it ready for u
   <tbody>
     <tr>
       <td width="64" valign="top"><img alt="Output_Object_3.Png" src="assets/output_object_3.png" width="42"/></td>
-      <td valign="top"><strong>ONNX out : </strong>reference to the loaded ONNX model, encapsulated in the <code>ONNXModel</code> class of the Deep Learning toolkit. Functionally equivalent to a model built manually from nodes.</td>
+      <td valign="top"><strong>ONNX out : </strong>reference to the loaded ONNX model, encapsulated in the <code>ONNXModel</code> class of the LabVIEW Deep Learning Toolkit. Functionally equivalent to a model built manually from nodes.</td>
     </tr>
   </tbody>
 </table>

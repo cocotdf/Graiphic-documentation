@@ -1,13 +1,13 @@
-# Computer Vision Toolkit
+# LabVIEW Computer Vision Toolkit
 
 <div class="graiphic-home-hero">
-  <p align="center"><img src="../img/computervision.svg" alt="Computer Vision Toolkit icon" width="128" /></p>
+  <p align="center"><img src="../img/computervision.svg" alt="LabVIEW Computer Vision Toolkit icon" width="128" /></p>
   <p class="graiphic-home-kicker">
     <span class="graiphic-home-kicker-line">Image processing, display flows, sessions,</span>
     <span class="graiphic-home-kicker-line">and LabVIEW-ready vision tooling.</span>
   </p>
   <p class="graiphic-home-lead">
-    The Computer Vision Toolkit gathers image processing functions, manipulation utilities,
+    The LabVIEW Computer Vision Toolkit gathers image processing functions, manipulation utilities,
     display helpers, session management, and video writer tools. Use it to build visual
     pipelines, inspect data, and deploy ONNX-backed vision workflows in LabVIEW.
   </p>

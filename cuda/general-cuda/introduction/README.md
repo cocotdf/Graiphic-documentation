@@ -2,11 +2,11 @@
 
 <p align="center"><img src="assets/cuda-module_1.png" alt="CUDA module_1" width="260" /></p>
 
-<p>Welcome to the CUDA toolkit documentation base.</p>
+<p>Welcome to the LabVIEW CUDA Toolkit documentation base.</p>
 
 <p>Here you will find all the instructions you need to install, configure and understand the toolkit.</p>
 
-<p><strong>The LabVIEW CUDA toolkit is the world’s first framework built on ONNX and ONNX Runtime.</strong></p>
+<p><strong>The LabVIEW CUDA Toolkit is the world’s first framework built on ONNX and ONNX Runtime.</strong></p>
 
 <ul>
 <li><strong>ONNX</strong> (Open Neural Network Exchange) is an open standard format that enables the description and exchange of AI models in an interoperable way across tools and platforms.</li>

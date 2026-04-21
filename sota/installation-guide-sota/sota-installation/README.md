@@ -7,7 +7,7 @@
 <h3>Install SOTA Online</h3>
 
 <ol>
-<li><a href="https://graiphic.io/download/"><strong>Download SOTA</strong></a>: In order to install the LabVIEW Deep Learning toolkit, you will first need to download SOTA. You can download SOTA by visiting the following link: <a href="https://graiphic.io/download-version/">https://graiphic.io/download-version/</a></li>
+<li><a href="https://graiphic.io/download/"><strong>Download SOTA</strong></a>: In order to install the LabVIEW Deep Learning Toolkit, you will first need to download SOTA. You can download SOTA by visiting the following link: <a href="https://graiphic.io/download-version/">https://graiphic.io/download-version/</a></li>
 <li>Install SOTA: Once you have downloaded the SOTA setup file, run the installer and follow the on-screen instructions to install SOTA on your system.</li>
 <li>Launch SOTA : After the installation is complete, launch SOTA from your desktop or start menu.</li>
 </ol>

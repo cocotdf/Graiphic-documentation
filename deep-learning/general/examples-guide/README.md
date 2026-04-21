@@ -42,7 +42,7 @@
 
 <p><a href="https://www.youtube.com/embed/MxhErsQPy4o?feature=oembed">How to find HAIBAL LabVIEW examples</a></p>
 
-<h2>Where can i find examples page on the deep learning toolkit website ?</h2>
+<h2>Where can i find examples page on the LabVIEW Deep Learning Toolkit website ?</h2>
 
 <ul>
 <li>

@@ -4,7 +4,7 @@
 
 <ul>
 <li>Restart LabVIEW after installation.</li>
-<li>Confirm that the GenAI Toolkit package matches the active LabVIEW environment.</li>
+<li>Confirm that the LabVIEW GenAI Toolkit package matches the active LabVIEW environment.</li>
 </ul>
 
 <h2>Anthropic requests fail</h2>

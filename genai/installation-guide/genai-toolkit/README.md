@@ -14,7 +14,7 @@
 
 <p><a href="https://www.youtube.com/embed/4LJfdXmnj2w?feature=oembed">Get started - SOTA installation guide</a></p>
 
-<h3>Install the GenAI Toolkit</h3>
+<h3>Install the LabVIEW GenAI Toolkit</h3>
 
 <ol>
 <li>Access the GenAI module: In the SOTA interface, locate and click on the LabVIEW GenAI module.</li>
@@ -25,9 +25,9 @@
 
 <p><a href="https://www.youtube.com/watch?v=MuKw8PRjy8U">Get started - GenAI installation guide</a></p>
 
-<p><strong>Congratulations! You have successfully installed the GenAI Toolkit using SOTA, and you are now ready to build hosted or local generative AI workflows inside LabVIEW.</strong></p>
+<p><strong>Congratulations! You have successfully installed the LabVIEW GenAI Toolkit using SOTA, and you are now ready to build hosted or local generative AI workflows inside LabVIEW.</strong></p>
 
-<p>Note: Installing the GenAI Toolkit requires SOTA to be installed first. SOTA provides the interface used to select, install, and activate the toolkit inside your LabVIEW environment.</p>
+<p>Note: Installing the LabVIEW GenAI Toolkit requires SOTA to be installed first. SOTA provides the interface used to select, install, and activate the toolkit inside your LabVIEW environment.</p>
 
 <p>For a first validation pass, we recommend starting with one of these pages:</p>
 
@@ -39,7 +39,7 @@
 
 <p>If you encounter any issues or have any questions during the installation process, please reach out to our support team on the <a href="https://graiphic.io/support-community/">support community page</a>.</p>
 
-<p>We appreciate your interest in the GenAI Toolkit and hope you find this installation guide helpful.</p>
+<p>We appreciate your interest in the LabVIEW GenAI Toolkit and hope you find this installation guide helpful.</p>
 
 <h2>System Requirements</h2>
 
@@ -49,8 +49,8 @@
 
 <h2>Technical support</h2>
 
-<p>The support is managed via the <a href="https://graiphic.io/support-community/">support community page</a>. You can post your questions, thoughts, or suggestions about the GenAI Toolkit and other Graiphic products.</p>
+<p>The support is managed via the <a href="https://graiphic.io/support-community/">support community page</a>. You can post your questions, thoughts, or suggestions about the LabVIEW GenAI Toolkit and other Graiphic products.</p>
 
 <h2>Releases notes</h2>
 
-<p>The GenAI Toolkit is actively evolving. The latest release notes are available <a href="https://graiphic.io/support-community/forum/update/releases/">HERE</a>.</p>
+<p>The LabVIEW GenAI Toolkit is actively evolving. The latest release notes are available <a href="https://graiphic.io/support-community/forum/update/releases/">HERE</a>.</p>

@@ -1,6 +1,6 @@
 <h1>Anthropic</h1>
 
-<p>Anthropic pages are the cloud-oriented entry point of the GenAI Toolkit.</p>
+<p>Anthropic pages are the cloud-oriented entry point of the LabVIEW GenAI Toolkit.</p>
 
 <h2>Setup checklist</h2>
 

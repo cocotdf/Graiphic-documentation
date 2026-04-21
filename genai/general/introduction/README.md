@@ -2,9 +2,9 @@
 
 <p align="center"><img src="../../../img/GenAI.png" alt="GenAI" width="220" /></p>
 
-<p>Welcome to the GenAI Toolkit documentation base.</p>
+<p>Welcome to the LabVIEW GenAI Toolkit documentation base.</p>
 
-<p>The GenAI Toolkit extends LabVIEW with a set of building blocks for hosted and local generative AI workflows. The current documentation covers:</p>
+<p>The LabVIEW GenAI Toolkit extends LabVIEW with a set of building blocks for hosted and local generative AI workflows. The current documentation covers:</p>
 
 <ul>
 <li><strong>Anthropic</strong> message-oriented cloud requests for text, image, and PDF prompts.</li>
