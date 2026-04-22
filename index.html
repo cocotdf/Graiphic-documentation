@@ -1836,6 +1836,83 @@
       return normalizeDocPath(route || "/README.md");
     }
 
+    var HOME_TOOLKIT_CARD_ORDER = [
+      "/sota/README.md",
+      "/accelerator/README.md",
+      "/deep-learning/README.md",
+      "/computer-vision/README.md",
+      "/genai/README.md",
+      "/cuda/README.md"
+    ];
+
+    var HOME_TOOLKIT_CARD_META = {
+      "/sota/README.md": {
+        copy: "Visual orchestration and graph execution for deployable AI systems.",
+        image: "./img/sota-png.png",
+        alt: "LabVIEW SOTA icon"
+      },
+      "/accelerator/README.md": {
+        copy: "ONNX Runtime acceleration for LabVIEW graphs and hardware-aware execution.",
+        image: "./img/accelerator.png",
+        alt: "LabVIEW Accelerator Toolkit icon"
+      },
+      "/deep-learning/README.md": {
+        copy: "Design, train, and deploy neural architectures directly inside LabVIEW.",
+        image: "./img/deeplearning.svg",
+        alt: "LabVIEW Deep Learning Toolkit icon"
+      },
+      "/computer-vision/README.md": {
+        copy: "Build imaging pipelines, UI display flows, and vision model deployments.",
+        image: "./img/computervision.svg",
+        alt: "LabVIEW Computer Vision Toolkit icon"
+      },
+      "/genai/README.md": {
+        copy: "Connect Anthropic, GGUF, speech, and multimodal LabVIEW flows from one toolkit entry point.",
+        image: "./img/GenAI.png",
+        alt: "LabVIEW GenAI Toolkit icon"
+      },
+      "/cuda/README.md": {
+        copy: "Direct GPU execution, memory control, and CUDA-powered operators for LabVIEW.",
+        image: "./img/cuda-module_1.png",
+        alt: "LabVIEW CUDA Toolkit icon"
+      }
+    };
+
+    function collectHomeToolkitCards() {
+      var navData = window.__GRAIPHIC_NAV__;
+      var sections = navData && Array.isArray(navData.sections) ? navData.sections : [];
+      var toolkitSection = sections.find(function (section) {
+        return section && normalizeHeadingLabel(section.title) === "toolkits";
+      });
+      var toolkitRoots = toolkitSection && Array.isArray(toolkitSection.children) ? toolkitSection.children : [];
+      var toolkitByPath = {};
+
+      toolkitRoots.forEach(function (node) {
+        if (!node || !node.path) {
+          return;
+        }
+        toolkitByPath[normalizeDocPath(node.path)] = node;
+      });
+
+      return HOME_TOOLKIT_CARD_ORDER.map(function (path) {
+        var normalizedPath = normalizeDocPath(path);
+        var node = toolkitByPath[normalizedPath];
+        var meta = HOME_TOOLKIT_CARD_META[normalizedPath];
+
+        if (!node || !meta) {
+          return null;
+        }
+
+        return {
+          title: node.title || normalizedPath.replace(/^\//, "").replace(/\/README\.md$/i, ""),
+          copy: meta.copy,
+          path: node.path || normalizedPath,
+          image: meta.image,
+          alt: meta.alt || ((node.title || "Toolkit") + " icon")
+        };
+      }).filter(Boolean);
+    }
+
     function injectHomeToolkitCards(root) {
       if (!root || currentRenderedDocPath() !== "/README.md") {
         return;
@@ -1855,50 +1932,10 @@
         return;
       }
 
-      var cards = [
-        {
-          title: "LabVIEW SOTA",
-          copy: "Visual orchestration and graph execution for deployable AI systems.",
-          path: "/sota/README.md",
-          image: "./img/sota-png.png",
-          alt: "LabVIEW SOTA icon"
-        },
-        {
-          title: "LabVIEW Accelerator Toolkit",
-          copy: "ONNX Runtime acceleration for LabVIEW graphs and hardware-aware execution.",
-          path: "/accelerator/README.md",
-          image: "./img/accelerator.png",
-          alt: "LabVIEW Accelerator Toolkit icon"
-        },
-        {
-          title: "LabVIEW Deep Learning Toolkit",
-          copy: "Design, train, and deploy neural architectures directly inside LabVIEW.",
-          path: "/deep-learning/README.md",
-          image: "./img/deeplearning.svg",
-          alt: "LabVIEW Deep Learning Toolkit icon"
-        },
-      {
-        title: "LabVIEW Computer Vision Toolkit",
-        copy: "Build imaging pipelines, UI display flows, and vision model deployments.",
-        path: "/computer-vision/README.md",
-        image: "./img/computervision.svg",
-        alt: "LabVIEW Computer Vision Toolkit icon"
-      },
-      {
-        title: "LabVIEW GenAI Toolkit",
-        copy: "Connect Anthropic, GGUF, speech, and multimodal LabVIEW flows from one toolkit entry point.",
-        path: "/genai/README.md",
-        image: "./img/GenAI.png",
-        alt: "LabVIEW GenAI Toolkit icon"
-      },
-      {
-        title: "LabVIEW CUDA Toolkit",
-        copy: "Direct GPU execution, memory control, and CUDA-powered operators for LabVIEW.",
-        path: "/cuda/README.md",
-        image: "./img/cuda-module_1.png",
-          alt: "LabVIEW CUDA Toolkit icon"
-        }
-      ];
+      var cards = collectHomeToolkitCards();
+      if (!cards.length) {
+        return;
+      }
 
       var section = document.createElement("section");
       section.className = "graiphic-home-toolkits";
@@ -2130,15 +2167,133 @@
       };
     }
 
+    var SEARCH_MOJIBAKE_CP1252_MAP = {
+      8364: 128,
+      8218: 130,
+      402: 131,
+      8222: 132,
+      8230: 133,
+      8224: 134,
+      8225: 135,
+      710: 136,
+      8240: 137,
+      352: 138,
+      8249: 139,
+      338: 140,
+      381: 142,
+      8216: 145,
+      8217: 146,
+      8220: 147,
+      8221: 148,
+      8226: 149,
+      8211: 150,
+      8212: 151,
+      732: 152,
+      8482: 153,
+      353: 154,
+      8250: 155,
+      339: 156,
+      382: 158,
+      376: 159
+    };
+
+    var SEARCH_MOJIBAKE_PATTERN = /\u00E2[\u20AC\u201A\u0192\u201E\u2026\u2020\u2021\u02C6\u2030\u0160\u2039\u0152\u017D\u2018\u2019\u201C\u201D\u2022\u2013\u2014\u02DC\u2122\u0161\u203A\u0153\u017E\u0178\u009D]|\u00C3[\u0080-\u00BF]|\u00C2[\u0080-\u00BF]|\u009D/;
+    var SEARCH_TEXT_DECODER = typeof TextDecoder === "function" ? new TextDecoder("utf-8") : null;
+    var searchHtmlEntityDecoder = null;
+
+    function decodeSearchHtmlEntities(text) {
+      if (!text || text.indexOf("&") < 0) {
+        return text || "";
+      }
+
+      searchHtmlEntityDecoder = searchHtmlEntityDecoder || document.createElement("textarea");
+      searchHtmlEntityDecoder.innerHTML = text;
+      return searchHtmlEntityDecoder.value;
+    }
+
+    function hasSearchMojibake(text) {
+      return !!(text && SEARCH_MOJIBAKE_PATTERN.test(text));
+    }
+
+    function encodeSearchCp1252Bytes(text) {
+      var bytes = [];
+
+      for (var i = 0; i < text.length; i += 1) {
+        var code = text.charCodeAt(i);
+        if (code <= 255) {
+          bytes.push(code);
+          continue;
+        }
+
+        if (SEARCH_MOJIBAKE_CP1252_MAP[code]) {
+          bytes.push(SEARCH_MOJIBAKE_CP1252_MAP[code]);
+          continue;
+        }
+
+        return null;
+      }
+
+      return new Uint8Array(bytes);
+    }
+
+    function repairSearchMojibake(text) {
+      if (!SEARCH_TEXT_DECODER || !hasSearchMojibake(text)) {
+        return text;
+      }
+
+      var current = text;
+      for (var attempt = 0; attempt < 3; attempt += 1) {
+        if (!hasSearchMojibake(current)) {
+          break;
+        }
+
+        var bytes = encodeSearchCp1252Bytes(current);
+        if (!bytes) {
+          break;
+        }
+
+        var repaired = SEARCH_TEXT_DECODER.decode(bytes);
+        if (!repaired || repaired === current) {
+          break;
+        }
+
+        current = repaired;
+      }
+
+      return current;
+    }
+
+    function sanitizeSearchEntryText(text) {
+      if (typeof text !== "string" || !text) {
+        return "";
+      }
+
+      var current = decodeSearchHtmlEntities(text);
+      current = repairSearchMojibake(current);
+      current = current.replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F\u009D]/g, " ");
+      return current.replace(/\s+/g, " ").trim();
+    }
+
+    function sanitizePublishedSearchEntry(entry) {
+      return {
+        title: sanitizeSearchEntryText(entry && entry.title),
+        path: normalizeDocPath(entry && entry.path),
+        keywords: sanitizeSearchEntryText(entry && entry.keywords),
+        content: sanitizeSearchEntryText(entry && entry.content)
+      };
+    }
+
     function sanitizePublishedSearchIndex(searchData) {
       if (!searchData || !Array.isArray(searchData.items)) {
         return { items: [] };
       }
 
       return {
-        items: searchData.items.filter(function (entry) {
-          return entry && !isHiddenPublishedDocPath(entry.path);
-        })
+        items: searchData.items
+          .filter(function (entry) {
+            return entry && !isHiddenPublishedDocPath(entry.path);
+          })
+          .map(sanitizePublishedSearchEntry)
       };
     }
 
@@ -2155,7 +2310,7 @@
         search.innerHTML =
           '<div class="input-wrap">' +
             '<input type="search" value="" aria-label="Search text" placeholder="Search in the documentation" />' +
-            '<button class="clear-button" type="button" aria-label="Clear search">×</button>' +
+            '<button class="clear-button" type="button" aria-label="Clear search">&times;</button>' +
           '</div>' +
           '<div class="results-panel"></div>';
       }
@@ -2442,6 +2597,9 @@
       }
 
       clearButton.classList.add("show");
+      if (window.__GRAIPHIC_SEARCH_INDEX_SOURCE__ !== "manifest") {
+        loadSearchManifest().catch(function () {});
+      }
 
       var terms = tokenizeSearchQuery(query);
       var results = runClientSearch(query);
@@ -2477,9 +2635,9 @@
 
         seen[normalizedPath] = true;
         items.push({
-          title: title || normalizedPath.replace(/^\//, ""),
+          title: sanitizeSearchEntryText(title || normalizedPath.replace(/^\//, "")),
           path: normalizedPath,
-          keywords: normalizedPath.replace(/^\//, "").replace(/\/README\.md$/i, "").replace(/[\/_-]+/g, " "),
+          keywords: sanitizeSearchEntryText(normalizedPath.replace(/^\//, "").replace(/\/README\.md$/i, "").replace(/[\/_-]+/g, " ")),
           content: ""
         });
       }
@@ -2506,6 +2664,47 @@
       return items;
     }
 
+    function fetchJsonManifest(path, label) {
+      return fetch(path, { cache: "no-store" }).then(function (response) {
+        if (!response.ok) {
+          throw new Error("Failed to load " + label);
+        }
+        return response.json();
+      });
+    }
+
+    function loadNavigationManifest() {
+      return fetchJsonManifest("nav-tree.json", "navigation manifest");
+    }
+
+    function loadSearchManifest() {
+      if (window.__GRAIPHIC_SEARCH_INDEX_SOURCE__ === "manifest") {
+        return Promise.resolve(window.__GRAIPHIC_SEARCH_INDEX__ || []);
+      }
+
+      if (window.__GRAIPHIC_SEARCH_MANIFEST_PROMISE__) {
+        return window.__GRAIPHIC_SEARCH_MANIFEST_PROMISE__;
+      }
+
+      window.__GRAIPHIC_SEARCH_MANIFEST_PROMISE__ = fetchJsonManifest("search-manifest.json", "search manifest")
+        .then(function (searchData) {
+          var items = sanitizePublishedSearchIndex(searchData).items;
+          window.__GRAIPHIC_SEARCH_INDEX__ = items;
+          window.__GRAIPHIC_SEARCH_INDEX_SOURCE__ = "manifest";
+          if (window.__GRAIPHIC_SEARCH_QUERY__) {
+            renderClientSearchResults(window.__GRAIPHIC_SEARCH_QUERY__);
+          }
+          return items;
+        })
+        .catch(function (error) {
+          console.warn("Search manifest unavailable, falling back to title-only search.", error);
+          window.__GRAIPHIC_SEARCH_MANIFEST_PROMISE__ = null;
+          return window.__GRAIPHIC_SEARCH_INDEX__ || [];
+        });
+
+      return window.__GRAIPHIC_SEARCH_MANIFEST_PROMISE__;
+    }
+
     function bindClientSearch(searchRoot) {
       if (!searchRoot || searchRoot.__graiphicSearchBound) {
         return;
@@ -2514,9 +2713,17 @@
       var input = searchRoot.querySelector('input[type="search"]');
       var clearButton = searchRoot.querySelector(".clear-button");
       var debounceHandle = null;
+      var prefetchFullSearch = function () {
+        if (window.__GRAIPHIC_SEARCH_INDEX_SOURCE__ !== "manifest") {
+          loadSearchManifest().catch(function () {});
+        }
+      };
 
       if (input) {
+        input.addEventListener("focus", prefetchFullSearch);
+        input.addEventListener("pointerdown", prefetchFullSearch);
         input.addEventListener("input", function (event) {
+          prefetchFullSearch();
           window.clearTimeout(debounceHandle);
           debounceHandle = window.setTimeout(function () {
             renderClientSearchResults(event.target.value);
@@ -2798,6 +3005,7 @@
       window.__GRAIPHIC_SEARCH_INDEX__ = searchData && Array.isArray(searchData.items)
         ? sanitizePublishedSearchIndex(searchData).items
         : buildFallbackSearchIndex(window.__GRAIPHIC_NAV__);
+      window.__GRAIPHIC_SEARCH_INDEX_SOURCE__ = searchData && Array.isArray(searchData.items) ? "manifest" : "fallback";
       window.__GRAIPHIC_SEARCH_QUERY__ = window.__GRAIPHIC_SEARCH_QUERY__ || "";
       window.__GRAIPHIC_NAV_STATE__ = window.__GRAIPHIC_NAV_STATE__ || { expandedPaths: {}, collapsedPaths: {}, articleGroupsExpanded: {} };
 
@@ -2883,29 +3091,9 @@
         });
     }
 
-    var manifestVersion = "2026-04-17-manifests-3";
-
-    Promise.all([
-      fetch("nav-tree.json?v=" + encodeURIComponent(manifestVersion)).then(function (response) {
-        if (!response.ok) {
-          throw new Error("Failed to load navigation manifest");
-        }
-        return response.json();
-      }),
-      fetch("search-manifest.json?v=" + encodeURIComponent(manifestVersion))
-        .then(function (response) {
-          if (!response.ok) {
-            throw new Error("Failed to load search manifest");
-          }
-          return response.json();
-        })
-        .catch(function (error) {
-          console.warn("Search manifest unavailable, falling back to title-only search.", error);
-          return null;
-        })
-    ])
-      .then(function (results) {
-        startDocsify(results[0], results[1]);
+    loadNavigationManifest()
+      .then(function (navData) {
+        startDocsify(navData, null);
       })
       .catch(function (error) {
         console.warn("Navigation manifest unavailable, falling back to minimal navigation.", error);
