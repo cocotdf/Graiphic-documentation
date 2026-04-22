@@ -4,18 +4,18 @@
 
 <p>Defines the weights of the MultiHeadAttention layer selected by the index. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_weights_multi_head_attention_index.png" alt="Set_Weights_Multi_Head_Attention_Index.Png" width="338" /></p>
+<p align="center"><img src="/_assets/shared-images/ec/ec5322f75011-set_weights_multi_head_attention_index.png" alt="Set_Weights_Multi_Head_Attention_Index.Png" width="338" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>Model in : </strong>model architecture.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer</em>, </strong>index of layer.</td>
     </tr>
   </tbody>
@@ -27,7 +27,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>multi_head_attention_weights : <em>cluster</em></strong></td>
     </tr>
     <tr>
@@ -35,35 +35,35 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>output_bias : <em>array</em>, </strong>1D values. output_bias = query[2].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>output_kernel : <em>array</em>, </strong>3D values. output_kernel = [num_heads, value_dim, query[2]].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>value_bias : <em>array</em>, </strong>2D values. value_bias = [num_heads, value_dim].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>value_kernel : <em>array</em>, </strong>3D values. value_kernel = [value[2], num_heads, value_dim].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>key_bias : <em>array</em>, </strong>2D values. key_bias = [num_heads, key_dim].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>key_kernel : <em>array</em>, </strong>3D values. key_kernel = [key[2], num_heads, key_dim].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>query_bias : <em>array</em>, </strong>2D values. query_bias = [num_heads, key_dim].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>query_kernel : <em>array</em>, </strong>3D values. query_kernel = [query[2], num_heads, key_dim].</td>
     </tr>
   </tbody>
@@ -71,7 +71,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img src="assets/weights_multi_head_attention_cluster.png" alt="weights_multi_head_attention_cluster" width="161" /></p></td>
+      <td valign="top" width="30%"><p align="center"><img src="/_assets/shared-images/28/282735951a33-weights_multi_head_attention_cluster.png" alt="weights_multi_head_attention_cluster" width="161" /></p></td>
     </tr>
   </tbody>
 </table>
@@ -81,7 +81,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Model.Png" src="assets/output_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Model.Png" src="/_assets/shared-images/3c/3c881c79a647-output_model.png" width="42"/></td>
       <td valign="top"><strong>Model out : </strong>model architecture.</td>
     </tr>
   </tbody>

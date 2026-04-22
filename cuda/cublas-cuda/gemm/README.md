@@ -4,26 +4,26 @@
 
 <p>This function performs the matrix-matrix multiplication : C = α * op(A) * op(B) + β * C<br/>Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/gemm.png" alt="Gemm.Png" width="209" /></p>
+<p align="center"><img src="/_assets/shared-images/3d/3dfd94c94605-gemm.png" alt="Gemm.Png" width="209" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>A : <em>class, </em></strong>2D tensor of dimension M x K.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>B : <em>class, </em></strong>2D tensor of dimension K x N.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>C : <em>class, </em></strong>2D tensor of dimension M x N.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Enum.Png" src="assets/input_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Enum.Png" src="/_assets/shared-images/5c/5c2b52d3b208-input_enum.png" width="42"/></td>
       <td valign="top"><strong>Op(A) : <em>enum,</em></strong> operation that is non- or transpose.
 <ul>
 <li>
@@ -36,7 +36,7 @@
 </ul></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Enum.Png" src="assets/input_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Enum.Png" src="/_assets/shared-images/5c/5c2b52d3b208-input_enum.png" width="42"/></td>
       <td valign="top"><strong>Op(B) : <em>enum,</em></strong> operation that is non- or transpose.
 <ul>
 <li>
@@ -49,11 +49,11 @@
 </ul></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Single.Png" src="assets/input_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Single.Png" src="/_assets/shared-images/fd/fd47ddc3550b-input_single.png" width="42"/></td>
       <td valign="top"><strong>α : <em>float,</em></strong> scalar used for multiplication.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Single.Png" src="assets/input_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Single.Png" src="/_assets/shared-images/fd/fd47ddc3550b-input_single.png" width="42"/></td>
       <td valign="top"><strong>β : <em>float,</em></strong> scalar used for multiplication, if beta==0 then C does not have to be a valid input.</td>
     </tr>
   </tbody>
@@ -64,7 +64,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>C : <em>class, </em></strong>2D tensor of dimension M x N.</td>
     </tr>
   </tbody>

@@ -4,18 +4,18 @@
 
 <p>Takes a tensor as input and outputs an 1D int64 tensor containing the shape of the input tensor. Optional attributes start and end can be used to compute a slice of the input tensor’s shape. If start axis is omitted, the slice starts from axis 0. The end axis, if specified, is exclusive (and the returned value will not include the size of that axis). If the end axis is omitted, the axes upto the last one will be included. Negative axes indicate counting back from the last axis. Note that axes will be clamped to the range [0, r], where r is the rank of the input tensor if they are out-of-range (after adding r in the case of negative axis). Thus, specifying any end value &gt; r is equivalent to specifying an end value of r, and specifying any start value &lt; -r is equivalent to specifying a start value of 0. If start &gt; end, the result will be an empty shape.</p>
 
-<p align="center"><img alt="node_shape.png" src="assets/node_shape.png" width="299"/></p>
+<p align="center"><img alt="node_shape.png" src="/_assets/shared-images/da/da39d2eac1cf-node_shape.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="assets/input_array_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="/_assets/shared-images/60/600c0aac18dc-input_array_string.png" width="42"/></td>
       <td valign="top"><strong><a href="../../../../../../more-deep-learning/nodes-parameters/specified_outputs_name/README.md">specified_outputs_name</a> : <em>array, </em></strong>this parameter lets you manually assign custom names to the output tensors of a node.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>data (heterogeneous) – T : <em>object, </em></strong>an input tensor.</td>
     </tr>
   </tbody>
@@ -24,12 +24,12 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Cluster.Png" src="assets/cluster.png" width="32"/><strong>Parameters : <em>cluster,</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="32"/><strong>Parameters : <em>cluster,</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>end : <em>integer,</em></strong> ending axis for slicing the shape. Negative value means counting dimensions from the back. If omitted, sizes of all axes upto (including) the last one will be included.</td>
     </tr>
     <tr>
@@ -37,7 +37,7 @@
       <td valign="top">Default value “0”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>start : <em>integer,</em></strong> starting axis for slicing the shape. Negative value means counting dimensions from the back.</td>
     </tr>
     <tr>
@@ -45,7 +45,7 @@
       <td valign="top">Default value “0”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>training? :</strong> <em><strong>boolean</strong></em>, whether the layer is in training mode (can store data for backward).</td>
     </tr>
     <tr>
@@ -53,7 +53,7 @@
       <td valign="top">Default value “True”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Double.Png" src="assets/double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Double.Png" src="/_assets/shared-images/96/9619568f4a4a-double.png" width="42"/></td>
       <td valign="top"><strong>lda coeff :</strong> <em><strong>float</strong></em>, defines the coefficient by which the loss derivative will be multiplied before being sent to the previous layer (since during the backward run we go backwards).</td>
     </tr>
     <tr>
@@ -61,7 +61,7 @@
       <td valign="top">Default value “1”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String.Png" src="assets/string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String.Png" src="/_assets/shared-images/c7/c7f7e539d8ca-string.png" width="42"/></td>
       <td valign="top"><strong>name (optional) :</strong> <em><strong>string,</strong></em> name of the node.</td>
     </tr>
   </tbody>
@@ -76,7 +76,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="assets/output_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="/_assets/shared-images/e2/e2d605658777-output_object_3.png" width="42"/></td>
       <td valign="top"><strong>shape (heterogeneous) – T1 : <em>object, </em></strong>shape of the input tensor.</td>
     </tr>
   </tbody>

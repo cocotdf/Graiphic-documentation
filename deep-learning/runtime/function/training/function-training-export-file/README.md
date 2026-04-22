@@ -11,15 +11,15 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Training.Png" src="assets/input_training.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Training.Png" src="/_assets/shared-images/b9/b9b04fd7d3fc-input_training.png" width="42"/></td>
       <td valign="top"><strong>Training in</strong> <strong>: <em>object, </em></strong>training session.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Path In.Png" src="assets/path-in.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Path In.Png" src="/_assets/shared-images/37/37a46ccf5b9b-path-in.png" width="42"/></td>
       <td valign="top"><strong>File Path : <em>path</em>,</strong> destination path for the <code>.onnx</code> file to be written.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Array_Enum.Png" src="assets/output_array_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Array_Enum.Png" src="/_assets/shared-images/93/9363ce0bc3eb-output_array_enum.png" width="42"/></td>
       <td valign="top"><strong>export : <em>enum, </em></strong>specifying how to export the trained model.
 <ul>
 <li>
@@ -38,7 +38,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Training.Png" src="assets/output_training.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Training.Png" src="/_assets/shared-images/2b/2b7b59c59760-output_training.png" width="42"/></td>
       <td valign="top"><strong>Training out</strong> <strong>: <em>object, </em></strong>training session.</td>
     </tr>
   </tbody>

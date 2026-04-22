@@ -4,14 +4,14 @@
 
 <p>Transform an image into a LabVIEW picture. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/image_to_picture.png" alt="Image_To_Picture.Png" width="258" /></p>
+<p align="center"><img src="/_assets/shared-images/0b/0b512582d03c-image_to_picture.png" alt="Image_To_Picture.Png" width="258" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="assets/input_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="/_assets/shared-images/35/35918d98277f-input_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Src : <em>class, </em></strong>type accepted <strong>U8</strong>, <strong>I16</strong>, <strong>RGB</strong> and <strong>HSL</strong>.</td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="assets/output_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="/_assets/shared-images/24/24dc58704218-output_image_src.png" width="42"/></td>
       <td valign="top"><strong>Dup Image Src : <em>class</em></strong></td>
     </tr>
     <tr>
@@ -30,11 +30,11 @@
       <td valign="top">Image :<em> picture, </em>drawed image.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_String.Png" src="assets/output_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_String.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top">Image Type :<em> string, </em>type of image.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Array_Unsigned_32_.Png" src="assets/output_array_unsigned_32_.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Array_Unsigned_32_.Png" src="/_assets/shared-images/9d/9dbfea37f4a5-output_array_unsigned_32_.png" width="42"/></td>
       <td valign="top"><strong>Image Array :<em> array, </em></strong>image data array.</td>
     </tr>
   </tbody>

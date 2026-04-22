@@ -6,18 +6,18 @@
 
 <p><strong>Warning : A new tensor is created for the output.</strong></p>
 
-<p align="center"><img src="assets/reshape_array.png" alt="Reshape_Array.Png" width="279" /></p>
+<p align="center"><img src="/_assets/shared-images/36/36ff86d13886-reshape_array.png" alt="Reshape_Array.Png" width="279" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>n-dim array : <em>class,</em></strong> n-dimensional tensor.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="assets/input_array_integer_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="/_assets/shared-images/05/052f6e6ea35b-input_array_integer_32.png" width="42"/></td>
       <td valign="top"><strong>dimension_size : <em>array,</em></strong> specifies the dimensions of m-dim array.</td>
     </tr>
   </tbody>
@@ -28,7 +28,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>m-dim array : <em>class,</em></strong> if the product of the dimension sizes is greater than the number of elements in the input array, the function pads the new array with the default of the data type of n-dim array. If the product of the dimension sizes is less than the number of elements in the input array, the function truncates the array.</td>
     </tr>
   </tbody>

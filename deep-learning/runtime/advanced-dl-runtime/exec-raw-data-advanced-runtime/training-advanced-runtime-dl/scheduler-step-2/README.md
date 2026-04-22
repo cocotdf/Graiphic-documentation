@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Training.Png" src="assets/input_training.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Training.Png" src="/_assets/shared-images/b9/b9b04fd7d3fc-input_training.png" width="42"/></td>
       <td valign="top"><strong>Training in</strong> <strong>: <em>object, </em></strong>training session.</td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Training.Png" src="assets/output_training.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Training.Png" src="/_assets/shared-images/2b/2b7b59c59760-output_training.png" width="42"/></td>
       <td valign="top"><strong>Training out</strong> <strong>: <em>object, </em></strong>training session.</td>
     </tr>
   </tbody>

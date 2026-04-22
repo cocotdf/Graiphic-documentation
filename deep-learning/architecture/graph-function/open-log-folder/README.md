@@ -4,14 +4,14 @@
 
 <p>When an error occurs during the execution of the model it is recorded in a temporary file. The “Open Log Folder” function allows you to open the folder that contains these temporary files.</p>
 
-<p align="center"><img alt="open_log_folder" src="assets/open_log_folder.PNG" width="220"/></p>
+<p align="center"><img alt="open_log_folder" src="/_assets/shared-images/b8/b87b493478ba-open_log_folder.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>Model in : </strong>model architecture.</td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Model.Png" src="assets/output_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Model.Png" src="/_assets/shared-images/3c/3c881c79a647-output_model.png" width="42"/></td>
       <td valign="top"><strong>Model out : </strong>model architecture.</td>
     </tr>
   </tbody>

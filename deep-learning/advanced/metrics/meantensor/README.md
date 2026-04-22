@@ -4,18 +4,18 @@
 
 <p>Computes the element-wise mean of the given tensors. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="mean_tensor.png" src="assets/mean_tensor.png" width="460"/></p>
+<p align="center"><img alt="mean_tensor.png" src="/_assets/shared-images/4e/4e365b2b3300-mean_tensor.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>tensor1 : <em>array, </em></strong>values of the first tensor.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>tensor2 : <em>array, </em></strong>values of the second tensor.</td>
     </tr>
   </tbody>
@@ -26,7 +26,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Out Single.Png" src="assets/out-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>mean_tensor : <em>float, </em></strong>result.</td>
     </tr>
   </tbody>
@@ -44,4 +44,4 @@
 
 <h3>Easy to use</h3>
 
-<p align="center"><img alt="MeanTensor" src="assets/mean_tensor.png" width="220"/></p>
+<p align="center"><img alt="MeanTensor" src="/_assets/shared-images/4e/4e365b2b3300-mean_tensor.png" width="220"/></p>

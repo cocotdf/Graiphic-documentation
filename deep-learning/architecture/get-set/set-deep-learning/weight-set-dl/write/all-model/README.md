@@ -4,22 +4,22 @@
 
 <p>Load the weights of a model. By default, all layer weights will be loaded but if you set “RANDOM” to a specific index in “init_weight_array”, the selected layer will be randomly initialized.</p>
 
-<p align="center"><img alt="load_all_weight_model" src="assets/load_all_weight_model.PNG" width="220"/></p>
+<p align="center"><img alt="load_all_weight_model" src="/_assets/shared-images/68/6872c91077a0-load_all_weight_model.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>Model in : </strong>model architecture.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>weights_model : </strong>model architecture.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>file_type : <em>enum</em>,</strong> type of the file on which the summary is written.
 <ul>
 <li>
@@ -37,16 +37,16 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="input_array_cluster_1.png" src="assets/input_array_cluster_1.png" width="32"/><strong>init_weight_array : <em>array</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="input_array_cluster_1.png" src="/_assets/shared-images/30/3057b4f122df-input_array_cluster_1.png" width="32"/><strong>init_weight_array : <em>array</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer</em>,</strong> index of layer.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>init_weight : <em>enum</em>,</strong> weight initialization mode.</td>
     </tr>
   </tbody>
@@ -61,7 +61,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Model.Png" src="assets/output_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Model.Png" src="/_assets/shared-images/3c/3c881c79a647-output_model.png" width="42"/></td>
       <td valign="top"><strong>Model out : </strong>model architecture.</td>
     </tr>
   </tbody>

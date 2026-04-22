@@ -4,18 +4,18 @@
 
 <p>Defines the weights of the BatchNormalization layer selected by the index. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_weights_batch_norm_index.png" alt="Set_Weights_Batch_Norm_Index.Png" width="329" /></p>
+<p align="center"><img src="/_assets/shared-images/87/87f67b6716d7-set_weights_batch_norm_index.png" alt="Set_Weights_Batch_Norm_Index.Png" width="329" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>Model in : </strong>model architecture.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer</em>, </strong>index of layer.</td>
     </tr>
   </tbody>
@@ -27,7 +27,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>batch_normalization_weight : <em>cluster</em></strong></td>
     </tr>
     <tr>
@@ -35,19 +35,19 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>gamma : <em>array, </em></strong>1D values. gamma = [axis].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>beta : <em>array, </em></strong>1D values. beta = [axis].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>moving_mean : <em>array, </em></strong>1D values. moving_mean = [axis].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>moving_var : <em>array, </em></strong>1D values. moving_var = [axis].</td>
     </tr>
   </tbody>
@@ -55,7 +55,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img src="assets/weights_batch_norm_cluster.png" alt="weights_batch_norm_cluster" width="153" /></p></td>
+      <td valign="top" width="30%"><p align="center"><img src="/_assets/shared-images/ec/ec7770696e77-weights_batch_norm_cluster.png" alt="weights_batch_norm_cluster" width="153" /></p></td>
     </tr>
   </tbody>
 </table>
@@ -65,7 +65,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Model.Png" src="assets/output_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Model.Png" src="/_assets/shared-images/3c/3c881c79a647-output_model.png" width="42"/></td>
       <td valign="top"><strong>Model out : </strong>model architecture.</td>
     </tr>
   </tbody>

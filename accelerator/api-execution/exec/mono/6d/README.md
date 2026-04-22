@@ -11,11 +11,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Acc_Inference.Png" src="assets/input_acc_inference.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Acc_Inference.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>Inference in</strong> <strong>: <em>object, </em></strong>inference session.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>6D Input Data : <em>array</em>, </strong>6D array of data with any type : integers (signed/unsigned), floats, doubles, booleans, or strings.</td>
     </tr>
   </tbody>
@@ -26,7 +26,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Acc_Inference.Png" src="assets/output_acc_inference.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Acc_Inference.Png" src="/_assets/shared-images/7a/7a015e013321-output_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>Inference out</strong> <strong>: <em>object, </em></strong>inference session.</td>
     </tr>
   </tbody>

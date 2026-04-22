@@ -4,18 +4,18 @@
 
 <p>Modify the camera mode (Resolution and FPS). Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_camera_modes.png" alt="Set_Camera_Modes.Png" width="327" /></p>
+<p align="center"><img src="/_assets/shared-images/62/620b1c1daeae-set_camera_modes.png" alt="Set_Camera_Modes.Png" width="327" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Session.Png" src="assets/input_session.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Session.Png" src="/_assets/shared-images/cb/cbb5c888ebf6-input_session.png" width="42"/></td>
       <td valign="top"><strong>Session Src : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top">Camera Mode :<em> integer,</em> index for this video mode.</td>
     </tr>
   </tbody>
@@ -26,11 +26,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Session.Png" src="assets/output_session.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Session.Png" src="/_assets/shared-images/86/8603666de7ad-output_session.png" width="42"/></td>
       <td valign="top"><strong>Session Dst : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_String.Png" src="assets/output_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_String.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top">Camera Mode Name :<em> string,</em> name of the video mode, such as <strong>160×90 MJPG 30,00 fps.</strong></td>
     </tr>
   </tbody>
@@ -42,4 +42,4 @@
 
 <h3>Opens and reads the camera in a defined mode</h3>
 
-<p align="center"><img src="assets/get_set_camera_modes.png" alt="get_set_camera_modes" width="260" /></p>
+<p align="center"><img src="/_assets/shared-images/6b/6bc4fbddb7c0-get_set_camera_modes.png" alt="get_set_camera_modes" width="260" /></p>

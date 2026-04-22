@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="assets/input_array_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="/_assets/shared-images/60/600c0aac18dc-input_array_string.png" width="42"/></td>
       <td valign="top"><strong><a href="../../../../../../more-deep-learning/nodes-parameters/specified_outputs_name/README.md">specified_outputs_name</a> : <em>array, </em></strong>this parameter lets you manually assign custom names to the output tensors of a node.</td>
     </tr>
   </tbody>
@@ -23,7 +23,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>Graphs in :</strong> <strong><em>cluster,</em></strong> ONNX model architecture.</td>
     </tr>
     <tr>
@@ -31,19 +31,19 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>Sequence (heterogeneous) – T : <em>object, </em></strong>specify batchs of sequence words to embedding.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>W (heterogeneous) – T1 : <em>object, </em></strong>specify weights of conv.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>B (heterogeneous) – T1 : <em>object, </em></strong>specify bias of conv.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>C (heterogeneous) – T1 : <em>object, </em></strong>specify embedding vector of char.</td>
     </tr>
   </tbody>
@@ -62,7 +62,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>Parameters : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -70,7 +70,7 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="node_word_conv_embedding.png" src="assets/node_word_conv_embedding.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="node_word_conv_embedding.png" src="/_assets/shared-images/f0/f0f68d4ccfb2-node_word_conv_embedding.png" width="42"/></td>
       <td valign="top"><strong>char_embedding_size : <em>integer,</em></strong> integer representing the embedding vector size for each char.If not provide, use the char embedding size of embedding vector.</td>
     </tr>
     <tr>
@@ -94,7 +94,7 @@
       <td valign="top">Default value “0”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>training? :</strong> <em><strong>boolean</strong></em>, whether B should be transposed on the last two dimensions before doing multiplication.</td>
     </tr>
     <tr>
@@ -102,7 +102,7 @@
       <td valign="top">Default value “True”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Double.Png" src="assets/double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Double.Png" src="/_assets/shared-images/96/9619568f4a4a-double.png" width="42"/></td>
       <td valign="top"><strong>lda coeff :</strong> <em><strong>float</strong></em>, defines the coefficient by which the loss derivative will be multiplied before being sent to the previous layer (since during the backward run we go backwards).</td>
     </tr>
     <tr>
@@ -113,7 +113,7 @@
 </table></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String.Png" src="assets/string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String.Png" src="/_assets/shared-images/c7/c7f7e539d8ca-string.png" width="42"/></td>
       <td valign="top"><strong>name (optional) :</strong> <em><strong>string,</strong></em> name of the node.</td>
     </tr>
   </tbody>
@@ -128,7 +128,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="assets/output_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="/_assets/shared-images/e2/e2d605658777-output_object_3.png" width="42"/></td>
       <td valign="top"><strong>Y (heterogeneous) – T1 : <em>object, </em></strong>output.</td>
     </tr>
   </tbody>

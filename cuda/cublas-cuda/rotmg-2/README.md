@@ -4,26 +4,26 @@
 
 <p>This function constructs the modified Givens transformation. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/rotmg.png" alt="Rotmg.Png" width="251" /></p>
+<p align="center"><img src="/_assets/shared-images/00/0025b82d1d43-rotmg.png" alt="Rotmg.Png" width="251" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Single.Png" src="assets/input_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Single.Png" src="/_assets/shared-images/fd/fd47ddc3550b-input_single.png" width="42"/></td>
       <td valign="top"><strong>d1 : <em>float, </em></strong>scalar that is overwritten on exit.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Single.Png" src="assets/input_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Single.Png" src="/_assets/shared-images/fd/fd47ddc3550b-input_single.png" width="42"/></td>
       <td valign="top"><strong>d2 : <em>float, </em></strong>scalar that is overwritten on exit.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Single.Png" src="assets/input_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Single.Png" src="/_assets/shared-images/fd/fd47ddc3550b-input_single.png" width="42"/></td>
       <td valign="top"><strong>x1 : <em>float, </em></strong>scalar that is overwritten on exit.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Single.Png" src="assets/input_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Single.Png" src="/_assets/shared-images/fd/fd47ddc3550b-input_single.png" width="42"/></td>
       <td valign="top"><strong>y1 : <em>float, </em></strong>scalar.</td>
     </tr>
   </tbody>
@@ -37,7 +37,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Cluster_2.Png" src="assets/output_cluster_2.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Cluster_2.Png" src="/_assets/shared-images/0a/0a479d27b394-cluster-out.png" width="42"/></td>
       <td valign="top"><strong>rotm parameters : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -45,19 +45,19 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Single.Png" src="assets/output_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>d1 : <em>float, </em></strong>scalar that is overwritten on exit.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Single.Png" src="assets/output_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>d2 : <em>float, </em></strong>scalar that is overwritten on exit.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Single.Png" src="assets/output_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>x1 : <em>float, </em></strong>scalar that is overwritten on exit.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Array_Single.Png" src="assets/output_array_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Array_Single.Png" src="/_assets/shared-images/06/06f7c01ad91f-output_array_single.png" width="42"/></td>
       <td valign="top"><strong>param : <em>array,</em></strong> vector of 5 elements, where param[0] and param[1-4] contain the flag and matrix <em>H</em>.</td>
     </tr>
   </tbody>

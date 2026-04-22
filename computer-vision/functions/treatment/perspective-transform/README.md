@@ -4,14 +4,14 @@
 
 <p>Calculates a perspective transform from four pairs of the corresponding points. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/perspective_transform.png" alt="Perspective_Transform.Png" width="341" /></p>
+<p align="center"><img src="/_assets/shared-images/8f/8fe9f1003cdb-perspective_transform.png" alt="Perspective_Transform.Png" width="341" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="assets/input_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="/_assets/shared-images/35/35918d98277f-input_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Src : <em>class, </em></strong>type accepted <strong>U8</strong>, <strong>I16</strong>, <strong>RGB</strong> and <strong>HSL.</strong></td>
     </tr>
   </tbody>
@@ -23,7 +23,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Cluster_2.Png" src="assets/input_cluster_2.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Cluster_2.Png" src="/_assets/shared-images/ab/ab143124dd51-input_cluster_2.png" width="42"/></td>
       <td valign="top"><strong>PerspectiveTransform Parameters :<em> cluster,</em></strong></td>
     </tr>
     <tr>
@@ -31,11 +31,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Cluster_1.Png" src="assets/input_array_cluster_1.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Cluster_1.Png" src="/_assets/shared-images/30/3057b4f122df-input_array_cluster_1.png" width="42"/></td>
       <td valign="top"><strong>Src Point : <em>array, </em></strong>coordinates of quadrangle vertices in the source image.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Cluster_1.Png" src="assets/input_array_cluster_1.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Cluster_1.Png" src="/_assets/shared-images/30/3057b4f122df-input_array_cluster_1.png" width="42"/></td>
       <td valign="top"><strong>Dst Point : <em>array, </em></strong>coordinates of the corresponding quadrangle vertices in the destination image.</td>
     </tr>
   </tbody>
@@ -53,7 +53,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="assets/output_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="/_assets/shared-images/24/24dc58704218-output_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Dst :<em> class</em></strong></td>
     </tr>
   </tbody>

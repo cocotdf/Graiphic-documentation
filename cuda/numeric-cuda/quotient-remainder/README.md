@@ -6,18 +6,18 @@
 
 <p><strong>Warning : Two new tensors is created for the outputs.</strong></p>
 
-<p align="center"><img src="assets/quotient_and_remainder.png" alt="Quotient_And_Remainder.Png" width="204" /></p>
+<p align="center"><img src="/_assets/shared-images/c9/c92ecd1c74d0-quotient_and_remainder.png" alt="Quotient_And_Remainder.Png" width="204" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>x : <em>class, </em></strong>n-dimensional tensor.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>y : <em>class, </em></strong>n-dimensional tensor.</td>
     </tr>
   </tbody>
@@ -28,11 +28,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>x-y*floor(x/y) : <em>class,</em></strong> is the remainder. This corresponds to the modulo function of text-based programming languages. When y is 1, the remainder is the fractional part of x.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>floor(x/y) : <em>class,</em></strong> is the integer quotient. When y is 1, the quotient is the integer part of x.</td>
     </tr>
   </tbody>

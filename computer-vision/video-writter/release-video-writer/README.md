@@ -4,14 +4,14 @@
 
 <p>Close the VideoWriter reference. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/release_video_writer.png" alt="Release_Video_Writer.Png" width="261" /></p>
+<p align="center"><img src="/_assets/shared-images/37/379bad32b892-release_video_writer.png" alt="Release_Video_Writer.Png" width="261" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Video_Writer.Png" src="assets/input_video_writer.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Video_Writer.Png" src="/_assets/shared-images/16/16b3d1ec3851-input_video_writer.png" width="42"/></td>
       <td valign="top"><strong>VideoWriter Src : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -23,7 +23,7 @@
 
 <h3>Create and write video</h3>
 
-<p align="center"><img src="assets/video_writer_example.png" alt="video_writer_example" width="260" /></p>
+<p align="center"><img src="/_assets/shared-images/1c/1cd1349db3ce-video_writer_example.png" alt="video_writer_example" width="260" /></p>
 
 <p>1 – Initialize</p>
 

@@ -11,11 +11,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Whisper in" src="assets/cWhisperlvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Whisper in" src="/_assets/shared-images/19/19fa2c117e17-cwhisperlvclass.png" width="42"/></td>
       <td valign="top"><strong>Whisper in : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Wav File Path" src="assets/cpath.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Wav File Path" src="/_assets/shared-images/09/0971eb44b0da-cpath.png" width="42"/></td>
       <td valign="top"><strong>Wav File Path : <em>path</em></strong></td>
     </tr>
   </tbody>
@@ -24,16 +24,16 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Additional Output" src="assets/ccclst.png" width="32"/> <strong>Additional Output : <em>cluster</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="Additional Output" src="/_assets/shared-images/1a/1a7a9a6249a8-ccclst.png" width="32"/> <strong>Additional Output : <em>cluster</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Txt File Path" src="assets/cpath.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Txt File Path" src="/_assets/shared-images/09/0971eb44b0da-cpath.png" width="42"/></td>
       <td valign="top"><strong>Txt File Path : <em>path</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Wts File Path" src="assets/cpath.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Wts File Path" src="/_assets/shared-images/09/0971eb44b0da-cpath.png" width="42"/></td>
       <td valign="top"><strong>Wts File Path : <em>path</em></strong></td>
     </tr>
   </tbody>
@@ -49,11 +49,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Whisper out" src="assets/iWhisperlvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Whisper out" src="/_assets/shared-images/ed/edf925757093-iwhisperlvclass.png" width="42"/></td>
       <td valign="top"><strong>Whisper out : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="transcription" src="assets/istr.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="transcription" src="/_assets/shared-images/6d/6d824f6de01c-istr.png" width="42"/></td>
       <td valign="top"><strong>transcription : <em>string</em></strong></td>
     </tr>
   </tbody>

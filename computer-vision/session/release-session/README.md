@@ -4,14 +4,14 @@
 
 <p>Close the session reference (Video/Camera). Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/release_session.png" alt="Release_Session.Png" width="233" /></p>
+<p align="center"><img src="/_assets/shared-images/42/421cb798cfc0-release_session.png" alt="Release_Session.Png" width="233" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Session.Png" src="assets/input_session.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Session.Png" src="/_assets/shared-images/cb/cbb5c888ebf6-input_session.png" width="42"/></td>
       <td valign="top"><strong>Session Src : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -23,7 +23,7 @@
 
 <h3>Open and play a camera</h3>
 
-<p align="center"><img src="assets/read_camera.png" alt="read_camera" width="260" /></p>
+<p align="center"><img src="/_assets/shared-images/bb/bbb6ac0d8e68-read_camera.png" alt="read_camera" width="260" /></p>
 
 <p>1 – Initialize</p>
 

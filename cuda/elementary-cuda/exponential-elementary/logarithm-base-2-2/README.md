@@ -4,14 +4,14 @@
 
 <p>Computes the base 2 logarithm of x.</p>
 
-<p align="center"><img src="assets/logarithm_base_2.png" alt="Logarithm_Base_2.Png" width="169" /></p>
+<p align="center"><img src="/_assets/shared-images/90/90dd387f18e4-logarithm_base_2.png" alt="Logarithm_Base_2.Png" width="169" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>x : <em>class, </em></strong>n-dimensional tensor.</td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>log2(x) : <em>class,</em></strong> the base 2 logarithm of x.</td>
     </tr>
   </tbody>

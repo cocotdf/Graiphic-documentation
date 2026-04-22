@@ -11,11 +11,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>y_pred : <em>array, </em></strong>predicted values.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>y_true : <em>array, </em></strong>true values.</td>
     </tr>
   </tbody>
@@ -26,7 +26,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Out Single.Png" src="assets/out-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>mean_squared_logarithmic_error : <em>float, </em></strong>result.</td>
     </tr>
   </tbody>

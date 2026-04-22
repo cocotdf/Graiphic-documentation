@@ -4,18 +4,18 @@
 
 <p>Computes root mean squared error metric between y_true and y_pred. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="root_mean_squared_error.png" src="assets/root_mean_squared_error.png" width="460"/></p>
+<p align="center"><img alt="root_mean_squared_error.png" src="/_assets/shared-images/48/486985d4df4d-root_mean_squared_error.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>y_pred : <em>array, </em></strong>predicted values.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>y_true : <em>array, </em></strong>true values.</td>
     </tr>
   </tbody>
@@ -26,7 +26,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Out Single.Png" src="assets/out-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>root_mean_squared_error : <em>float, </em></strong>result.</td>
     </tr>
   </tbody>

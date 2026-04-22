@@ -11,15 +11,15 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="assets/input_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="/_assets/shared-images/35/35918d98277f-input_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Src : <em>class, </em></strong>type accepted <strong>U8</strong>.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="assets/input_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="/_assets/shared-images/35/35918d98277f-input_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Template : <em>class, </em></strong>type accepted <strong>U8</strong>.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Single.Png" src="assets/input_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Single.Png" src="/_assets/shared-images/fd/fd47ddc3550b-input_single.png" width="42"/></td>
       <td valign="top">threshold : <em>float, </em>similarity coefficient between function results and template image.</td>
     </tr>
   </tbody>
@@ -30,7 +30,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="assets/output_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="/_assets/shared-images/24/24dc58704218-output_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Dst : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -42,7 +42,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Array_Cluster_1.Png" src="assets/output_array_cluster_1.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Array_Cluster_1.Png" src="/_assets/shared-images/7a/7aa0fc41e80e-output_array_cluster_1.png" width="42"/></td>
       <td valign="top"><strong>Detected Box : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -50,23 +50,23 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>left : <em>integer,</em></strong> left coordinate of box.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>top : <em>integer,</em></strong> top coordinate of box.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>right : <em>integer,</em></strong> right coordinate of box.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>bottom : <em>integer,</em></strong> bottom coordinate of box.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Single.Png" src="assets/output_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>threshold : <em>float,</em></strong> similarity coefficient of box.</td>
     </tr>
   </tbody>

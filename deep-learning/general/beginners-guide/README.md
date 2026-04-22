@@ -22,7 +22,7 @@
 
 <p>You can drop this snippet onto the block diagram and get the depicted code added to your VI (do not forget to install the LabVIEW deep learning library before).</p>
 
-<p align="center"><img src="assets/summarize-1.png" alt="summarize" width="260" /></p></td>
+<p align="center"><img src="/_assets/shared-images/d0/d0722b9c7f5c-summarize-1.png" alt="summarize" width="260" /></p></td>
     </tr>
   </tbody>
 </table>
@@ -39,7 +39,7 @@
 
 <p>You can drop this snippet onto the block diagram and get the depicted code added to your VI (do not forget to install the LabVIEW deep learning library before).</p>
 
-<p align="center"><img src="assets/summarize-1.png" alt="summarize" width="260" /></p></td>
+<p align="center"><img src="/_assets/shared-images/d0/d0722b9c7f5c-summarize-1.png" alt="summarize" width="260" /></p></td>
     </tr>
   </tbody>
 </table>
@@ -92,7 +92,7 @@
 
 <p>You can drop this snippet onto the block diagram and get the depicted code added to your VI (do not forget to install the LabVIEW deep learning library before).</p>
 
-<p align="center"><img src="assets/ru-a-model.png" alt="Ru a model" width="260" /></p></td>
+<p align="center"><img src="/_assets/shared-images/88/8820cda3b2e6-ru-a-model.png" alt="Ru a model" width="260" /></p></td>
     </tr>
   </tbody>
 </table>
@@ -111,7 +111,7 @@
 
 <p>You can drop this snippet onto the block diagram and get the depicted code added to your VI (do not forget to install the LabVIEW deep learning library before).</p>
 
-<p align="center"><img src="assets/save-model.png" alt="save model" width="260" /></p></td>
+<p align="center"><img src="/_assets/shared-images/4b/4b00dea0c216-save-model.png" alt="save model" width="260" /></p></td>
     </tr>
   </tbody>
 </table>
@@ -126,7 +126,7 @@
 
 <p>You can drop this snippet onto the block diagram and get the depicted code added to your VI (do not forget to install the LabVIEW deep learning library before).</p>
 
-<p align="center"><img src="assets/load-model.png" alt="load model" width="260" /></p></td>
+<p align="center"><img src="/_assets/shared-images/fe/fe201b16425e-load-model-2.png" alt="load model" width="260" /></p></td>
     </tr>
   </tbody>
 </table>

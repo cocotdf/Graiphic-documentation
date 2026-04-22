@@ -4,18 +4,18 @@
 
 <p>Defines the weights of the BatchNormalization layer selected by the name. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="set_weights_batch_norm_name.PNG" src="assets/set_weights_batch_norm_name.PNG" width="329"/></p>
+<p align="center"><img alt="set_weights_batch_norm_name.PNG" src="/_assets/shared-images/0d/0d70e9ccaed4-set_weights_batch_norm_name.png" width="329"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>Model in : </strong>model architecture.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String.Png" src="assets/string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String.Png" src="/_assets/shared-images/c7/c7f7e539d8ca-string.png" width="42"/></td>
       <td valign="top"><strong>name : <em>string</em>, </strong>name of layer.</td>
     </tr>
   </tbody>
@@ -27,7 +27,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>batch_normalization_weight : <em>cluster</em></strong></td>
     </tr>
     <tr>
@@ -35,19 +35,19 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>gamma : <em>array, </em></strong>1D values. gamma = [axis].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>beta : <em>array, </em></strong>1D values. beta = [axis].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>moving_mean : <em>array, </em></strong>1D values. moving_mean = [axis].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>moving_var : <em>array, </em></strong>1D values. moving_var = [axis].</td>
     </tr>
   </tbody>
@@ -55,7 +55,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img src="assets/weights_batch_norm_cluster.png" alt="weights_batch_norm_cluster" width="153" /></p></td>
+      <td valign="top" width="30%"><p align="center"><img src="/_assets/shared-images/ec/ec7770696e77-weights_batch_norm_cluster.png" alt="weights_batch_norm_cluster" width="153" /></p></td>
     </tr>
   </tbody>
 </table>
@@ -65,7 +65,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Model.Png" src="assets/output_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Model.Png" src="/_assets/shared-images/3c/3c881c79a647-output_model.png" width="42"/></td>
       <td valign="top"><strong>Model out : </strong>model architecture.</td>
     </tr>
   </tbody>

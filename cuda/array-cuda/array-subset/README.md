@@ -6,22 +6,22 @@
 
 <p><strong>Warning : A new tensor is created for the output.</strong></p>
 
-<p align="center"><img src="assets/array_subset.png" alt="Array_Subset.Png" width="204" /></p>
+<p align="center"><img src="/_assets/shared-images/b2/b20255b1adcd-array_subset.png" alt="Array_Subset.Png" width="204" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>array : <em>class,</em></strong> n-dimensional tensor.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="assets/input_array_integer_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="/_assets/shared-images/05/052f6e6ea35b-input_array_integer_32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>array,</em></strong> specifies the first element, row, column, or page to include in the portion of array you want to return. The shape of this entry must be equal to the shape of the array tensor.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="assets/input_array_integer_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="/_assets/shared-images/05/052f6e6ea35b-input_array_integer_32.png" width="42"/></td>
       <td valign="top"><strong>length : <em>array,</em></strong> specifies how many elements, rows, columns, or pages to include in the portion of array you want to return. The shape of this entry must be equal to the shape of the array tensor. The default (-1) is the length from index to the end of array.</td>
     </tr>
   </tbody>
@@ -32,7 +32,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>subarray : <em>class,</em></strong> n-dimensional tensor that returns a portion of the input tensor.</td>
     </tr>
   </tbody>

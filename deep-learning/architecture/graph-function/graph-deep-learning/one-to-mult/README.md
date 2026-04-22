@@ -4,14 +4,14 @@
 
 <p>Allows you to retrieve the different merged graphs. For example you can use it to add a new layer to a branch.</p>
 
-<p align="center"><img alt="one_to_mult" src="assets/one_to_mult.PNG" width="220"/></p>
+<p align="center"><img alt="one_to_mult" src="/_assets/shared-images/3d/3d6368c0b2a0-one_to_mult.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>Model in : </strong>model architecture.</td>
     </tr>
   </tbody>
@@ -22,16 +22,16 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Cluster Array Out.Png" src="assets/cluster-array-out.png" width="32"/><strong>models_out : </strong><strong><em>array</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="Cluster Array Out.Png" src="/_assets/shared-images/ce/ce79fc3283cc-cluster-array-out.png" width="32"/><strong>models_out : </strong><strong><em>array</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Model.Png" src="assets/output_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Model.Png" src="/_assets/shared-images/3c/3c881c79a647-output_model.png" width="42"/></td>
       <td valign="top"><strong>model : </strong>model architecture.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String Out.Png" src="assets/string-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String Out.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>last_layer_name : <em>string, </em></strong>name of the last layer.</td>
     </tr>
   </tbody>

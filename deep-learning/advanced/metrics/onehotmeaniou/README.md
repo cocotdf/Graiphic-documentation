@@ -4,18 +4,18 @@
 
 <p>Computes mean Intersection-Over-Union metric for one-hot encoded labels. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="one_hot_mean_iou.png" src="assets/one_hot_mean_iou.png" width="460"/></p>
+<p align="center"><img alt="one_hot_mean_iou.png" src="/_assets/shared-images/c9/c91bb2513fbf-one_hot_mean_iou.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>y_pred : <em>array, </em></strong>predicted values.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>y_true : <em>array, </em></strong>true values (one hot encoding for example, [0, 0, 1] for 3-class problem).</td>
     </tr>
   </tbody>
@@ -27,7 +27,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong> parameters : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -35,11 +35,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>sparse_y_pred : <em>boolean,</em></strong> whether predictions are encoded using integers or one hot logits. If True predictions are integers and if False, predictions are one hot logits and the argmax function will be used to determine each sample’s most likely associated label according to “axis” parameters.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>axis : <em>integer,</em></strong> the dimension containing the logits.</td>
     </tr>
   </tbody>
@@ -57,7 +57,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Out Single.Png" src="assets/out-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>one_hot_mean_iou : <em>float, </em></strong>result.</td>
     </tr>
   </tbody>
@@ -74,8 +74,8 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="62%"><p align="center"><img alt="False &amp; True" src="assets/False &amp; True.png" width="220"/></p></td>
-      <td valign="top" width="38%"><p align="center"><img alt="mean_iou_calcul" src="assets/mean_iou_calcul.png" width="220"/></p></td>
+      <td valign="top" width="62%"><p align="center"><img alt="False &amp; True" src="/_assets/shared-images/94/9476405fc708-false-true.png" width="220"/></p></td>
+      <td valign="top" width="38%"><p align="center"><img alt="mean_iou_calcul" src="/_assets/shared-images/49/4994f5aa9156-mean_iou_calcul.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>

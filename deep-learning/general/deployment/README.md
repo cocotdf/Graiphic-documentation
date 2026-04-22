@@ -20,7 +20,7 @@
 </li>
 </ul>
 
-<p align="center"><img src="assets/builder_build_exe-1024x908-1.png" alt="Builder_Build_Exe 1024X908 1.Png" width="460" /></p>
+<p align="center"><img src="/_assets/shared-images/20/200e0b67479d-builder_build_exe-1024x908.png" alt="Builder_Build_Exe 1024X908 1.Png" width="460" /></p>
 
 <ul>
 <li>
@@ -30,7 +30,7 @@
 </li>
 </ul>
 
-<p align="center"><img src="assets/builder_open_builder.png" alt="Builder_Open_Builder.Png" width="460" /></p>
+<p align="center"><img src="/_assets/shared-images/6b/6b51f101c781-builder_open_builder.png" alt="Builder_Open_Builder.Png" width="460" /></p>
 
 <ul>
 <li>
@@ -40,7 +40,7 @@
 </li>
 </ul>
 
-<p align="center"><img src="assets/builder_choose_project__exe-1024x721-1.png" alt="Builder_Choose_Project__Exe 1024X721 1.Png" width="460" /></p>
+<p align="center"><img src="/_assets/shared-images/cc/cc9dbcb3b411-builder_choose_project__exe-1024x721.png" alt="Builder_Choose_Project__Exe 1024X721 1.Png" width="460" /></p>
 
 <ul>
 <li>
@@ -50,7 +50,7 @@
 </li>
 </ul>
 
-<p align="center"><img src="assets/builder_choose_toolkit-718x1024-1.png" alt="Builder_Choose_Toolkit 718X1024 1.Png" width="460" /></p>
+<p align="center"><img src="/_assets/shared-images/83/83f4818053e5-builder_choose_toolkit-718x1024.png" alt="Builder_Choose_Toolkit 718X1024 1.Png" width="460" /></p>
 
 <ul>
 <li>
@@ -60,4 +60,4 @@
 </li>
 </ul>
 
-<p align="center"><img src="assets/builder_builder_done.png" alt="Builder_Builder_Done.Png" width="460" /></p>
+<p align="center"><img src="/_assets/shared-images/b8/b83363da0f1b-builder_builder_done.png" alt="Builder_Builder_Done.Png" width="460" /></p>

@@ -10,11 +10,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Model" src="assets/cacc__Modellvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Model" src="/_assets/shared-images/26/26bd4fbca456-cacc__modellvclass.png" width="42"/></td>
       <td valign="top"><strong>Model : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="open directory?" src="assets/cbool.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="open directory?" src="/_assets/shared-images/06/06612771a6c0-cbool.png" width="42"/></td>
       <td valign="top"><strong>open directory? : <em>boolean</em></strong></td>
     </tr>
   </tbody>
@@ -25,7 +25,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Dup Model" src="assets/iacc__Modellvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Dup Model" src="/_assets/shared-images/64/6480698979d7-iacc__modellvclass.png" width="42"/></td>
       <td valign="top"><strong>Dup Model : <em>class</em></strong></td>
     </tr>
   </tbody>

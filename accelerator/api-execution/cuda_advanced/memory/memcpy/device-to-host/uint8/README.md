@@ -10,11 +10,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="devPtr" src="assets/cu64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="devPtr" src="/_assets/shared-images/87/87318a9cc128-cu64.png" width="42"/></td>
       <td valign="top"><strong>devPtr : <em>integer</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="size" src="assets/cu64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="size" src="/_assets/shared-images/87/87318a9cc128-cu64.png" width="42"/></td>
       <td valign="top"><strong>size : <em>integer</em></strong></td>
     </tr>
   </tbody>
@@ -28,7 +28,7 @@
       <td width="64" valign="top"><img alt="data" src="assets/i1du8.png" width="42"/></td>
       <td valign="top"><strong>data : <em>array of integer</em></strong>
 <ul>
-  <li><img alt="Numeric" src="assets/iu8.png" width="32"/> <strong>Numeric : <em>integer</em></strong></li>
+  <li><img alt="Numeric" src="/_assets/shared-images/e8/e8a5991a283e-iu8.png" width="32"/> <strong>Numeric : <em>integer</em></strong></li>
 </ul></td>
     </tr>
   </tbody>

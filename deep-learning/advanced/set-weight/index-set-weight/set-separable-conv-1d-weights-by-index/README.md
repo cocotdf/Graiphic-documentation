@@ -4,18 +4,18 @@
 
 <p>Defines the weights of the SeparableConv1D layer selected by the index. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_weights_separable_conv_1d_index.png" alt="Set_Weights_Separable_Conv_1D_Index.Png" width="320" /></p>
+<p align="center"><img src="/_assets/shared-images/54/540b520af2b7-set_weights_separable_conv_1d_index.png" alt="Set_Weights_Separable_Conv_1D_Index.Png" width="320" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>Model in : </strong>model architecture.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer</em>, </strong>index of layer.</td>
     </tr>
   </tbody>
@@ -27,7 +27,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>separable_conv_1d_weight : <em>cluster</em></strong></td>
     </tr>
     <tr>
@@ -35,15 +35,15 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>filters_depthwise : <em>array, </em></strong>3D values. filters_depthwise = [channels, 1, size].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>filters_pointwise : <em>array, </em></strong>3D values. filters_pointwise = [n_filters, channels, 1].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>biases : <em>array, </em></strong>1D values. biases = [n_filters].</td>
     </tr>
   </tbody>
@@ -51,7 +51,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img src="assets/weights_separable_conv_1d_cluster.png" alt="weights_separable_conv_1d_cluster" width="158" /></p></td>
+      <td valign="top" width="30%"><p align="center"><img src="/_assets/shared-images/72/723110d1b6d3-weights_separable_conv_1d_cluster.png" alt="weights_separable_conv_1d_cluster" width="158" /></p></td>
     </tr>
   </tbody>
 </table>
@@ -61,7 +61,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Model.Png" src="assets/output_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Model.Png" src="/_assets/shared-images/3c/3c881c79a647-output_model.png" width="42"/></td>
       <td valign="top"><strong>Model out : </strong>model architecture.</td>
     </tr>
   </tbody>

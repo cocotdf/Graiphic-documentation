@@ -4,14 +4,14 @@
 
 <p>Ordered Quantize Gelu.</p>
 
-<p align="center"><img alt="node_q_ordered_gelu.png" src="assets/node_q_ordered_gelu.png" width="299"/></p>
+<p align="center"><img alt="node_q_ordered_gelu.png" src="/_assets/shared-images/bd/bdf4068d39c8-node_q_ordered_gelu.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="assets/input_array_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="/_assets/shared-images/60/600c0aac18dc-input_array_string.png" width="42"/></td>
       <td valign="top"><strong><a href="../../../../../../more-deep-learning/nodes-parameters/specified_outputs_name/README.md">specified_outputs_name</a> : <em>array, </em></strong>this parameter lets you manually assign custom names to the output tensors of a node.</td>
     </tr>
   </tbody>
@@ -23,7 +23,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>Graphs in :</strong> <strong><em>cluster,</em></strong> ONNX model architecture.</td>
     </tr>
     <tr>
@@ -31,15 +31,15 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>X (heterogeneous) – Q : <em>object, </em></strong>N-dimensional input A.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>scale_X (heterogeneous) – S : <em>object, </em></strong>scale of the input A.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>scale_Y </strong><strong>(heterogeneous) – S : <em>object, </em></strong>3D scale of the output Y.</td>
     </tr>
   </tbody>
@@ -58,7 +58,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>Parameters : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -66,7 +66,7 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>order_X :</strong> <em><strong>enum</strong></em>, cublasLt order of input X. Optional. See the schema of QuantizeWithOrder for order definition.</td>
     </tr>
     <tr>
@@ -74,7 +74,7 @@
       <td valign="top">Default value “ORDER_COL”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>order_Y :</strong> <em><strong>enum</strong></em>, cublasLt order of matrix Y, must be same as order_X if specified together. Optional.</td>
     </tr>
     <tr>
@@ -82,7 +82,7 @@
       <td valign="top">Default value “ORDER_COL”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>training? :</strong> <em><strong>boolean</strong></em>, whether the layer is in training mode (can store data for backward).</td>
     </tr>
     <tr>
@@ -90,7 +90,7 @@
       <td valign="top">Default value “True”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Double.Png" src="assets/double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Double.Png" src="/_assets/shared-images/96/9619568f4a4a-double.png" width="42"/></td>
       <td valign="top"><strong>lda coeff :</strong> <em><strong>float</strong></em>, defines the coefficient by which the loss derivative will be multiplied before being sent to the previous layer (since during the backward run we go backwards).</td>
     </tr>
     <tr>
@@ -101,7 +101,7 @@
 </table></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String.Png" src="assets/string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String.Png" src="/_assets/shared-images/c7/c7f7e539d8ca-string.png" width="42"/></td>
       <td valign="top"><strong>name (optional) :</strong> <em><strong>string,</strong></em> name of the node.</td>
     </tr>
   </tbody>
@@ -116,7 +116,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="assets/output_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="/_assets/shared-images/e2/e2d605658777-output_object_3.png" width="42"/></td>
       <td valign="top"><strong>Y (heterogeneous) – Q : <em>object, </em></strong>output of the Gelu.</td>
     </tr>
   </tbody>

@@ -4,14 +4,14 @@
 
 <p>Obtains information regarding the contents of the file. This information is supplied for standard file formats only : BMP, TIFF, JPEG, JPEG2000, PNG, or AIPD. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_file_info.png" alt="Get_File_Info.Png" width="229" /></p>
+<p align="center"><img src="/_assets/shared-images/3d/3d766f3fd2d1-get_file_info.png" alt="Get_File_Info.Png" width="229" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Path.Png" src="assets/input_path.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Path.Png" src="/_assets/shared-images/37/37a46ccf5b9b-path-in.png" width="42"/></td>
       <td valign="top"><strong>File Path : <em>path, </em></strong>file path (BMP, TIFF, JPEG, JPEG2000, PNG, AIPD).</td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_String.Png" src="assets/output_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_String.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>File Type :<em> string, </em></strong>file extension.</td>
     </tr>
   </tbody>
@@ -34,7 +34,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Cluster_1.Png" src="assets/output_cluster_1.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Cluster_1.Png" src="/_assets/shared-images/ed/edf449127715-output_cluster_1.png" width="42"/></td>
       <td valign="top"><strong>File Info : <em>cluster,</em> </strong></td>
     </tr>
     <tr>
@@ -42,15 +42,15 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Width :<em> integer, </em></strong>image width.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Height :<em> integer, </em></strong>image height.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Unsigned_32.Png" src="assets/output_unsigned_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Unsigned_32.Png" src="/_assets/shared-images/7b/7bd02cddb48e-output_unsigned_32.png" width="42"/></td>
       <td valign="top"><strong>Image Type : <em>integer, </em></strong>specifies the type of the image.
 <ul>
 <li>
@@ -84,7 +84,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img src="assets/file_info.png" alt="file_info" width="114" /></p></td>
+      <td valign="top" width="30%"><p align="center"><img src="/_assets/shared-images/aa/aa516e9c5abd-file_info.png" alt="file_info" width="114" /></p></td>
     </tr>
   </tbody>
 </table>

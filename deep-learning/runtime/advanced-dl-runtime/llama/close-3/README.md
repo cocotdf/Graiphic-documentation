@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object.Png" src="assets/input_object.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object.Png" src="/_assets/shared-images/3e/3e8ae6d52219-input_object.png" width="42"/></td>
       <td valign="top"><strong>ONNX in : <em>object, </em></strong>llama generator session.</td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="output_object_3.png" src="assets/output_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="output_object_3.png" src="/_assets/shared-images/e2/e2d605658777-output_object_3.png" width="42"/></td>
       <td valign="top"><strong>ONNX out : <em>object, </em></strong>llama generator session.</td>
     </tr>
   </tbody>

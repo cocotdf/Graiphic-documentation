@@ -10,11 +10,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Model in" src="assets/cacc__Modellvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Model in" src="/_assets/shared-images/26/26bd4fbca456-cacc__modellvclass.png" width="42"/></td>
       <td valign="top"><strong>Model in : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="File Path" src="assets/cpath.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="File Path" src="/_assets/shared-images/09/0971eb44b0da-cpath.png" width="42"/></td>
       <td valign="top"><strong>File Path : <em>path</em></strong></td>
     </tr>
   </tbody>
@@ -25,7 +25,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Model out" src="assets/iacc__Modellvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Model out" src="/_assets/shared-images/64/6480698979d7-iacc__modellvclass.png" width="42"/></td>
       <td valign="top"><strong>Model out : <em>class</em></strong></td>
     </tr>
   </tbody>

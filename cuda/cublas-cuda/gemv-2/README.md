@@ -4,26 +4,26 @@
 
 <p>This function performs the matrix-vector multiplication : y = α * op(A)x + β * y<br/>Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/gemv.png" alt="Gemv.Png" width="209" /></p>
+<p align="center"><img src="/_assets/shared-images/a8/a8e5335e88e2-gemv.png" alt="Gemv.Png" width="209" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>A : <em>class, </em></strong>2D tensor of dimension N x M.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>x : <em>class, </em></strong>1D tensor of dimension M.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>y : <em>class, </em></strong>1D tensor of dimension N. The default is an N-element vector with all elements equal to 0.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Enum.Png" src="assets/input_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Enum.Png" src="/_assets/shared-images/5c/5c2b52d3b208-input_enum.png" width="42"/></td>
       <td valign="top"><strong>Op(A) : <em>enum,</em></strong> operation that is non- or transpose.
 <ul>
 <li>
@@ -36,11 +36,11 @@
 </ul></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Single.Png" src="assets/input_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Single.Png" src="/_assets/shared-images/fd/fd47ddc3550b-input_single.png" width="42"/></td>
       <td valign="top"><strong>α : <em>float,</em></strong> scalar used for multiplication.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Single.Png" src="assets/input_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Single.Png" src="/_assets/shared-images/fd/fd47ddc3550b-input_single.png" width="42"/></td>
       <td valign="top"><strong>β : <em>float,</em></strong> scalar used for multiplication, if beta==0 then y does not have to be a valid input.</td>
     </tr>
   </tbody>
@@ -51,7 +51,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>y : <em>class, </em></strong>1D tensor of dimension N.</td>
     </tr>
   </tbody>

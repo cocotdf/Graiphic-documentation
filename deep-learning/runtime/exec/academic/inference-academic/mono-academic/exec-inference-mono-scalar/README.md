@@ -4,18 +4,18 @@
 
 <p>Execute inference forward with Mono Scalar Float Input Data (Academic Training Session).</p>
 
-<p align="center"><img alt="exec_academic_inference_mono_scalar" src="assets/exec_academic_inference_mono_scalar.png" width="220"/></p>
+<p align="center"><img alt="exec_academic_inference_mono_scalar" src="/_assets/shared-images/50/50b2513b807d-exec_academic_inference_mono_scalar.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Academic.Png" src="assets/input_academic.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Academic.Png" src="/_assets/shared-images/03/039f017e9f6f-input_academic.png" width="42"/></td>
       <td valign="top"><strong>Academic Training in</strong> <strong>: <em>object, </em></strong>academic training session.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Single.Png" src="assets/single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Single.Png" src="/_assets/shared-images/e2/e22146c46f27-single.png" width="42"/></td>
       <td valign="top"><strong>Input Data : <em>float</em>, </strong>scalar data with any type : integers (signed/unsigned), floats, doubles, booleans, or strings.</td>
     </tr>
   </tbody>
@@ -26,7 +26,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Academic.Png" src="assets/output_academic.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Academic.Png" src="/_assets/shared-images/85/85272a982dfe-output_academic.png" width="42"/></td>
       <td valign="top"><strong>Academic Training out</strong> <strong>: <em>object, </em></strong>academic training session.</td>
     </tr>
   </tbody>

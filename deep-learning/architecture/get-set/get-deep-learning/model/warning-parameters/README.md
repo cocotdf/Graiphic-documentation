@@ -4,14 +4,14 @@
 
 <p>Gets the parameters of warnings. If “Display Warning ?” is set to “True” then the warning messages are displayed.</p>
 
-<p align="center"><img alt="get_warning_param" src="assets/get_warning_param.PNG" width="220"/></p>
+<p align="center"><img alt="get_warning_param" src="/_assets/shared-images/db/db89b41d827a-get_warning_param.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>Model in : </strong>model architecture.</td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Model.Png" src="assets/output_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Model.Png" src="/_assets/shared-images/3c/3c881c79a647-output_model.png" width="42"/></td>
       <td valign="top"><strong>Model out : </strong>model architecture.</td>
     </tr>
   </tbody>
@@ -34,7 +34,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster Out.Png" src="assets/cluster-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster Out.Png" src="/_assets/shared-images/0a/0a479d27b394-cluster-out.png" width="42"/></td>
       <td valign="top"><strong>Warning Param :</strong> <em><strong>cluster</strong></em></td>
     </tr>
     <tr>
@@ -42,11 +42,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="booleen.png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="booleen.png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>Language : <em>enum</em>,</strong> warning language.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="output_enum.png" src="assets/output_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="output_enum.png" src="/_assets/shared-images/a0/a0e1d8d91545-output_enum.png" width="42"/></td>
       <td valign="top"><strong>Display Warning ? : <em>boolean</em>,</strong> status of the warning display.</td>
     </tr>
   </tbody>
@@ -65,7 +65,7 @@
 
 <h3>Using the “Get Warning Param” function</h3>
 
-<p align="center"><img alt="get_warning_param" src="assets/get_warning_param.PNG" width="220"/></p>
+<p align="center"><img alt="get_warning_param" src="/_assets/shared-images/db/db89b41d827a-get_warning_param.png" width="220"/></p>
 
 <p>1 – Set Function</p>
 

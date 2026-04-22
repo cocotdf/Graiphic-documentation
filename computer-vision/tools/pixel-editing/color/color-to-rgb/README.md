@@ -4,14 +4,14 @@
 
 <p>Extracts the three planes (RGB or HSL) from an image.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/color_to_rgb.png" alt="Color_To_Rgb.Png" width="261" /></p>
+<p align="center"><img src="/_assets/shared-images/78/7891fcbfca36-color_to_rgb.png" alt="Color_To_Rgb.Png" width="261" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Enum.Png" src="assets/input_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Enum.Png" src="/_assets/shared-images/5c/5c2b52d3b208-input_enum.png" width="42"/></td>
       <td valign="top"><strong>Color Format : <em>enum, </em></strong>type of color space.
 <ul>
 <li>
@@ -23,15 +23,15 @@
 </ul></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_8.Png" src="assets/input_unsigned_8.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_8.Png" src="/_assets/shared-images/2c/2caedf35b2a7-input_unsigned_8.png" width="42"/></td>
       <td valign="top"><strong>Red/Hue :<em> integer, </em></strong>red or hue value.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_8.Png" src="assets/input_unsigned_8.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_8.Png" src="/_assets/shared-images/2c/2caedf35b2a7-input_unsigned_8.png" width="42"/></td>
       <td valign="top">Green/Saturation :<em> integer, </em>green or saturation value.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_8.Png" src="assets/input_unsigned_8.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_8.Png" src="/_assets/shared-images/2c/2caedf35b2a7-input_unsigned_8.png" width="42"/></td>
       <td valign="top">Blue/Luminance :<em> integer, </em>blue or luminance value.</td>
     </tr>
   </tbody>
@@ -42,15 +42,15 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Unsigned_8.Png" src="assets/output_unsigned_8.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Unsigned_8.Png" src="/_assets/shared-images/99/99f7538c1dee-output_unsigned_8.png" width="42"/></td>
       <td valign="top"><strong>Red : <em>integer, </em></strong>red value.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Unsigned_8.Png" src="assets/output_unsigned_8.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Unsigned_8.Png" src="/_assets/shared-images/99/99f7538c1dee-output_unsigned_8.png" width="42"/></td>
       <td valign="top">Green : <em>integer, </em>green value.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Unsigned_8.Png" src="assets/output_unsigned_8.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Unsigned_8.Png" src="/_assets/shared-images/99/99f7538c1dee-output_unsigned_8.png" width="42"/></td>
       <td valign="top">Blue : <em>integer, </em>blue value.</td>
     </tr>
   </tbody>

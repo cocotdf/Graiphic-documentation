@@ -4,7 +4,7 @@
 
 <p>Return the size of the text in pixel. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_text_size.png" alt="Get_Text_Size.Png" width="264" /></p>
+<p align="center"><img src="/_assets/shared-images/58/58b7c0554d8e-get_text_size.png" alt="Get_Text_Size.Png" width="264" /></p>
 
 <h3>Input parameters</h3>
 
@@ -14,7 +14,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Cluster_2.Png" src="assets/input_cluster_2.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Cluster_2.Png" src="/_assets/shared-images/ab/ab143124dd51-input_cluster_2.png" width="42"/></td>
       <td valign="top"><strong>Text Parameters : <em>cluster</em></strong></td>
     </tr>
     <tr>
@@ -22,11 +22,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_String.Png" src="assets/input_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_String.Png" src="/_assets/shared-images/4d/4da8a84d96e6-input_string.png" width="42"/></td>
       <td valign="top"><strong>Text : <em>string, </em></strong>text string to be drawn.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Enum.Png" src="assets/input_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Enum.Png" src="/_assets/shared-images/5c/5c2b52d3b208-input_enum.png" width="42"/></td>
       <td valign="top">Font Face :<em> enum, </em>font type.
 <ul>
 <li>
@@ -48,11 +48,11 @@
 </ul></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Double.Png" src="assets/input_double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Double.Png" src="/_assets/shared-images/3d/3d70b56b9396-input_double.png" width="42"/></td>
       <td valign="top"><strong>Font Scale : <em>float, </em></strong>font scale factor that is multiplied by the font-specific base size.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Thickness : <em>integer, </em></strong>thickness of the lines used to draw a text.</td>
     </tr>
   </tbody>
@@ -70,11 +70,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Text Size X : <em>integer, </em></strong>text size in X coordinates.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Text Size Y : <em>integer, </em></strong>text size in Y coordinates.</td>
     </tr>
   </tbody>

@@ -4,14 +4,14 @@
 
 <p>MaxPoolWithMask works like a standard <a href="../../../mono_input/multi-output-nodes-dl/maxpool/README.md">MaxPool</a>, but additionally returns a mask indicating where each maximum value was found within the pooling region.</p>
 
-<p align="center"><img alt="node_max_pool_with_mask.png" src="assets/node_max_pool_with_mask.png" width="299"/></p>
+<p align="center"><img alt="node_max_pool_with_mask.png" src="/_assets/shared-images/13/133a38b33cf6-node_max_pool_with_mask.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="assets/input_array_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="/_assets/shared-images/60/600c0aac18dc-input_array_string.png" width="42"/></td>
       <td valign="top"><strong><a href="../../../../../../more-deep-learning/nodes-parameters/specified_outputs_name/README.md">specified_outputs_name</a> : <em>array, </em></strong>this parameter lets you manually assign custom names to the output tensors of a node.</td>
     </tr>
   </tbody>
@@ -23,7 +23,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>Graphs in :</strong> <strong><em>cluster,</em></strong> ONNX model architecture.</td>
     </tr>
     <tr>
@@ -31,11 +31,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>X</strong> <strong>(heterogeneous) –</strong> <strong>T :</strong> <em><strong>object,</strong></em> the input tensor, typically an image or activation map with shape [N, C, H, W].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>M (heterogeneous) – tensor(int32) : <em>object, </em></strong>a mask indicating the position of the maximum value within each pooling region.</td>
     </tr>
   </tbody>
@@ -54,7 +54,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>Parameters : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -62,7 +62,7 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>auto_pad : <em>enum,</em></strong> auto_pad must be either NOTSET, SAME_UPPER, SAME_LOWER or VALID. Where default value is NOTSET, which means explicit padding is used. SAME_UPPER or SAME_LOWER mean pad the input so that <code>output_shape = ceil(input_shape / strides)</code> for each axis <code>i</code>. The padding is split between the two sides equally or almost equally (depending on whether it is even or odd). In case the padding is an odd number, the extra padding is added at the end for SAME_UPPER and at the beginning for SAME_LOWER.</td>
     </tr>
     <tr>
@@ -70,7 +70,7 @@
       <td valign="top">Default value “NOTSET”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Integer_64.Png" src="assets/input_array_integer_64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Integer_64.Png" src="/_assets/shared-images/71/712313814f21-input_array_integer_64.png" width="42"/></td>
       <td valign="top"><strong>kernel_shape : <em>array,</em></strong> the size of the kernel along each axis.</td>
     </tr>
     <tr>
@@ -78,7 +78,7 @@
       <td valign="top">Default value “empty”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Integer_64.Png" src="assets/input_array_integer_64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Integer_64.Png" src="/_assets/shared-images/71/712313814f21-input_array_integer_64.png" width="42"/></td>
       <td valign="top"><strong>pads</strong> <strong>: <em>array,</em></strong> padding for the beginning and ending along each spatial axis, it can take any value greater than or equal to 0. The value represent the number of pixels added to the beginning and end part of the corresponding axis. <code>pads</code> format should be as follow [x1_begin, x2_begin…x1_end, x2_end,…], where xi_begin the number of pixels added at the beginning of axis <code>i</code> and xi_end, the number of pixels added at the end of axis <code>i</code>. This attribute cannot be used simultaneously with auto_pad attribute. If not present, the padding defaults to 0 along start and end of each spatial axis.</td>
     </tr>
     <tr>
@@ -86,7 +86,7 @@
       <td valign="top">Default value “empty”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>storage_order : <em>enum,</em></strong> the storage order of the tensor. 0 is row major, and 1 is column major. This attribute is used only to convert an n-tuple index value into a single integer value for producing the second output.</td>
     </tr>
     <tr>
@@ -94,7 +94,7 @@
       <td valign="top">Default value “row major”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Integer_64.Png" src="assets/input_array_integer_64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Integer_64.Png" src="/_assets/shared-images/71/712313814f21-input_array_integer_64.png" width="42"/></td>
       <td valign="top"><strong>strides : <em>array,</em></strong> stride along each spatial axis. If not present, the stride defaults to 1 along each spatial axis.</td>
     </tr>
     <tr>
@@ -102,7 +102,7 @@
       <td valign="top">Default value “empty”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>training? :</strong> <em><strong>boolean</strong></em>, whether the layer is in training mode (can store data for backward).</td>
     </tr>
     <tr>
@@ -110,7 +110,7 @@
       <td valign="top">Default value “True”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Double.Png" src="assets/double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Double.Png" src="/_assets/shared-images/96/9619568f4a4a-double.png" width="42"/></td>
       <td valign="top"><strong>lda coeff :</strong> <em><strong>float</strong></em>, defines the coefficient by which the loss derivative will be multiplied before being sent to the previous layer (since during the backward run we go backwards).</td>
     </tr>
     <tr>
@@ -121,7 +121,7 @@
 </table></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String.Png" src="assets/string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String.Png" src="/_assets/shared-images/c7/c7f7e539d8ca-string.png" width="42"/></td>
       <td valign="top"><strong>name (optional) :</strong> <em><strong>string,</strong></em> name of the node.</td>
     </tr>
   </tbody>
@@ -136,7 +136,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="assets/output_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="/_assets/shared-images/e2/e2d605658777-output_object_3.png" width="42"/></td>
       <td valign="top"><strong>Y (heterogeneous) – T :</strong> <em><strong>object,</strong></em> the result of the MaxPooling. Contains the maximum values extracted from each pooling window.</td>
     </tr>
   </tbody>

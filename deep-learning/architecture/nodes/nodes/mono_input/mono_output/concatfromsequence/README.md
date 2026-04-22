@@ -4,18 +4,18 @@
 
 <p>Concatenate a sequence of tensors into a single tensor. All input tensors must have the same shape, except for the dimension size of the axis to concatenate on. By default ‘new_axis’ is 0, the behavior is similar to numpy.concatenate. When ‘new_axis’ is 1, the behavior is similar to numpy.stack.</p>
 
-<p align="center"><img alt="node_concat_from_sequence.png" src="assets/node_concat_from_sequence.png" width="323"/></p>
+<p align="center"><img alt="node_concat_from_sequence.png" src="/_assets/shared-images/97/979e545cd870-node_concat_from_sequence.png" width="323"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="assets/input_array_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="/_assets/shared-images/60/600c0aac18dc-input_array_string.png" width="42"/></td>
       <td valign="top"><strong><a href="../../../../../../more-deep-learning/nodes-parameters/specified_outputs_name/README.md">specified_outputs_name</a> : <em>array, </em></strong>this parameter lets you manually assign custom names to the output tensors of a node.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>input_sequence (heterogeneous) – S : <em>object, </em></strong>sequence of tensors for concatenation.</td>
     </tr>
   </tbody>
@@ -24,12 +24,12 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Cluster.Png" src="assets/cluster.png" width="32"/><strong>Parameters : <em>cluster,</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="32"/><strong>Parameters : <em>cluster,</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>axis : <em>integer, </em></strong>which axis to concat on. Accepted range in <code>[-r, r - 1]</code>, where <code>r</code> is the rank of input tensors. When <code>new_axis</code> is 1, accepted range is <code>[-r - 1, r]</code>.</td>
     </tr>
     <tr>
@@ -37,7 +37,7 @@
       <td valign="top">Default value “0”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>new_axis :</strong> <em><strong>boolean</strong></em>, insert and concatenate on a new axis or not, default 0 means do not insert new axis.</td>
     </tr>
     <tr>
@@ -45,7 +45,7 @@
       <td valign="top">Default value “False”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>training? :</strong> <em><strong>boolean</strong></em>, whether the layer is in training mode (can store data for backward).</td>
     </tr>
     <tr>
@@ -53,7 +53,7 @@
       <td valign="top">Default value “True”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Double.Png" src="assets/double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Double.Png" src="/_assets/shared-images/96/9619568f4a4a-double.png" width="42"/></td>
       <td valign="top"><strong>lda coeff :</strong> <em><strong>float</strong></em>, defines the coefficient by which the loss derivative will be multiplied before being sent to the previous layer (since during the backward run we go backwards).</td>
     </tr>
     <tr>
@@ -61,7 +61,7 @@
       <td valign="top">Default value “1”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String.Png" src="assets/string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String.Png" src="/_assets/shared-images/c7/c7f7e539d8ca-string.png" width="42"/></td>
       <td valign="top"><strong>name (optional) :</strong> <em><strong>string,</strong></em> name of the node.</td>
     </tr>
   </tbody>
@@ -76,7 +76,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="assets/output_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="/_assets/shared-images/e2/e2d605658777-output_object_3.png" width="42"/></td>
       <td valign="top"><strong>concat_result (heterogeneous) – T : <em>object, </em></strong>concatenated tensor.</td>
     </tr>
   </tbody>

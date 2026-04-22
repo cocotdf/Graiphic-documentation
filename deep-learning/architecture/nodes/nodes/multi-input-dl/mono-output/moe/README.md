@@ -4,14 +4,14 @@
 
 <p>Mixture of experts. Examples: Switch transformer(<a href="https://arxiv.org/pdf/2101.03961.pdf">https://arxiv.org/pdf/2101.03961.pdf</a>) use top 1, GLaM(<a href="https://arxiv.org/abs/2112.06905">https://arxiv.org/abs/2112.06905</a>) activates top 2 FFN, Vision MOE(<a href="https://arxiv.org/pdf/2106.05974.pdf">https://arxiv.org/pdf/2106.05974.pdf</a>) usually uses top 32 experts and Mixtral(<a href="https://huggingface.co/blog/mixtral">https://huggingface.co/blog/mixtral</a>).</p>
 
-<p align="center"><img alt="node_moe.png" src="assets/node_moe.png" width="299"/></p>
+<p align="center"><img alt="node_moe.png" src="/_assets/shared-images/0e/0e4906f4113e-node_moe.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="assets/input_array_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="/_assets/shared-images/60/600c0aac18dc-input_array_string.png" width="42"/></td>
       <td valign="top"><strong><a href="../../../../../../more-deep-learning/nodes-parameters/specified_outputs_name/README.md">specified_outputs_name</a> : <em>array, </em></strong>this parameter lets you manually assign custom names to the output tensors of a node.</td>
     </tr>
   </tbody>
@@ -23,7 +23,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>Graphs in :</strong> <strong><em>cluster,</em></strong> ONNX model architecture.</td>
     </tr>
     <tr>
@@ -31,35 +31,35 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>input (heterogeneous) – T : <em>object, </em></strong>2D input tensor with shape (num_tokens, hidden_size) or 3D input tensor with shape (batch_size, sequence_length, hidden_size).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>router_probs (heterogeneous) – T : <em>object, </em></strong>2D input tensor with shape (num_tokens, num_experts).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>fc1_experts_weights</strong> <strong>(heterogeneous) – T : <em>object, </em></strong>3D input tensor with shape (num_experts, fusion_size * inter_size, hidden_size), where fusion_size is 2 for fused swiglu, and 1 otherwise.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>fc1_experts_bias</strong> <strong>(optional, heterogeneous) – T : <em>object, </em></strong>2D optional input tensor with shape (num_experts, fusion_size * inter_size).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>fc2_experts_weights (heterogeneous) – T : <em>object, </em></strong>3D input tensor with shape (num_experts, hidden_size, inter_size).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>fc2_experts_bias (optional, heterogeneous) – T : <em>object, </em></strong>2D optional input tensor with shape (num_experts, hidden_size).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>fc3_experts_weights (optional, heterogeneous) – T : <em>object, </em></strong>3D optional input tensor with shape (num_experts, inter_size, hidden_size).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>fc3_experts_bias (optional, heterogeneous) – T : <em>object, </em></strong>2D optional input tensor with shape (num_experts, inter_size).</td>
     </tr>
   </tbody>
@@ -78,7 +78,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>Parameters : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -86,7 +86,7 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Double.Png" src="assets/double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Double.Png" src="/_assets/shared-images/96/9619568f4a4a-double.png" width="42"/></td>
       <td valign="top"><strong>activation_alpha :</strong> <em><strong>float</strong></em>, alpha parameter used in activation function.</td>
     </tr>
     <tr>
@@ -94,7 +94,7 @@
       <td valign="top">Default value “1”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Double.Png" src="assets/double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Double.Png" src="/_assets/shared-images/96/9619568f4a4a-double.png" width="42"/></td>
       <td valign="top"><strong>activation_beta :</strong> <em><strong>float</strong></em>, beta parameter used in activation function.</td>
     </tr>
     <tr>
@@ -102,7 +102,7 @@
       <td valign="top">Default value “0”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>activation_type :</strong> <em><strong>enum</strong></em>, activation function to use. Choose from relu, gelu, silu, swiglu and identity.</td>
     </tr>
     <tr>
@@ -110,7 +110,7 @@
       <td valign="top">Default value “relu”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_64.Png" src="assets/input_interger_64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_64.Png" src="/_assets/shared-images/c9/c9a23cc7d835-input_interger_64.png" width="42"/></td>
       <td valign="top"><strong>k :</strong> <em><strong>integer</strong></em>, number of top experts to select from expert pool.</td>
     </tr>
     <tr>
@@ -118,7 +118,7 @@
       <td valign="top">Default value “1”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong> normalize_routing_weights :</strong> <em><strong>boolean</strong></em>, whether to normalize routing weights.</td>
     </tr>
     <tr>
@@ -126,7 +126,7 @@
       <td valign="top">Default value “False”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>swiglu_fusion :</strong> <em><strong>enum</strong></em>, 0: not fused, 1: fused and interleaved. 2: fused and not interleaved.</td>
     </tr>
     <tr>
@@ -134,7 +134,7 @@
       <td valign="top">Default value “Not Fused”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Double.Png" src="assets/double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Double.Png" src="/_assets/shared-images/96/9619568f4a4a-double.png" width="42"/></td>
       <td valign="top"><strong>swiglu_limit :</strong> <em><strong>float</strong></em>, The limit used to clamp in SwiGLU. No clamp when limit is not provided.</td>
     </tr>
     <tr>
@@ -142,7 +142,7 @@
       <td valign="top">Default value “0”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong> use_sparse_mixer :</strong> <em><strong>boolean</strong></em>, whether to use sparse mixer.</td>
     </tr>
     <tr>
@@ -150,7 +150,7 @@
       <td valign="top">Default value “False”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>training? :</strong> <em><strong>boolean</strong></em>, whether the layer is in training mode (can store data for backward).</td>
     </tr>
     <tr>
@@ -158,7 +158,7 @@
       <td valign="top">Default value “True”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Double.Png" src="assets/double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Double.Png" src="/_assets/shared-images/96/9619568f4a4a-double.png" width="42"/></td>
       <td valign="top"><strong>lda coeff :</strong> <em><strong>float</strong></em>, defines the coefficient by which the loss derivative will be multiplied before being sent to the previous layer (since during the backward run we go backwards).</td>
     </tr>
     <tr>
@@ -169,7 +169,7 @@
 </table></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String.Png" src="assets/string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String.Png" src="/_assets/shared-images/c7/c7f7e539d8ca-string.png" width="42"/></td>
       <td valign="top"><strong>name (optional) :</strong> <em><strong>string,</strong></em> name of the node.</td>
     </tr>
   </tbody>
@@ -184,7 +184,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="assets/output_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="/_assets/shared-images/e2/e2d605658777-output_object_3.png" width="42"/></td>
       <td valign="top"><strong>output (heterogeneous) – T : <em>object, </em></strong>2D input tensor with shape (num_tokens, hidden_size) or 3D input tensor with shape (batch_size, sequence_length, hidden_size).</td>
     </tr>
   </tbody>

@@ -8,7 +8,7 @@
 
 <p>Dense</p>
 
-<p align="center"><img alt="get_weights_by_name.PNG" src="assets/get_weights_by_name.PNG" width="240"/></p>
+<p align="center"><img alt="get_weights_by_name.PNG" src="/_assets/shared-images/23/2365c3ecb500-get_weights_by_name.png" width="240"/></p>
 
 <p>Gets the weights of the Dense layer selected by the name.</p>
 

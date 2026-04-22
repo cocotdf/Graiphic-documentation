@@ -4,14 +4,14 @@
 
 <p>Create Streaming Llama Generator Session.</p>
 
-<p align="center"><img alt="output_object.png" src="assets/output_object.png" width="300"/></p>
+<p align="center"><img alt="output_object.png" src="/_assets/shared-images/1c/1cb1833f6933-output_object.png" width="300"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object.Png" src="assets/input_object.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object.Png" src="/_assets/shared-images/3e/3e8ae6d52219-input_object.png" width="42"/></td>
       <td valign="top"><strong>ONNX in : <em>object, </em></strong>llama generator session.</td>
     </tr>
   </tbody>
@@ -23,7 +23,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>Parameters : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -31,35 +31,35 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>use_position_ids :</strong> <em><strong>boolean</strong></em>, enables the use of explicit position IDs for the input tokens.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Single.Png" src="assets/single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Single.Png" src="/_assets/shared-images/e2/e22146c46f27-single.png" width="42"/></td>
       <td valign="top"><strong>temperature :</strong> <em><strong>float</strong></em>, controls randomness in the generation process.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Single.Png" src="assets/single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Single.Png" src="/_assets/shared-images/e2/e22146c46f27-single.png" width="42"/></td>
       <td valign="top"><strong>repetition_penalty :</strong> <em><strong>float</strong></em>, penalizes repeated tokens to reduce looping or redundant text.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>max_length :</strong> <em><strong>integer</strong></em>, maximum number of tokens in the generated output sequence.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>ngram_size :</strong> <em><strong>integer</strong></em>, size of n-grams tracked to prevent repetition.</td>
     </tr>
   </tbody>
 </table></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_64.Png" src="assets/input_unsigned_64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_64.Png" src="/_assets/shared-images/ee/ee44aaa4620b-input_unsigned_64.png" width="42"/></td>
       <td valign="top"><strong>llama_decoder_session : <em>integer, </em></strong>reference to an active ONNX inference session of the LLaMA decoder model.</td>
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img alt="param_llama_create" src="assets/param_llama_create.png" width="220"/></p></td>
+      <td valign="top" width="30%"><p align="center"><img alt="param_llama_create" src="/_assets/shared-images/24/241d0fbaf3d6-param_llama_create.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>

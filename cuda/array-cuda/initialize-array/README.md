@@ -4,18 +4,18 @@
 
 <p>Creates a n-dimensional tensor in which every element is initialized to the value of element. Type : <em><strong>polymorphic.</strong></em></p>
 
-<p align="center"><img src="assets/initialize_array.png" alt="Initialize_Array.Png" width="251" /></p>
+<p align="center"><img src="/_assets/shared-images/17/1708bfb2b903-initialize_array.png" alt="Initialize_Array.Png" width="251" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Single.Png" src="assets/input_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Single.Png" src="/_assets/shared-images/fd/fd47ddc3550b-input_single.png" width="42"/></td>
       <td valign="top"><strong>element : <em>float,</em></strong> value used to initialize all elements of initialized tensor.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="assets/input_array_integer_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="/_assets/shared-images/05/052f6e6ea35b-input_array_integer_32.png" width="42"/></td>
       <td valign="top"><strong>shape : <em>array,</em></strong> the size of dimensions 0..n-1.</td>
     </tr>
   </tbody>
@@ -26,7 +26,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>initialized array : <em>class,</em></strong> tensor of the same type as the type you wire to element.</td>
     </tr>
   </tbody>

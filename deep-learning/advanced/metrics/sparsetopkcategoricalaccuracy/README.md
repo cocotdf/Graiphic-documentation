@@ -4,22 +4,22 @@
 
 <p>Computes how often integer targets are in the top K predictions. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="sparse_top_k_categorical_accuracy.png" src="assets/sparse_top_k_categorical_accuracy.png" width="460"/></p>
+<p align="center"><img alt="sparse_top_k_categorical_accuracy.png" src="/_assets/shared-images/6b/6bdcfece44bd-sparse_top_k_categorical_accuracy.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>y_pred : <em>array, </em></strong>predicted values (one hot logits for example, [0.1, 0.8, 0.9] for 3-class problem).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Integer 32.Png" src="assets/array-integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Integer 32.Png" src="/_assets/shared-images/90/90ecefc445f7-array-integer-32.png" width="42"/></td>
       <td valign="top"><strong>y_true : <em>array, </em></strong>true values.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>k : <em>integer,</em></strong> number of top elements to look at for computing accuracy.</td>
     </tr>
   </tbody>
@@ -30,7 +30,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Out Single.Png" src="assets/out-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>sparse_top_k_categorical_accuracy : <em>float, </em></strong>result.</td>
     </tr>
   </tbody>
@@ -66,4 +66,4 @@
 
 <h3>Easy to use</h3>
 
-<p align="center"><img alt="SparseTopKCategoricalAccuracy" src="assets/sparse_top_k_categorical_accuracy.png" width="220"/></p>
+<p align="center"><img alt="SparseTopKCategoricalAccuracy" src="/_assets/shared-images/6b/6bdcfece44bd-sparse_top_k_categorical_accuracy.png" width="220"/></p>

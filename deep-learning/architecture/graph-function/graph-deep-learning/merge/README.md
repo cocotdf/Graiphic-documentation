@@ -5,14 +5,14 @@
 <p>Merge multiple branches of graphs to create a single graph and avoid duplication.<br/>
 The typical usecase is when design multiple inputs / outputs / branch graph design.</p>
 
-<p align="center"><img alt="merge" src="assets/merge.PNG" width="220"/></p>
+<p align="center"><img alt="merge" src="/_assets/shared-images/ff/ffd49a238cb9-merge.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Model.Png" src="assets/input_array_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Model.Png" src="/_assets/shared-images/db/db1c5336ad1b-input_array_model.png" width="42"/></td>
       <td valign="top"><strong>Models in : <em>array</em>, </strong>model architecture.</td>
     </tr>
   </tbody>
@@ -23,7 +23,7 @@ The typical usecase is when design multiple inputs / outputs / branch graph desi
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Model.Png" src="assets/output_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Model.Png" src="/_assets/shared-images/3c/3c881c79a647-output_model.png" width="42"/></td>
       <td valign="top"><strong>Model out : </strong>model architecture.</td>
     </tr>
   </tbody>
@@ -33,4 +33,4 @@ The typical usecase is when design multiple inputs / outputs / branch graph desi
 
 <p>All these exemples are snippets PNG, you can drop these Snippet onto the block diagram and get the depicted code added to your VI (Do not forget to install Deep Learning library to run it).</p>
 
-<p align="center"><img alt="merge -NEW" src="assets/merge.PNG" width="220"/></p>
+<p align="center"><img alt="merge -NEW" src="/_assets/shared-images/ff/ffd49a238cb9-merge.png" width="220"/></p>

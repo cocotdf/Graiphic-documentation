@@ -11,32 +11,32 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Parameters" src="assets/ccclst.png" width="32"/> <strong>Parameters : <em>cluster</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="Parameters" src="/_assets/shared-images/1a/1a7a9a6249a8-ccclst.png" width="32"/> <strong>Parameters : <em>cluster</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Model File Path" src="assets/cpath.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Model File Path" src="/_assets/shared-images/09/0971eb44b0da-cpath.png" width="42"/></td>
       <td valign="top"><strong>Model File Path : <em>path</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="MMProj File Path" src="assets/cpath.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="MMProj File Path" src="/_assets/shared-images/09/0971eb44b0da-cpath.png" width="42"/></td>
       <td valign="top"><strong>MMProj File Path : <em>path</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="n cpu threads" src="assets/ci32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="n cpu threads" src="/_assets/shared-images/e6/e64a060992b9-ci32.png" width="42"/></td>
       <td valign="top"><strong>n cpu threads : <em>integer</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="nb gpu layers" src="assets/ci32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="nb gpu layers" src="/_assets/shared-images/e6/e64a060992b9-ci32.png" width="42"/></td>
       <td valign="top"><strong>nb gpu layers : <em>integer</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="n_ctx" src="assets/ci32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="n_ctx" src="/_assets/shared-images/e6/e64a060992b9-ci32.png" width="42"/></td>
       <td valign="top"><strong>n_ctx : <em>integer</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="system prompt" src="assets/cstr.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="system prompt" src="/_assets/shared-images/71/714be290bc5b-cstr.png" width="42"/></td>
       <td valign="top"><strong>system prompt : <em>string</em></strong></td>
     </tr>
   </tbody>
@@ -52,7 +52,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Gemma3 out" src="assets/iGemma3lvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Gemma3 out" src="/_assets/shared-images/f5/f59cb1162c40-igemma3lvclass.png" width="42"/></td>
       <td valign="top"><strong>Gemma3 out : <em>class</em></strong></td>
     </tr>
   </tbody>

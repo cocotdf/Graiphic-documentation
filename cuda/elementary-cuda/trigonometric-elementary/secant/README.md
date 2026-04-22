@@ -4,14 +4,14 @@
 
 <p>Computes the secant of x, where x is in radians. Secant is the reciprocal of cosine.</p>
 
-<p align="center"><img src="assets/secant.png" alt="Secant.Png" width="175" /></p>
+<p align="center"><img src="/_assets/shared-images/17/172f297bd57a-secant.png" alt="Secant.Png" width="175" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>x : <em>class, </em></strong>n-dimensional tensor.</td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>1/cos(x) : <em>class,</em></strong> the secant value of x.</td>
     </tr>
   </tbody>

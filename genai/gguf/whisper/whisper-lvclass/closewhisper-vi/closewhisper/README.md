@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Whisper in" src="assets/cWhisperlvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Whisper in" src="/_assets/shared-images/19/19fa2c117e17-cwhisperlvclass.png" width="42"/></td>
       <td valign="top"><strong>Whisper in : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Whisper out" src="assets/iWhisperlvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Whisper out" src="/_assets/shared-images/ed/edf925757093-iwhisperlvclass.png" width="42"/></td>
       <td valign="top"><strong>Whisper out : <em>class</em></strong></td>
     </tr>
   </tbody>

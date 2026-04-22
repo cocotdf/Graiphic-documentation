@@ -11,11 +11,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Academic.Png" src="assets/input_academic.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Academic.Png" src="/_assets/shared-images/03/039f017e9f6f-input_academic.png" width="42"/></td>
       <td valign="top"><strong>Academic Training in</strong> <strong>: <em>object, </em></strong>academic training session.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Out Single.Png" src="assets/out-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>learning_rate : <em>float,</em></strong> step size controlling how much to adjust weights during training.</td>
     </tr>
   </tbody>
@@ -26,7 +26,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Academic.Png" src="assets/output_academic.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Academic.Png" src="/_assets/shared-images/85/85272a982dfe-output_academic.png" width="42"/></td>
       <td valign="top"><strong>Academic Training out</strong> <strong>: <em>object, </em></strong>academic training session.</td>
     </tr>
   </tbody>

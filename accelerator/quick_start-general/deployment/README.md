@@ -10,7 +10,7 @@
 </li>
 </ul>
 
-<p align="center"><img alt="builder_sota_download-980x487.png" src="assets/builder_sota_download-980x487.png" width="460"/></p>
+<p align="center"><img alt="builder_sota_download-980x487.png" src="/_assets/shared-images/e3/e3c55584c685-builder_sota_download-980x487.png" width="460"/></p>
 
 <ul>
 <li>
@@ -20,7 +20,7 @@
 </li>
 </ul>
 
-<p align="center"><img alt="builder_build_exe-1024x908.png" src="assets/builder_build_exe-1024x908.png" width="460"/></p>
+<p align="center"><img alt="builder_build_exe-1024x908.png" src="/_assets/shared-images/20/200e0b67479d-builder_build_exe-1024x908.png" width="460"/></p>
 
 <ul>
 <li>
@@ -30,7 +30,7 @@
 </li>
 </ul>
 
-<p align="center"><img alt="builder_open_builder.png" src="assets/builder_open_builder.png" width="460"/></p>
+<p align="center"><img alt="builder_open_builder.png" src="/_assets/shared-images/6b/6b51f101c781-builder_open_builder.png" width="460"/></p>
 
 <ul>
 <li>
@@ -40,7 +40,7 @@
 </li>
 </ul>
 
-<p align="center"><img alt="builder_choose_project__exe-1024x721.png" src="assets/builder_choose_project__exe-1024x721.png" width="460"/></p>
+<p align="center"><img alt="builder_choose_project__exe-1024x721.png" src="/_assets/shared-images/cc/cc9dbcb3b411-builder_choose_project__exe-1024x721.png" width="460"/></p>
 
 <ul>
 <li>
@@ -50,7 +50,7 @@
 </li>
 </ul>
 
-<p align="center"><img alt="builder_choose_toolkit-718x1024.png" src="assets/builder_choose_toolkit-718x1024.png" width="460"/></p>
+<p align="center"><img alt="builder_choose_toolkit-718x1024.png" src="/_assets/shared-images/83/83f4818053e5-builder_choose_toolkit-718x1024.png" width="460"/></p>
 
 <ul>
 <li>
@@ -60,4 +60,4 @@
 </li>
 </ul>
 
-<p align="center"><img alt="builder_builder_done.png" src="assets/builder_builder_done.png" width="460"/></p>
+<p align="center"><img alt="builder_builder_done.png" src="/_assets/shared-images/b8/b83363da0f1b-builder_builder_done.png" width="460"/></p>

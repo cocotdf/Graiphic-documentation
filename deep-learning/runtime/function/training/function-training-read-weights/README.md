@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Training.Png" src="assets/input_training.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Training.Png" src="/_assets/shared-images/b9/b9b04fd7d3fc-input_training.png" width="42"/></td>
       <td valign="top"><strong>Training in</strong> <strong>: <em>object, </em></strong>training session.</td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Training.Png" src="assets/output_training.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Training.Png" src="/_assets/shared-images/2b/2b7b59c59760-output_training.png" width="42"/></td>
       <td valign="top"><strong>Training out</strong> <strong>: <em>object, </em></strong>training session.</td>
     </tr>
   </tbody>
@@ -34,7 +34,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster Out.Png" src="assets/cluster-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster Out.Png" src="/_assets/shared-images/0a/0a479d27b394-cluster-out.png" width="42"/></td>
       <td valign="top"><b>Weights Info</b> <strong>: <em>cluster</em></strong></td>
     </tr>
     <tr>
@@ -42,23 +42,23 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="String_Array_Out.Png" src="assets/string_array_out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String_Array_Out.Png" src="/_assets/shared-images/43/43e33de4b021-output_array_string.png" width="42"/></td>
       <td valign="top"><strong> weight_names</strong> <strong>: <em>array,</em></strong> list of names identifying each weight tensor used for training or marked as frozen. These correspond to a subset of the model’s initializers, specifically those involved in learning or fixed parameters, not all initializers present in the ONNX graph.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Array_Unsigned_8.Png" src="assets/output_array_unsigned_8.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Array_Unsigned_8.Png" src="/_assets/shared-images/ee/eeb63aea4468-output_array_unsigned_8.png" width="42"/></td>
       <td valign="top"><strong> raw_data_out : <em>array,</em></strong> raw byte representation of each weight tensor, flattened into 1D. This field stores the actual binary content of the tensor.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Array_Integer_64.Png" src="assets/output_array_integer_64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Array_Integer_64.Png" src="/_assets/shared-images/8a/8a3ecb76444e-output_array_integer_64.png" width="42"/></td>
       <td valign="top"><strong> data_shapes</strong> <strong>: <em>array,</em></strong> shape of each tensor, provided as an array of dimensions. This allows reconstructing the original structure of the tensor from the flattened <code>raw_data_out</code>.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Out Array Integer 32.Png" src="assets/out-array-integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Array Integer 32.Png" src="/_assets/shared-images/fe/fe7405762e7c-output_array_integer_32.png" width="42"/></td>
       <td valign="top"><strong> data_types</strong> <strong>: <em>array,</em></strong> ONNX data type (enum) of each tensor, such as <code>FLOAT</code>, <code>INT32</code>, <code>FLOAT16</code>, etc. Defines how to interpret the raw bytes.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Array_Integer_64.Png" src="assets/output_array_integer_64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Array_Integer_64.Png" src="/_assets/shared-images/8a/8a3ecb76444e-output_array_integer_64.png" width="42"/></td>
       <td valign="top"><strong> data_ranks</strong> <strong>: <em>array,</em></strong> rank of each tensor (number of dimensions), for example :
 <ul>
 <li>
@@ -84,7 +84,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img src="assets/function_training_weights_parameters.png" alt="function_training_weights_parameters" width="153" /></p></td>
+      <td valign="top" width="30%"><p align="center"><img src="/_assets/shared-images/ee/eea3b2c8daea-function_training_weights_parameters.png" alt="function_training_weights_parameters" width="153" /></p></td>
     </tr>
   </tbody>
 </table>

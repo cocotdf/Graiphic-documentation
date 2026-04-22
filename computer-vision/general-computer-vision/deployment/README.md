@@ -10,7 +10,7 @@
 </li>
 </ul>
 
-<p align="center"><img alt="builder_sota_download-980x487.png" src="assets/builder_sota_download-980x487.png" width="460"/></p>
+<p align="center"><img alt="builder_sota_download-980x487.png" src="/_assets/shared-images/e3/e3c55584c685-builder_sota_download-980x487.png" width="460"/></p>
 
 <ul>
 <li>

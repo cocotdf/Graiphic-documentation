@@ -11,11 +11,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object.Png" src="assets/input_object.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object.Png" src="/_assets/shared-images/3e/3e8ae6d52219-input_object.png" width="42"/></td>
       <td valign="top"><strong>ONNX in : <em>object, </em></strong>tokenizer session.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String.Png" src="assets/string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String.Png" src="/_assets/shared-images/c7/c7f7e539d8ca-string.png" width="42"/></td>
       <td valign="top"><strong>text : <em>string, </em></strong>the raw text input that will be transformed into a sequence of tokens by the tokenizer.</td>
     </tr>
   </tbody>
@@ -26,7 +26,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="output_object.png" src="assets/output_object.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="output_object.png" src="/_assets/shared-images/1c/1cb1833f6933-output_object.png" width="42"/></td>
       <td valign="top"><strong>ONNX out : <em>object, </em></strong>tokenizer session.</td>
     </tr>
   </tbody>

@@ -4,22 +4,22 @@
 
 <p>Calculates the number of false positives. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="false_positives.png" src="assets/false_positives.png" width="460"/></p>
+<p align="center"><img alt="false_positives.png" src="/_assets/shared-images/c9/c93a1827cc1a-false_positives.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>y_pred : <em>array, </em></strong>predicted values (logits values).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>y_true : <em>array, </em></strong>true values (logits values, or binary values if the threshold value is between 0 and 1).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Single.Png" src="assets/single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Single.Png" src="/_assets/shared-images/e2/e22146c46f27-single.png" width="42"/></td>
       <td valign="top"><strong> thresholds : <em>float,</em></strong> representing the threshold for deciding whether prediction and true values are 1 or 0 (above the threshold is true, below is false).</td>
     </tr>
   </tbody>
@@ -32,7 +32,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Out Single.Png" src="assets/out-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>false_positives : <em>float, </em></strong>result.</td>
     </tr>
   </tbody>
@@ -63,7 +63,7 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="62%"><p align="center"><img alt="False &amp; True" src="assets/False &amp; True.png" width="220"/></p></td>
+      <td valign="top" width="62%"><p align="center"><img alt="False &amp; True" src="/_assets/shared-images/94/9476405fc708-false-true.png" width="220"/></p></td>
       <td valign="top" width="38%"><p align="center"><img alt="false_positives_calcul" src="assets/false_positives_calcul.png" width="220"/></p></td>
     </tr>
   </tbody>
@@ -75,4 +75,4 @@
 
 <h3>Easy to use</h3>
 
-<p align="center"><img alt="FalsePositives" src="assets/false_positives.png" width="220"/></p>
+<p align="center"><img alt="FalsePositives" src="/_assets/shared-images/c9/c93a1827cc1a-false_positives.png" width="220"/></p>

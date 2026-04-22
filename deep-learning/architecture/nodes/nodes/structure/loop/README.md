@@ -19,7 +19,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="assets/input_array_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="/_assets/shared-images/60/600c0aac18dc-input_array_string.png" width="42"/></td>
       <td valign="top"><strong><a href="../../../../../more-deep-learning/nodes-parameters/specified_outputs_name/README.md">specified_outputs_name</a> : <em>array, </em></strong>this parameter lets you manually assign custom names to the output tensors of a node.</td>
     </tr>
   </tbody>
@@ -31,7 +31,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>Graphs in :</strong> <strong><em>cluster,</em></strong> ONNX model architecture.</td>
     </tr>
     <tr>
@@ -39,15 +39,15 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>M (optional, heterogeneous) –</strong> <strong>I :</strong> <em><strong>object,</strong></em> a maximum trip-count for the loop specified at runtime. Optional. Pass empty string to skip.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>cond (optional, heterogeneous) – B : <em>object, </em></strong>a boolean termination condition. Optional. Pass empty string to skip.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="node_loop.png" src="assets/node_loop.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="node_loop.png" src="/_assets/shared-images/51/51f96d802a11-node_loop.png" width="42"/></td>
       <td valign="top"><strong>v_initial (variadic) – V : <em>array, </em></strong>the initial values of any loop-carried dependencies (values that change across loop iterations).</td>
     </tr>
   </tbody>
@@ -66,7 +66,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>Parameters : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -74,11 +74,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>body : <em>object,</em></strong> the graph run each iteration. It has 2+N inputs: (iteration_num, condition, loop carried dependencies…). It has 1+N+K outputs: (condition, loop carried dependencies…, scan_outputs…). Each scan_output is created by concatenating the value of the specified output value at the end of each iteration of the loop. It is an error if the dimensions or data type of these scan_outputs change across loop iterations.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>training? :</strong> <em><strong>boolean</strong><strong>,</strong></em> whether the layer is in training mode (can store data for backward).</td>
     </tr>
     <tr>
@@ -86,7 +86,7 @@
       <td valign="top">Default value “True”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Double.Png" src="assets/double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Double.Png" src="/_assets/shared-images/96/9619568f4a4a-double.png" width="42"/></td>
       <td valign="top"><strong>lda coeff :</strong> <em><strong>float</strong><strong>,</strong></em> defines the coefficient by which the loss derivative will be multiplied before being sent to the previous layer (since during the backward run we go backwards).</td>
     </tr>
     <tr>
@@ -97,12 +97,12 @@
 </table></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String.Png" src="assets/string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String.Png" src="/_assets/shared-images/c7/c7f7e539d8ca-string.png" width="42"/></td>
       <td valign="top"><strong>name (optional) :</strong> <em><strong>string,</strong></em> name of the node.</td>
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img alt="param_node_loop" src="assets/param_node_loop.png" width="220"/></p></td>
+      <td valign="top" width="30%"><p align="center"><img alt="param_node_loop" src="/_assets/shared-images/56/564e894c2d7c-param_node_sequence_map.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>
@@ -112,7 +112,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="output_array_object_3.png" src="assets/output_array_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="output_array_object_3.png" src="/_assets/shared-images/63/63e07bab5ce0-output_array_object_3.png" width="42"/></td>
       <td valign="top"><strong>v_final_and_scan_outputs (variadic) –</strong> <strong>V : <em>array,</em></strong> final N loop carried dependency values then K scan_outputs. Scan outputs must be Tensors.</td>
     </tr>
   </tbody>

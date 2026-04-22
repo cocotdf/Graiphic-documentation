@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Single.Png" src="assets/single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Single.Png" src="/_assets/shared-images/e2/e22146c46f27-single.png" width="42"/></td>
       <td valign="top"><strong>l2 : <em>float, </em></strong>L2 regularization factor.</td>
     </tr>
   </tbody>
@@ -22,12 +22,12 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="75%"><p><img alt="Cluster Out.Png" src="assets/cluster-out.png" width="32"/><strong>Regularizer :</strong><em><strong>cluster,</strong></em>this cluster defines the regularization strategy used to constrain model weights.</p>
+      <td valign="top" width="75%"><p><img alt="Cluster Out.Png" src="/_assets/shared-images/0a/0a479d27b394-cluster-out.png" width="32"/><strong>Regularizer :</strong><em><strong>cluster,</strong></em>this cluster defines the regularization strategy used to constrain model weights.</p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="output_object.png" src="assets/output_object.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="output_object.png" src="/_assets/shared-images/1c/1cb1833f6933-output_object.png" width="42"/></td>
       <td valign="top"><strong><a href="../../../../more-deep-learning/layers-parameters/regularizer/README.md">enum</a> :</strong> <em><strong>enum</strong></em>, an enumeration indicating the regularizer type (e.g., None, L1, L2, etc.). If <code>enum</code> is set to <code>CustomRegularizer</code>, the custom class will be used. Otherwise, the selected regularizer will be applied using default settings.</td>
     </tr>
     <tr>
@@ -36,7 +36,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="25%"><p align="center"><img alt="output_regularizer" src="assets/output_regularizer.png" width="220"/></p></td>
+      <td valign="top" width="25%"><p align="center"><img alt="output_regularizer" src="/_assets/shared-images/64/64bede667866-output_regularizer.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>
@@ -45,4 +45,4 @@
 
 <p>All these exemples are snippets PNG, you can drop these Snippet onto the block diagram and get the depicted code added to your VI (Do not forget to install Deep Learning library to run it).</p>
 
-<p align="center"><img alt="regularizer_exemple" src="assets/regularizer_exemple.png" width="220"/></p>
+<p align="center"><img alt="regularizer_exemple" src="/_assets/shared-images/de/de3f4ad7e9dc-regularizer_exemple.png" width="220"/></p>

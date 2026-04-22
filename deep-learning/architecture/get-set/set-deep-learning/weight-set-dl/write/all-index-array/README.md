@@ -4,18 +4,18 @@
 
 <p>Load weights in the model. The table of weights is authentic, it defines the indexes for which weights are loaded, the others will be initialized randomly. You can choose to display a log file in .txt or .csv format to resume the model architecture and the loading of weights.</p>
 
-<p align="center"><img alt="load_all_weights_by_idx" src="assets/load_all_weights_by_idx.PNG" width="220"/></p>
+<p align="center"><img alt="load_all_weights_by_idx" src="/_assets/shared-images/07/07dc1e1042c2-load_all_weights_by_idx.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>Model in : </strong>model architecture.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>file_type : <em>enum</em>,</strong> type of the file on which the summary is written.
 <ul>
 <li>
@@ -33,16 +33,16 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Cluster Array In.Png" src="assets/cluster-array-in.png" width="32"/><strong>weight_array :</strong><em><strong>cluster</strong></em></p>
+      <td valign="top" width="70%"><p><img alt="Cluster Array In.Png" src="/_assets/shared-images/7c/7c2884d81fe7-cluster-array-in.png" width="32"/><strong>weight_array :</strong><em><strong>cluster</strong></em></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer</em>,</strong> index of layer.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="var-in.png" src="assets/var-in.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="var-in.png" src="/_assets/shared-images/b5/b57556fba564-var-in.png" width="42"/></td>
       <td valign="top"><strong>weights : <em>variant</em>,</strong> weight value.</td>
     </tr>
   </tbody>
@@ -57,7 +57,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Model.Png" src="assets/output_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Model.Png" src="/_assets/shared-images/3c/3c881c79a647-output_model.png" width="42"/></td>
       <td valign="top"><strong>Model out : </strong>model architecture.</td>
     </tr>
   </tbody>

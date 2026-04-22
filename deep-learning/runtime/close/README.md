@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object.Png" src="assets/input_object.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object.Png" src="/_assets/shared-images/3e/3e8ae6d52219-input_object.png" width="42"/></td>
       <td valign="top"><strong>ONNX in : <em>object, </em></strong>the ONNX object serves as the parent class that provides the core structure and functionalities shared by Inference, Training, and Academic Training objects.</td>
     </tr>
   </tbody>

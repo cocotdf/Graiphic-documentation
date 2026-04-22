@@ -4,14 +4,14 @@
 
 <p>Setup and add the convolution 1D layer into the model during the definition graph step. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/separable_conv_1d_add_to_graph.png" alt="Separable_Conv_1D_Add_To_Graph.Png" width="265" /></p>
+<p align="center"><img src="/_assets/shared-images/18/18e6e72b8b9c-separable_conv_1d_add_to_graph.png" alt="Separable_Conv_1D_Add_To_Graph.Png" width="265" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>Model in : </strong>model architecture</td>
     </tr>
   </tbody>
@@ -31,7 +31,7 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Out Array Integer 32.Png" src="assets/out-array-integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Array Integer 32.Png" src="/_assets/shared-images/fe/fe7405762e7c-output_array_integer_32.png" width="42"/></td>
       <td valign="top"><strong>filters :</strong> <em><strong>integer</strong></em>, the dimensionality of the output space.</td>
     </tr>
     <tr>
@@ -39,7 +39,7 @@
       <td valign="top">Default value “3”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Out Array Integer 32.Png" src="assets/out-array-integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Array Integer 32.Png" src="/_assets/shared-images/fe/fe7405762e7c-output_array_integer_32.png" width="42"/></td>
       <td valign="top"><strong>size :</strong> <em><strong>integer</strong></em>, specify the length of the 1D convolution window.</td>
     </tr>
     <tr>
@@ -47,7 +47,7 @@
       <td valign="top">Default value “3”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Out Array Integer 32.Png" src="assets/out-array-integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Array Integer 32.Png" src="/_assets/shared-images/fe/fe7405762e7c-output_array_integer_32.png" width="42"/></td>
       <td valign="top"><strong>stride :</strong> <em><strong>integer</strong></em>, specify the stride length of the convolution.</td>
     </tr>
     <tr>
@@ -55,7 +55,7 @@
       <td valign="top">Default value “1”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Out Array Integer 32.Png" src="assets/out-array-integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Array Integer 32.Png" src="/_assets/shared-images/fe/fe7405762e7c-output_array_integer_32.png" width="42"/></td>
       <td valign="top"><strong>dilation rate :</strong> <em><strong>integer</strong></em>, specifying the dilation rate to use for dilated convolution.</td>
     </tr>
     <tr>
@@ -63,7 +63,7 @@
       <td valign="top">Default value “1”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Integer 32.Png" src="assets/array-integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Integer 32.Png" src="/_assets/shared-images/90/90ecefc445f7-array-integer-32.png" width="42"/></td>
       <td valign="top"><strong><a href="../../../more-deep-learning/layers-parameters/explicit-padding/README.md">explicit padding</a> : <em>array</em></strong>, specifies the number of pixels to pad at the beginning and end of each spatial axis. Batch and channel axes are not padded. Only used when padding = <strong>EXPLICIT</strong>.</td>
     </tr>
     <tr>
@@ -75,7 +75,7 @@
       <td valign="top"><strong><a href="../../../more-deep-learning/layers-parameters/activation/README.md">Activation</a> : <em>cluster, </em></strong>activation function to use.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>use bias? :</strong> <em><strong>boolean</strong></em>, whether the layer uses a bias vector.</td>
     </tr>
     <tr>
@@ -83,7 +83,7 @@
       <td valign="top">Default value “True”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Array_Enum.Png" src="assets/output_array_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Array_Enum.Png" src="/_assets/shared-images/93/9363ce0bc3eb-output_array_enum.png" width="42"/></td>
       <td valign="top"><strong><a href="../../../more-deep-learning/layers-parameters/padding/README.md">padding</a> : <em>enum,</em></strong> type of padding to apply.</td>
     </tr>
     <tr>
@@ -91,7 +91,7 @@
       <td valign="top">Default value “VALID”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>data format : <em>enum</em></strong>, one of <strong>channels_last</strong> or <strong>channels_first</strong> (default) . The ordering of the dimensions in the inputs. <strong>channel_last</strong> corresponds to inputs with shape <strong>(batch, steps, features)</strong> while <strong>channels_first</strong> corresponds to inputs with shape <strong>(batch, features, steps)</strong>.</td>
     </tr>
     <tr>
@@ -115,7 +115,7 @@
       <td valign="top"><strong><a href="../../../more-deep-learning/layers-parameters/regularizer/README.md">Bias Regularizer</a> : <em>cluster, </em></strong>optional regularizer for the bias vector.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>training? :</strong> <em><strong>boolean</strong></em>, whether the layer is in training mode (can store data for backward).</td>
     </tr>
     <tr>
@@ -123,7 +123,7 @@
       <td valign="top">Default value “True”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>store? :</strong> <em><strong>boolean</strong></em>, whether the layer stores the last iteration gradient (accessible via the “get_gradients” function).</td>
     </tr>
     <tr>
@@ -131,7 +131,7 @@
       <td valign="top">Default value “False”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>update? :</strong> <em><strong>boolean</strong></em>, whether the layer’s variables should be updated during backward. Equivalent to freeze the layer.</td>
     </tr>
     <tr>
@@ -139,7 +139,7 @@
       <td valign="top">Default value “True”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Double.Png" src="assets/input_array_double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Double.Png" src="/_assets/shared-images/d3/d3668fbba8f6-input_array_double.png" width="42"/></td>
       <td valign="top"><strong>lda coeff :</strong> <em><strong>float</strong></em>, defines the coefficient by which the loss derivative will be multiplied before being sent to the previous layer (since during the backward run we go backwards).</td>
     </tr>
     <tr>
@@ -151,7 +151,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="25%"><p align="center"><img src="assets/conv_1d_param.png" alt="conv_1d_param" width="193" /></p></td>
+      <td valign="top" width="25%"><p align="center"><img src="/_assets/shared-images/83/83351c37ca61-conv_1d_param.png" alt="conv_1d_param" width="193" /></p></td>
     </tr>
   </tbody>
 </table>
@@ -159,7 +159,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="assets/input_array_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="/_assets/shared-images/60/600c0aac18dc-input_array_string.png" width="42"/></td>
       <td valign="top"><strong>name (optional) :</strong> <em><strong>string,</strong></em> name of the layer.</td>
     </tr>
   </tbody>
@@ -170,7 +170,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Model.Png" src="assets/output_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Model.Png" src="/_assets/shared-images/3c/3c881c79a647-output_model.png" width="42"/></td>
       <td valign="top"><strong>Model out : </strong>model architecture.</td>
     </tr>
   </tbody>

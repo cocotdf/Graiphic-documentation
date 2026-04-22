@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object.Png" src="assets/input_object.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object.Png" src="/_assets/shared-images/3e/3e8ae6d52219-input_object.png" width="42"/></td>
       <td valign="top"><strong>ONNX in : <em>object, </em></strong>tokenizer session.</td>
     </tr>
   </tbody>
@@ -22,11 +22,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="output_object.png" src="assets/output_object.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="output_object.png" src="/_assets/shared-images/1c/1cb1833f6933-output_object.png" width="42"/></td>
       <td valign="top"><strong>ONNX out : <em>object, </em></strong>tokenizer session.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Array_Unsigned_8.Png" src="assets/output_array_unsigned_8.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Array_Unsigned_8.Png" src="/_assets/shared-images/ee/eeb63aea4468-output_array_unsigned_8.png" width="42"/></td>
       <td valign="top"><strong>token_array : <em>array,</em></strong> the output of the tokenization, where each integer represents a token ID from the model’s vocabulary.</td>
     </tr>
   </tbody>

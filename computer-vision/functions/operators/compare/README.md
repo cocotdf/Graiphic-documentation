@@ -11,19 +11,19 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="assets/input_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="/_assets/shared-images/35/35918d98277f-input_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Src A : <em>class, </em></strong>type accepted <strong>U8</strong> and <strong>I16</strong>.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="assets/input_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="/_assets/shared-images/35/35918d98277f-input_image_src.png" width="42"/></td>
       <td valign="top">Image Src B : <em>class,</em> type accepted <strong>U8</strong> and <strong>I16</strong>.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Enum.Png" src="assets/input_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Enum.Png" src="/_assets/shared-images/5c/5c2b52d3b208-input_enum.png" width="42"/></td>
       <td valign="top">Operator :<em> enum, </em>specifies the comparison operator to use.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Double.Png" src="assets/input_double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Double.Png" src="/_assets/shared-images/3d/3d70b56b9396-input_double.png" width="42"/></td>
       <td valign="top"><strong>Constant :<em> float, </em></strong>value used in comparison with <strong>Image Src A</strong> for image-constant operations.</td>
     </tr>
   </tbody>
@@ -34,7 +34,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="assets/output_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="/_assets/shared-images/24/24dc58704218-output_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Dst : <em>class</em></strong></td>
     </tr>
   </tbody>

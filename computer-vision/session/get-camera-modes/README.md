@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Session.Png" src="assets/input_session.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Session.Png" src="/_assets/shared-images/cb/cbb5c888ebf6-input_session.png" width="42"/></td>
       <td valign="top"><strong>Session Src : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Session.Png" src="assets/output_session.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Session.Png" src="/_assets/shared-images/86/8603666de7ad-output_session.png" width="42"/></td>
       <td valign="top"><strong>Session Dst : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -34,7 +34,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Cluster_2.Png" src="assets/output_cluster_2.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Cluster_2.Png" src="/_assets/shared-images/0a/0a479d27b394-cluster-out.png" width="42"/></td>
       <td valign="top"><strong>Video Modes : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -42,11 +42,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_String.Png" src="assets/output_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_String.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>Name :<em> string, </em></strong>name of the video.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Array_String.Png" src="assets/output_array_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Array_String.Png" src="/_assets/shared-images/43/43e33de4b021-output_array_string.png" width="42"/></td>
       <td valign="top">Modes :<em> array, </em>list of available modes.</td>
     </tr>
   </tbody>
@@ -69,4 +69,4 @@
 
 <h3>Opens and reads the camera in a defined mode</h3>
 
-<p align="center"><img src="assets/get_set_camera_modes.png" alt="get_set_camera_modes" width="260" /></p>
+<p align="center"><img src="/_assets/shared-images/6b/6bc4fbddb7c0-get_set_camera_modes.png" alt="get_set_camera_modes" width="260" /></p>

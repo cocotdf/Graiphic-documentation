@@ -4,22 +4,22 @@
 
 <p>Computes the precision of the predictions with respect to the labels. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="precision.png" src="assets/precision.png" width="460"/></p>
+<p align="center"><img alt="precision.png" src="/_assets/shared-images/9f/9f4fc5632044-precision.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>y_pred : <em>array, </em></strong>predicted values (logits values).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>y_true : <em>array, </em></strong>true values (logits values, or binary values if the threshold value is between 0 and 1).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Single.Png" src="assets/single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Single.Png" src="/_assets/shared-images/e2/e22146c46f27-single.png" width="42"/></td>
       <td valign="top"><strong> thresholds : <em>float,</em></strong> representing the threshold for deciding whether prediction and true values are 1 or 0 (above the threshold is true, below is false).</td>
     </tr>
   </tbody>
@@ -30,7 +30,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Out Single.Png" src="assets/out-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>precision : <em>float, </em></strong>result.</td>
     </tr>
   </tbody>
@@ -57,7 +57,7 @@
 
 <p>Precision is a measure commonly used to evaluate classification models. It is calculated as the number of true positives (TP) divided by the sum of true positives and false positives (FP), i.e. TP / (TP + FP). True positives are cases where the model correctly predicts the positive class, while false positives are cases where the model incorrectly predicts the positive class. High precision means that the model accurately predicts the positive class, but does not take into account its effectiveness in correctly predicting the negative class.</p>
 
-<p align="center"><img alt="precision_calcul" src="assets/precision_calcul.png" width="220"/></p>
+<p align="center"><img alt="precision_calcul" src="/_assets/shared-images/9a/9accf6a9415b-precision_calcul.png" width="220"/></p>
 
 <h2>Example</h2>
 
@@ -65,4 +65,4 @@
 
 <h3>Easy to use</h3>
 
-<p align="center"><img alt="Precision" src="assets/precision.png" width="220"/></p>
+<p align="center"><img alt="Precision" src="/_assets/shared-images/9f/9f4fc5632044-precision.png" width="220"/></p>

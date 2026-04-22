@@ -4,7 +4,7 @@
 
 <p>Returns the GRU layer weights. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="gru_format.png" src="assets/gru_format.png" width="233"/></p>
+<p align="center"><img alt="gru_format.png" src="/_assets/shared-images/02/02be52a0155c-gru_format.png" width="233"/></p>
 
 <h3>Input parameters</h3>
 
@@ -14,7 +14,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>weights : cluster</strong></td>
     </tr>
     <tr>
@@ -22,15 +22,15 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer, </em></strong>index of layer.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String.Png" src="assets/string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String.Png" src="/_assets/shared-images/c7/c7f7e539d8ca-string.png" width="42"/></td>
       <td valign="top"><strong>name : <em>string, </em></strong>name of layer.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="var-in.png" src="assets/var-in.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="var-in.png" src="/_assets/shared-images/b5/b57556fba564-var-in.png" width="42"/></td>
       <td valign="top"><strong>weight : <em>variant, </em></strong>weight of layer.</td>
     </tr>
   </tbody>
@@ -38,7 +38,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img alt="input_weight_format" src="assets/input_weight_format.png" width="220"/></p></td>
+      <td valign="top" width="30%"><p align="center"><img alt="input_weight_format" src="/_assets/shared-images/60/605463a40898-input_weight_format.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>
@@ -51,7 +51,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster Out.Png" src="assets/cluster-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster Out.Png" src="/_assets/shared-images/0a/0a479d27b394-cluster-out.png" width="42"/></td>
       <td valign="top"><strong>weights_info : cluster</strong></td>
     </tr>
     <tr>
@@ -59,15 +59,15 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32 Out.Png" src="assets/integer-32-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32 Out.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer, </em></strong>index of layer.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String Out.Png" src="assets/string-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String Out.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>name : <em>string, </em></strong>name of layer.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster Out.Png" src="assets/cluster-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster Out.Png" src="/_assets/shared-images/0a/0a479d27b394-cluster-out.png" width="42"/></td>
       <td valign="top"><strong>weights : cluster</strong></td>
     </tr>
     <tr>
@@ -75,19 +75,19 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single Out.Png" src="assets/array-single-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single Out.Png" src="/_assets/shared-images/fd/fdf478605b09-array-single-out.png" width="42"/></td>
       <td valign="top"><strong>input_weights : <em>array, </em></strong>2D values. input_weights = [features, 3*units].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single Out.Png" src="assets/array-single-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single Out.Png" src="/_assets/shared-images/fd/fdf478605b09-array-single-out.png" width="42"/></td>
       <td valign="top"><strong>hidden_weights : <em>array, </em></strong>2D values. hidden_weights = [units, 3*units].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single Out.Png" src="assets/array-single-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single Out.Png" src="/_assets/shared-images/fd/fdf478605b09-array-single-out.png" width="42"/></td>
       <td valign="top"><strong>input_biases : <em>array, </em></strong>1D values. input_biases = [3*units].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single Out.Png" src="assets/array-single-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single Out.Png" src="/_assets/shared-images/fd/fdf478605b09-array-single-out.png" width="42"/></td>
       <td valign="top"><strong>hidden_biases : <em>array, </em></strong>1D values. hidden_biases = [3*units].</td>
     </tr>
   </tbody>
@@ -98,7 +98,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img alt="gru_weights_info" src="assets/gru_weights_info.png" width="220"/></p></td>
+      <td valign="top" width="30%"><p align="center"><img alt="gru_weights_info" src="/_assets/shared-images/b2/b29ef394fbac-gru_weights_info.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>

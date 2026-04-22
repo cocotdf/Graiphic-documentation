@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="tool_resources in" src="assets/ctool__resourceslvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="tool_resources in" src="/_assets/shared-images/d0/d02f3e0bb4c0-cgguflvclass.png" width="42"/></td>
       <td valign="top"><strong>tool_resources in : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="tool_resources out" src="assets/itool__resourceslvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="tool_resources out" src="/_assets/shared-images/a5/a5c2d660da20-igguflvclass.png" width="42"/></td>
       <td valign="top"><strong>tool_resources out : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -31,17 +31,17 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="tool_resources" src="assets/icclst.png" width="32"/> <strong>tool_resources : <em>cluster</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="tool_resources" src="/_assets/shared-images/48/48b3dacdc8e3-icclst.png" width="32"/> <strong>tool_resources : <em>cluster</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="file_search" src="assets/icclst.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="file_search" src="/_assets/shared-images/48/48b3dacdc8e3-icclst.png" width="42"/></td>
       <td valign="top"><strong>file_search : <em>cluster</em></strong>
 <ul>
-  <li><img alt="vector_store_ids" src="assets/i1dstr.png" width="32"/> <strong>vector_store_ids : <em>array of string</em></strong>
+  <li><img alt="vector_store_ids" src="/_assets/shared-images/c4/c4de9f5441d0-i1dstr.png" width="32"/> <strong>vector_store_ids : <em>array of string</em></strong>
 <ul>
-  <li><img alt="String" src="assets/istr.png" width="32"/> <strong>String : <em>string</em></strong></li>
+  <li><img alt="String" src="/_assets/shared-images/6d/6d824f6de01c-istr.png" width="32"/> <strong>String : <em>string</em></strong></li>
 </ul></li>
 </ul></td>
     </tr>

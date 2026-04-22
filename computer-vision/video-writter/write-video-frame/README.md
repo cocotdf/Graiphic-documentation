@@ -4,18 +4,18 @@
 
 <p>Write an image to the video. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/write_video_frame.png" alt="Write_Video_Frame.Png" width="297" /></p>
+<p align="center"><img src="/_assets/shared-images/24/24afdae0cbb4-write_video_frame.png" alt="Write_Video_Frame.Png" width="297" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Video_Writer.Png" src="assets/input_video_writer.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Video_Writer.Png" src="/_assets/shared-images/16/16b3d1ec3851-input_video_writer.png" width="42"/></td>
       <td valign="top"><strong>VideoWriter Src : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="assets/input_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="/_assets/shared-images/35/35918d98277f-input_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Src : <em>class, </em></strong>type accepted <strong>U8</strong>, <strong>I16</strong>, <strong>RGB</strong> and <strong>HSL</strong>.</td>
     </tr>
   </tbody>
@@ -26,11 +26,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Video_Writer.Png" src="assets/output_video_writer.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Video_Writer.Png" src="/_assets/shared-images/33/33bcb1d285ab-output_video_writer.png" width="42"/></td>
       <td valign="top"><strong>VideoWriter Dst : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="assets/output_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="/_assets/shared-images/24/24dc58704218-output_image_src.png" width="42"/></td>
       <td valign="top"><strong>Dup Image Src : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -42,7 +42,7 @@
 
 <h3>Create and write video</h3>
 
-<p align="center"><img src="assets/video_writer_example.png" alt="video_writer_example" width="260" /></p>
+<p align="center"><img src="/_assets/shared-images/1c/1cd1349db3ce-video_writer_example.png" alt="video_writer_example" width="260" /></p>
 
 <p>1 – Initialize</p>
 

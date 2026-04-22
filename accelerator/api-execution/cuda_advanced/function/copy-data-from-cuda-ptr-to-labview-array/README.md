@@ -10,7 +10,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Inference in" src="assets/cacc__Inferencelvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Inference in" src="/_assets/shared-images/13/13e0e5643b06-cacc__inferencelvclass.png" width="42"/></td>
       <td valign="top"><strong>Inference in : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -21,7 +21,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Inference out" src="assets/iacc__Inferencelvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Inference out" src="/_assets/shared-images/d7/d7fa4da48d5e-iacc__inferencelvclass.png" width="42"/></td>
       <td valign="top"><strong>Inference out : <em>class</em></strong></td>
     </tr>
   </tbody>

@@ -4,14 +4,14 @@
 
 <p>Extracts the pixels from an image, into a U8 2D array. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/image_to_u8_array.png" alt="Image_To_U8_Array.Png" width="245" /></p>
+<p align="center"><img src="/_assets/shared-images/3b/3b4451bba96f-image_to_u8_array.png" alt="Image_To_U8_Array.Png" width="245" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="assets/input_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="/_assets/shared-images/35/35918d98277f-input_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Src : <em>class, </em></strong>type accepted <strong>U8</strong>.</td>
     </tr>
   </tbody>
@@ -22,15 +22,15 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="assets/output_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="/_assets/shared-images/24/24dc58704218-output_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Dst :<em> class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Array_Unsigned_8_.Png" src="assets/output_array_unsigned_8_.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Array_Unsigned_8_.Png" src="/_assets/shared-images/ee/eeb63aea4468-output_array_unsigned_8.png" width="42"/></td>
       <td valign="top"><strong>Image Array :<em> array, </em></strong>returns the extracted pixel values into a 2D array of unsigned 8-bit integers.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_String.Png" src="assets/output_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_String.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>Image Type :<em> string, </em></strong>type of image (U8_GRAY).</td>
     </tr>
   </tbody>

@@ -10,20 +10,20 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Graphs in" src="assets/ccclst.png" width="32"/> <strong>Graphs in : <em>cluster</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="Graphs in" src="/_assets/shared-images/1a/1a7a9a6249a8-ccclst.png" width="32"/> <strong>Graphs in : <em>cluster</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="x" src="assets/cONNXModellvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="x" src="/_assets/shared-images/7b/7b301cd4aa9d-connxmodellvclass.png" width="42"/></td>
       <td valign="top"><strong>x : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="shape" src="assets/cONNXModellvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="shape" src="/_assets/shared-images/7b/7b301cd4aa9d-connxmodellvclass.png" width="42"/></td>
       <td valign="top"><strong>shape : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="strides" src="assets/cONNXModellvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="strides" src="/_assets/shared-images/7b/7b301cd4aa9d-connxmodellvclass.png" width="42"/></td>
       <td valign="top"><strong>strides : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -37,28 +37,28 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Parameters" src="assets/ccclst.png" width="32"/> <strong>Parameters : <em>cluster</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="Parameters" src="/_assets/shared-images/1a/1a7a9a6249a8-ccclst.png" width="32"/> <strong>Parameters : <em>cluster</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="bfp_type" src="assets/cenum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="bfp_type" src="/_assets/shared-images/7f/7f7e66ba54dc-cenum.png" width="42"/></td>
       <td valign="top"><strong>bfp_type : <em>enum</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="block_dim" src="assets/csgl.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="block_dim" src="/_assets/shared-images/8c/8c54522fc255-csgl.png" width="42"/></td>
       <td valign="top"><strong>block_dim : <em>float</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="dtype" src="assets/cenum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="dtype" src="/_assets/shared-images/7f/7f7e66ba54dc-cenum.png" width="42"/></td>
       <td valign="top"><strong>dtype : <em>enum</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="training?" src="assets/cbool.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="training?" src="/_assets/shared-images/06/06612771a6c0-cbool.png" width="42"/></td>
       <td valign="top"><strong>training? : <em>boolean</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="lda coeff" src="assets/cdbl.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="lda coeff" src="/_assets/shared-images/c7/c71945e6f909-cdbl.png" width="42"/></td>
       <td valign="top"><strong>lda coeff : <em>float</em></strong></td>
     </tr>
   </tbody>
@@ -72,14 +72,14 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="name" src="assets/cstr.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="name" src="/_assets/shared-images/71/714be290bc5b-cstr.png" width="42"/></td>
       <td valign="top"><strong>name : <em>string</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="specified_outputs_name" src="assets/c1dstr.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="specified_outputs_name" src="/_assets/shared-images/ce/ceeb813734df-c1dstr.png" width="42"/></td>
       <td valign="top"><strong>specified_outputs_name : <em>array of string</em></strong>
 <ul>
-  <li><img alt="String" src="assets/cstr.png" width="32"/> <strong>String : <em>string</em></strong></li>
+  <li><img alt="String" src="/_assets/shared-images/71/714be290bc5b-cstr.png" width="32"/> <strong>String : <em>string</em></strong></li>
 </ul></td>
     </tr>
   </tbody>
@@ -90,7 +90,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="y" src="assets/iONNXModellvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="y" src="/_assets/shared-images/1f/1f730a978528-ionnxmodellvclass.png" width="42"/></td>
       <td valign="top"><strong>y : <em>class</em></strong></td>
     </tr>
   </tbody>

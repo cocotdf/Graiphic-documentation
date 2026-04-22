@@ -4,14 +4,14 @@
 
 <p>Computes the hyperbolic secant of x.</p>
 
-<p align="center"><img src="assets/hyperbolic_secant.png" alt="Hyperbolic_Secant.Png" width="170" /></p>
+<p align="center"><img src="/_assets/shared-images/75/75a0cba023f7-hyperbolic_secant.png" alt="Hyperbolic_Secant.Png" width="170" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>x : <em>class, </em></strong>n-dimensional tensor.</td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>sech(x) : <em>class,</em></strong> the hyperbolic secant of x.</td>
     </tr>
   </tbody>

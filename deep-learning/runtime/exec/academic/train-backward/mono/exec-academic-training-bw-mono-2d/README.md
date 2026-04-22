@@ -11,15 +11,15 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Academic.Png" src="assets/input_academic.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Academic.Png" src="/_assets/shared-images/03/039f017e9f6f-input_academic.png" width="42"/></td>
       <td valign="top"><strong>Academic Training in</strong> <strong>: <em>object, </em></strong>academic training session.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>update? :</strong> <em><strong>boolean,</strong></em> indicating whether to update the model weights at this step. If set to <strong>false</strong>, gradients are only accumulated without updating the weights.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>2D Loss Input Data : <em>array</em>, </strong>2D array of data with any type : integers (signed/unsigned), floats, doubles, booleans, or strings.</td>
     </tr>
   </tbody>
@@ -30,7 +30,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Academic.Png" src="assets/output_academic.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Academic.Png" src="/_assets/shared-images/85/85272a982dfe-output_academic.png" width="42"/></td>
       <td valign="top"><strong>Academic Training out</strong> <strong>: <em>object, </em></strong>academic training session.</td>
     </tr>
   </tbody>

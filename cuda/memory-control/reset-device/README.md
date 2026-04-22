@@ -4,7 +4,7 @@
 
 <p>Explicitly destroys and cleans up all resources associated with the current device in the current process.</p>
 
-<p align="center"><img src="assets/reset_device.png" alt="Reset_Device.Png" width="209" /></p>
+<p align="center"><img src="/_assets/shared-images/bd/bd69a21ce4aa-reset_device.png" alt="Reset_Device.Png" width="209" /></p>
 
 <h2>Examples</h2>
 

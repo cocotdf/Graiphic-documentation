@@ -4,7 +4,7 @@
 
 <p>A custom loss function allows you to define your own loss logic, making it possible to go beyond the standard loss functions provided by libraries. Instead of being limited to the default losses (e.g., Binary Crossentropy, MSE), you can create a custom loss by combining existing operations or designing a new formula that better suits your task. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="209"/></p>
+<p align="center"><img alt="enum.png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="209"/></p>
 
 <p>However, custom loss functions can also accept additional arguments if needed, for example, class weights, auxiliary data, or even internal model states. This makes it possible to build more sophisticated loss strategies, including :</p>
 
@@ -27,7 +27,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>Model in : </strong>model architecture.</td>
     </tr>
   </tbody>
@@ -41,7 +41,7 @@
       <td valign="top" width="75%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster Out.Png" src="assets/cluster-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster Out.Png" src="/_assets/shared-images/0a/0a479d27b394-cluster-out.png" width="42"/></td>
       <td valign="top"><strong>Loss :</strong> <em><strong>cluster,</strong></em> this cluster defines the loss function used for model training.</td>
     </tr>
     <tr>
@@ -49,11 +49,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="custom_loss.png" src="assets/custom_loss.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="custom_loss.png" src="/_assets/shared-images/6f/6f9f71af76d3-custom_loss.png" width="42"/></td>
       <td valign="top"><strong>enum :</strong> <em><strong>enum</strong></em>, an enumeration indicating the loss type (e.g., MSE, CrossEntropy, etc.). If <code>enum</code> is set to <code>CustomLoss</code>, the custom class on the right will be used as the loss function. Otherwise, the selected loss will be applied with its default configuration.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="output_object.png" src="assets/output_object.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="output_object.png" src="/_assets/shared-images/1c/1cb1833f6933-output_object.png" width="42"/></td>
       <td valign="top"><strong>Class :</strong> <em><strong>object</strong></em>, a custom loss class instance.</td>
     </tr>
   </tbody>
@@ -61,7 +61,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="25%"><p align="center"><img alt="output_loss" src="assets/output_loss.png" width="220"/></p></td>
+      <td valign="top" width="25%"><p align="center"><img alt="output_loss" src="/_assets/shared-images/aa/aa6fc6d3f68b-output_loss.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>
@@ -71,11 +71,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>y_pred : <em>array,</em></strong> the model’s predictions.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>y_true : <em>array, </em></strong>the ground truth data.</td>
     </tr>
   </tbody>
@@ -89,4 +89,4 @@
 
 <p>All these exemples are snippets PNG, you can drop these Snippet onto the block diagram and get the depicted code added to your VI (Do not forget to install Deep Learning library to run it).</p>
 
-<p align="center"><img alt="loss_exemple" src="assets/loss_exemple.png" width="220"/></p>
+<p align="center"><img alt="loss_exemple" src="/_assets/shared-images/6d/6d01cf4cb9c9-loss_exemple.png" width="220"/></p>

@@ -6,14 +6,14 @@
 
 <p><strong>Warning : A new tensor is created for the output.</strong></p>
 
-<p align="center"><img src="assets/remove_duplicates_1d_array.png" alt="Remove_Duplicates_1D_Array.Png" width="312" /></p>
+<p align="center"><img src="/_assets/shared-images/2e/2ee39c7085bc-remove_duplicates_1d_array.png" alt="Remove_Duplicates_1D_Array.Png" width="312" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>array : <em>class,</em></strong> one-dimentional tensor.</td>
     </tr>
   </tbody>
@@ -24,7 +24,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>array with duplicates removed : <em>class,</em></strong> returns a tensor with the duplicate elements removed from array.</td>
     </tr>
   </tbody>

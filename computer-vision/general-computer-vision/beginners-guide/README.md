@@ -14,7 +14,7 @@
 
 <p>You can drop this snippet onto the block diagram and get the depicted code added to your VI (do not forget to install TIGR library before).</p>
 
-<p align="center"><img src="assets/read-image.png" alt="Read image" width="260" /></p></td>
+<p align="center"><img src="/_assets/shared-images/5d/5d4d5749f72d-read-image.png" alt="Read image" width="260" /></p></td>
     </tr>
   </tbody>
 </table>
@@ -31,7 +31,7 @@
 
 <p>You can drop this snippet onto the block diagram and get the depicted code added to your VI (do not forget to install TIGR library before).</p>
 
-<p align="center"><img alt="open camera 2" src="assets/open_camera.png" width="220"/></p></td>
+<p align="center"><img alt="open camera 2" src="/_assets/shared-images/95/95e1dd27b21b-open_camera.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>
@@ -48,7 +48,7 @@
 
 <p>You can drop this snippet onto the block diagram and get the depicted code added to your VI (do not forget to install TIGR library before).</p>
 
-<p align="center"><img alt="play a video 2" src="assets/play_video.png" width="220"/></p></td>
+<p align="center"><img alt="play a video 2" src="/_assets/shared-images/71/71c88ab40862-play_video.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>

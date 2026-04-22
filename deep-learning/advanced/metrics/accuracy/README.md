@@ -4,18 +4,18 @@
 
 <p>Calculates how often predictions equal labels. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="accuracy.PNG" src="assets/accuracy.PNG" width="460"/></p>
+<p align="center"><img alt="accuracy.PNG" src="/_assets/shared-images/6e/6e902b96630f-accuracy.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Integer 32.Png" src="assets/array-integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Integer 32.Png" src="/_assets/shared-images/90/90ecefc445f7-array-integer-32.png" width="42"/></td>
       <td valign="top"><strong>  y_pred : <em>array, </em></strong>predicted values (numerical label for example, [ 0 ], [ 1 ] and [ 2 ] for 3-class problem).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Integer 32.Png" src="assets/array-integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Integer 32.Png" src="/_assets/shared-images/90/90ecefc445f7-array-integer-32.png" width="42"/></td>
       <td valign="top"><strong>y_true : <em>array, </em></strong>true values (numerical label for example, [ 0 ], [ 1 ] and [ 2 ] for 3-class problem).</td>
     </tr>
   </tbody>
@@ -26,7 +26,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Out Single.Png" src="assets/out-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>accuracy : <em>float, </em></strong>result.</td>
     </tr>
   </tbody>
@@ -59,4 +59,4 @@
 
 <h3>Easy to use</h3>
 
-<p align="center"><img alt="Accuracy" src="assets/accuracy.PNG" width="220"/></p>
+<p align="center"><img alt="Accuracy" src="/_assets/shared-images/6e/6e902b96630f-accuracy.png" width="220"/></p>

@@ -11,11 +11,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Sound Buffer" src="assets/cu64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Sound Buffer" src="/_assets/shared-images/87/87318a9cc128-cu64.png" width="42"/></td>
       <td valign="top"><strong>Sound Buffer : <em>integer</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output Device" src="assets/cu16.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output Device" src="/_assets/shared-images/d9/d9389531307d-cu16.png" width="42"/></td>
       <td valign="top"><strong>Output Device : <em>integer</em></strong></td>
     </tr>
   </tbody>
@@ -24,20 +24,20 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Parameters" src="assets/cnclst.png" width="32"/> <strong>Parameters : <em>cluster</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="Parameters" src="/_assets/shared-images/ba/ba242cb839de-cnclst.png" width="32"/> <strong>Parameters : <em>cluster</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="volume" src="assets/csgl.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="volume" src="/_assets/shared-images/8c/8c54522fc255-csgl.png" width="42"/></td>
       <td valign="top"><strong>volume : <em>float</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="sampleRate" src="assets/ci32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="sampleRate" src="/_assets/shared-images/e6/e64a060992b9-ci32.png" width="42"/></td>
       <td valign="top"><strong>sampleRate : <em>integer</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Channels" src="assets/ci32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Channels" src="/_assets/shared-images/e6/e64a060992b9-ci32.png" width="42"/></td>
       <td valign="top"><strong>Channels : <em>integer</em></strong></td>
     </tr>
   </tbody>

@@ -4,14 +4,14 @@
 
 <p>Gets the Deep Learning library version.</p>
 
-<p align="center"><img alt="Version" src="assets/Version.png" width="260"/></p>
+<p align="center"><img alt="Version" src="/_assets/shared-images/29/290de2cdf401-toolkit-version.png" width="260"/></p>
 
 <h3>Output parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="String Out.Png" src="assets/string-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String Out.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>DeepLearning Version : <em>string, </em></strong>representing the current version of the Deep Learning library.</td>
     </tr>
   </tbody>

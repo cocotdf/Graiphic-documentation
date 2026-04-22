@@ -11,11 +11,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Session.Png" src="assets/input_session.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Session.Png" src="/_assets/shared-images/cb/cbb5c888ebf6-input_session.png" width="42"/></td>
       <td valign="top"><strong>Session Src : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Enum.Png" src="assets/input_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Enum.Png" src="/_assets/shared-images/5c/5c2b52d3b208-input_enum.png" width="42"/></td>
       <td valign="top">Parameters Type :<em> enum, </em>Session generic properties identifier.
 <ul>
 <li>
@@ -55,7 +55,7 @@
 </ul></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Double.Png" src="assets/input_double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Double.Png" src="/_assets/shared-images/3d/3d70b56b9396-input_double.png" width="42"/></td>
       <td valign="top"><strong>Value : <em>float,</em></strong> value for the specified property.</td>
     </tr>
   </tbody>
@@ -66,11 +66,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Session.Png" src="assets/output_session.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Session.Png" src="/_assets/shared-images/86/8603666de7ad-output_session.png" width="42"/></td>
       <td valign="top"><strong>Session Dst : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Boolean.Png" src="assets/output_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Boolean.Png" src="/_assets/shared-images/f4/f4787639135e-output_boolean.png" width="42"/></td>
       <td valign="top"><strong>Succeed? : <em>boolean, </em></strong>true if the property is supported by backend used by the <strong>Session</strong> instance.</td>
     </tr>
   </tbody>

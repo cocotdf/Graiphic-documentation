@@ -4,14 +4,14 @@
 
 <p>Retrieve image information (name, size, and type). Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_image_info.png" alt="Get_Image_Info.Png" width="238" /></p>
+<p align="center"><img src="/_assets/shared-images/98/98b221fa2c14-get_image_info.png" alt="Get_Image_Info.Png" width="238" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="assets/input_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="/_assets/shared-images/35/35918d98277f-input_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Src : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_String.Png" src="assets/output_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_String.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>Name : <em>string, </em></strong>image name.</td>
     </tr>
   </tbody>
@@ -34,7 +34,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Cluster_1.Png" src="assets/output_cluster_1.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Cluster_1.Png" src="/_assets/shared-images/ed/edf449127715-output_cluster_1.png" width="42"/></td>
       <td valign="top"><strong>Image Info : <em>cluster,</em> </strong></td>
     </tr>
     <tr>
@@ -42,15 +42,15 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Width :<em> integer, </em></strong>image width.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Height :<em> integer, </em></strong>image height.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Unsigned_32.Png" src="assets/output_unsigned_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Unsigned_32.Png" src="/_assets/shared-images/7b/7bd02cddb48e-output_unsigned_32.png" width="42"/></td>
       <td valign="top"><strong>Image Type : <em>integer, </em></strong>specifies the type of the image.
 <ul>
 <li>

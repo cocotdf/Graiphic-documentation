@@ -6,14 +6,14 @@
 
 <p><strong>Warning : A new tensor is created for the output. </strong></p>
 
-<p align="center"><img src="assets/fft.png" alt="Fft.Png" width="209" /></p>
+<p align="center"><img src="/_assets/shared-images/82/828c439f6d0d-fft.png" alt="Fft.Png" width="209" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>x : <em>class, </em></strong>tensor to the real input data (in GPU memory) to transform.</td>
     </tr>
   </tbody>
@@ -24,7 +24,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>y : <em>class, </em></strong>contains the complex Fourier coefficients.</td>
     </tr>
   </tbody>
@@ -34,4 +34,4 @@
 
 <p>All these examples are snippets PNG, you can drop these Snippet onto the block diagram and get the depicted code added to your VI (Do not forget to install Accelerator library to run it).</p>
 
-<p align="center"><img src="assets/ex_fft_and_ifft.png" alt="ex_fft_and_ifft" width="260" /></p>
+<p align="center"><img src="/_assets/shared-images/6f/6fe7401e477f-ex_fft_and_ifft.png" alt="ex_fft_and_ifft" width="260" /></p>

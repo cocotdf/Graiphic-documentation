@@ -4,18 +4,18 @@
 
 <p>This function constructs the Givens rotation matrix. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/rotg.png" alt="Rotg.Png" width="240" /></p>
+<p align="center"><img src="/_assets/shared-images/fc/fc6bc34a4f2b-rotg.png" alt="Rotg.Png" width="240" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Single.Png" src="assets/input_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Single.Png" src="/_assets/shared-images/fd/fd47ddc3550b-input_single.png" width="42"/></td>
       <td valign="top"><strong>a : <em>float,</em></strong> scalar that is overwritten with r.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Single.Png" src="assets/input_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Single.Png" src="/_assets/shared-images/fd/fd47ddc3550b-input_single.png" width="42"/></td>
       <td valign="top"><strong>b : <em>float,</em></strong> scalar that is overwritten with z.</td>
     </tr>
   </tbody>
@@ -29,7 +29,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Cluster_1.Png" src="assets/output_cluster_1.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Cluster_1.Png" src="/_assets/shared-images/ed/edf449127715-output_cluster_1.png" width="42"/></td>
       <td valign="top"><strong>rot parameters : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -37,19 +37,19 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Single.Png" src="assets/output_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>a : <em>float,</em></strong> scalar that is overwritten with r.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Single.Png" src="assets/output_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>b : <em>float,</em></strong> scalar that is overwritten with z.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Single.Png" src="assets/output_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>c : <em>float,</em></strong> cosine element of the rotation matrix.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Single.Png" src="assets/output_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>s : <em>float,</em></strong> sine element of the rotation matrix.</td>
     </tr>
   </tbody>

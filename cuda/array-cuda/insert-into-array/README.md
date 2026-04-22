@@ -6,26 +6,26 @@
 
 <p><strong>Warning : A new tensor is created for the output.</strong></p>
 
-<p align="center"><img src="assets/inssert_into_array.png" alt="Inssert_Into_Array.Png" width="289" /></p>
+<p align="center"><img src="/_assets/shared-images/f4/f438852fdcf6-inssert_into_array.png" alt="Inssert_Into_Array.Png" width="289" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>n-dim array : <em>class,</em></strong> n-dimensional tensor in which you want to insert an element, row, column, page, and so on.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>axis : <em>integer,</em></strong> specifies the axis in the array at which you want to insert the element, row, column, page, and so on.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer,</em></strong> specifies the index in the array at which you want to insert the element, row, column, page, and so on.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>n or n-1 dim array : <em>class, </em></strong>element, row, column, or page you want to insert into the tensor specified in “<strong>n-dim array”</strong>.</td>
     </tr>
   </tbody>
@@ -36,7 +36,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>output array : <em>class,</em></strong> is the tensor this function returns with the inserted element(s), row(s), column(s), or page(s).</td>
     </tr>
   </tbody>

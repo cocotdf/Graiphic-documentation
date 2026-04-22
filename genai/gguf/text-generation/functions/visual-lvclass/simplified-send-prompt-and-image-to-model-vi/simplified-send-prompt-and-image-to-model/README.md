@@ -11,15 +11,15 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="image path" src="assets/cpath.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="image path" src="/_assets/shared-images/09/0971eb44b0da-cpath.png" width="42"/></td>
       <td valign="top"><strong>image path : <em>path</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Prompt" src="assets/cstr.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Prompt" src="/_assets/shared-images/71/714be290bc5b-cstr.png" width="42"/></td>
       <td valign="top"><strong>Prompt : <em>string</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Visual in" src="assets/cVisuallvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Visual in" src="/_assets/shared-images/98/981cd5006584-ctextonlylvclass.png" width="42"/></td>
       <td valign="top"><strong>Visual in : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -30,7 +30,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Visual out" src="assets/iVisuallvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Visual out" src="/_assets/shared-images/48/485a943576c5-itextonlylvclass.png" width="42"/></td>
       <td valign="top"><strong>Visual out : <em>class</em></strong></td>
     </tr>
   </tbody>

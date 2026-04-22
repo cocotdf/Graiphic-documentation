@@ -3,8 +3,8 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="50%"><p align="center"><img src="assets/palette_architecture.png" alt="palette_architecture" width="220" /></p></td>
-      <td valign="top" width="50%"><p align="center"><img alt="palette_define" src="assets/palette_define.png" width="220"/></p>
+      <td valign="top" width="50%"><p align="center"><img src="/_assets/shared-images/51/512e7efe5e5e-palette_architecture.png" alt="palette_architecture" width="220" /></p></td>
+      <td valign="top" width="50%"><p align="center"><img alt="palette_define" src="/_assets/shared-images/0b/0bcd774a1c2a-palette_define.png" width="220"/></p>
 
 <p align="center"><img alt="palette_initializer" src="assets/palette_initializer.png" width="220"/></p></td>
     </tr>
@@ -15,9 +15,9 @@
 
 |  | **ICONS** | **RESUME** |
 | --- | --- | --- |
-| [Constant](../constant/README.md) | ![init.png](assets/init.png) | Initializer that generates tensors with constant values.​ |
-| [GlorotNormal](../glorotnormal/README.md) | ![init_with_seed.png](assets/init_with_seed.png) | The Glorot normal initializer, also called Xavier normal initializer. |
-| [GlorotUniform](../glorotuniform/README.md) | ![init_with_value.png](assets/init_with_value.png) | The Glorot uniform initializer, also called Xavier uniform initializer. |
+| [Constant](../constant/README.md) | ![init.png](/_assets/shared-images/26/26f8aa9cffd4-init.png) | Initializer that generates tensors with constant values.​ |
+| [GlorotNormal](../glorotnormal/README.md) | ![init_with_seed.png](/_assets/shared-images/b7/b7344bd58f20-init_with_seed.png) | The Glorot normal initializer, also called Xavier normal initializer. |
+| [GlorotUniform](../glorotuniform/README.md) | ![init_with_value.png](/_assets/shared-images/94/9421663c79f4-init_with_value.png) | The Glorot uniform initializer, also called Xavier uniform initializer. |
 | [HeNormal](../henormal/README.md) | ![Image Missing.Svg](../../../../../_assets/image-missing.svg) | He normal initializer. |
 | [HeUniform](../heuniform/README.md) | ![Image Missing.Svg](../../../../../_assets/image-missing.svg) | He uniform variance scaling initializer. |
 | [Identity](../identity/README.md) | ![Image Missing.Svg](../../../../../_assets/image-missing.svg) | Initializer that generates the identity matrix. |

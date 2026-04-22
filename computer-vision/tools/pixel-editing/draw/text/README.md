@@ -4,14 +4,14 @@
 
 <p>Draw text in an image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/draw_text.png" alt="Draw_Text.Png" width="262" /></p>
+<p align="center"><img src="/_assets/shared-images/48/489df50629d9-draw_text.png" alt="Draw_Text.Png" width="262" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="assets/input_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="/_assets/shared-images/35/35918d98277f-input_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Src : <em>class, </em></strong>type accepted <strong>U8</strong>, <strong>I16</strong>, <strong>RGB</strong> and <strong>HSL</strong>.</td>
     </tr>
   </tbody>
@@ -23,7 +23,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Cluster_2.Png" src="assets/input_cluster_2.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Cluster_2.Png" src="/_assets/shared-images/ab/ab143124dd51-input_cluster_2.png" width="42"/></td>
       <td valign="top"><strong>Text Parameters : <em>cluster</em></strong></td>
     </tr>
     <tr>
@@ -31,19 +31,19 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_String.Png" src="assets/input_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_String.Png" src="/_assets/shared-images/4d/4da8a84d96e6-input_string.png" width="42"/></td>
       <td valign="top"><strong>Text : <em>string, </em></strong>text string to be drawn.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top">X :<em> integer, </em>X coordinate of the text string in the image.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top">Y :<em> integer, </em>Y coordinate of the text string in the image.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Enum.Png" src="assets/input_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Enum.Png" src="/_assets/shared-images/5c/5c2b52d3b208-input_enum.png" width="42"/></td>
       <td valign="top">Font Face :<em> enum, </em>font type.
 <ul>
 <li>
@@ -65,19 +65,19 @@
 </ul></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Double.Png" src="assets/input_double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Double.Png" src="/_assets/shared-images/3d/3d70b56b9396-input_double.png" width="42"/></td>
       <td valign="top"><strong>Font Scale : <em>float, </em></strong>font scale factor that is multiplied by the font-specific base size.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_32.Png" src="assets/input_unsigned_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_32.Png" src="/_assets/shared-images/77/776d514a3938-input_unsigned_32.png" width="42"/></td>
       <td valign="top">Text Color :<em> integer, </em>color of the text.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_32.Png" src="assets/input_unsigned_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_32.Png" src="/_assets/shared-images/77/776d514a3938-input_unsigned_32.png" width="42"/></td>
       <td valign="top"><strong>BG Color : <em>integer, </em></strong>background color of the text overlay.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Thickness : <em>integer, </em></strong>thickness of the lines used to draw a text.</td>
     </tr>
   </tbody>
@@ -95,7 +95,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="assets/output_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="/_assets/shared-images/24/24dc58704218-output_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Dst : <em>class</em></strong></td>
     </tr>
   </tbody>

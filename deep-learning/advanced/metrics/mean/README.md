@@ -4,14 +4,14 @@
 
 <p>Computes the mean of the given values. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="mean.png" src="assets/mean.png" width="460"/></p>
+<p align="center"><img alt="mean.png" src="/_assets/shared-images/d0/d05c1ec4aac0-mean.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>values : <em>array, </em></strong>values to be mean.</td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Out Single.Png" src="assets/out-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>mean : <em>float, </em></strong>result.</td>
     </tr>
   </tbody>
@@ -57,4 +57,4 @@
 
 <h3>Easy to use</h3>
 
-<p align="center"><img alt="Mean" src="assets/mean.png" width="220"/></p>
+<p align="center"><img alt="Mean" src="/_assets/shared-images/d0/d05c1ec4aac0-mean.png" width="220"/></p>

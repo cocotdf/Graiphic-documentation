@@ -4,22 +4,22 @@
 
 <p>This VI transforms a .onnx file into a TensorFlow model using the standard SavedModel directory structure. This format is compatible with TensorFlow Serving and allows easy integration into TensorFlow-based pipelines.</p>
 
-<p align="center"><img alt="convert_onnx_to_tf" src="assets/convert_onnx_to_tf.png" width="220"/></p>
+<p align="center"><img alt="convert_onnx_to_tf" src="/_assets/shared-images/df/df50fd07d4d5-convert_onnx_to_tf.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>Open Netron : <em>boolean, </em></strong>indicating whether to automatically open the resulting ONNX file in Netron after conversion. If true opens in Netron else conversion only.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Path In.Png" src="assets/path-in.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Path In.Png" src="/_assets/shared-images/37/37a46ccf5b9b-path-in.png" width="42"/></td>
       <td valign="top"><strong>ONNX Model Path : <em>path</em>, </strong>path to the ONNX model file (<code>.onnx</code>) to convert. Must contain a valid ONNX graph.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Path In.Png" src="assets/path-in.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Path In.Png" src="/_assets/shared-images/37/37a46ccf5b9b-path-in.png" width="42"/></td>
       <td valign="top"><strong>TF Model Folder Path : <em>path</em>, </strong>destination directory where the converted TensorFlow model will be saved. A new folder will be created (if it doesn’t already exist) containing the standard <code>SavedModel</code> format (<code>saved_model.pb</code>, variables, etc.).</td>
     </tr>
   </tbody>
@@ -30,11 +30,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="String Out.Png" src="assets/string-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String Out.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>standard output : <em>string, </em></strong>text output from the underlying Python process. Can include logs, conversion info, or warnings.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String Out.Png" src="assets/string-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String Out.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>standard error : <em>string, </em></strong>text output capturing any error messages from the Python process, useful for debugging failed conversions.</td>
     </tr>
   </tbody>

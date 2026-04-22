@@ -4,14 +4,14 @@
 
 <p>The linear quantization operator. It consumes a full precision data, a scale, a zero point to compute the low precision / quantized tensor. The quantization formula is y = saturate ((x / y_scale) + y_zero_point). For saturation, it saturates to [0, 255] if it’s uint8, [-128, 127] if it’s int8, [0, 65,535] if it’s uint16, and [-32,768, 32,767] if it’s int16. For (x / y_scale), it’s rounding to nearest ties to even. Refer to <a href="https://en.wikipedia.org/wiki/Rounding">https://en.wikipedia.org/wiki/Rounding</a> for details. Scale and zero point must have same shape. They must be either scalar (per tensor) or 1-D tensor (per ‘axis’).</p>
 
-<p align="center"><img alt="node_microsoft_quantize_linear.png" src="assets/node_microsoft_quantize_linear.png" width="299"/></p>
+<p align="center"><img alt="node_microsoft_quantize_linear.png" src="/_assets/shared-images/b2/b2768e062229-node_microsoft_quantize_linear.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="assets/input_array_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="/_assets/shared-images/60/600c0aac18dc-input_array_string.png" width="42"/></td>
       <td valign="top"><strong><a href="../../../../../../more-deep-learning/nodes-parameters/specified_outputs_name/README.md">specified_outputs_name</a> : <em>array, </em></strong>this parameter lets you manually assign custom names to the output tensors of a node.</td>
     </tr>
   </tbody>
@@ -23,7 +23,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>Graphs in :</strong> <strong><em>cluster,</em></strong> ONNX model architecture.</td>
     </tr>
     <tr>
@@ -31,15 +31,15 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>x (heterogeneous) –</strong> <strong>T1 :</strong> <em><strong>object,</strong></em> N-D full precision Input tensor to be quantized.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>y_scale (heterogeneous) –</strong> <strong>T1 :</strong> <em><strong>object,</strong></em> scale for doing quantization to get ‘y’. It can be a scalar, which means per-tensor/layer quantization, or a 1-D tensor for per-axis quantization.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>y_zero_point (optional, heterogeneous) – T2 : <em>object, </em></strong>zero point for doing quantization to get ‘y’. Shape must match y_scale. Default is uint8 with zero point of 0 if it’s not specified.</td>
     </tr>
   </tbody>
@@ -47,7 +47,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img alt="input_node_quantize_linear" src="assets/input_node_quantize_linear.png" width="220"/></p></td>
+      <td valign="top" width="30%"><p align="center"><img alt="input_node_quantize_linear" src="/_assets/shared-images/e5/e5b2b96c6139-input_node_quantize_linear.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>
@@ -58,7 +58,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>Parameters : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -66,7 +66,7 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>axis : <em>integer,</em></strong> the axis along which same quantization parameters are applied. It’s optional.If it’s not specified, it means per-tensor quantization and input ‘x_scale’ and ‘x_zero_point’ must be scalars.If it’s specified, it means per ‘axis’ quantization and input ‘x_scale’ and ‘x_zero_point’ must be 1-D tensors.</td>
     </tr>
     <tr>
@@ -74,7 +74,7 @@
       <td valign="top">Default value “0”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>saturate :</strong> <em><strong>boolean</strong><strong>,</strong></em> the parameter defines how the conversion behaves if an input value is out of range of the destination type. It only applies for float 8 quantization (float8e4m3fn, float8e4m3fnuz, float8e5m2, float8e5m2fnuz). It is true by default. All cases are fully described in two tables inserted in the operator description.</td>
     </tr>
     <tr>
@@ -82,7 +82,7 @@
       <td valign="top">Default value “True”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>training? :</strong> <em><strong>boolean</strong><strong>,</strong></em> whether the layer is in training mode (can store data for backward).</td>
     </tr>
     <tr>
@@ -90,7 +90,7 @@
       <td valign="top">Default value “True”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Double.Png" src="assets/double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Double.Png" src="/_assets/shared-images/96/9619568f4a4a-double.png" width="42"/></td>
       <td valign="top"><strong>lda coeff :</strong> <em><strong>float</strong><strong>,</strong></em> defines the coefficient by which the loss derivative will be multiplied before being sent to the previous layer (since during the backward run we go backwards).</td>
     </tr>
     <tr>
@@ -101,12 +101,12 @@
 </table></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String.Png" src="assets/string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String.Png" src="/_assets/shared-images/c7/c7f7e539d8ca-string.png" width="42"/></td>
       <td valign="top"><strong>name (optional) :</strong> <em><strong>string,</strong></em> name of the node.</td>
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img alt="param_node_quantize_linear" src="assets/param_node_quantize_linear.png" width="220"/></p></td>
+      <td valign="top" width="30%"><p align="center"><img alt="param_node_quantize_linear" src="/_assets/shared-images/b1/b1283fd8f08a-param_node_quantize_linear.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>
@@ -116,7 +116,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="assets/output_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="/_assets/shared-images/e2/e2d605658777-output_object_3.png" width="42"/></td>
       <td valign="top"><strong>y</strong> <strong>(heterogeneous) –</strong> <strong>T2 : <em>object,</em></strong> N-D quantized output tensor. It has same shape as input ‘x’.</td>
     </tr>
   </tbody>

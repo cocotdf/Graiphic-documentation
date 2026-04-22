@@ -4,14 +4,14 @@
 
 <p>Creates random weights for all layers in the model.</p>
 
-<p align="center"><img alt="set_all_random_weight" src="assets/set_all_random_weight.PNG" width="220"/></p>
+<p align="center"><img alt="set_all_random_weight" src="/_assets/shared-images/fd/fd7f814bc421-set_all_random_weight.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>Model in : </strong>model architecture.</td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Model.Png" src="assets/output_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Model.Png" src="/_assets/shared-images/3c/3c881c79a647-output_model.png" width="42"/></td>
       <td valign="top"><strong>Model out : </strong>model architecture.</td>
     </tr>
   </tbody>
@@ -34,7 +34,7 @@
 
 <h3>Using the “Set All Random Weights” function</h3>
 
-<p align="center"><img alt="set_all_random_weights" src="assets/set_all_random_weights.png" width="220"/></p>
+<p align="center"><img alt="set_all_random_weights" src="/_assets/shared-images/ae/ae882551ff2f-set_all_random_weights.png" width="220"/></p>
 
 <p>1 – Define Graph</p>
 

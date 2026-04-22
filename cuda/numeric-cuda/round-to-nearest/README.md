@@ -4,14 +4,14 @@
 
 <p>Rounds the input to the nearest integer. If the value of the input is midway between two integers, the function returns the nearest even integer.</p>
 
-<p align="center"><img src="assets/round_to_nearest.png" alt="Round_To_Nearest.Png" width="241" /></p>
+<p align="center"><img src="/_assets/shared-images/9e/9e4d001e64e3-round_to_nearest.png" alt="Round_To_Nearest.Png" width="241" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>x : <em>class, </em></strong>n-dimensional tensor.</td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>nearest integer value : <em>class,</em></strong> the resulting nearest integer to number.</td>
     </tr>
   </tbody>

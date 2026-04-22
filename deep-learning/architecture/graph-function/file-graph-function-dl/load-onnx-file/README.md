@@ -12,11 +12,11 @@ This VI initializes an ONNXModel object from a .onnx file, making it ready for u
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Path In.Png" src="assets/path-in.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Path In.Png" src="/_assets/shared-images/37/37a46ccf5b9b-path-in.png" width="42"/></td>
       <td valign="top"><strong>File Path : <em>path</em>,</strong> path to the <code>.onnx</code> file to be loaded. The file must contain a valid ONNX graph.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>Display Loading Popup : <em>boolean, </em></strong>indicating whether to show a loading popup during model import. If true, shows a loading window else, loads the model silently in the background.</td>
     </tr>
   </tbody>
@@ -27,7 +27,7 @@ This VI initializes an ONNXModel object from a .onnx file, making it ready for u
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="assets/output_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="/_assets/shared-images/e2/e2d605658777-output_object_3.png" width="42"/></td>
       <td valign="top"><strong>ONNX out : </strong>reference to the loaded ONNX model, encapsulated in the <code>ONNXModel</code> class of the LabVIEW Deep Learning Toolkit. Functionally equivalent to a model built manually from nodes.</td>
     </tr>
   </tbody>

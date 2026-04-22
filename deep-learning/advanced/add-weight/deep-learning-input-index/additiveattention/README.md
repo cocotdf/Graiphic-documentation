@@ -11,47 +11,47 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Cluster Array In.Png" src="assets/cluster-array-in.png" width="32"/><strong>Weights in : array</strong></p>
+      <td valign="top" width="70%"><p><img alt="Cluster Array In.Png" src="/_assets/shared-images/7c/7c2884d81fe7-cluster-array-in.png" width="32"/><strong>Weights in : array</strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer,</em></strong> index of layer.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="var-in.png" src="assets/var-in.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="var-in.png" src="/_assets/shared-images/b5/b57556fba564-var-in.png" width="42"/></td>
       <td valign="top"><strong>weights : <em>variant,</em></strong> weights values.</td>
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img alt="weights_in_by_index" src="assets/weights_in_by_index.png" width="220"/></p></td>
+      <td valign="top" width="30%"><p align="center"><img alt="weights_in_by_index" src="/_assets/shared-images/9a/9a22bf92b788-weights_in_by_index.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>
 
-<p><img alt="Integer 32.Png" src="assets/integer-32.png" width="32"/><strong>index : <em>integer</em>, </strong>index of layer.<br/><img alt="Array Single.Png" src="assets/array-single.png" width="32"/><strong>scale : <em>array, </em></strong>1D values. scale = query[2] = value[2] = key[2].</p>
+<p><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="32"/><strong>index : <em>integer</em>, </strong>index of layer.<br/><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="32"/><strong>scale : <em>array, </em></strong>1D values. scale = query[2] = value[2] = key[2].</p>
 
 <h3>Output parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Cluster Array Out.Png" src="assets/cluster-array-out.png" width="32"/><strong>Weights out : array</strong></p>
+      <td valign="top" width="70%"><p><img alt="Cluster Array Out.Png" src="/_assets/shared-images/ce/ce79fc3283cc-cluster-array-out.png" width="32"/><strong>Weights out : array</strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32 Out.Png" src="assets/integer-32-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32 Out.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer,</em></strong> index of layer.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="var-out.png" src="assets/var-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="var-out.png" src="/_assets/shared-images/d7/d706fcdab793-var-out.png" width="42"/></td>
       <td valign="top"><strong>weights : <em>variant,</em></strong> weights values.</td>
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img alt="weights_out_by_index" src="assets/weights_out_by_index.png" width="220"/></p></td>
+      <td valign="top" width="30%"><p align="center"><img alt="weights_out_by_index" src="/_assets/shared-images/83/8330633273f9-weights_out_by_index.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>

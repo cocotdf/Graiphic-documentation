@@ -4,18 +4,18 @@
 
 <p>Retrieve a parameter from the session reference (Camera/Video). Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_session_param.png" alt="Get_Session_Param.Png" width="258" /></p>
+<p align="center"><img src="/_assets/shared-images/54/54f4968b045e-get_session_param.png" alt="Get_Session_Param.Png" width="258" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Session.Png" src="assets/input_session.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Session.Png" src="/_assets/shared-images/cb/cbb5c888ebf6-input_session.png" width="42"/></td>
       <td valign="top"><strong>Session Src : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Enum.Png" src="assets/input_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Enum.Png" src="/_assets/shared-images/5c/5c2b52d3b208-input_enum.png" width="42"/></td>
       <td valign="top">Parameters Type :<em> enum, </em>Session generic properties identifier.
 <ul>
 <li>
@@ -62,7 +62,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Double.Png" src="assets/output_double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Double.Png" src="/_assets/shared-images/62/628d73130cf9-output_double.png" width="42"/></td>
       <td valign="top"><strong>Value : <em>float, </em></strong>value for the specified property. Value 0 is returned when querying a property that is not supported by the backend used by the <strong>Session</strong> instance.</td>
     </tr>
   </tbody>

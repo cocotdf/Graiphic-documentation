@@ -4,18 +4,18 @@
 
 <p>Changes a pixel value in a color image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_color_pixel_value.png" alt="Set_Color_Pixel_Value.Png" width="237" /></p>
+<p align="center"><img src="/_assets/shared-images/96/967eb69f61fd-set_color_pixel_value.png" alt="Set_Color_Pixel_Value.Png" width="237" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="assets/input_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="/_assets/shared-images/35/35918d98277f-input_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Src : <em>class, </em></strong>type accepted <strong>RGB</strong> and <strong>HSL</strong>.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_32.Png" src="assets/input_unsigned_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_32.Png" src="/_assets/shared-images/77/776d514a3938-input_unsigned_32.png" width="42"/></td>
       <td valign="top">Pixel Value : <em>integer, </em>pixel value as an unsigned 32-bit integer.</td>
     </tr>
   </tbody>
@@ -27,7 +27,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Cluster_1.Png" src="assets/input_cluster_1.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Cluster_1.Png" src="/_assets/shared-images/d3/d3e052622960-input_cluster_1.png" width="42"/></td>
       <td valign="top"><strong>Coordinate : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -35,11 +35,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>X :<em> integer, </em></strong>horizontal coordinate of the pixel.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top">Y :<em> integer, </em>vertical coordinate of the pixel.</td>
     </tr>
   </tbody>
@@ -47,7 +47,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img src="assets/coordinate.png" alt="coordinate" width="79" /></p></td>
+      <td valign="top" width="30%"><p align="center"><img src="/_assets/shared-images/e8/e82bccc71c1a-coordinate.png" alt="coordinate" width="79" /></p></td>
     </tr>
   </tbody>
 </table>
@@ -57,7 +57,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="assets/output_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="/_assets/shared-images/24/24dc58704218-output_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Dst : <em>class</em></strong></td>
     </tr>
   </tbody>

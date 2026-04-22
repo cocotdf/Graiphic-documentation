@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="tool_choice in" src="assets/ctool__choicelvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="tool_choice in" src="/_assets/shared-images/d0/d02f3e0bb4c0-cgguflvclass.png" width="42"/></td>
       <td valign="top"><strong>tool_choice in : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -20,19 +20,19 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="100%"><p><img alt="object" src="assets/ccclst.png" width="32"/> <strong>object : <em>cluster</em></strong></p>
+      <td valign="top" width="100%"><p><img alt="object" src="/_assets/shared-images/1a/1a7a9a6249a8-ccclst.png" width="32"/> <strong>object : <em>cluster</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="type" src="assets/cstr.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="type" src="/_assets/shared-images/71/714be290bc5b-cstr.png" width="42"/></td>
       <td valign="top"><strong>type : <em>string</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="function" src="assets/ccclst.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="function" src="/_assets/shared-images/1a/1a7a9a6249a8-ccclst.png" width="42"/></td>
       <td valign="top"><strong>function : <em>cluster</em></strong>
 <ul>
-  <li><img alt="name" src="assets/cstr.png" width="32"/> <strong>name : <em>string</em></strong></li>
+  <li><img alt="name" src="/_assets/shared-images/71/714be290bc5b-cstr.png" width="32"/> <strong>name : <em>string</em></strong></li>
 </ul></td>
     </tr>
   </tbody>
@@ -47,7 +47,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="tool_choice out" src="assets/itool__choicelvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="tool_choice out" src="/_assets/shared-images/a5/a5c2d660da20-igguflvclass.png" width="42"/></td>
       <td valign="top"><strong>tool_choice out : <em>class</em></strong></td>
     </tr>
   </tbody>

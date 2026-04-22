@@ -4,22 +4,22 @@
 
 <p>Creates a video reference. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/create_video_writer.png" alt="Create_Video_Writer.Png" width="282" /></p>
+<p align="center"><img src="/_assets/shared-images/3b/3b65cb8d9712-create_video_writer.png" alt="Create_Video_Writer.Png" width="282" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Path.Png" src="assets/input_path.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Path.Png" src="/_assets/shared-images/37/37a46ccf5b9b-path-in.png" width="42"/></td>
       <td valign="top"><strong>Video Path : <em>path, </em></strong>path of the video.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>FPS :</strong> <em><strong>integer,</strong></em> video fps.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_String.Png" src="assets/input_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_String.Png" src="/_assets/shared-images/4d/4da8a84d96e6-input_string.png" width="42"/></td>
       <td valign="top"><strong>Codec : <em>string, </em></strong>video codec.</td>
     </tr>
   </tbody>
@@ -30,7 +30,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Video_Writer.Png" src="assets/output_video_writer.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Video_Writer.Png" src="/_assets/shared-images/33/33bcb1d285ab-output_video_writer.png" width="42"/></td>
       <td valign="top"><strong>VideoWriter Dst : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -42,7 +42,7 @@
 
 <h3>Create and write video</h3>
 
-<p align="center"><img src="assets/video_writer_example.png" alt="video_writer_example" width="260" /></p>
+<p align="center"><img src="/_assets/shared-images/1c/1cd1349db3ce-video_writer_example.png" alt="video_writer_example" width="260" /></p>
 
 <p>1 – Initialize</p>
 

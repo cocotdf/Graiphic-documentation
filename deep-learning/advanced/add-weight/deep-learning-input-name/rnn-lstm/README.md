@@ -4,18 +4,18 @@
 
 <p>Gets the weights of the RNN layer selected by the name. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="get_weights_by_name.PNG" src="assets/get_weights_by_name.PNG" width="240"/></p>
+<p align="center"><img alt="get_weights_by_name.PNG" src="/_assets/shared-images/23/2365c3ecb500-get_weights_by_name.png" width="240"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>Model in : </strong>model architecture.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String.Png" src="assets/string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String.Png" src="/_assets/shared-images/c7/c7f7e539d8ca-string.png" width="42"/></td>
       <td valign="top"><strong>name : <em>string</em>, </strong>name of layer.</td>
     </tr>
   </tbody>
@@ -26,7 +26,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Model.Png" src="assets/output_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Model.Png" src="/_assets/shared-images/3c/3c881c79a647-output_model.png" width="42"/></td>
       <td valign="top"><strong>Model out : </strong>model architecture.</td>
     </tr>
   </tbody>
@@ -38,7 +38,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster Out.Png" src="assets/cluster-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster Out.Png" src="/_assets/shared-images/0a/0a479d27b394-cluster-out.png" width="42"/></td>
       <td valign="top"><strong>weights_info : cluster</strong></td>
     </tr>
     <tr>
@@ -46,15 +46,15 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32 Out.Png" src="assets/integer-32-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32 Out.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer, </em></strong>index of layer.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String Out.Png" src="assets/string-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String Out.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>name : <em>string, </em></strong>name of layer.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster Out.Png" src="assets/cluster-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster Out.Png" src="/_assets/shared-images/0a/0a479d27b394-cluster-out.png" width="42"/></td>
       <td valign="top"><strong>weights : cluster</strong></td>
     </tr>
     <tr>
@@ -62,15 +62,15 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single Out.Png" src="assets/array-single-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single Out.Png" src="/_assets/shared-images/fd/fdf478605b09-array-single-out.png" width="42"/></td>
       <td valign="top"><strong>input_weights : <em>array, </em></strong>2D values. input_weights = [features, 4*units].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single Out.Png" src="assets/array-single-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single Out.Png" src="/_assets/shared-images/fd/fdf478605b09-array-single-out.png" width="42"/></td>
       <td valign="top"><strong>hidden_weights : <em>array, </em></strong>2D values. hidden_weights = [units, 4*units].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single Out.Png" src="assets/array-single-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single Out.Png" src="/_assets/shared-images/fd/fdf478605b09-array-single-out.png" width="42"/></td>
       <td valign="top"><strong>biases : <em>array, </em></strong>1D values. biases = [4*units].</td>
     </tr>
   </tbody>
@@ -81,7 +81,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img alt="lstm_weights_info" src="assets/lstm_weights_info.png" width="220"/></p></td>
+      <td valign="top" width="30%"><p align="center"><img alt="lstm_weights_info" src="/_assets/shared-images/0c/0cabed38dc97-lstm_weights_info.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>

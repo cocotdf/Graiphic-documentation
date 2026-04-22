@@ -13,7 +13,7 @@
       <td width="64" valign="top"><img alt="Graphs in" src="assets/c1dacc__Modellvclass.png" width="42"/></td>
       <td valign="top"><strong>Graphs in : <em>array of class</em></strong>
 <ul>
-  <li><img alt="Graph in" src="assets/cacc__Modellvclass.png" width="32"/> <strong>Graph in : <em>class</em></strong></li>
+  <li><img alt="Graph in" src="/_assets/shared-images/26/26bd4fbca456-cacc__modellvclass.png" width="32"/> <strong>Graph in : <em>class</em></strong></li>
 </ul></td>
     </tr>
   </tbody>
@@ -24,7 +24,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Graph out" src="assets/iacc__Modellvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Graph out" src="/_assets/shared-images/64/6480698979d7-iacc__modellvclass.png" width="42"/></td>
       <td valign="top"><strong>Graph out : <em>class</em></strong></td>
     </tr>
   </tbody>

@@ -4,14 +4,14 @@
 
 <p>Information of the tensor.</p>
 
-<p align="center"><img src="assets/get_tensor_information-1.png" alt="Get_Tensor_Information 1.Png" width="277" /></p>
+<p align="center"><img src="/_assets/shared-images/a7/a7767adfcc90-get_tensor_information-1.png" alt="Get_Tensor_Information 1.Png" width="277" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>Tensor in : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -25,7 +25,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Cluster_1.Png" src="assets/output_cluster_1.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Cluster_1.Png" src="/_assets/shared-images/ed/edf449127715-output_cluster_1.png" width="42"/></td>
       <td valign="top"><strong>Tensor Information : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -33,15 +33,15 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Enum.Png" src="assets/output_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Enum.Png" src="/_assets/shared-images/a0/a0e1d8d91545-output_enum.png" width="42"/></td>
       <td valign="top"><strong>Type : <em>enum, </em></strong>tensor type.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Enum.Png" src="assets/output_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Enum.Png" src="/_assets/shared-images/a0/a0e1d8d91545-output_enum.png" width="42"/></td>
       <td valign="top"><strong>Dimension : <em>enum, </em></strong>tensor dimension.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Device :</strong> <em><strong>integer</strong></em>, device where the tensor is allocated.</td>
     </tr>
   </tbody>

@@ -4,14 +4,14 @@
 
 <p>Uses a specialized edge detection method to accurately estimate the location of edges even under conditions of poor signal-to-noise ratios. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/canny_edge_detection.png" alt="Canny_Edge_Detection.Png" width="274" /></p>
+<p align="center"><img src="/_assets/shared-images/f5/f5cb6f777cae-canny_edge_detection.png" alt="Canny_Edge_Detection.Png" width="274" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="assets/input_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="/_assets/shared-images/35/35918d98277f-input_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Src : <em>class, </em></strong>type accepted<strong> U8 </strong>and<strong> I16.</strong></td>
     </tr>
   </tbody>
@@ -23,7 +23,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Cluster_2.Png" src="assets/input_cluster_2.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Cluster_2.Png" src="/_assets/shared-images/ab/ab143124dd51-input_cluster_2.png" width="42"/></td>
       <td valign="top"><strong>Canny Parameters :<em> cluster,</em></strong></td>
     </tr>
     <tr>
@@ -31,19 +31,19 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Double.Png" src="assets/input_double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Double.Png" src="/_assets/shared-images/3d/3d70b56b9396-input_double.png" width="42"/></td>
       <td valign="top"><strong>Lower Threshold : <em>float, </em></strong>first threshold for the hysteresis procedure.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Double.Png" src="assets/input_double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Double.Png" src="/_assets/shared-images/3d/3d70b56b9396-input_double.png" width="42"/></td>
       <td valign="top"><strong>Higher Threshold : <em>float, </em></strong>second threshold for the hysteresis procedure.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top">Kernel Size<em> : integer, </em>aperture size for the Sobel operator.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="42"/></td>
       <td valign="top"><strong>L2 Gradient : <em>boolean, </em></strong>a flag, indicating whether a more accurate L2 norm should be used to calculate the image gradient magnitude ( L2gradient=true ), or whether the default L1 norm is enough ( L2gradient=false ).</td>
     </tr>
   </tbody>
@@ -61,7 +61,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="assets/output_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="/_assets/shared-images/24/24dc58704218-output_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Dst :<em> class</em></strong></td>
     </tr>
   </tbody>

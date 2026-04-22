@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="tools in" src="assets/ctoolslvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="tools in" src="/_assets/shared-images/d0/d02f3e0bb4c0-cgguflvclass.png" width="42"/></td>
       <td valign="top"><strong>tools in : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="tools out" src="assets/itoolslvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="tools out" src="/_assets/shared-images/a5/a5c2d660da20-igguflvclass.png" width="42"/></td>
       <td valign="top"><strong>tools out : <em>class</em></strong></td>
     </tr>
   </tbody>

@@ -4,26 +4,26 @@
 
 <p>Computes best specificity where sensitivity is &gt; specified value. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="specificity_at_sensitivity.png" src="assets/specificity_at_sensitivity.png" width="460"/></p>
+<p align="center"><img alt="specificity_at_sensitivity.png" src="/_assets/shared-images/2d/2de4f3577dda-specificity_at_sensitivity.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>y_pred : <em>array, </em></strong>predicted values.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>y_true : <em>array, </em></strong>true values.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Single.Png" src="assets/single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Single.Png" src="/_assets/shared-images/e2/e22146c46f27-single.png" width="42"/></td>
       <td valign="top"><strong> sensitivity : <em>float,</em></strong> a scalar value in range [0 ,1].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>num_thresholds</strong><em><strong> : integer</strong><strong>,</strong></em> the number of thresholds to use for matching the given recall.</td>
     </tr>
   </tbody>
@@ -34,7 +34,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Out Single.Png" src="assets/out-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>specificity</strong><strong>_at_sensitivity : <em>float, </em></strong>result.</td>
     </tr>
   </tbody>
@@ -49,8 +49,8 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="50%"><p align="center"><img alt="specificity_calcul" src="assets/specificity_calcul.png" width="220"/></p></td>
-      <td valign="top" width="50%"><p align="center"><img alt="sensitivity_calcul" src="assets/sensitivity_calcul.png" width="220"/></p></td>
+      <td valign="top" width="50%"><p align="center"><img alt="specificity_calcul" src="/_assets/shared-images/8e/8ec82db023eb-specificity_calcul.png" width="220"/></p></td>
+      <td valign="top" width="50%"><p align="center"><img alt="sensitivity_calcul" src="/_assets/shared-images/5e/5ecf66dd4372-sensitivity_calcul.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>
@@ -61,4 +61,4 @@
 
 <h3>Easy to use</h3>
 
-<p align="center"><img alt="SpecificityAtSensitivity" src="assets/specificity_at_sensitivity.png" width="220"/></p>
+<p align="center"><img alt="SpecificityAtSensitivity" src="/_assets/shared-images/2d/2de4f3577dda-specificity_at_sensitivity.png" width="220"/></p>

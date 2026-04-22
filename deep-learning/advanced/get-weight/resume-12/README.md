@@ -3,7 +3,7 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="62%"><p align="center"><img alt="palette_advanced" src="assets/palette_advanced.PNG" width="220"/></p></td>
+      <td valign="top" width="62%"><p align="center"><img alt="palette_advanced" src="/_assets/shared-images/4d/4d254ccf2278-palette_advanced.png" width="220"/></p></td>
       <td valign="top" width="38%"><p align="center"><img alt="palette_get_weight" src="assets/palette_get_weight.png" width="220"/></p></td>
     </tr>
   </tbody>
@@ -16,8 +16,8 @@
 | ### INDEX |  |  |
 | --- | --- | --- |
 |  | **ICONS** | **RESUME** |
-| [Dense](../index/get-dense-weights-by-index/README.md) | ![get_weights_by_index.PNG](assets/get_weights_by_index.PNG) | Gets the weights of the Dense layer selected by the index. |
-| [Embedding](../index/get-embedding-weights-by-index/README.md) | ![get_weights_by_name.PNG](assets/get_weights_by_name.PNG) | Gets the weights of the Embedding layer selected by the index. |
+| [Dense](../index/get-dense-weights-by-index/README.md) | ![get_weights_by_index.PNG](/_assets/shared-images/a8/a88e56673885-get_weights_by_index.png) | Gets the weights of the Dense layer selected by the index. |
+| [Embedding](../index/get-embedding-weights-by-index/README.md) | ![get_weights_by_name.PNG](/_assets/shared-images/23/2365c3ecb500-get_weights_by_name.png) | Gets the weights of the Embedding layer selected by the index. |
 | [AdditiveAttention](../index/get-additive-attention-weights-by-index/README.md) | ![Image Missing.Svg](../../../../_assets/image-missing.svg) | Gets the weights of the AdditiveAttention layer selected by the index. |
 | [Attention](../index/get-attention-weights-by-index/README.md) | ![Image Missing.Svg](../../../../_assets/image-missing.svg) | Gets the weights of the Attention layer selected by the index. |
 | [MultiHeadAttention](../index/get-multi-head-attention-weights-by-index/README.md) | ![Image Missing.Svg](../../../../_assets/image-missing.svg) | Gets the weights of the MultiHeadAttention layer selected by the index. |

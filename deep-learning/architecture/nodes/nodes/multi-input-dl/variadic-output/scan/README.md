@@ -4,7 +4,7 @@
 
 <p>Scan can be used to iterate over one or more scan_input tensors, constructing zero or more scan_output tensors. It combines ideas from general recurrences, functional programming constructs such as scan, fold, map, and zip, and is intended to enable generalizations of RNN-like constructs for sequence-to-sequence processing. Other tensors (referred to as state_variables here) can be used to carry a state when iterating from one element to another (similar to hidden-state in RNNs, also referred to as loop-carried dependences in the context of loops). Many common usages involve a single scan_input tensor (where functionality similar to scan, fold and map can be obtained). When more than one scan_input is used, a behavior similar to zip is obtained.</p>
 
-<p align="center"><img alt="input_array_object_3.png" src="assets/input_array_object_3.png" width="406"/></p>
+<p align="center"><img alt="input_array_object_3.png" src="/_assets/shared-images/95/958d2691cfbc-input_array_object_3.png" width="406"/></p>
 
 <p>The attribute body must be a graph, specifying the computation to be performed in every iteration. It takes as input the current values of the state_variables and the current iterated element of the scan_inputs. It must return the (updated) values of the state_variables and zero or more scan_output_element tensors. The values of the scan_output_element tensors are concatenated over all the iterations to produce the scan_output values of the scan construct (similar to the concatenated intermediate hidden-state values of RNN-like constructs). All the output tensors (state_variables as well as scan_output_element tensors) are required to have the same shape in each iteration of the loop (a restriction imposed to enable efficient memory allocation).</p>
 
@@ -93,7 +93,7 @@ graph rnn-cell-1 (
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="assets/input_array_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="/_assets/shared-images/60/600c0aac18dc-input_array_string.png" width="42"/></td>
       <td valign="top"><strong><a href="../../../../../../more-deep-learning/nodes-parameters/specified_outputs_name/README.md">specified_outputs_name</a> : <em>array, </em></strong>this parameter lets you manually assign custom names to the output tensors of a node.</td>
     </tr>
   </tbody>
@@ -105,7 +105,7 @@ graph rnn-cell-1 (
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>Graphs in :</strong> <strong><em>cluster,</em></strong> ONNX model architecture.</td>
     </tr>
     <tr>
@@ -113,11 +113,11 @@ graph rnn-cell-1 (
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="node_scan.png" src="assets/node_scan.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="node_scan.png" src="/_assets/shared-images/f2/f26baaf51f2e-node_scan.png" width="42"/></td>
       <td valign="top"><strong>initial_state (variadic) – V : <em>object, </em></strong>initial values of the loop’s N state variables.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="output_array_object_3.png" src="assets/output_array_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="output_array_object_3.png" src="/_assets/shared-images/63/63e07bab5ce0-output_array_object_3.png" width="42"/></td>
       <td valign="top"><strong>scan_inputs (variadic) – V : <em>object, </em></strong>M scan_inputs.</td>
     </tr>
   </tbody>
@@ -136,7 +136,7 @@ graph rnn-cell-1 (
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>Parameters : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -144,11 +144,11 @@ graph rnn-cell-1 (
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>body :</strong> <em><strong>object</strong></em>, the graph run each iteration. It has N+M inputs: (loop state variables…, scan_input_elts…). It has N+K outputs: (loop state variables…, scan_output_elts…). Each scan_output is created by concatenating the value of the specified scan_output_elt value at the end of each iteration of the loop. It is an error if the dimensions of these values change across loop iterations.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_64.Png" src="assets/input_interger_64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_64.Png" src="/_assets/shared-images/c9/c9a23cc7d835-input_interger_64.png" width="42"/></td>
       <td valign="top"><strong>num_scan_inputs : <em>integer,</em></strong> an attribute specifying the number of scan_inputs M.</td>
     </tr>
     <tr>
@@ -156,7 +156,7 @@ graph rnn-cell-1 (
       <td valign="top">Default value “0”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Integer 32.Png" src="assets/array-integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Integer 32.Png" src="/_assets/shared-images/90/90ecefc445f7-array-integer-32.png" width="42"/></td>
       <td valign="top"><strong>scan_input_axes : <em>array,</em></strong> an optional list of M flags. The i-th element of the list specifies the axis to be scanned (the sequence axis) for the i-th scan_input. If omitted, 0 will be used as the scan axis for every scan_input. Negative value for an axis means counting dimensions from the back. Accepted range is [-r, r-1] where r = rank(input).</td>
     </tr>
     <tr>
@@ -164,7 +164,7 @@ graph rnn-cell-1 (
       <td valign="top">Default value “empty”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Integer 32.Png" src="assets/array-integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Integer 32.Png" src="/_assets/shared-images/90/90ecefc445f7-array-integer-32.png" width="42"/></td>
       <td valign="top"><strong>scan_input_directions : <em>array,</em></strong> an optional list of M flags. The i-th element of the list specifies the direction to be scanned for the i-th scan_input tensor: 0 indicates forward direction and 1 indicates reverse direction. If omitted, all scan_input tensors will be scanned in the forward direction.</td>
     </tr>
     <tr>
@@ -172,7 +172,7 @@ graph rnn-cell-1 (
       <td valign="top">Default value “empty”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Integer 32.Png" src="assets/array-integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Integer 32.Png" src="/_assets/shared-images/90/90ecefc445f7-array-integer-32.png" width="42"/></td>
       <td valign="top"><strong>scan_output_axes : <em>array,</em></strong> an optional list of K flags. The i-th element of the list specifies the axis for the i-th scan_output. The scan outputs are accumulated along the specified axis. If omitted, 0 will be used as the scan axis for every scan_output. Negative value for an axis means counting dimensions from the back. Accepted range is [-r, r-1].</td>
     </tr>
     <tr>
@@ -180,7 +180,7 @@ graph rnn-cell-1 (
       <td valign="top">Default value “empty”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Integer 32.Png" src="assets/array-integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Integer 32.Png" src="/_assets/shared-images/90/90ecefc445f7-array-integer-32.png" width="42"/></td>
       <td valign="top"><strong>scan_output_direction : <em>array,</em></strong> an optional list of K flags, one for each scan_output. The i-th element of the list specifies whether the i-th scan_output should be constructed by appending or prepending a new value in each iteration: 0 indicates appending and 1 indicates prepending. If omitted, all scan_output tensors will be produced by appending a value in each iteration.</td>
     </tr>
     <tr>
@@ -188,7 +188,7 @@ graph rnn-cell-1 (
       <td valign="top">Default value “empty”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>training? :</strong> <em><strong>boolean</strong></em>, whether the layer is in training mode (can store data for backward).</td>
     </tr>
     <tr>
@@ -196,7 +196,7 @@ graph rnn-cell-1 (
       <td valign="top">Default value “True”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Double.Png" src="assets/double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Double.Png" src="/_assets/shared-images/96/9619568f4a4a-double.png" width="42"/></td>
       <td valign="top"><strong>lda coeff :</strong> <em><strong>float</strong></em>, defines the coefficient by which the loss derivative will be multiplied before being sent to the previous layer (since during the backward run we go backwards).</td>
     </tr>
     <tr>
@@ -207,7 +207,7 @@ graph rnn-cell-1 (
 </table></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String.Png" src="assets/string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String.Png" src="/_assets/shared-images/c7/c7f7e539d8ca-string.png" width="42"/></td>
       <td valign="top"><strong>name (optional) :</strong> <em><strong>string,</strong></em> name of the node.</td>
     </tr>
   </tbody>

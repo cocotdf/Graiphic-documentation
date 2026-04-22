@@ -54,7 +54,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Path In.Png" src="assets/path-in.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Path In.Png" src="/_assets/shared-images/37/37a46ccf5b9b-path-in.png" width="42"/></td>
       <td valign="top"><strong>File Path : <em>path, </em></strong>is the path of model file.</td>
     </tr>
   </tbody>

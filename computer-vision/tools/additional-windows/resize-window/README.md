@@ -4,14 +4,14 @@
 
 <p>Resize the separate window according to its “Window Name”. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/resize_window.png" alt="Resize_Window.Png" width="250" /></p>
+<p align="center"><img src="/_assets/shared-images/cc/cce7f7bbde6e-resize_window.png" alt="Resize_Window.Png" width="250" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_String.Png" src="assets/input_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_String.Png" src="/_assets/shared-images/4d/4da8a84d96e6-input_string.png" width="42"/></td>
       <td valign="top"><strong>Window Name :<em> string, </em></strong>name of the window to be moved.</td>
     </tr>
   </tbody>
@@ -23,7 +23,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Cluster_1.Png" src="assets/input_cluster_1.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Cluster_1.Png" src="/_assets/shared-images/d3/d3e052622960-input_cluster_1.png" width="42"/></td>
       <td valign="top"><strong>Size : <em>cluster,</em></strong> specify the width and height of the window.</td>
     </tr>
     <tr>
@@ -31,11 +31,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Width : <em>integer,</em></strong> width size.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Height : <em>integer,</em></strong> height size.</td>
     </tr>
   </tbody>

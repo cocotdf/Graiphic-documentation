@@ -4,7 +4,7 @@
 
 <p>Adds the weights of the SeparableConv1D layer to the weights table. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="separable_conv_1d_format_by_index.PNG" src="assets/separable_conv_1d_format_by_index.PNG" width="290"/></p>
+<p align="center"><img alt="separable_conv_1d_format_by_index.PNG" src="/_assets/shared-images/65/65229cf797d0-separable_conv_1d_format_by_index.png" width="290"/></p>
 
 <h3>Input parameters</h3>
 
@@ -14,7 +14,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster Array In.Png" src="assets/cluster-array-in.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster Array In.Png" src="/_assets/shared-images/7c/7c2884d81fe7-cluster-array-in.png" width="42"/></td>
       <td valign="top"><strong>Weights in : array</strong></td>
     </tr>
     <tr>
@@ -22,11 +22,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer,</em></strong> index of layer.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="var-in.png" src="assets/var-in.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="var-in.png" src="/_assets/shared-images/b5/b57556fba564-var-in.png" width="42"/></td>
       <td valign="top"><strong>weights : <em>variant,</em></strong> weights values.</td>
     </tr>
   </tbody>
@@ -34,7 +34,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img alt="weights_in_by_index" src="assets/weights_in_by_index.png" width="220"/></p></td>
+      <td valign="top" width="30%"><p align="center"><img alt="weights_in_by_index" src="/_assets/shared-images/9a/9a22bf92b788-weights_in_by_index.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>
@@ -42,19 +42,19 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer</em>, </strong>index of layer.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>filters_depthwise : <em>array, </em></strong>3D values. filters_depthwise = [channels, 1, size].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>filters_pointwise : <em>array, </em></strong>3D values. filters_pointwise = [n_filters, channels, 1].</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>biases : <em>array, </em></strong>1D values. biases = [n_filters].</td>
     </tr>
   </tbody>
@@ -68,7 +68,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster Array Out.Png" src="assets/cluster-array-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster Array Out.Png" src="/_assets/shared-images/ce/ce79fc3283cc-cluster-array-out.png" width="42"/></td>
       <td valign="top"><strong>Weights out : array</strong></td>
     </tr>
     <tr>
@@ -76,11 +76,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32 Out.Png" src="assets/integer-32-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32 Out.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer,</em></strong> index of layer.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="var-out.png" src="assets/var-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="var-out.png" src="/_assets/shared-images/d7/d706fcdab793-var-out.png" width="42"/></td>
       <td valign="top"><strong>weights : <em>variant,</em></strong> weights values.</td>
     </tr>
   </tbody>
@@ -88,7 +88,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img alt="weights_out_by_index" src="assets/weights_out_by_index.png" width="220"/></p></td>
+      <td valign="top" width="30%"><p align="center"><img alt="weights_out_by_index" src="/_assets/shared-images/83/8330633273f9-weights_out_by_index.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>

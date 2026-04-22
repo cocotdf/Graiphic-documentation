@@ -4,18 +4,18 @@
 
 <p>Extracts a line of pixels from a color image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_color_pixel_line.png" alt="Get_Color_Pixel_Line.Png" width="267" /></p>
+<p align="center"><img src="/_assets/shared-images/01/013de77e5a18-get_color_pixel_line.png" alt="Get_Color_Pixel_Line.Png" width="267" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="assets/input_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="/_assets/shared-images/35/35918d98277f-input_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Src : <em>class, </em></strong>type accepted <strong>RGB</strong> and <strong>HSL</strong>.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="assets/input_array_integer_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="/_assets/shared-images/05/052f6e6ea35b-input_array_integer_32.png" width="42"/></td>
       <td valign="top">Line Coordinates : <em>array, </em>array specifying the start x, start y, end x, and end y coordinates of the two end points of the line to extract.</td>
     </tr>
   </tbody>
@@ -26,7 +26,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Array_Unsigned_32_.Png" src="assets/output_array_unsigned_32_.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Array_Unsigned_32_.Png" src="/_assets/shared-images/9d/9dbfea37f4a5-output_array_unsigned_32_.png" width="42"/></td>
       <td valign="top"><strong>Pixel Line :<em> array, </em></strong>returns the pixel values as a 1D array of unsigned 32-bit integer indicators.</td>
     </tr>
   </tbody>

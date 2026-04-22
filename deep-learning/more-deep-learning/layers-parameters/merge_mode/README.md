@@ -3,7 +3,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>merge_mode : <em>enum</em></strong><em>,</em> mode by which outputs of the forward and backward RNNs will be combined.</td>
     </tr>
     <tr>

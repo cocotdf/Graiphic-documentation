@@ -145,7 +145,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Cluster_2.Png" src="assets/input_cluster_2.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Cluster_2.Png" src="/_assets/shared-images/ab/ab143124dd51-input_cluster_2.png" width="42"/></td>
       <td valign="top"><strong>Class : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -153,11 +153,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_String.Png" src="assets/input_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_String.Png" src="/_assets/shared-images/4d/4da8a84d96e6-input_string.png" width="42"/></td>
       <td valign="top"><strong>ClassName : <em>string,</em></strong> class name.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_32.Png" src="assets/input_unsigned_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_32.Png" src="/_assets/shared-images/77/776d514a3938-input_unsigned_32.png" width="42"/></td>
       <td valign="top"><strong>Color : <em>integer,</em></strong> color value.</td>
     </tr>
   </tbody>
@@ -187,11 +187,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="42"/></td>
       <td valign="top"><strong>Display ? : <em>boolean,</em></strong> if true, the class defined by “Class Name” is displayed on the CV display.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_String.Png" src="assets/input_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_String.Png" src="/_assets/shared-images/4d/4da8a84d96e6-input_string.png" width="42"/></td>
       <td valign="top"><strong>Class Name : <em>string,</em></strong> class name.
 <ul>
 <li>
@@ -221,11 +221,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="42"/></td>
       <td valign="top"><strong>Display ? : <em>boolean,</em></strong> if true, the ROI defined by “Index” is displayed on the CV display.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Index : <em>integer,</em></strong> index of ROI.
 <ul>
 <li>
@@ -255,7 +255,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_String.Png" src="assets/input_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_String.Png" src="/_assets/shared-images/4d/4da8a84d96e6-input_string.png" width="42"/></td>
       <td valign="top"><strong>ClassName : <em>string,</em></strong> class name.</td>
     </tr>
   </tbody>
@@ -302,7 +302,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Cluster_1.Png" src="assets/input_cluster_1.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Cluster_1.Png" src="/_assets/shared-images/d3/d3e052622960-input_cluster_1.png" width="42"/></td>
       <td valign="top"><strong>Zoom Center : <em>cluster,</em></strong> zoom-in position.</td>
     </tr>
     <tr>
@@ -310,11 +310,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>X : <em>integer,</em></strong> X coordinate.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Y : <em>integer,</em></strong> Y coordinate.</td>
     </tr>
   </tbody>
@@ -337,7 +337,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Cluster_1.Png" src="assets/input_cluster_1.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Cluster_1.Png" src="/_assets/shared-images/d3/d3e052622960-input_cluster_1.png" width="42"/></td>
       <td valign="top"><strong>Zoom Center : <em>cluster,</em></strong> zoom-out position.</td>
     </tr>
     <tr>
@@ -345,11 +345,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>X : <em>integer,</em></strong> X coordinate.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Y : <em>integer,</em></strong> Y coordinate.</td>
     </tr>
   </tbody>
@@ -368,21 +368,21 @@
 
 <p align="center"><img src="assets/properties.png" alt="properties" width="220" /></p>
 
-<p><img alt="Input_Unsigned_32.Png" src="assets/input_unsigned_32.png" width="32"/><strong>Backgroung Color : <em>cluster,</em></strong> changes the background color of the CV display (permissions : read/write).</p>
+<p><img alt="Input_Unsigned_32.Png" src="/_assets/shared-images/77/776d514a3938-input_unsigned_32.png" width="32"/><strong>Backgroung Color : <em>cluster,</em></strong> changes the background color of the CV display (permissions : read/write).</p>
 
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Input_Array_Cluster_2.Png" src="assets/input_array_cluster_2.png" width="32"/><strong>Class[] : <em>array,</em></strong> get or set classes. (permissions : read/write).</p>
+      <td valign="top" width="70%"><p><img alt="Input_Array_Cluster_2.Png" src="/_assets/shared-images/7c/7c2884d81fe7-cluster-array-in.png" width="32"/><strong>Class[] : <em>array,</em></strong> get or set classes. (permissions : read/write).</p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_String.Png" src="assets/input_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_String.Png" src="/_assets/shared-images/4d/4da8a84d96e6-input_string.png" width="42"/></td>
       <td valign="top"><strong>ClassName : <em>string,</em></strong> class name.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_32.Png" src="assets/input_unsigned_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_32.Png" src="/_assets/shared-images/77/776d514a3938-input_unsigned_32.png" width="42"/></td>
       <td valign="top"><strong>Color : <em>integer,</em></strong> color value.</td>
     </tr>
   </tbody>
@@ -395,16 +395,16 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Input_Array_Cluster_2.Png" src="assets/input_array_cluster_2.png" width="32"/><strong>Class[] (Sgnl) : <em>array,</em></strong> set classes and generate “Class Added” event. (permissions : write only).</p>
+      <td valign="top" width="70%"><p><img alt="Input_Array_Cluster_2.Png" src="/_assets/shared-images/7c/7c2884d81fe7-cluster-array-in.png" width="32"/><strong>Class[] (Sgnl) : <em>array,</em></strong> set classes and generate “Class Added” event. (permissions : write only).</p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_String.Png" src="assets/input_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_String.Png" src="/_assets/shared-images/4d/4da8a84d96e6-input_string.png" width="42"/></td>
       <td valign="top"><strong>ClassName : <em>string,</em></strong> class name.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_32.Png" src="assets/input_unsigned_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_32.Png" src="/_assets/shared-images/77/776d514a3938-input_unsigned_32.png" width="42"/></td>
       <td valign="top"><strong>Color : <em>integer,</em></strong> color value.</td>
     </tr>
   </tbody>
@@ -414,7 +414,7 @@
   </tbody>
 </table>
 
-<p><img alt="Input_Enum.Png" src="assets/input_enum.png" width="32"/><strong>Color Palette Type : <em>enum,</em></strong> color palette selection (permissions : read/write).</p>
+<p><img alt="Input_Enum.Png" src="/_assets/shared-images/5c/5c2b52d3b208-input_enum.png" width="32"/><strong>Color Palette Type : <em>enum,</em></strong> color palette selection (permissions : read/write).</p>
 
 <ul>
 <li>
@@ -429,21 +429,21 @@
 </li>
 </ul>
 
-<p><img alt="Input_Unsigned_32.Png" src="assets/input_unsigned_32.png" width="32"/><strong>Color:Value : <em>integer,</em></strong> color used to draw news ROIs (permissions : read/write).<br/><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="32"/><strong>Color:Visible : <em>boolean,</em></strong> indicates whether the color box is visible (permissions : read/write).</p>
+<p><img alt="Input_Unsigned_32.Png" src="/_assets/shared-images/77/776d514a3938-input_unsigned_32.png" width="32"/><strong>Color:Value : <em>integer,</em></strong> color used to draw news ROIs (permissions : read/write).<br/><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="32"/><strong>Color:Visible : <em>boolean,</em></strong> indicates whether the color box is visible (permissions : read/write).</p>
 
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Input_Cluster_1.Png" src="assets/input_cluster_1.png" width="32"/><strong>Info Box:Position : <em>cluster,</em></strong> position of the top left corner of the label (permissions : read/write).</p>
+      <td valign="top" width="70%"><p><img alt="Input_Cluster_1.Png" src="/_assets/shared-images/d3/d3e052622960-input_cluster_1.png" width="32"/><strong>Info Box:Position : <em>cluster,</em></strong> position of the top left corner of the label (permissions : read/write).</p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>X : <em>integer,</em></strong> X coordinate.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Y : <em>integer,</em></strong> Y coordinate.</td>
     </tr>
   </tbody>
@@ -456,32 +456,32 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Input_Cluster_2.Png" src="assets/input_cluster_2.png" width="32"/><strong>Info Box:Text Visible : <em>cluster,</em></strong> text written in the label (permissions : read/write).</p>
+      <td valign="top" width="70%"><p><img alt="Input_Cluster_2.Png" src="/_assets/shared-images/ab/ab143124dd51-input_cluster_2.png" width="32"/><strong>Info Box:Text Visible : <em>cluster,</em></strong> text written in the label (permissions : read/write).</p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="42"/></td>
       <td valign="top"><strong>Palette Mode : <em>boolean, </em></strong>indicates the mode selected on the palette.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="42"/></td>
       <td valign="top"><strong>Image Info : <em>boolean</em><em>,</em></strong> indicates some information about the image, such as its size, depth and the model used.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="42"/></td>
       <td valign="top"><strong>Mouse Info : <em>boolean</em><em>, </em></strong>RGB value of the pixel where the mouse is positioned and its position.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="42"/></td>
       <td valign="top"><strong>Zoom : <em>boolean</em><em>, </em></strong>zoom factor.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="42"/></td>
       <td valign="top"><strong>Roi Mode : <em>boolean</em><em>, </em></strong>display mode.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="42"/></td>
       <td valign="top"><strong>Fill Roi : <em>boolean</em><em>, </em></strong>display fill mode.</td>
     </tr>
   </tbody>
@@ -494,32 +494,32 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Output_Cluster_2.Png" src="assets/output_cluster_2.png" width="32"/><strong>Info Box:Value : <em>cluster,</em></strong> text written in the label (permissions : read only).</p>
+      <td valign="top" width="70%"><p><img alt="Output_Cluster_2.Png" src="/_assets/shared-images/0a/0a479d27b394-cluster-out.png" width="32"/><strong>Info Box:Value : <em>cluster,</em></strong> text written in the label (permissions : read only).</p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_String.Png" src="assets/output_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_String.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>Mode : <em>string, </em></strong>indicates the mode selected on the palette.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_String.Png" src="assets/output_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_String.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>Image Info : <em>string,</em></strong> indicates some information about the image, such as its size, depth and the model used.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_String.Png" src="assets/output_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_String.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>Mouse : <em>string, </em></strong>RGB value of the pixel where the mouse is positioned and its position.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_String.Png" src="assets/output_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_String.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>Zoom : <em>string, </em></strong>zoom factor.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_String.Png" src="assets/output_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_String.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>Roi Mode : <em>string, </em></strong>display mode.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_String.Png" src="assets/output_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_String.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>Fill Roi : <em>string, </em></strong>display fill mode.</td>
     </tr>
   </tbody>
@@ -529,51 +529,51 @@
   </tbody>
 </table>
 
-<p><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="32"/><strong>Lock:Value : <em>boolean,</em></strong> if true, you can modify the CV interface (permissions : read/write).<br/><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="32"/><strong>Lock:Visible : <em>boolean,</em></strong> indicates whether the lock button is visible (permissions : read/write).</p>
+<p><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="32"/><strong>Lock:Value : <em>boolean,</em></strong> if true, you can modify the CV interface (permissions : read/write).<br/><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="32"/><strong>Lock:Visible : <em>boolean,</em></strong> indicates whether the lock button is visible (permissions : read/write).</p>
 
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Output_Cluster_1.Png" src="assets/output_cluster_1.png" width="32"/><strong>Mouse Position:Down : <em>cluster,</em></strong> last mouse down position (in pixels in the image coordinate system)  (permissions : read only).</p>
+      <td valign="top" width="70%"><p><img alt="Output_Cluster_1.Png" src="/_assets/shared-images/ed/edf449127715-output_cluster_1.png" width="32"/><strong>Mouse Position:Down : <em>cluster,</em></strong> last mouse down position (in pixels in the image coordinate system)  (permissions : read only).</p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>X : <em>integer,</em></strong> X coordinate.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Y : <em>integer,</em></strong> Y coordinate.</td>
     </tr>
   </tbody>
 </table>
 
-<p><img alt="Output_Cluster_1.Png" src="assets/output_cluster_1.png" width="32"/><strong>Mouse Position:Move : <em>cluster,</em></strong> last mouse move position (in pixels in the image coordinate system)  (permissions : read only).</p>
+<p><img alt="Output_Cluster_1.Png" src="/_assets/shared-images/ed/edf449127715-output_cluster_1.png" width="32"/><strong>Mouse Position:Move : <em>cluster,</em></strong> last mouse move position (in pixels in the image coordinate system)  (permissions : read only).</p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>X : <em>integer,</em></strong> X coordinate.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Y : <em>integer,</em></strong> Y coordinate.</td>
     </tr>
   </tbody>
 </table>
 
-<p><img alt="Output_Cluster_1.Png" src="assets/output_cluster_1.png" width="32"/><strong>Mouse Position:Up : <em>cluster,</em></strong> last mouse up position (in pixels in the image coordinate system)  (permissions : read only).</p>
+<p><img alt="Output_Cluster_1.Png" src="/_assets/shared-images/ed/edf449127715-output_cluster_1.png" width="32"/><strong>Mouse Position:Up : <em>cluster,</em></strong> last mouse up position (in pixels in the image coordinate system)  (permissions : read only).</p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>X : <em>integer,</em></strong> X coordinate.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="assets/output_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_32.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Y : <em>integer,</em></strong> Y coordinate.</td>
     </tr>
   </tbody>
@@ -587,7 +587,7 @@
   </tbody>
 </table>
 
-<p><img alt="Input_Enum.Png" src="assets/input_enum.png" width="32"/><strong>Palette Mode : <em>enum,</em></strong> mode selection (permissions : read/write).</p>
+<p><img alt="Input_Enum.Png" src="/_assets/shared-images/5c/5c2b52d3b208-input_enum.png" width="32"/><strong>Palette Mode : <em>enum,</em></strong> mode selection (permissions : read/write).</p>
 
 <ul>
 <li>
@@ -604,36 +604,36 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Input_Cluster_2.Png" src="assets/input_cluster_2.png" width="32"/><strong>Palette:ButtonsVisible : <em>cluster,</em></strong> indicates whether the palette buttons are visible (permissions : read/write).</p>
+      <td valign="top" width="70%"><p><img alt="Input_Cluster_2.Png" src="/_assets/shared-images/ab/ab143124dd51-input_cluster_2.png" width="32"/><strong>Palette:ButtonsVisible : <em>cluster,</em></strong> indicates whether the palette buttons are visible (permissions : read/write).</p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="42"/></td>
       <td valign="top"><strong>Erase : <em>boolean</em><em>, </em></strong>indicates whether the button is visible.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="42"/></td>
       <td valign="top"><strong>MultiROI : <em>boolean</em><em>,</em></strong> indicates whether the button is visible.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="42"/></td>
       <td valign="top"><strong>Zoom : <em>boolean</em><em>, </em></strong>indicates whether the button is visible.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="42"/></td>
       <td valign="top"><strong>Freehand : <em>boolean</em><em>, </em></strong>indicates whether the button is visible.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="42"/></td>
       <td valign="top"><strong>Polygone : <em>boolean</em><em>, </em></strong>indicates whether the button is visible.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="42"/></td>
       <td valign="top"><strong>Rectangle : <em>boolean</em><em>, </em></strong>indicates whether the button is visible.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="42"/></td>
       <td valign="top"><strong>Move : <em>boolean</em><em>, </em></strong>indicates whether the button is visible.</td>
     </tr>
   </tbody>
@@ -643,21 +643,21 @@
   </tbody>
 </table>
 
-<p><img alt="Input_Enum.Png" src="assets/input_enum.png" width="32"/><strong>Palette:Direction : <em>enum,</em></strong> decides whether the palette is in vertical or horizontal direction (permissions : read/write).</p>
+<p><img alt="Input_Enum.Png" src="/_assets/shared-images/5c/5c2b52d3b208-input_enum.png" width="32"/><strong>Palette:Direction : <em>enum,</em></strong> decides whether the palette is in vertical or horizontal direction (permissions : read/write).</p>
 
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Input_Cluster_1.Png" src="assets/input_cluster_1.png" width="32"/><strong>Palette:Position : <em>cluster,</em></strong> position of the top left corner of the palette (permissions : read/write).</p>
+      <td valign="top" width="70%"><p><img alt="Input_Cluster_1.Png" src="/_assets/shared-images/d3/d3e052622960-input_cluster_1.png" width="32"/><strong>Palette:Position : <em>cluster,</em></strong> position of the top left corner of the palette (permissions : read/write).</p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>X : <em>integer,</em></strong> X coordinate.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Y : <em>integer,</em></strong> Y coordinate.</td>
     </tr>
   </tbody>
@@ -667,21 +667,21 @@
   </tbody>
 </table>
 
-<p><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="32"/><strong>Palette:Visible : <em>boolean,</em></strong> indicates whether the palette is visible (permissions : read/write).<br/><img alt="Input_Enum.Png" src="assets/input_enum.png" width="32"/><strong>ROI:Border Size : <em>enum,</em></strong> ROI border size selection (permissions : read/write).<br/><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="32"/><strong>ROI:Mode:Annotation : <em>boolean,</em></strong> define whether the CV diplay should display the Annotation Editor Windows (permissions : read/write).<br/><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="32"/><strong>ROI:Mode:Fill : <em>boolean,</em></strong> define whether the CV diplay should fill the ROI (permissions : read/write).<br/><img alt="Input_Enum.Png" src="assets/input_enum.png" width="32"/><strong>ROI:Mode:Multiple : <em>enum,</em></strong> selects whether you want to display one or more ROIs (permissions : read/write).</p>
+<p><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="32"/><strong>Palette:Visible : <em>boolean,</em></strong> indicates whether the palette is visible (permissions : read/write).<br/><img alt="Input_Enum.Png" src="/_assets/shared-images/5c/5c2b52d3b208-input_enum.png" width="32"/><strong>ROI:Border Size : <em>enum,</em></strong> ROI border size selection (permissions : read/write).<br/><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="32"/><strong>ROI:Mode:Annotation : <em>boolean,</em></strong> define whether the CV diplay should display the Annotation Editor Windows (permissions : read/write).<br/><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="32"/><strong>ROI:Mode:Fill : <em>boolean,</em></strong> define whether the CV diplay should fill the ROI (permissions : read/write).<br/><img alt="Input_Enum.Png" src="/_assets/shared-images/5c/5c2b52d3b208-input_enum.png" width="32"/><strong>ROI:Mode:Multiple : <em>enum,</em></strong> selects whether you want to display one or more ROIs (permissions : read/write).</p>
 
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Input_Cluster_2.Png" src="assets/input_cluster_2.png" width="32"/><strong>ROI:Value : <em>cluster,</em></strong> get or set ROIs shown on display (permissions : read/write).</p>
+      <td valign="top" width="70%"><p><img alt="Input_Cluster_2.Png" src="/_assets/shared-images/ab/ab143124dd51-input_cluster_2.png" width="32"/><strong>ROI:Value : <em>cluster,</em></strong> get or set ROIs shown on display (permissions : read/write).</p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="assets/input_array_integer_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="/_assets/shared-images/05/052f6e6ea35b-input_array_integer_32.png" width="42"/></td>
       <td valign="top"><strong>Global Rectangle : <em>array, </em></strong>minimum rectangle required to contain all of the contours in the ROI. Rectangles are specified by their bounding rectangle, with the format (Left/Top/Right/Bottom)</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Cluster_2.Png" src="assets/input_array_cluster_2.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Cluster_2.Png" src="/_assets/shared-images/7c/7c2884d81fe7-cluster-array-in.png" width="42"/></td>
       <td valign="top"><strong>Contours : <em>array, </em></strong>are each of the individual shapes that define the ROI</td>
     </tr>
     <tr>
@@ -689,19 +689,19 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_String.Png" src="assets/input_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_String.Png" src="/_assets/shared-images/4d/4da8a84d96e6-input_string.png" width="42"/></td>
       <td valign="top"><strong>Class Name : <em>string, </em></strong>class name.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_16.Png" src="assets/input_unsigned_16.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_16.Png" src="/_assets/shared-images/f6/f63ea71f0ad0-input_unsigned_16.png" width="42"/></td>
       <td valign="top"><strong>Type : <em>integer, </em></strong>is the shape type of the contour.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="assets/input_array_integer_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="/_assets/shared-images/05/052f6e6ea35b-input_array_integer_32.png" width="42"/></td>
       <td valign="top"><strong>Coordinates : <em>array, </em></strong>are the coordinates that define the contour.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_32.Png" src="assets/input_unsigned_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_32.Png" src="/_assets/shared-images/77/776d514a3938-input_unsigned_32.png" width="42"/></td>
       <td valign="top"><strong>Color : <em>integer,</em></strong> class color.</td>
     </tr>
   </tbody>
@@ -717,16 +717,16 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Input_Cluster_2.Png" src="assets/input_cluster_2.png" width="32"/><strong>ROI:Value : <em>cluster,</em></strong> set ROIs shown on display and generate ROIs event (permissions : write only).</p>
+      <td valign="top" width="70%"><p><img alt="Input_Cluster_2.Png" src="/_assets/shared-images/ab/ab143124dd51-input_cluster_2.png" width="32"/><strong>ROI:Value : <em>cluster,</em></strong> set ROIs shown on display and generate ROIs event (permissions : write only).</p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="assets/input_array_integer_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="/_assets/shared-images/05/052f6e6ea35b-input_array_integer_32.png" width="42"/></td>
       <td valign="top"><strong>Global Rectangle : <em>array, </em></strong>minimum rectangle required to contain all of the contours in the ROI. Rectangles are specified by their bounding rectangle, with the format (Left/Top/Right/Bottom)</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Cluster_2.Png" src="assets/input_array_cluster_2.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Cluster_2.Png" src="/_assets/shared-images/7c/7c2884d81fe7-cluster-array-in.png" width="42"/></td>
       <td valign="top"><strong>Contours : <em>array, </em></strong>are each of the individual shapes that define the ROI</td>
     </tr>
     <tr>
@@ -734,19 +734,19 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_String.Png" src="assets/input_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_String.Png" src="/_assets/shared-images/4d/4da8a84d96e6-input_string.png" width="42"/></td>
       <td valign="top"><strong>Class Name : <em>string, </em></strong>class name.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_16.Png" src="assets/input_unsigned_16.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_16.Png" src="/_assets/shared-images/f6/f63ea71f0ad0-input_unsigned_16.png" width="42"/></td>
       <td valign="top"><strong>Type : <em>integer, </em></strong>is the shape type of the contour.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="assets/input_array_integer_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="/_assets/shared-images/05/052f6e6ea35b-input_array_integer_32.png" width="42"/></td>
       <td valign="top"><strong>Coordinates : <em>array, </em></strong>are the coordinates that define the contour.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_32.Png" src="assets/input_unsigned_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_32.Png" src="/_assets/shared-images/77/776d514a3938-input_unsigned_32.png" width="42"/></td>
       <td valign="top"><strong>Color : <em>integer,</em></strong> class color.</td>
     </tr>
   </tbody>
@@ -762,44 +762,44 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Input_Array_Cluster_1.Png" src="assets/input_array_cluster_1.png" width="32"/><strong>User Color Palette : <em>array, </em></strong>color palette used to apply color mapping to the image :</p>
+      <td valign="top" width="70%"><p><img alt="Input_Array_Cluster_1.Png" src="/_assets/shared-images/30/3057b4f122df-input_array_cluster_1.png" width="32"/><strong>User Color Palette : <em>array, </em></strong>color palette used to apply color mapping to the image :</p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_8.Png" src="assets/input_unsigned_8.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_8.Png" src="/_assets/shared-images/2c/2caedf35b2a7-input_unsigned_8.png" width="42"/></td>
       <td valign="top"><strong>Red : <em>unsigned integer, </em></strong>value of the red color plane.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_8.Png" src="assets/input_unsigned_8.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_8.Png" src="/_assets/shared-images/2c/2caedf35b2a7-input_unsigned_8.png" width="42"/></td>
       <td valign="top"><strong>Green: <em>unsigned integer, </em></strong>value of the green color plane.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_8.Png" src="assets/input_unsigned_8.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_8.Png" src="/_assets/shared-images/2c/2caedf35b2a7-input_unsigned_8.png" width="42"/></td>
       <td valign="top"><strong>Blue: <em>unsigned integer, </em></strong>value of the bluecolor plane.</td>
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img src="assets/array_color_palette.png" alt="array_color_palette" width="153" /></p></td>
+      <td valign="top" width="30%"><p align="center"><img src="/_assets/shared-images/ae/ae9caa4623dc-array_color_palette.png" alt="array_color_palette" width="153" /></p></td>
     </tr>
   </tbody>
 </table>
 
-<p><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Annotation):Class Added : <em>refnum,</em></strong> user event linked to annotation class added (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Annotation):Class Updated: <em>refnum,</em></strong> user event linked to annotation class updated (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Color : <em>refnum,</em></strong> user event linked to color value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Info Box Position : <em>refnum,</em></strong> user event linked to label position value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Lock : <em>refnum,</em></strong> user event linked to lock value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Lock Visible : <em>refnum,</em></strong> user event linked to lock visible value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Mouse Down : <em>refnum,</em></strong> user event linked to mouse down value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Mouse Move : <em>refnum,</em></strong> user event linked to mouse move value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Mouse Up : <em>refnum,</em></strong> user event linked to mouse up value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Palette Direction : <em>refnum,</em></strong> user event linked to palette direction value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Palette Mode : <em>refnum,</em></strong> user event linked to palette mode value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Palette Position : <em>refnum,</em></strong> user event linked to palette position value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):ROIs : <em>refnum,</em></strong> user event linked to palette position value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Zoom Direction : <em>refnum,</em></strong> user event linked to ROIs value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Zoom Position : <em>refnum,</em></strong> user event linked to zoom position value changed (permissions : read only).<br/><img alt="Input_Enum.Png" src="assets/input_enum.png" width="32"/><strong>Zoom:Direction : <em>enum,</em></strong> decides whether the zoom palette is in vertical or horizontal direction (permissions : read/write).</p>
+<p><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Annotation):Class Added : <em>refnum,</em></strong> user event linked to annotation class added (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Annotation):Class Updated: <em>refnum,</em></strong> user event linked to annotation class updated (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Color : <em>refnum,</em></strong> user event linked to color value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Info Box Position : <em>refnum,</em></strong> user event linked to label position value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Lock : <em>refnum,</em></strong> user event linked to lock value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Lock Visible : <em>refnum,</em></strong> user event linked to lock visible value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Mouse Down : <em>refnum,</em></strong> user event linked to mouse down value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Mouse Move : <em>refnum,</em></strong> user event linked to mouse move value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Mouse Up : <em>refnum,</em></strong> user event linked to mouse up value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Palette Direction : <em>refnum,</em></strong> user event linked to palette direction value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Palette Mode : <em>refnum,</em></strong> user event linked to palette mode value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Palette Position : <em>refnum,</em></strong> user event linked to palette position value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):ROIs : <em>refnum,</em></strong> user event linked to palette position value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Zoom Direction : <em>refnum,</em></strong> user event linked to ROIs value changed (permissions : read only).<br/><img alt="Output_Event_Reference.Png" src="assets/output_event_reference.png" width="32"/><strong>User Event (Value Changed):Zoom Position : <em>refnum,</em></strong> user event linked to zoom position value changed (permissions : read only).<br/><img alt="Input_Enum.Png" src="/_assets/shared-images/5c/5c2b52d3b208-input_enum.png" width="32"/><strong>Zoom:Direction : <em>enum,</em></strong> decides whether the zoom palette is in vertical or horizontal direction (permissions : read/write).</p>
 
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Input_Cluster_1.Png" src="assets/input_cluster_1.png" width="32"/><strong>Zoom:Position : <em>cluster,</em></strong> position of the top left corner of the zoom palette (permissions : read/write).</p>
+      <td valign="top" width="70%"><p><img alt="Input_Cluster_1.Png" src="/_assets/shared-images/d3/d3e052622960-input_cluster_1.png" width="32"/><strong>Zoom:Position : <em>cluster,</em></strong> position of the top left corner of the zoom palette (permissions : read/write).</p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>X : <em>integer,</em></strong> X coordinate.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>Y : <em>integer,</em></strong> Y coordinate.</td>
     </tr>
   </tbody>
@@ -809,4 +809,4 @@
   </tbody>
 </table>
 
-<p><img alt="Input_Boolean.Png" src="assets/input_boolean.png" width="32"/><strong>Zoom:Visible : <em>boolean,</em></strong> indicates whether the zoom palette is visible (permissions : read/write).</p>
+<p><img alt="Input_Boolean.Png" src="/_assets/shared-images/1c/1cd07c2c1382-input_boolean.png" width="32"/><strong>Zoom:Visible : <em>boolean,</em></strong> indicates whether the zoom palette is visible (permissions : read/write).</p>

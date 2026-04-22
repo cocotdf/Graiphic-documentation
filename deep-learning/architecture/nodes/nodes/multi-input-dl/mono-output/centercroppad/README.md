@@ -10,16 +10,16 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Graphs in" src="assets/ccclst.png" width="32"/> <strong>Graphs in : <em>cluster</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="Graphs in" src="/_assets/shared-images/1a/1a7a9a6249a8-ccclst.png" width="32"/> <strong>Graphs in : <em>cluster</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="input_data" src="assets/cONNXModellvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="input_data" src="/_assets/shared-images/7b/7b301cd4aa9d-connxmodellvclass.png" width="42"/></td>
       <td valign="top"><strong>input_data : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="shape" src="assets/cONNXModellvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="shape" src="/_assets/shared-images/7b/7b301cd4aa9d-connxmodellvclass.png" width="42"/></td>
       <td valign="top"><strong>shape : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -33,23 +33,23 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Parameters" src="assets/ccclst.png" width="32"/> <strong>Parameters : <em>cluster</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="Parameters" src="/_assets/shared-images/1a/1a7a9a6249a8-ccclst.png" width="32"/> <strong>Parameters : <em>cluster</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="axes" src="assets/c1di64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="axes" src="/_assets/shared-images/a4/a466ab17832c-c1di64.png" width="42"/></td>
       <td valign="top"><strong>axes : <em>array of integer</em></strong>
 <ul>
-  <li><img alt="Numeric" src="assets/ci64.png" width="32"/> <strong>Numeric : <em>integer</em></strong></li>
+  <li><img alt="Numeric" src="/_assets/shared-images/b6/b6c25b5c1c13-ci64.png" width="32"/> <strong>Numeric : <em>integer</em></strong></li>
 </ul></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="training?" src="assets/cbool.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="training?" src="/_assets/shared-images/06/06612771a6c0-cbool.png" width="42"/></td>
       <td valign="top"><strong>training? : <em>boolean</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="lda coeff" src="assets/cdbl.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="lda coeff" src="/_assets/shared-images/c7/c71945e6f909-cdbl.png" width="42"/></td>
       <td valign="top"><strong>lda coeff : <em>float</em></strong></td>
     </tr>
   </tbody>
@@ -63,14 +63,14 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="name" src="assets/cstr.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="name" src="/_assets/shared-images/71/714be290bc5b-cstr.png" width="42"/></td>
       <td valign="top"><strong>name : <em>string</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="specified_outputs_name" src="assets/c1dstr.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="specified_outputs_name" src="/_assets/shared-images/ce/ceeb813734df-c1dstr.png" width="42"/></td>
       <td valign="top"><strong>specified_outputs_name : <em>array of string</em></strong>
 <ul>
-  <li><img alt="String" src="assets/cstr.png" width="32"/> <strong>String : <em>string</em></strong></li>
+  <li><img alt="String" src="/_assets/shared-images/71/714be290bc5b-cstr.png" width="32"/> <strong>String : <em>string</em></strong></li>
 </ul></td>
     </tr>
   </tbody>
@@ -81,7 +81,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="output_data" src="assets/iONNXModellvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="output_data" src="/_assets/shared-images/1f/1f730a978528-ionnxmodellvclass.png" width="42"/></td>
       <td valign="top"><strong>output_data : <em>class</em></strong></td>
     </tr>
   </tbody>

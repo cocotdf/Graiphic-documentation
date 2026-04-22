@@ -3,7 +3,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>optimizer :</strong> <em><strong>enum</strong></em>, updates the model’s weights during training based on the computed gradients, guiding the model toward minimizing the loss function.</td>
     </tr>
   </tbody>

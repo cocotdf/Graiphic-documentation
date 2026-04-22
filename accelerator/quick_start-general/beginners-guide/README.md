@@ -22,7 +22,7 @@
 
 <p>You can drop this snippet onto the block diagram and get the depicted code added to your VI (do not forget to install the LabVIEW deep learning library before).</p>
 
-<p align="center"><img alt="summarize" src="assets/summarize-1.png" width="220"/></p></td>
+<p align="center"><img alt="summarize" src="/_assets/shared-images/d0/d0722b9c7f5c-summarize-1.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>
@@ -39,7 +39,7 @@
 
 <p>You can drop this snippet onto the block diagram and get the depicted code added to your VI (do not forget to install the LabVIEW deep learning library before).</p>
 
-<p align="center"><img alt="Ru a model" src="assets/ru-a-model.png" width="220"/></p></td>
+<p align="center"><img alt="Ru a model" src="/_assets/shared-images/88/8820cda3b2e6-ru-a-model.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>
@@ -58,7 +58,7 @@
 
 <p>You can drop this snippet onto the block diagram and get the depicted code added to your VI (do not forget to install the LabVIEW deep learning library before).</p>
 
-<p align="center"><img alt="save model" src="assets/save-model.png" width="220"/></p></td>
+<p align="center"><img alt="save model" src="/_assets/shared-images/4b/4b00dea0c216-save-model.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>
@@ -73,7 +73,7 @@
 
 <p>You can drop this snippet onto the block diagram and get the depicted code added to your VI (do not forget to install the LabVIEW deep learning library before).</p>
 
-<p align="center"><img alt="load model" src="assets/load-model 2.png" width="220"/></p></td>
+<p align="center"><img alt="load model" src="/_assets/shared-images/fe/fe201b16425e-load-model-2.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>

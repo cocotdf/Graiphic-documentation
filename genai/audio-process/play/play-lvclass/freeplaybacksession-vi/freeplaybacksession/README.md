@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Play in" src="assets/cPlaylvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Play in" src="/_assets/shared-images/c8/c8e762340073-cplaylvclass.png" width="42"/></td>
       <td valign="top"><strong>Play in : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -22,11 +22,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Play out" src="assets/iPlaylvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Play out" src="/_assets/shared-images/50/50f05b27def3-iplaylvclass.png" width="42"/></td>
       <td valign="top"><strong>Play out : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="deleted" src="assets/ibool.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="deleted" src="/_assets/shared-images/e7/e72f669fda50-ibool.png" width="42"/></td>
       <td valign="top"><strong>deleted : <em>boolean</em></strong></td>
     </tr>
   </tbody>

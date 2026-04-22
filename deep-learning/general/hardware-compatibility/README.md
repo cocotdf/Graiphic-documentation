@@ -6,6 +6,6 @@
 
 <p>To know which version of cuda is used with your Graiphic toolkits please consult the <a href="https://graiphic.io/support-community/forum/update/releases/">release notes page</a>.</p>
 
-<p align="center"><img src="assets/cartes.png" alt="Cartes" width="220" /></p>
+<p align="center"><img src="/_assets/shared-images/50/50a3266c20ba-cartes.png" alt="Cartes" width="220" /></p>
 
-<p align="center"><img src="assets/cartes-2.png" alt="Cartes 2" width="220" /></p>
+<p align="center"><img src="/_assets/shared-images/1d/1d5e3ac7d2ea-cartes-2.png" alt="Cartes 2" width="220" /></p>

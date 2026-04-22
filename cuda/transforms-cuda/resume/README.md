@@ -13,5 +13,5 @@
 
 |  | **ICONS** | **DESCRIPTION** |
 | --- | --- | --- |
-| [FFT](../fft/README.md) | ![Fft.Png](assets/fft.png) | Executes a single-precision real-to-complex, implicitly forward, cuFFT transform plan. |
-| [Inverse FFT](../inverse-fft/README.md) | ![Inverse_Fft.Png](assets/inverse_fft.png) | Executes a single-precision complex-to-real, implicitly inverse, CUFFT transform plan. |
+| [FFT](../fft/README.md) | ![Fft.Png](/_assets/shared-images/82/828c439f6d0d-fft.png) | Executes a single-precision real-to-complex, implicitly forward, cuFFT transform plan. |
+| [Inverse FFT](../inverse-fft/README.md) | ![Inverse_Fft.Png](/_assets/shared-images/59/59fd2b9a2686-inverse_fft.png) | Executes a single-precision complex-to-real, implicitly inverse, CUFFT transform plan. |

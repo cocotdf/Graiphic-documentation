@@ -11,11 +11,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>data : <em>array, </em></strong>a tensor containing one‑hot encoded data or class probabilities along one axis. The size of the axis specified in <code>axis</code> corresponds to the number of classes.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>axis : <em>integer,  </em></strong>the axis along which the class dimension is located. The function will search for the index of the maximum value along this axis to determine the categorical label.
 <ul>
 <li> </li>
@@ -29,11 +29,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single Out.Png" src="assets/array-single-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single Out.Png" src="/_assets/shared-images/fd/fdf478605b09-array-single-out.png" width="42"/></td>
       <td valign="top"><strong>percentage : <em>array, </em></strong>tensor containing the maximum value along the specified axis for each element (e.g. the confidence or probability of the predicted class).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Out Array Integer 32.Png" src="assets/out-array-integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Array Integer 32.Png" src="/_assets/shared-images/fe/fe7405762e7c-output_array_integer_32.png" width="42"/></td>
       <td valign="top"><strong>label : <em>array, </em></strong>tensor of integer class indices obtained by taking the argmax along the specified axis. This is the categorical label corresponding to the one‑hot encoding.</td>
     </tr>
   </tbody>

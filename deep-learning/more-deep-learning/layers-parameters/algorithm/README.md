@@ -3,7 +3,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>algorithm :</strong> <em><strong>enum</strong></em>, (name of optimizer) for optimizer instance.</td>
     </tr>
     <tr>

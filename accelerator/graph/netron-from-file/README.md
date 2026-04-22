@@ -10,7 +10,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="File Path" src="assets/cpath.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="File Path" src="/_assets/shared-images/09/0971eb44b0da-cpath.png" width="42"/></td>
       <td valign="top"><strong>File Path : <em>path</em></strong></td>
     </tr>
   </tbody>
@@ -21,7 +21,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="File Path" src="assets/ipath.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="File Path" src="/_assets/shared-images/2c/2c5c33e02735-ipath.png" width="42"/></td>
       <td valign="top"><strong>File Path : <em>path</em></strong></td>
     </tr>
   </tbody>

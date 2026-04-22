@@ -10,7 +10,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Graph in" src="assets/cacc__Modellvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Graph in" src="/_assets/shared-images/26/26bd4fbca456-cacc__modellvclass.png" width="42"/></td>
       <td valign="top"><strong>Graph in : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -21,16 +21,16 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="graphs_out" src="assets/i1dcclst.png" width="32"/> <strong>graphs_out : <em>array of cluster</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="graphs_out" src="/_assets/shared-images/fc/fcb3fe7c9ca3-i1dcclst.png" width="32"/> <strong>graphs_out : <em>array of cluster</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="model" src="assets/iacc__Modellvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="model" src="/_assets/shared-images/64/6480698979d7-iacc__modellvclass.png" width="42"/></td>
       <td valign="top"><strong>model : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="last_layer_name" src="assets/istr.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="last_layer_name" src="/_assets/shared-images/6d/6d824f6de01c-istr.png" width="42"/></td>
       <td valign="top"><strong>last_layer_name : <em>string</em></strong></td>
     </tr>
   </tbody>

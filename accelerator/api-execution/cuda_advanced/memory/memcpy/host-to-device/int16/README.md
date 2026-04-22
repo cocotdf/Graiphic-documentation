@@ -10,11 +10,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="devPtr" src="assets/cu64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="devPtr" src="/_assets/shared-images/87/87318a9cc128-cu64.png" width="42"/></td>
       <td valign="top"><strong>devPtr : <em>integer</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="size" src="assets/cu64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="size" src="/_assets/shared-images/87/87318a9cc128-cu64.png" width="42"/></td>
       <td valign="top"><strong>size : <em>integer</em></strong></td>
     </tr>
     <tr>
@@ -32,7 +32,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="dup devPtr" src="assets/iu64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="dup devPtr" src="/_assets/shared-images/77/77acaca6b85f-iu64.png" width="42"/></td>
       <td valign="top"><strong>dup devPtr : <em>integer</em></strong></td>
     </tr>
   </tbody>

@@ -4,18 +4,18 @@
 
 <p>Gets the output size of the layer selected by the index given as input.</p>
 
-<p align="center"><img alt="get_output_shape_by_idx" src="assets/get_output_shape_by_idx.png" width="220"/></p>
+<p align="center"><img alt="get_output_shape_by_idx" src="/_assets/shared-images/1b/1b8ab8dff590-get_output_shape_by_idx.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>Model in : </strong>model architecture.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer</em>, </strong>layer index.</td>
     </tr>
   </tbody>
@@ -26,7 +26,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Model.Png" src="assets/output_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Model.Png" src="/_assets/shared-images/3c/3c881c79a647-output_model.png" width="42"/></td>
       <td valign="top"><strong>Model out : </strong>model architecture.</td>
     </tr>
   </tbody>
@@ -38,7 +38,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster Out.Png" src="assets/cluster-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster Out.Png" src="/_assets/shared-images/0a/0a479d27b394-cluster-out.png" width="42"/></td>
       <td valign="top"><strong>output : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -46,7 +46,7 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster Out.Png" src="assets/cluster-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster Out.Png" src="/_assets/shared-images/0a/0a479d27b394-cluster-out.png" width="42"/></td>
       <td valign="top"><strong>Name : <em>cluster,</em></strong></td>
     </tr>
     <tr>
@@ -54,30 +54,30 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="String Out.Png" src="assets/string-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String Out.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>node : <em>string</em>,</strong> name of the ONNX node producing the output (e.g., <code>Dense_342_output</code>).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String Out.Png" src="assets/string-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String Out.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>output : <em>string</em>,</strong> identifier of the output tensor from this node.</td>
     </tr>
   </tbody>
 </table></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32 Out.Png" src="assets/integer-32-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32 Out.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer</em>,</strong> index of the node within the ONNX graph, used to perform <code>get</code> or <code>set</code> operations on a specific node.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32 Out.Png" src="assets/integer-32-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32 Out.Png" src="/_assets/shared-images/c8/c80fd0f5f3d5-output_interger_32.png" width="42"/></td>
       <td valign="top"><strong>output_order : <em>integer</em>,</strong> index of the output (useful to retrieve the data after execution if there are multiple outputs).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Out Array Integer 32.Png" src="assets/out-array-integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Out Array Integer 32.Png" src="/_assets/shared-images/fe/fe7405762e7c-output_array_integer_32.png" width="42"/></td>
       <td valign="top"><strong>output_shape : <em>array</em>,</strong> expected shape of the output tensor. This shape is only valid for models using explicit <code>Layers</code>, and the first dimension always corresponds to the batch size (even if shown as 1 here).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="output_enum.png" src="assets/output_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="output_enum.png" src="/_assets/shared-images/a0/a0e1d8d91545-output_enum.png" width="42"/></td>
       <td valign="top"><strong>dtype : <em>enum, </em></strong>data type of the output tensor (e.g., <code>FLOAT</code> for floating-point tensors).</td>
     </tr>
   </tbody>
@@ -85,7 +85,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img alt="output_shape" src="assets/output_shape.png" width="220"/></p></td>
+      <td valign="top" width="30%"><p align="center"><img alt="output_shape" src="/_assets/shared-images/46/46646f7d3758-output_shape.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>

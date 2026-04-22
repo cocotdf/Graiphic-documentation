@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object.Png" src="assets/input_object.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object.Png" src="/_assets/shared-images/3e/3e8ae6d52219-input_object.png" width="42"/></td>
       <td valign="top"><strong>ONNX in : <em>object, </em></strong>llama generator session.</td>
     </tr>
   </tbody>
@@ -22,15 +22,15 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="output_object.png" src="assets/output_object.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="output_object.png" src="/_assets/shared-images/1c/1cb1833f6933-output_object.png" width="42"/></td>
       <td valign="top"><strong>ONNX out : <em>object, </em></strong>llama generator session.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String Out.Png" src="assets/string-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String Out.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>output_string : <em>string, </em></strong>the latest generated token, returned as a string.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="booleen.png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="booleen.png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>is_done : <em>boolean,</em></strong> indicates whether the text generation process has finished.</td>
     </tr>
   </tbody>

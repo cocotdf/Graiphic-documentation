@@ -11,11 +11,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object.Png" src="assets/input_object.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object.Png" src="/_assets/shared-images/3e/3e8ae6d52219-input_object.png" width="42"/></td>
       <td valign="top"><strong>ONNX in : <em>object, </em></strong>tokenizer session.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Path In.Png" src="assets/path-in.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Path In.Png" src="/_assets/shared-images/37/37a46ccf5b9b-path-in.png" width="42"/></td>
       <td valign="top"><strong>Tokenizer Path : <em>path, </em></strong>path to the onnx tokenizer file.</td>
     </tr>
   </tbody>
@@ -26,7 +26,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="output_object_2.png" src="assets/output_object_2.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="output_object_2.png" src="/_assets/shared-images/31/31eb3e43cfa1-output_object_2.png" width="42"/></td>
       <td valign="top"><strong>ONNX out : <em>object, </em></strong>tokenizer session.</td>
     </tr>
   </tbody>

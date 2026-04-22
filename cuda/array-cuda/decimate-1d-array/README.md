@@ -6,18 +6,18 @@
 
 <p><strong>Warning : A new tensor is created for each element in the output array.</strong></p>
 
-<p align="center"><img src="assets/decimate_1d_array.png" alt="Decimate_1D_Array.Png" width="305" /></p>
+<p align="center"><img src="/_assets/shared-images/29/29c447abd21b-decimate_1d_array.png" alt="Decimate_1D_Array.Png" width="305" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>array : <em>class,</em></strong> one-dimentional tensor.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>nb_output_array : <em>integer,</em></strong> number of output arrays.</td>
     </tr>
   </tbody>
@@ -28,7 +28,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>decimated arrays : <em>array,</em></strong> the function stores array[0] at index 0 of the first output array, array[1] is stored at index 0 of the second output array, array[n-1] at index 0 of the last output array, array[n] at index 1 of the first output array, and so on, where n is the number of output terminals for this function.</td>
     </tr>
   </tbody>

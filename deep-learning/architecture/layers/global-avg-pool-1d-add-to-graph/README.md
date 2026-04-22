@@ -4,14 +4,14 @@
 
 <p>Setup and add the global average pooling 1D layer into the model during the definition graph step. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/global_average_pooling_1d_add_to_graph.png" alt="Global_Average_Pooling_1D_Add_To_Graph.Png" width="265" /></p>
+<p align="center"><img src="/_assets/shared-images/5d/5d034fa8d98d-global_average_pooling_1d_add_to_graph.png" alt="Global_Average_Pooling_1D_Add_To_Graph.Png" width="265" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>Model in : </strong>model architecture.</td>
     </tr>
   </tbody>
@@ -31,7 +31,7 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Array_Enum.Png" src="assets/output_array_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Array_Enum.Png" src="/_assets/shared-images/93/9363ce0bc3eb-output_array_enum.png" width="42"/></td>
       <td valign="top"><strong>data format : <em>enum</em></strong>, one of <strong>channels_last</strong> or <strong>channels_first</strong> (default) . The ordering of the dimensions in the inputs. <strong>channel_last</strong> corresponds to inputs with shape <strong>(batch, steps, features)</strong> while <strong>channels_first</strong> corresponds to inputs with shape <strong>(batch, features, steps)</strong>.</td>
     </tr>
     <tr>
@@ -39,7 +39,7 @@
       <td valign="top">Default value “channels_first”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>keep dims :</strong> <em><strong>boolean</strong></em>, A boolean, whether to keep the spatial dimensions or not. If keepdims is ‘False’ (default), the rank of the tensor is reduced for spatial dimensions. If keepdims is ‘True’, the spatial dimensions are retained with length 1.</td>
     </tr>
     <tr>
@@ -47,7 +47,7 @@
       <td valign="top">Default value “False”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>training? :</strong> <em><strong>boolean</strong></em>, whether the layer is in training mode (can store data for backward).</td>
     </tr>
     <tr>
@@ -55,7 +55,7 @@
       <td valign="top">Default value “True”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Double.Png" src="assets/input_array_double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Double.Png" src="/_assets/shared-images/d3/d3668fbba8f6-input_array_double.png" width="42"/></td>
       <td valign="top"><strong>lda coeff :</strong> <em><strong>float</strong></em>, defines the coefficient by which the loss derivative will be multiplied before being sent to the previous layer (since during the backward run we go backwards).</td>
     </tr>
     <tr>
@@ -67,7 +67,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="25%"><p align="center"><img src="assets/global_avg_pool.png" alt="global_avg_pool" width="106" /></p></td>
+      <td valign="top" width="25%"><p align="center"><img src="/_assets/shared-images/5b/5b169e36dcdd-global_avg_pool.png" alt="global_avg_pool" width="106" /></p></td>
     </tr>
   </tbody>
 </table>
@@ -75,7 +75,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="assets/input_array_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="/_assets/shared-images/60/600c0aac18dc-input_array_string.png" width="42"/></td>
       <td valign="top"><strong>name (optional) :</strong> <em><strong>string,</strong></em> name of the layer.</td>
     </tr>
   </tbody>
@@ -86,7 +86,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Model.Png" src="assets/output_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Model.Png" src="/_assets/shared-images/3c/3c881c79a647-output_model.png" width="42"/></td>
       <td valign="top"><strong>Model out : </strong>model architecture.</td>
     </tr>
   </tbody>

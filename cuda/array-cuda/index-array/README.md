@@ -6,18 +6,18 @@
 
 <p><strong>Warning : A new tensor is created for the output.</strong></p>
 
-<p align="center"><img src="assets/index_array.png" alt="Index_Array.Png" width="199" /></p>
+<p align="center"><img src="/_assets/shared-images/d5/d50595a9af8c-index_array.png" alt="Index_Array.Png" width="199" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>array : <em>class, </em></strong>n-dimensional tensor.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="assets/input_array_integer_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Integer_32.Png" src="/_assets/shared-images/05/052f6e6ea35b-input_array_integer_32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>array,</em></strong> specifies a number that refers to a location within the input array. If you leave the index input unwired for a ND array, the Index Array function returns all elements of the array. If the index is equal to -1, this index is used to retrieve an array subnet rather than a single element. For example, to retrieve column 1 from a 2D array, the index must be equal to [-1, 1].</td>
     </tr>
   </tbody>
@@ -28,7 +28,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>subarray : <em>class,</em></strong> n-dimensional tensor indexed.</td>
     </tr>
   </tbody>

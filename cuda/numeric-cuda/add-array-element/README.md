@@ -4,14 +4,14 @@
 
 <p>Returns the sum of all the elements in input array.</p>
 
-<p align="center"><img src="assets/add_array_element.png" alt="Add_Array_Element.Png" width="155" /></p>
+<p align="center"><img src="/_assets/shared-images/f2/f287ad7d7110-add_array_element.png" alt="Add_Array_Element.Png" width="155" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>x : <em>class, </em></strong>n-dimensional tensor.</td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Single.Png" src="assets/output_single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Single.Png" src="/_assets/shared-images/95/95831a40e0b5-out-single.png" width="42"/></td>
       <td valign="top"><strong>sum : <em>float,</em></strong> the sum of all the elements in input array.</td>
     </tr>
   </tbody>

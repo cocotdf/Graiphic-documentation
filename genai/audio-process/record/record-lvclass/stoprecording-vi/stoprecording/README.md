@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Record in" src="assets/cRecordlvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Record in" src="/_assets/shared-images/3d/3d16bce94c62-crecordlvclass.png" width="42"/></td>
       <td valign="top"><strong>Record in : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Record out" src="assets/iRecordlvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Record out" src="/_assets/shared-images/8c/8c38b327aaf5-irecordlvclass.png" width="42"/></td>
       <td valign="top"><strong>Record out : <em>class</em></strong></td>
     </tr>
   </tbody>

@@ -4,18 +4,18 @@
 
 <p>Adds 1 to the specified elements of a n-dimentional array.</p>
 
-<p align="center"><img src="assets/increment_array_element.png" alt="Increment_Array_Element.Png" width="213" /></p>
+<p align="center"><img src="/_assets/shared-images/d9/d9a0b5a52697-increment_array_element.png" alt="Increment_Array_Element.Png" width="213" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>array in : <em>class,</em></strong> n-dimentional tensor.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="assets/input_interger_32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_32.Png" src="/_assets/shared-images/61/616a739c55d0-input_interger_32.png" width="42"/></td>
       <td valign="top"><strong>index : <em>integer,</em></strong> specifies the index of the element in the array that you want to increment.</td>
     </tr>
   </tbody>
@@ -26,7 +26,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>array out : <em>class,</em></strong> returns the n-dimentional tensor with the specified element incremented.</td>
     </tr>
   </tbody>

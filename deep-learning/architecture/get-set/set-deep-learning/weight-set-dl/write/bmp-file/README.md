@@ -4,18 +4,18 @@
 
 <p>Writes an image to a file in BMP format. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/write_bmp_file.png" alt="Write_Bmp_File.Png" width="234" /></p>
+<p align="center"><img src="/_assets/shared-images/d9/d99d08309033-write_bmp_file.png" alt="Write_Bmp_File.Png" width="234" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="assets/input_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="/_assets/shared-images/35/35918d98277f-input_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Src : <i>class, </i></strong>type accepted<strong> U8 </strong>and <strong>RGB.</strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Path.Png" src="assets/input_path.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Path.Png" src="/_assets/shared-images/37/37a46ccf5b9b-path-in.png" width="42"/></td>
       <td valign="top"><strong>File Path : <em>path, </em></strong>file path (BMP).</td>
     </tr>
   </tbody>
@@ -26,11 +26,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="assets/output_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="/_assets/shared-images/24/24dc58704218-output_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Dst : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Boolean.Png" src="assets/output_boolean.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Boolean.Png" src="/_assets/shared-images/f4/f4787639135e-output_boolean.png" width="42"/></td>
       <td valign="top"><strong>Succeed? :<em> boolean, </em></strong>true if the operation is successful.</td>
     </tr>
   </tbody>

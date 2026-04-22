@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single.Png" src="assets/array-single.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single.Png" src="/_assets/shared-images/f8/f8cc8ee3265a-array-single.png" width="42"/></td>
       <td valign="top"><strong>3D Input Data : <em>array</em>, </strong>3D array of data with any type : integers (signed/unsigned), floats, doubles, booleans, or strings.</td>
     </tr>
   </tbody>
@@ -23,7 +23,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster Array In.Png" src="assets/cluster-array-in.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster Array In.Png" src="/_assets/shared-images/7c/7c2884d81fe7-cluster-array-in.png" width="42"/></td>
       <td valign="top"><strong>Data in : <em>array,</em></strong></td>
     </tr>
     <tr>
@@ -31,11 +31,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="String.Png" src="assets/string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String.Png" src="/_assets/shared-images/c7/c7f7e539d8ca-string.png" width="42"/></td>
       <td valign="top"><strong>input_name : <em>string</em>,</strong> specifies the identifier of the input. It corresponds to the name given to the input during its creation (via the optional <i>name</i> parameter).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster.Png" src="assets/cluster.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="42"/></td>
       <td valign="top"><strong>Inputs Info : <em>cluster</em></strong></td>
     </tr>
     <tr>
@@ -43,19 +43,19 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_64.Png" src="assets/input_unsigned_64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_64.Png" src="/_assets/shared-images/ee/ee44aaa4620b-input_unsigned_64.png" width="42"/></td>
       <td valign="top"><strong>inputs_ptr : <em>integer, </em></strong>represents a pre-allocated device memory address (for example, a CUDA device pointer) where the input tensor data is already stored.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_Integer_64.Png" src="assets/input_array_integer_64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_Integer_64.Png" src="/_assets/shared-images/71/712313814f21-input_array_integer_64.png" width="42"/></td>
       <td valign="top">inputs_shapes :<em> array, </em>specifies the shape of the output tensor. Since the data is written into a pre-allocated device buffer, this shape allows the runtime to interpret the memory layout correctly.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Interger_64.Png" src="assets/input_interger_64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Interger_64.Png" src="/_assets/shared-images/c9/c9a23cc7d835-input_interger_64.png" width="42"/></td>
       <td valign="top">inputs_ranks :<em> integer, </em>indicates the rank of the tensor, i.e. the number of dimensions (Scalar = 0, 1D = 1, 2D = 2, etc.).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top">inputs_types :<em> enum, </em>defines the ONNX tensor type as an enumerated value (e.g. FLOAT, INT64, STRING).</td>
     </tr>
   </tbody>
@@ -66,7 +66,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img src="assets/acc_execution_cuda-advanced_input_parameter_by_name.png" alt="acc_execution_cuda-advanced_input_parameter_by_name" width="231" /></p></td>
+      <td valign="top" width="30%"><p align="center"><img src="/_assets/shared-images/eb/eb648735ad63-acc_execution_cuda-advanced_input_parameter_by_name.png" alt="acc_execution_cuda-advanced_input_parameter_by_name" width="231" /></p></td>
     </tr>
   </tbody>
 </table>
@@ -74,7 +74,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="String.Png" src="assets/string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String.Png" src="/_assets/shared-images/c7/c7f7e539d8ca-string.png" width="42"/></td>
       <td valign="top"><strong>input name : <em>string</em>,</strong> specifies the identifier of the input. It corresponds to the name given to the input during its creation (via the optional <i>name</i> parameter).</td>
     </tr>
   </tbody>
@@ -88,7 +88,7 @@
       <td valign="top" width="70%"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster Array Out.Png" src="assets/cluster-array-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster Array Out.Png" src="/_assets/shared-images/ce/ce79fc3283cc-cluster-array-out.png" width="42"/></td>
       <td valign="top"><strong>Data in : <em>array,</em></strong></td>
     </tr>
     <tr>
@@ -96,11 +96,11 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="String Out.Png" src="assets/string-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String Out.Png" src="/_assets/shared-images/19/19b639e10167-string-out.png" width="42"/></td>
       <td valign="top"><strong>input_name : <em>string</em>,</strong> specifies the identifier of the input. It corresponds to the name given to the input during its creation (via the optional <i>name</i> parameter).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Cluster Out.Png" src="assets/cluster-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Cluster Out.Png" src="/_assets/shared-images/0a/0a479d27b394-cluster-out.png" width="42"/></td>
       <td valign="top"><strong>Inputs Info : <em>cluster</em></strong></td>
     </tr>
     <tr>
@@ -108,19 +108,19 @@
       <td valign="top"><table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Unsigned_64.Png" src="assets/output_unsigned_64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Unsigned_64.Png" src="/_assets/shared-images/ed/ed7a57fbb8a7-output_unsigned_64.png" width="42"/></td>
       <td valign="top"><strong>inputs_ptr : <em>integer, </em></strong>represents a pre-allocated device memory address (for example, a CUDA device pointer) where the input tensor data is already stored.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Array_Integer_64.Png" src="assets/output_array_integer_64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Array_Integer_64.Png" src="/_assets/shared-images/8a/8a3ecb76444e-output_array_integer_64.png" width="42"/></td>
       <td valign="top">inputs_shapes :<em> array, </em>specifies the shape of the output tensor. Since the data is written into a pre-allocated device buffer, this shape allows the runtime to interpret the memory layout correctly.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Interger_64.Png" src="assets/output_interger_64.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Interger_64.Png" src="/_assets/shared-images/97/975b537e9c31-output_interger_64.png" width="42"/></td>
       <td valign="top">inputs_ranks :<em> integer, </em>indicates the rank of the tensor, i.e. the number of dimensions (Scalar = 0, 1D = 1, 2D = 2, etc.).</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Enum.Png" src="assets/output_enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Enum.Png" src="/_assets/shared-images/a0/a0e1d8d91545-output_enum.png" width="42"/></td>
       <td valign="top">inputs_types :<em> enum, </em>defines the ONNX tensor type as an enumerated value (e.g. FLOAT, INT64, STRING).</td>
     </tr>
   </tbody>
@@ -131,7 +131,7 @@
     </tr>
   </tbody>
 </table></td>
-      <td valign="top" width="30%"><p align="center"><img src="assets/acc_execution_cuda-advanced_input_parameter_by_name.png" alt="acc_execution_cuda-advanced_input_parameter_by_name" width="231" /></p></td>
+      <td valign="top" width="30%"><p align="center"><img src="/_assets/shared-images/eb/eb648735ad63-acc_execution_cuda-advanced_input_parameter_by_name.png" alt="acc_execution_cuda-advanced_input_parameter_by_name" width="231" /></p></td>
     </tr>
   </tbody>
 </table>

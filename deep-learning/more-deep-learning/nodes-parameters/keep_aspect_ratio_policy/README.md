@@ -3,7 +3,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>keep_aspect_ratio_policy : <em>enum,</em></strong> this attribute describes how to interpret the <code>sizes</code> input with regard to keeping the original aspect ratio of the input, and it is not applicable when the <code>scales</code> input is used.</td>
     </tr>
   </tbody>

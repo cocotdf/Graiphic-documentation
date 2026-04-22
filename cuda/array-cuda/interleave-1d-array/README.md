@@ -6,14 +6,14 @@
 
 <p><strong>Warning : A new tensor is created for the output.</strong></p>
 
-<p align="center"><img src="assets/interleave_1d_array.png" alt="Interleave_1D_Array.Png" width="245" /></p>
+<p align="center"><img src="/_assets/shared-images/26/263e1527157c-interleave_1d_array.png" alt="Interleave_1D_Array.Png" width="245" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="assets/input_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Tensor.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>arrays : <em>array,</em></strong> array of one-dimentional tensor.</td>
     </tr>
   </tbody>
@@ -24,7 +24,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="assets/output_tensor.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Tensor.Png" src="/_assets/shared-images/7c/7cfbb5bb0789-output_tensor.png" width="42"/></td>
       <td valign="top"><strong>interleaved array : <em>class,</em></strong> interleaved array[0] contains array 0[0], interleaved array[1] contains array 1[0], interleaved array[n-1] contains array n-1[0], interleaved array[n] contains array 0[1], and so on, where n is the number of input terminals.</td>
     </tr>
   </tbody>

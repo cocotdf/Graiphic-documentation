@@ -11,28 +11,28 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Parameters" src="assets/cnclst.png" width="32"/> <strong>Parameters : <em>cluster</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="Parameters" src="/_assets/shared-images/ba/ba242cb839de-cnclst.png" width="32"/> <strong>Parameters : <em>cluster</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="sample Rate" src="assets/cu32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="sample Rate" src="/_assets/shared-images/4b/4b060a6ee305-cu32.png" width="42"/></td>
       <td valign="top"><strong>sample Rate : <em>integer</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="channels" src="assets/cu16.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="channels" src="/_assets/shared-images/d9/d9389531307d-cu16.png" width="42"/></td>
       <td valign="top"><strong>channels : <em>integer</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="sample Format" src="assets/cenum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="sample Format" src="/_assets/shared-images/7f/7f7e66ba54dc-cenum.png" width="42"/></td>
       <td valign="top"><strong>sample Format : <em>enum</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="gain" src="assets/csgl.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="gain" src="/_assets/shared-images/8c/8c54522fc255-csgl.png" width="42"/></td>
       <td valign="top"><strong>gain : <em>float</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="segmentDurationSecond" src="assets/csgl.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="segmentDurationSecond" src="/_assets/shared-images/8c/8c54522fc255-csgl.png" width="42"/></td>
       <td valign="top"><strong>segmentDurationSecond : <em>float</em></strong></td>
     </tr>
   </tbody>
@@ -46,11 +46,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Record File Path" src="assets/cpath.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Record File Path" src="/_assets/shared-images/09/0971eb44b0da-cpath.png" width="42"/></td>
       <td valign="top"><strong>Record File Path : <em>path</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Record Device" src="assets/cu16.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Record Device" src="/_assets/shared-images/d9/d9389531307d-cu16.png" width="42"/></td>
       <td valign="top"><strong>Record Device : <em>integer</em></strong></td>
     </tr>
   </tbody>
@@ -61,7 +61,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Record out" src="assets/iRecordlvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Record out" src="/_assets/shared-images/8c/8c38b327aaf5-irecordlvclass.png" width="42"/></td>
       <td valign="top"><strong>Record out : <em>class</em></strong></td>
     </tr>
   </tbody>

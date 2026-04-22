@@ -3,7 +3,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>type : <em>enum, </em></strong>defines how the initializer behaves when the graph is used in training mode. It determines whether the tensor is treated as a constant, as trainable weights, or as frozen weights. During inference, it makes no difference whether the type is <code>Constant</code>, <code>Train Weights</code>, or <code>Frozen Weights</code>.</td>
     </tr>
   </tbody>

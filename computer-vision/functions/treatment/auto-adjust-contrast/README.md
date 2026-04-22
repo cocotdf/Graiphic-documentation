@@ -4,18 +4,18 @@
 
 <p>Boosts contrast based on the image’s histogram to improve normalization and line detection in varying lighting conditions. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/auto_adjust_contrast.png" alt="Auto_Adjust_Contrast.Png" width="234" /></p>
+<p align="center"><img src="/_assets/shared-images/4f/4f1e504ec8b8-auto_adjust_contrast.png" alt="Auto_Adjust_Contrast.Png" width="234" /></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="assets/input_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Image_Src.Png" src="/_assets/shared-images/35/35918d98277f-input_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Src : <em>class, </em></strong>type accepted <strong>U8</strong>, <strong>RGB</strong> and <strong>HSL</strong>.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Unsigned_16.Png" src="assets/input_unsigned_16.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Unsigned_16.Png" src="/_assets/shared-images/f6/f63ea71f0ad0-input_unsigned_16.png" width="42"/></td>
       <td valign="top">Mode : <em>integer</em>, specifies the auto-tuning method :
 <ul>
 <li>
@@ -35,7 +35,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="assets/output_image_src.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Image_Src.Png" src="/_assets/shared-images/24/24dc58704218-output_image_src.png" width="42"/></td>
       <td valign="top"><strong>Image Dst : <em>class</em></strong></td>
     </tr>
   </tbody>

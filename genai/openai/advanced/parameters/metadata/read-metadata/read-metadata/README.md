@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="metadata in" src="assets/cmetadatalvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="metadata in" src="/_assets/shared-images/d0/d02f3e0bb4c0-cgguflvclass.png" width="42"/></td>
       <td valign="top"><strong>metadata in : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="metadata out" src="assets/imetadatalvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="metadata out" src="/_assets/shared-images/a5/a5c2d660da20-igguflvclass.png" width="42"/></td>
       <td valign="top"><strong>metadata out : <em>class</em></strong></td>
     </tr>
     <tr>

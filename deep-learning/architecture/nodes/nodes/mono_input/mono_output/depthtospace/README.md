@@ -4,7 +4,7 @@
 
 <p>DepthToSpace rearranges (permutes) data from depth into blocks of spatial data.</p>
 
-<p align="center"><img alt="node_depth_to_space.png" src="assets/node_depth_to_space.png" width="299"/></p>
+<p align="center"><img alt="node_depth_to_space.png" src="/_assets/shared-images/08/0883961e7f4d-node_depth_to_space.png" width="299"/></p>
 
 <p>This is the reverse transformation of SpaceToDepth. More specifically, this op outputs a copy of the input tensor where values from the depth dimension are moved in spatial blocks to the height and width dimensions. By default, <code>mode</code> = <code>DCR</code>. In the DCR mode, elements along the depth dimension from the input tensor are rearranged in the following order: depth, column, and then row. The output y is computed from the input x as below:</p>
 
@@ -188,11 +188,11 @@ y = np.reshape(tmp, [b, c // (blocksize ** 2), h * blocksize, w * blocksize])</p
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="assets/input_array_string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Array_String.Png" src="/_assets/shared-images/60/600c0aac18dc-input_array_string.png" width="42"/></td>
       <td valign="top"><strong><a href="../../../../../../more-deep-learning/nodes-parameters/specified_outputs_name/README.md">specified_outputs_name</a> : <em>array, </em></strong>this parameter lets you manually assign custom names to the output tensors of a node.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="assets/input_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Object_3.Png" src="/_assets/shared-images/1b/1bd436ec7533-input_object_3.png" width="42"/></td>
       <td valign="top"><strong>input (heterogeneous) – T : <em>object, </em></strong>input tensor of [N,C,H,W], where N is the batch axis, C is the channel or depth, H is the height and W is the width.</td>
     </tr>
   </tbody>
@@ -201,12 +201,12 @@ y = np.reshape(tmp, [b, c // (blocksize ** 2), h * blocksize, w * blocksize])</p
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Cluster.Png" src="assets/cluster.png" width="32"/><strong>Parameters : <em>cluster,</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="Cluster.Png" src="/_assets/shared-images/0b/0bc4128edda1-cluster.png" width="32"/><strong>Parameters : <em>cluster,</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>blocksize : <em>integer, </em></strong>blocks of [blocksize, blocksize] are moved.</td>
     </tr>
     <tr>
@@ -214,7 +214,7 @@ y = np.reshape(tmp, [b, c // (blocksize ** 2), h * blocksize, w * blocksize])</p
       <td valign="top">Default value “0”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>mode : <em>enum, </em></strong>DCR for depth-column-row order re-arrangement. Use CRD for column-row-depth order.</td>
     </tr>
     <tr>
@@ -222,7 +222,7 @@ y = np.reshape(tmp, [b, c // (blocksize ** 2), h * blocksize, w * blocksize])</p
       <td valign="top">Default value “DCR”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Booleen.Png" src="assets/booleen.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Booleen.Png" src="/_assets/shared-images/e9/e9f30799ffbd-booleen.png" width="42"/></td>
       <td valign="top"><strong>training? :</strong> <em><strong>boolean</strong></em>, whether the layer is in training mode (can store data for backward).</td>
     </tr>
     <tr>
@@ -230,7 +230,7 @@ y = np.reshape(tmp, [b, c // (blocksize ** 2), h * blocksize, w * blocksize])</p
       <td valign="top">Default value “True”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Double.Png" src="assets/double.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Double.Png" src="/_assets/shared-images/96/9619568f4a4a-double.png" width="42"/></td>
       <td valign="top"><strong>lda coeff :</strong> <em><strong>float</strong></em>, defines the coefficient by which the loss derivative will be multiplied before being sent to the previous layer (since during the backward run we go backwards).</td>
     </tr>
     <tr>
@@ -238,7 +238,7 @@ y = np.reshape(tmp, [b, c // (blocksize ** 2), h * blocksize, w * blocksize])</p
       <td valign="top">Default value “1”.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="String.Png" src="assets/string.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="String.Png" src="/_assets/shared-images/c7/c7f7e539d8ca-string.png" width="42"/></td>
       <td valign="top"><strong>name (optional) :</strong> <em><strong>string,</strong></em> name of the node.</td>
     </tr>
   </tbody>
@@ -253,7 +253,7 @@ y = np.reshape(tmp, [b, c // (blocksize ** 2), h * blocksize, w * blocksize])</p
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="assets/output_object_3.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Object_3.Png" src="/_assets/shared-images/e2/e2d605658777-output_object_3.png" width="42"/></td>
       <td valign="top"><strong>output (heterogeneous) – T : <em>object, </em></strong>output tensor of [N, C/(blocksize * blocksize), H * blocksize, W * blocksize].</td>
     </tr>
   </tbody>

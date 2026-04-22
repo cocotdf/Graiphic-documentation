@@ -4,22 +4,22 @@
 
 <p>This VI exports a model to a .onnx file. The generated file can be used to initialize an inference session. If training information is included during export, the file can also be used to initialize a training session.</p>
 
-<p align="center"><img alt="save_onnx_file" src="assets/save_onnx_file.png" width="220"/></p>
+<p align="center"><img alt="save_onnx_file" src="/_assets/shared-images/c8/c8d540c2ea2a-save_onnx_file.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Model.Png" src="assets/input_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Model.Png" src="/_assets/shared-images/21/21498ef0ddd0-input_model.png" width="42"/></td>
       <td valign="top"><strong>Model in : </strong>reference to the model to save. This is an instance of the <code>Model</code> class of the LabVIEW Deep Learning Toolkit.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Path In.Png" src="assets/path-in.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Path In.Png" src="/_assets/shared-images/37/37a46ccf5b9b-path-in.png" width="42"/></td>
       <td valign="top"><strong>File Path : <em>path</em>,</strong> destination path for the <code>.onnx</code> file to be written.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Enum.Png" src="assets/enum.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Enum.Png" src="/_assets/shared-images/9d/9d61ac752ae1-enum.png" width="42"/></td>
       <td valign="top"><strong>save : <em>enum,</em></strong>
 <ul>
 <li>
@@ -38,7 +38,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Model.Png" src="assets/output_model.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Model.Png" src="/_assets/shared-images/3c/3c881c79a647-output_model.png" width="42"/></td>
       <td valign="top"><strong>Model out : </strong>output reference of the model, allowing chaining.</td>
     </tr>
   </tbody>

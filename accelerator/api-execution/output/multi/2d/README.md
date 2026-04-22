@@ -11,11 +11,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Input_Acc_Inference.Png" src="assets/input_acc_inference.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Input_Acc_Inference.Png" src="/_assets/shared-images/77/775fe37288a0-input_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>Inference in</strong> <strong>: <em>object, </em></strong>inference session.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Integer 32.Png" src="assets/integer-32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Integer 32.Png" src="/_assets/shared-images/6c/6c9e54b4bc43-integer-32.png" width="42"/></td>
       <td valign="top"><strong>index : </strong><i><strong>integer</strong></i><strong>,</strong> defines the position of the output within the data array. It corresponds to the index assigned to the output when it is created (via the <i>index</i> parameter).</td>
     </tr>
   </tbody>
@@ -26,11 +26,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Output_Acc_Inference.Png" src="assets/output_acc_inference.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Output_Acc_Inference.Png" src="/_assets/shared-images/7a/7a015e013321-output_acc_inference.png" width="42"/></td>
       <td valign="top"><strong>Inference out</strong> <strong>: <em>object, </em></strong>inference session.</td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Array Single Out.Png" src="assets/array-single-out.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Array Single Out.Png" src="/_assets/shared-images/fd/fdf478605b09-array-single-out.png" width="42"/></td>
       <td valign="top"><strong>2D Output Data : <em>array</em>, </strong>2D array of data with any type : integers (signed/unsigned), floats, doubles, booleans, or strings.​</td>
     </tr>
   </tbody>

@@ -3,8 +3,8 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="50%"><p align="center"><img src="assets/palette_architecture.png" alt="palette_architecture" width="220" /></p></td>
-      <td valign="top" width="50%"><p align="center"><img alt="palette_define" src="assets/palette_define.png" width="220"/></p>
+      <td valign="top" width="50%"><p align="center"><img src="/_assets/shared-images/51/512e7efe5e5e-palette_architecture.png" alt="palette_architecture" width="220" /></p></td>
+      <td valign="top" width="50%"><p align="center"><img alt="palette_define" src="/_assets/shared-images/0b/0bcd774a1c2a-palette_define.png" width="220"/></p>
 
 <p align="center"><img alt="palette_loss" src="assets/palette_loss.png" width="220"/></p></td>
     </tr>
@@ -15,8 +15,8 @@
 
 |  | **ICONS** | **RESUME** |
 | --- | --- | --- |
-| [BinaryCrossentropy](../binarycrossentropy/README.md) | ![custom_loss.png](assets/custom_loss.png) | Computes the cross-entropy loss between true labels and predicted labels. |
-| [CategoricalCrossentropy](../categoricalcrossentropy/README.md) | ![loss.png](assets/loss.png) | Computes the crossentropy loss between the labels and predictions.​ |
+| [BinaryCrossentropy](../binarycrossentropy/README.md) | ![custom_loss.png](/_assets/shared-images/6f/6f9f71af76d3-custom_loss.png) | Computes the cross-entropy loss between true labels and predicted labels. |
+| [CategoricalCrossentropy](../categoricalcrossentropy/README.md) | ![loss.png](/_assets/shared-images/7d/7de64f6c0d9d-loss.png) | Computes the crossentropy loss between the labels and predictions.​ |
 | [CategoricalHinge](../categoricalhinge/README.md) | ![Image Missing.Svg](../../../../../_assets/image-missing.svg) | Computes the categorical hinge loss between y_true and y_pred.​ |
 | [CosineSimilarity](../cosinesimilarity/README.md) | ![Image Missing.Svg](../../../../../_assets/image-missing.svg) | Computes the cosine similarity between true labels and predicted labels.​ |
 | [Hinge](../hinge/README.md) | ![Image Missing.Svg](../../../../../_assets/image-missing.svg) | Computes the hinge loss between y_true and y_pred.​ |

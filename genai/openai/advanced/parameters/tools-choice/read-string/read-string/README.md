@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="tool_choice in" src="assets/ctool__choicelvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="tool_choice in" src="/_assets/shared-images/d0/d02f3e0bb4c0-cgguflvclass.png" width="42"/></td>
       <td valign="top"><strong>tool_choice in : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -22,11 +22,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="tool_choice out" src="assets/itool__choicelvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="tool_choice out" src="/_assets/shared-images/a5/a5c2d660da20-igguflvclass.png" width="42"/></td>
       <td valign="top"><strong>tool_choice out : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="string" src="assets/istr.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="string" src="/_assets/shared-images/6d/6d824f6de01c-istr.png" width="42"/></td>
       <td valign="top"><strong>string : <em>string</em></strong></td>
     </tr>
   </tbody>
