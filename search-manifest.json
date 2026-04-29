@@ -1,6 +1,6 @@
 {
   "generated_from": "nav-tree.json",
-  "count": 2085,
+  "count": 2081,
   "items": [
     {
       "title": "LabVIEW SOTA",
@@ -9051,10 +9051,10 @@
       "content": "Unified LabVIEW documentation for AI, vision, acceleration, and deployable systems. Explore Graiphic's toolkit documentation from a single GitHub Pages experience covering SOTA, Accelerator, Deep Learning, Computer Vision, and CUDA. Search any guide, VI, or toolkit page directly from the left panel. Graph Orchestration LabVIEW Toolkits AI Deployment Vision & LabVIEW CUDA Toolkits SOTA Visual orchestration and graph execution for deployable AI systems. LabVIEW Accelerator Toolkit ONNX Runtime acceleration for LabVIEW graphs and hardware aware execution. LabVIEW Deep Learning Toolkit Design, train, and deploy neural architectures directly inside LabVIEW. LabVIEW Computer Vision Toolkit Build imaging pipelines, UI display flows, and vision model deployments. LabVIEW CUDA Toolkit Direct GPU execution, memory control, and CUDA powered operators for LabVIEW. Documentation Overview SOTA SOTA (State Of The Art) is the visual orchestration framework that links LabVIEW with ONNX Runtime and deployable execution backends. Documentation: Introduction Installation Guide Licensing LabVIEW Accelerator Toolkit The LabVIEW Accelerator Toolkit connects LabVIEW applications to ONNX Runtime for hardware accelerated graph execution. Documentation: Installation Guide Introduction Beginner's Guide Examples Guide Hardware Compatibility Deployment Troubleshooting FAQ LabVIEW Deep Learning Toolkit The LabVIEW Deep Learning Toolkit provides native tools for neural network creation, training, and inference inside LabVIEW. Documentation: Installation Guide General Architecture Overview Introduction Beginner's Guide Examples Guide Hardware Compatibility Deployment Troubleshooting FAQ LabVIEW Computer Vision Toolkit The LabVIEW Computer Vision Toolkit brings modern vision pipelines and ONNX backed image processing into LabVIEW. Documentation: Installation Guide Gener"
     },
     {
-      "title": "LabVIEW GenAI Toolkit",
+      "title": "GenAI Toolkit",
       "path": "/genai/README.md",
       "keywords": "genai",
-      "content": "LabVIEW GenAI Toolkit LLM workflows, speech pipelines, and multimodal inference for LabVIEW. The LabVIEW GenAI Toolkit gathers Anthropic messaging flows, OpenAI assistants and messages, GGUF runtime setup, local text generation, text-to-speech building blocks, and audio processing utilities inside one documentation entry point. Installation Guide General OpenAI Anthropic GGUF Audio Process Explore The Toolkit Installation Guide Set up the toolkit, choose between cloud and local runtimes, and validate the first GenAI flows in LabVIEW. General Start with the introduction and FAQ to understand how the toolkit is organized and how to approach the first flows. OpenAI Work with assistants, files, threads, audio, and advanced OpenAI request structures directly from LabVIEW. Anthropic Build advanced text, image, and PDF message payloads for Anthropic-oriented LabVIEW workflows. GGUF Runtime Configure chat sessions, samplers, and runtime parameters for local GGUF model execution. Audio Process Play or record audio buffers and files to integrate speech output and capture workflows into interactive applications. GGUF TTS Initialize, tune, and run text-to-speech pipelines powered by GGUF-compatible models. Quick Access Introduction LabVIEW GenAI Toolkit Setup Anthropic Message Advanced Message OpenAI Send Message Play Sound From a Buffer GGUF Chat Samplers GGUF TTS Session and Sampler Text Generation Session and Sampler"
+      "content": "GenAI Toolkit LLM workflows, speech pipelines, and multimodal inference for LabVIEW. The GenAI Toolkit gathers Anthropic messaging flows, OpenAI assistants and messages, GGUF runtime setup, local text generation, text-to-speech building blocks, and audio processing utilities inside one documentation entry point. Installation Guide General Anthropic OpenAI GGUF Audio Process Explore The Toolkit Installation Guide Set up the toolkit, choose between cloud and local runtimes, and validate the first GenAI flows in LabVIEW. General Start with the introduction and FAQ to understand how the toolkit is organized and how to approach the first flows. Anthropic Build advanced text, image, and PDF message payloads for Anthropic-oriented LabVIEW workflows. OpenAI Work with assistants, files, threads, audio, and advanced OpenAI request structures directly from LabVIEW. Audio Process Play or record audio buffers and files to integrate speech output and capture workflows into interactive applications. GGUF Runtime Configure chat sessions, samplers, and runtime parameters for local GGUF model execution. GGUF TTS Initialize, tune, and run text-to-speech pipelines powered by GGUF-compatible models. Quick Access Introduction GenAI Toolkit Setup Anthropic Message Advanced Message OpenAI Send Message Play Sound From a Buffer GGUF Chat Samplers GGUF TTS Session and Sampler Text Generation Session and Sampler"
     },
     {
       "title": "Installation guide",
@@ -9065,14 +9065,14 @@
     {
       "title": "LabVIEW GenAI Toolkit",
       "path": "/genai/installation-guide/genai-toolkit/README.md",
-      "keywords": "genai installation guide LabVIEW GenAI Toolkit",
+      "keywords": "genai installation guide labview genai toolkit genai toolkit",
       "content": "Getting Started This section provides step-by-step instructions on how to install and configure the LabVIEW GenAI Toolkit. To begin, please follow these steps Install SOTA Download SOTA : In order to install the LabVIEW GenAI Toolkit, you will first need to download SOTA. You can download SOTA by visiting the following link: https://graiphic.io/download/ Install SOTA: Once you have downloaded the SOTA setup file, run the installer and follow the on-screen instructions to install SOTA on your system. Launch SOTA: After the installation is complete, launch SOTA from your desktop or start menu. Get started - SOTA installation guide Install the LabVIEW GenAI Toolkit Access the GenAI module: In the SOTA interface, locate and click on the LabVIEW GenAI module. Select Version and Install: Select your LabVIEW version and click on the install button. Accept License Agreement: Accept the terms of the license agreement to install the toolkit. Launch LabVIEW: Once the installation is complete, launch LabVIEW and confirm that the GenAI palette appears in the functions menu. Get started - GenAI installation guide Congratulations! You have successfully installed the LabVIEW GenAI Toolkit using SOTA, and you are now ready to build hosted or local generative AI workflows inside LabVIEW. Note: Installing the LabVIEW GenAI Toolkit requires SOTA to be installed first. SOTA provides the interface used to select, install, and activate the toolkit inside your LabVIEW environment. For a first validation pass, we recommend starting with one of these pages: Simplify Text Message for a hosted text request. Session And Sampler for a local GGUF session. Play Sound From A Buffer for local audio playback validation. If you encounter any issues or have any questions during the installation process, please reach out to our support team on the support community page . We appreciate your interest in the LabVIEW GenAI Toolkit and hope you find this installation guide helpful. System Requirements Hardware needs depend on the workflow you choose. Anthropic flows mainly require network access and valid credentials, while GGUF and TTS flows depend on local CPU, memory, model size, and audio-device availability. For more orientation on local versus hosted setups, visit the Introduction and the dedicated pages for Anthropic , GGUF , and Audio Playback . Technical support The support is managed via the support community page . You can post your questions, thoughts, or suggestions about the LabVIEW GenAI Toolkit and other Graiphic products. Releases notes The LabVIEW GenAI Toolkit is actively evolving. The latest release notes are available HERE ."
     },
     {
       "title": "OpenAI",
       "path": "/genai/installation-guide/openai/README.md",
       "keywords": "genai installation guide openai",
-      "content": "OpenAI OpenAI pages are the hosted API entry point of the LabVIEW GenAI Toolkit. Setup checklist Prepare an OpenAI account and a valid API key for the environment where LabVIEW will run. Store the API key outside of block-diagram constants whenever possible, for example in a configuration layer handled by your application. Validate the base connection first with Authentification. Start with a minimal text flow by using Send Message. Once the basic request path is stable, extend to advanced OpenAI flows such as files, assistants, audio, or threaded conversations. What to validate first The OpenAI session is correctly authenticated and reused by the calling VIs. A first request returns a populated response without timeout or credential issues. Your application extracts the generated content and handles API errors cleanly. Useful validation pages Authentification Send Message Create Message Create Speech"
+      "content": "OpenAI OpenAI pages are the hosted API entry point of the LabVIEW GenAI Toolkit. Setup checklist Prepare an OpenAI account and a valid API key for the environment where LabVIEW will run. Store the API key outside of block-diagram constants whenever possible, for example in a configuration layer handled by your application. Validate the base connection first with Authentification . Start with a minimal text flow by using Send Message . Once the basic request path is stable, extend to advanced OpenAI flows such as files, assistants, audio, or threaded conversations. What to validate first The OpenAI session is correctly authenticated and reused by the calling VIs. A first request returns a populated response without timeout or credential issues. Your application extracts the generated content and handles API errors cleanly. Useful validation pages Authentification Send Message Create Message Create Speech"
     },
     {
       "title": "Anthropic",
@@ -9342,7 +9342,49 @@
       "title": "Play",
       "path": "/genai/audio-process/play/README.md",
       "keywords": "genai audio process play",
-      "content": "Play Description This section groups the GenAI documentation available under Play. Categories Play Sound Example Play.lvclass Init Playback"
+      "content": "Play Description This section groups the GenAI documentation available under Play. Categories Buffer Free Playback Session Play Sound Example Init Playback Read Playback Buffer Set Playback Volume Stop Playback Session"
+    },
+    {
+      "title": "Buffer",
+      "path": "/genai/audio-process/play/buffer/README.md",
+      "keywords": "genai audio process play buffer",
+      "content": "Buffer Description This section groups the GenAI documentation available under Buffer. Categories End Sound Buffer Stream Push Sound Buffer Samples"
+    },
+    {
+      "title": "End Sound Buffer Stream",
+      "path": "/genai/audio-process/play/buffer/end-sound-buffer-stream/README.md",
+      "keywords": "genai audio process play buffer end sound buffer stream",
+      "content": "End Sound Buffer Stream Description This section groups the GenAI documentation available under End Sound Buffer Stream. Pages EndSoundBufferStream"
+    },
+    {
+      "title": "EndSoundBufferStream",
+      "path": "/genai/audio-process/play/buffer/end-sound-buffer-stream/endsoundbufferstream/README.md",
+      "keywords": "genai audio process play buffer end sound buffer stream endsoundbufferstream",
+      "content": "EndSoundBufferStream Description Signals that no more samples will be added to the buffer session. Must be called before \"Free Playback Session\" or the session won't be deleted. Type : VI. Input parameters PlayBuffer in : class Output parameters PlayBuffer out : class"
+    },
+    {
+      "title": "Push Sound Buffer Samples",
+      "path": "/genai/audio-process/play/buffer/push-sound-buffer-samples/README.md",
+      "keywords": "genai audio process play buffer push sound buffer samples",
+      "content": "Push Sound Buffer Samples Description This section groups the GenAI documentation available under Push Sound Buffer Samples. Pages PushSoundBufferSamples"
+    },
+    {
+      "title": "PushSoundBufferSamples",
+      "path": "/genai/audio-process/play/buffer/push-sound-buffer-samples/pushsoundbuffersamples/README.md",
+      "keywords": "genai audio process play buffer push sound buffer samples pushsoundbuffersamples",
+      "content": "PushSoundBufferSamples Description Pushes samples into the buffer playback queue. Type : VI. Input parameters PlayBuffer in : class samples : array of float Numeric : float Output parameters PlayBuffer out : class samplesWritten : integer"
+    },
+    {
+      "title": "Free Playback Session",
+      "path": "/genai/audio-process/play/free-playback-session/README.md",
+      "keywords": "genai audio process play free playback session",
+      "content": "Free Playback Session Description This section groups the GenAI documentation available under Free Playback Session. Pages FreePlaybackSession"
+    },
+    {
+      "title": "FreePlaybackSession",
+      "path": "/genai/audio-process/play/free-playback-session/freeplaybacksession/README.md",
+      "keywords": "genai audio process play free playback session freeplaybacksession",
+      "content": "FreePlaybackSession Description Deletes the file playback handle once the session is finished or stopped. Type : VI. Input parameters Play in : class Output parameters Play out : class deleted : boolean"
     },
     {
       "title": "Play Sound Example",
@@ -9357,48 +9399,6 @@
       "content": "Drop Content Play Description Play sound example. Type : VI. Input parameters None. Output parameters None."
     },
     {
-      "title": "Play.lvclass",
-      "path": "/genai/audio-process/play/play-lvclass/README.md",
-      "keywords": "genai audio process play play lvclass",
-      "content": "Play.lvclass Description This section groups the GenAI documentation available under Play.lvclass. Categories FreePlaybackSession.vi ReadPlaybackBuffer.vi StopPlaybackSession.vi"
-    },
-    {
-      "title": "FreePlaybackSession.vi",
-      "path": "/genai/audio-process/play/play-lvclass/freeplaybacksession-vi/README.md",
-      "keywords": "genai audio process play play lvclass freeplaybacksession vi",
-      "content": "FreePlaybackSession.vi Description This section groups the GenAI documentation available under FreePlaybackSession.vi. Pages FreePlaybackSession"
-    },
-    {
-      "title": "FreePlaybackSession",
-      "path": "/genai/audio-process/play/play-lvclass/freeplaybacksession-vi/freeplaybacksession/README.md",
-      "keywords": "genai audio process play play lvclass freeplaybacksession vi freeplaybacksession",
-      "content": "FreePlaybackSession Description Type : VI. Input parameters Play in : class Output parameters Play out : class deleted : boolean"
-    },
-    {
-      "title": "ReadPlaybackBuffer.vi",
-      "path": "/genai/audio-process/play/play-lvclass/readplaybackbuffer-vi/README.md",
-      "keywords": "genai audio process play play lvclass readplaybackbuffer vi",
-      "content": "ReadPlaybackBuffer.vi Description This section groups the GenAI documentation available under ReadPlaybackBuffer.vi. Pages ReadPlaybackBuffer"
-    },
-    {
-      "title": "ReadPlaybackBuffer",
-      "path": "/genai/audio-process/play/play-lvclass/readplaybackbuffer-vi/readplaybackbuffer/README.md",
-      "keywords": "genai audio process play play lvclass readplaybackbuffer vi readplaybackbuffer",
-      "content": "ReadPlaybackBuffer Description Type : VI. Input parameters Play in : class Output parameters Play out : class Samples : array of cluster Sample : cluster Indices : integer Value : integer"
-    },
-    {
-      "title": "StopPlaybackSession.vi",
-      "path": "/genai/audio-process/play/play-lvclass/stopplaybacksession-vi/README.md",
-      "keywords": "genai audio process play play lvclass stopplaybacksession vi",
-      "content": "StopPlaybackSession.vi Description This section groups the GenAI documentation available under StopPlaybackSession.vi. Pages StopPlaybackSession"
-    },
-    {
-      "title": "StopPlaybackSession",
-      "path": "/genai/audio-process/play/play-lvclass/stopplaybacksession-vi/stopplaybacksession/README.md",
-      "keywords": "genai audio process play play lvclass stopplaybacksession vi stopplaybacksession",
-      "content": "StopPlaybackSession Description Type : VI. Input parameters Play in : class Output parameters Play out : class"
-    },
-    {
       "title": "Init Playback",
       "path": "/genai/audio-process/play/init-playback/README.md",
       "keywords": "genai audio process play init playback",
@@ -9408,7 +9408,7 @@
       "title": "Play Sound From A Buffer",
       "path": "/genai/audio-process/play/init-playback/play-sound-from-a-buffer/README.md",
       "keywords": "genai audio process play init playback play sound from a buffer",
-      "content": "Play Sound From A Buffer Description Play a Sound Buffer. Typically used alongside a TTS (Text-to-Speech) buffer. Type : polymorphic. Input parameters Sound Buffer : integer Output Device : integer Parameters : cluster volume : float sampleRate : integer Channels : integer Output parameters PlayBuffer out : class"
+      "content": "Play Sound From A Buffer Description Starts a buffer playback session with an initial float sample array. Typically used alongside a TTS (Text-to-Speech) buffer. Type : polymorphic. Input parameters Output Device : integer Parameters : cluster volume : float sampleRate : integer Channels : integer samples : array of float Numeric : float Output parameters PlayBuffer out : class"
     },
     {
       "title": "Play Sound From A File",
@@ -9417,10 +9417,82 @@
       "content": "Play Sound From A File Description Play the Sound File Path. Type : polymorphic. Input parameters Sound File Path : path Output Device : integer volume : float Output parameters Play out : class"
     },
     {
+      "title": "Read Playback Buffer",
+      "path": "/genai/audio-process/play/read-playback-buffer/README.md",
+      "keywords": "genai audio process play read playback buffer",
+      "content": "Read Playback Buffer Description This section groups the GenAI documentation available under Read Playback Buffer. Pages ReadPlaybackBuffer"
+    },
+    {
+      "title": "ReadPlaybackBuffer",
+      "path": "/genai/audio-process/play/read-playback-buffer/readplaybackbuffer/README.md",
+      "keywords": "genai audio process play read playback buffer readplaybackbuffer",
+      "content": "ReadPlaybackBuffer Description Reads captured samples from the file playback session. Type : VI. Input parameters Play in : class Output parameters Play out : class Samples : array of cluster Sample : cluster Indices : integer Value : integer"
+    },
+    {
+      "title": "Set Playback Volume",
+      "path": "/genai/audio-process/play/set-playback-volume/README.md",
+      "keywords": "genai audio process play set playback volume",
+      "content": "Set Playback Volume Description This section groups the GenAI documentation available under Set Playback Volume. Pages SetPlaybackVolume"
+    },
+    {
+      "title": "SetPlaybackVolume",
+      "path": "/genai/audio-process/play/set-playback-volume/setplaybackvolume/README.md",
+      "keywords": "genai audio process play set playback volume setplaybackvolume",
+      "content": "SetPlaybackVolume Description Changes the volume of an active file playback session. Type : VI. Input parameters Play in : class Volume : float Output parameters Play out : class"
+    },
+    {
+      "title": "Stop Playback Session",
+      "path": "/genai/audio-process/play/stop-playback-session/README.md",
+      "keywords": "genai audio process play stop playback session",
+      "content": "Stop Playback Session Description This section groups the GenAI documentation available under Stop Playback Session. Pages StopPlaybackSession"
+    },
+    {
+      "title": "StopPlaybackSession",
+      "path": "/genai/audio-process/play/stop-playback-session/stopplaybacksession/README.md",
+      "keywords": "genai audio process play stop playback session stopplaybacksession",
+      "content": "StopPlaybackSession Description Stops file playback then delete the file playback handle. Type : VI. Input parameters Play in : class Output parameters Play out : class deleted : boolean"
+    },
+    {
       "title": "Record",
       "path": "/genai/audio-process/record/README.md",
       "keywords": "genai audio process record",
-      "content": "Record Description This section groups the GenAI documentation available under Record. Categories Record Sound Example Record.lvclass"
+      "content": "Record Description This section groups the GenAI documentation available under Record. Categories Close All Recording Session Read Global Read Recording Buffer Record Sound Example Start Recording Stop External Recording Stop Recording"
+    },
+    {
+      "title": "Close All Recording Session",
+      "path": "/genai/audio-process/record/close-all-recording-session/README.md",
+      "keywords": "genai audio process record close all recording session",
+      "content": "Close All Recording Session Description This section groups the GenAI documentation available under Close All Recording Session. Pages CloseAllRecordingSession"
+    },
+    {
+      "title": "CloseAllRecordingSession",
+      "path": "/genai/audio-process/record/close-all-recording-session/closeallrecordingsession/README.md",
+      "keywords": "genai audio process record close all recording session closeallrecordingsession",
+      "content": "CloseAllRecordingSession Description Clears the global recording session registry. Type : VI. Input parameters Record in : class Output parameters Record out : class"
+    },
+    {
+      "title": "Read Global",
+      "path": "/genai/audio-process/record/read-global/README.md",
+      "keywords": "genai audio process record read global",
+      "content": "Read Global Description This section groups the GenAI documentation available under Read Global. Pages ReadGlobal"
+    },
+    {
+      "title": "ReadGlobal",
+      "path": "/genai/audio-process/record/read-global/readglobal/README.md",
+      "keywords": "genai audio process record read global readglobal",
+      "content": "ReadGlobal Description Read all the active recording session Type : VI. Input parameters Record in : class Output parameters Record out : class Sessions : array of cluster Sample : cluster Ref : integer File Name : string"
+    },
+    {
+      "title": "Read Recording Buffer",
+      "path": "/genai/audio-process/record/read-recording-buffer/README.md",
+      "keywords": "genai audio process record read recording buffer",
+      "content": "Read Recording Buffer Description This section groups the GenAI documentation available under Read Recording Buffer. Pages ReadRecordingBuffer"
+    },
+    {
+      "title": "ReadRecordingBuffer",
+      "path": "/genai/audio-process/record/read-recording-buffer/readrecordingbuffer/README.md",
+      "keywords": "genai audio process record read recording buffer readrecordingbuffer",
+      "content": "ReadRecordingBuffer Description Reads recorded samples from the session circular buffer into caller-provided arrays. Type : VI. Input parameters Record in : class Output parameters Record out : class Samples : array of cluster Sample : cluster Indices : integer Value : integer"
     },
     {
       "title": "Record Sound Example",
@@ -9435,82 +9507,40 @@
       "content": "Drop Content Record Description Record sound example. Type : VI. Input parameters None. Output parameters None."
     },
     {
-      "title": "Record.lvclass",
-      "path": "/genai/audio-process/record/record-lvclass/README.md",
-      "keywords": "genai audio process record record lvclass",
-      "content": "Record.lvclass Description This section groups the GenAI documentation available under Record.lvclass. Categories CloseAllRecordingSession.vi ReadGlobal.vi ReadRecordingBuffer.vi StartRecording.vi StopExternalRecording.vi StopRecording.vi"
-    },
-    {
-      "title": "CloseAllRecordingSession.vi",
-      "path": "/genai/audio-process/record/record-lvclass/closeallrecordingsession-vi/README.md",
-      "keywords": "genai audio process record record lvclass closeallrecordingsession vi",
-      "content": "CloseAllRecordingSession.vi Description This section groups the GenAI documentation available under CloseAllRecordingSession.vi. Pages CloseAllRecordingSession"
-    },
-    {
-      "title": "CloseAllRecordingSession",
-      "path": "/genai/audio-process/record/record-lvclass/closeallrecordingsession-vi/closeallrecordingsession/README.md",
-      "keywords": "genai audio process record record lvclass closeallrecordingsession vi closeallrecordingsession",
-      "content": "CloseAllRecordingSession Description Type : VI. Input parameters Record in : class Output parameters Record out : class"
-    },
-    {
-      "title": "ReadGlobal.vi",
-      "path": "/genai/audio-process/record/record-lvclass/readglobal-vi/README.md",
-      "keywords": "genai audio process record record lvclass readglobal vi",
-      "content": "ReadGlobal.vi Description This section groups the GenAI documentation available under ReadGlobal.vi. Pages ReadGlobal"
-    },
-    {
-      "title": "ReadGlobal",
-      "path": "/genai/audio-process/record/record-lvclass/readglobal-vi/readglobal/README.md",
-      "keywords": "genai audio process record record lvclass readglobal vi readglobal",
-      "content": "ReadGlobal Description Type : VI. Input parameters Record in : class Output parameters Record out : class Sessions : array of cluster Sample : cluster Ref : integer File Name : string"
-    },
-    {
-      "title": "ReadRecordingBuffer.vi",
-      "path": "/genai/audio-process/record/record-lvclass/readrecordingbuffer-vi/README.md",
-      "keywords": "genai audio process record record lvclass readrecordingbuffer vi",
-      "content": "ReadRecordingBuffer.vi Description This section groups the GenAI documentation available under ReadRecordingBuffer.vi. Pages ReadRecordingBuffer"
-    },
-    {
-      "title": "ReadRecordingBuffer",
-      "path": "/genai/audio-process/record/record-lvclass/readrecordingbuffer-vi/readrecordingbuffer/README.md",
-      "keywords": "genai audio process record record lvclass readrecordingbuffer vi readrecordingbuffer",
-      "content": "ReadRecordingBuffer Description Type : VI. Input parameters Record in : class Output parameters Record out : class Samples : array of cluster Sample : cluster Indices : integer Value : integer"
-    },
-    {
-      "title": "StartRecording.vi",
-      "path": "/genai/audio-process/record/record-lvclass/startrecording-vi/README.md",
-      "keywords": "genai audio process record record lvclass startrecording vi",
-      "content": "StartRecording.vi Description This section groups the GenAI documentation available under StartRecording.vi. Pages StartRecording"
+      "title": "Start Recording",
+      "path": "/genai/audio-process/record/start-recording/README.md",
+      "keywords": "genai audio process record start recording",
+      "content": "Start Recording Description This section groups the GenAI documentation available under Start Recording. Pages StartRecording"
     },
     {
       "title": "StartRecording",
-      "path": "/genai/audio-process/record/record-lvclass/startrecording-vi/startrecording/README.md",
-      "keywords": "genai audio process record record lvclass startrecording vi startrecording",
-      "content": "StartRecording Description Type : VI. Input parameters Parameters : cluster sample Rate : integer channels : integer sample Format : enum gain : float segmentDurationSecond : float Record File Path : path Record Device : integer Output parameters Record out : class"
+      "path": "/genai/audio-process/record/start-recording/startrecording/README.md",
+      "keywords": "genai audio process record start recording startrecording",
+      "content": "StartRecording Description Starts a recording session and optionally splits output into timed file segments. Type : VI. Input parameters Parameters : cluster sample Rate : integer channels : integer sample Format : enum gain : float segmentDurationSecond : float Record File Path : path Record Device : integer Output parameters Record out : class"
     },
     {
-      "title": "StopExternalRecording.vi",
-      "path": "/genai/audio-process/record/record-lvclass/stopexternalrecording-vi/README.md",
-      "keywords": "genai audio process record record lvclass stopexternalrecording vi",
-      "content": "StopExternalRecording.vi Description This section groups the GenAI documentation available under StopExternalRecording.vi. Pages StopExternalRecording"
+      "title": "Stop External Recording",
+      "path": "/genai/audio-process/record/stop-external-recording/README.md",
+      "keywords": "genai audio process record stop external recording",
+      "content": "Stop External Recording Description This section groups the GenAI documentation available under Stop External Recording. Pages StopExternalRecording"
     },
     {
       "title": "StopExternalRecording",
-      "path": "/genai/audio-process/record/record-lvclass/stopexternalrecording-vi/stopexternalrecording/README.md",
-      "keywords": "genai audio process record record lvclass stopexternalrecording vi stopexternalrecording",
-      "content": "StopExternalRecording Description Type : VI. Input parameters Record in : class session reference : integer Output parameters Record out : class"
+      "path": "/genai/audio-process/record/stop-external-recording/stopexternalrecording/README.md",
+      "keywords": "genai audio process record stop external recording stopexternalrecording",
+      "content": "StopExternalRecording Description Stops a recording session, closes the active file, and releases its resources. Type : VI. Input parameters Record in : class session reference : integer Output parameters Record out : class"
     },
     {
-      "title": "StopRecording.vi",
-      "path": "/genai/audio-process/record/record-lvclass/stoprecording-vi/README.md",
-      "keywords": "genai audio process record record lvclass stoprecording vi",
-      "content": "StopRecording.vi Description This section groups the GenAI documentation available under StopRecording.vi. Pages StopRecording"
+      "title": "Stop Recording",
+      "path": "/genai/audio-process/record/stop-recording/README.md",
+      "keywords": "genai audio process record stop recording",
+      "content": "Stop Recording Description This section groups the GenAI documentation available under Stop Recording. Pages StopRecording"
     },
     {
       "title": "StopRecording",
-      "path": "/genai/audio-process/record/record-lvclass/stoprecording-vi/stoprecording/README.md",
-      "keywords": "genai audio process record record lvclass stoprecording vi stoprecording",
-      "content": "StopRecording Description Type : VI. Input parameters Record in : class Output parameters Record out : class"
+      "path": "/genai/audio-process/record/stop-recording/stoprecording/README.md",
+      "keywords": "genai audio process record stop recording stoprecording",
+      "content": "StopRecording Description Stops a recording session, closes the active file, and releases its resources. Type : VI. Input parameters Record in : class Output parameters Record out : class"
     },
     {
       "title": "GGUF",
@@ -9852,13 +9882,7 @@
       "title": "Modify",
       "path": "/genai/gguf/gguf-tts/modify/README.md",
       "keywords": "genai gguf gguf tts modify",
-      "content": "Modify Description This section groups the GenAI documentation available under Modify. Pages Audio Buffer Sampler"
-    },
-    {
-      "title": "Audio Buffer",
-      "path": "/genai/gguf/gguf-tts/modify/audio-buffer/README.md",
-      "keywords": "genai gguf gguf tts modify audio buffer",
-      "content": "Audio Buffer Description Free the audio buffer and create a new one (empty). Type : polymorphic. Input parameters TTS in : class Output parameters TTS out : class"
+      "content": "Modify Description This section groups the GenAI documentation available under Modify. Pages Sampler"
     },
     {
       "title": "Sampler",
@@ -9876,7 +9900,7 @@
       "title": "Buffer",
       "path": "/genai/gguf/gguf-tts/run/buffer/README.md",
       "keywords": "genai gguf gguf tts run buffer",
-      "content": "Buffer Description Run TTS and add the result into buffer. Type : polymorphic. Input parameters TTS in : class Prompt : string voice : string Output parameters TTS out : class audio_buffer : integer"
+      "content": "Buffer Description Run TTS and copy audio data to flaot array. Type : polymorphic. Input parameters TTS in : class Prompt : string voice : string Output parameters TTS out : class output_buffer : array of float Numeric : float samples_copied : integer"
     },
     {
       "title": "File",
@@ -9888,13 +9912,37 @@
       "title": "Text Generation",
       "path": "/genai/gguf/text-generation/README.md",
       "keywords": "genai gguf text generation",
-      "content": "Text Generation Description This section groups the GenAI documentation available under Text Generation. Categories Functions GGUF Init TextOnly.lvclass"
+      "content": "Text Generation Description This section groups the GenAI documentation available under Text Generation. Categories Close Session Functions GGUF Init"
+    },
+    {
+      "title": "Close Session",
+      "path": "/genai/gguf/text-generation/close-session/README.md",
+      "keywords": "genai gguf text generation close session",
+      "content": "Close Session Description This section groups the GenAI documentation available under Close Session. Pages Simplified Close Session"
+    },
+    {
+      "title": "Simplified Close Session",
+      "path": "/genai/gguf/text-generation/close-session/simplified-close-session/README.md",
+      "keywords": "genai gguf text generation close session simplified close session",
+      "content": "Simplified Close Session Description Close Text Only Session. Type : VI. Input parameters TextOnly in : class Output parameters TextOnly out : class"
     },
     {
       "title": "Functions",
       "path": "/genai/gguf/text-generation/functions/README.md",
       "keywords": "genai gguf text generation functions",
-      "content": "Functions Description This section groups the GenAI documentation available under Functions. Categories Init Sampler TextOnly.lvclass Visual.lvclass"
+      "content": "Functions Description This section groups the GenAI documentation available under Functions. Categories Generate Streaming Init Sampler Modify Sampler Send Image To Model Send Prompt And Image To Model Send Prompt To Model Stop Generation"
+    },
+    {
+      "title": "Generate Streaming",
+      "path": "/genai/gguf/text-generation/functions/generate-streaming/README.md",
+      "keywords": "genai gguf text generation functions generate streaming",
+      "content": "Generate Streaming Description This section groups the GenAI documentation available under Generate Streaming. Pages Simplified Generate Streaming"
+    },
+    {
+      "title": "Simplified Generate Streaming",
+      "path": "/genai/gguf/text-generation/functions/generate-streaming/simplified-generate-streaming/README.md",
+      "keywords": "genai gguf text generation functions generate streaming simplified generate streaming",
+      "content": "Simplified Generate Streaming Description Generate output of the prompt define by \"create_set_prompt.vi\" token by token. Type : VI. Input parameters TextOnly in : class Output parameters TextOnly out : class generated token : string generation ended : boolean"
     },
     {
       "title": "Init Sampler",
@@ -9909,94 +9957,70 @@
       "content": "Simplified Init Sampler Description Initialize the sampler of the session Type : VI. Input parameters Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer TextOnly in : class Output parameters TextOnly out : class"
     },
     {
-      "title": "TextOnly.lvclass",
-      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/README.md",
-      "keywords": "genai gguf text generation functions textonly lvclass",
-      "content": "TextOnly.lvclass Description This section groups the GenAI documentation available under TextOnly.lvclass. Categories Simplified Generate Streaming.vi Simplified Modify Sampler.vi Simplified Send Prompt To Model.vi Simplified Stop Generation.vi"
-    },
-    {
-      "title": "Simplified Generate Streaming.vi",
-      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-generate-streaming-vi/README.md",
-      "keywords": "genai gguf text generation functions textonly lvclass simplified generate streaming vi",
-      "content": "Simplified Generate Streaming.vi Description This section groups the GenAI documentation available under Simplified Generate Streaming.vi. Pages Simplified Generate Streaming"
-    },
-    {
-      "title": "Simplified Generate Streaming",
-      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-generate-streaming-vi/simplified-generate-streaming/README.md",
-      "keywords": "genai gguf text generation functions textonly lvclass simplified generate streaming vi simplified generate streaming",
-      "content": "Simplified Generate Streaming Description Type : VI. Input parameters TextOnly in : class Output parameters TextOnly out : class generated token : string generation ended : boolean"
-    },
-    {
-      "title": "Simplified Modify Sampler.vi",
-      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-modify-sampler-vi/README.md",
-      "keywords": "genai gguf text generation functions textonly lvclass simplified modify sampler vi",
-      "content": "Simplified Modify Sampler.vi Description This section groups the GenAI documentation available under Simplified Modify Sampler.vi. Pages Simplified Modify Sampler"
+      "title": "Modify Sampler",
+      "path": "/genai/gguf/text-generation/functions/modify-sampler/README.md",
+      "keywords": "genai gguf text generation functions modify sampler",
+      "content": "Modify Sampler Description This section groups the GenAI documentation available under Modify Sampler. Pages Simplified Modify Sampler"
     },
     {
       "title": "Simplified Modify Sampler",
-      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-modify-sampler-vi/simplified-modify-sampler/README.md",
-      "keywords": "genai gguf text generation functions textonly lvclass simplified modify sampler vi simplified modify sampler",
-      "content": "Simplified Modify Sampler Description Type : VI. Input parameters Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer TextOnly in : class Output parameters TextOnly out : class"
+      "path": "/genai/gguf/text-generation/functions/modify-sampler/simplified-modify-sampler/README.md",
+      "keywords": "genai gguf text generation functions modify sampler simplified modify sampler",
+      "content": "Simplified Modify Sampler Description Free the sampler and init a new one Type : VI. Input parameters Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer TextOnly in : class Output parameters TextOnly out : class"
     },
     {
-      "title": "Simplified Send Prompt To Model.vi",
-      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-send-prompt-to-model-vi/README.md",
-      "keywords": "genai gguf text generation functions textonly lvclass simplified send prompt to model vi",
-      "content": "Simplified Send Prompt To Model.vi Description This section groups the GenAI documentation available under Simplified Send Prompt To Model.vi. Pages Simplified Send Prompt To Model"
-    },
-    {
-      "title": "Simplified Send Prompt To Model",
-      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-send-prompt-to-model-vi/simplified-send-prompt-to-model/README.md",
-      "keywords": "genai gguf text generation functions textonly lvclass simplified send prompt to model vi simplified send prompt to model",
-      "content": "Simplified Send Prompt To Model Description Type : VI. Input parameters TextOnly in : class Prompt : string Output parameters TextOnly out : class"
-    },
-    {
-      "title": "Simplified Stop Generation.vi",
-      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-stop-generation-vi/README.md",
-      "keywords": "genai gguf text generation functions textonly lvclass simplified stop generation vi",
-      "content": "Simplified Stop Generation.vi Description This section groups the GenAI documentation available under Simplified Stop Generation.vi. Pages Simplified Stop Generation"
-    },
-    {
-      "title": "Simplified Stop Generation",
-      "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-stop-generation-vi/simplified-stop-generation/README.md",
-      "keywords": "genai gguf text generation functions textonly lvclass simplified stop generation vi simplified stop generation",
-      "content": "Simplified Stop Generation Description Type : VI. Input parameters TextOnly in : class Output parameters TextOnly out : class"
-    },
-    {
-      "title": "Visual.lvclass",
-      "path": "/genai/gguf/text-generation/functions/visual-lvclass/README.md",
-      "keywords": "genai gguf text generation functions visual lvclass",
-      "content": "Visual.lvclass Description This section groups the GenAI documentation available under Visual.lvclass. Categories Simplified Send Image To Model.vi Simplified Send Prompt And Image To Model.vi"
-    },
-    {
-      "title": "Simplified Send Image To Model.vi",
-      "path": "/genai/gguf/text-generation/functions/visual-lvclass/simplified-send-image-to-model-vi/README.md",
-      "keywords": "genai gguf text generation functions visual lvclass simplified send image to model vi",
-      "content": "Simplified Send Image To Model.vi Description This section groups the GenAI documentation available under Simplified Send Image To Model.vi. Pages Simplified Send Image To Model"
+      "title": "Send Image To Model",
+      "path": "/genai/gguf/text-generation/functions/send-image-to-model/README.md",
+      "keywords": "genai gguf text generation functions send image to model",
+      "content": "Send Image To Model Description This section groups the GenAI documentation available under Send Image To Model. Pages Simplified Send Image To Model"
     },
     {
       "title": "Simplified Send Image To Model",
-      "path": "/genai/gguf/text-generation/functions/visual-lvclass/simplified-send-image-to-model-vi/simplified-send-image-to-model/README.md",
-      "keywords": "genai gguf text generation functions visual lvclass simplified send image to model vi simplified send image to model",
-      "content": "Simplified Send Image To Model Description Type : VI. Input parameters Visual in : class image path : path Output parameters Visual out : class"
+      "path": "/genai/gguf/text-generation/functions/send-image-to-model/simplified-send-image-to-model/README.md",
+      "keywords": "genai gguf text generation functions send image to model simplified send image to model",
+      "content": "Simplified Send Image To Model Description Type : VI. Input parameters MultiModal in : class image path : path Output parameters MultiModal out : class"
     },
     {
-      "title": "Simplified Send Prompt And Image To Model.vi",
-      "path": "/genai/gguf/text-generation/functions/visual-lvclass/simplified-send-prompt-and-image-to-model-vi/README.md",
-      "keywords": "genai gguf text generation functions visual lvclass simplified send prompt and image to model vi",
-      "content": "Simplified Send Prompt And Image To Model.vi Description This section groups the GenAI documentation available under Simplified Send Prompt And Image To Model.vi. Pages Simplified Send Prompt And Image To Model"
+      "title": "Send Prompt And Image To Model",
+      "path": "/genai/gguf/text-generation/functions/send-prompt-and-image-to-model/README.md",
+      "keywords": "genai gguf text generation functions send prompt and image to model",
+      "content": "Send Prompt And Image To Model Description This section groups the GenAI documentation available under Send Prompt And Image To Model. Pages Simplified Send Prompt And Image To Model"
     },
     {
       "title": "Simplified Send Prompt And Image To Model",
-      "path": "/genai/gguf/text-generation/functions/visual-lvclass/simplified-send-prompt-and-image-to-model-vi/simplified-send-prompt-and-image-to-model/README.md",
-      "keywords": "genai gguf text generation functions visual lvclass simplified send prompt and image to model vi simplified send prompt and image to model",
-      "content": "Simplified Send Prompt And Image To Model Description Type : VI. Input parameters image path : path Prompt : string Visual in : class Output parameters Visual out : class"
+      "path": "/genai/gguf/text-generation/functions/send-prompt-and-image-to-model/simplified-send-prompt-and-image-to-model/README.md",
+      "keywords": "genai gguf text generation functions send prompt and image to model simplified send prompt and image to model",
+      "content": "Simplified Send Prompt And Image To Model Description Send prompt and image to the model Type : VI. Input parameters image path : path Prompt : string Visual in : class Output parameters Visual out : class"
+    },
+    {
+      "title": "Send Prompt To Model",
+      "path": "/genai/gguf/text-generation/functions/send-prompt-to-model/README.md",
+      "keywords": "genai gguf text generation functions send prompt to model",
+      "content": "Send Prompt To Model Description This section groups the GenAI documentation available under Send Prompt To Model. Pages Simplified Send Prompt To Model"
+    },
+    {
+      "title": "Simplified Send Prompt To Model",
+      "path": "/genai/gguf/text-generation/functions/send-prompt-to-model/simplified-send-prompt-to-model/README.md",
+      "keywords": "genai gguf text generation functions send prompt to model simplified send prompt to model",
+      "content": "Simplified Send Prompt To Model Description Send the prompt to the model and update its context. Type : VI. Input parameters TextOnly in : class Prompt : string Output parameters TextOnly out : class"
+    },
+    {
+      "title": "Stop Generation",
+      "path": "/genai/gguf/text-generation/functions/stop-generation/README.md",
+      "keywords": "genai gguf text generation functions stop generation",
+      "content": "Stop Generation Description This section groups the GenAI documentation available under Stop Generation. Pages Simplified Stop Generation"
+    },
+    {
+      "title": "Simplified Stop Generation",
+      "path": "/genai/gguf/text-generation/functions/stop-generation/simplified-stop-generation/README.md",
+      "keywords": "genai gguf text generation functions stop generation simplified stop generation",
+      "content": "Simplified Stop Generation Description Add EOT (End Of Transmission) to finish correctly the generation. Type : VI. Input parameters TextOnly in : class Output parameters TextOnly out : class"
     },
     {
       "title": "GGUF Init",
       "path": "/genai/gguf/text-generation/gguf-init/README.md",
       "keywords": "genai gguf text generation gguf init",
-      "content": "GGUF Init Description This section groups the GenAI documentation available under GGUF Init. Categories Text Only Visual"
+      "content": "GGUF Init Description This section groups the GenAI documentation available under GGUF Init. Categories Text Only Text+Vision"
     },
     {
       "title": "Text Only",
@@ -10008,121 +10032,73 @@
       "title": "Session",
       "path": "/genai/gguf/text-generation/gguf-init/text-only/session/README.md",
       "keywords": "genai gguf text generation gguf init text only session",
-      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Output parameters TextOnly out : class"
+      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer enable reasoning : boolean system prompt : string Output parameters TextOnly out : class"
     },
     {
       "title": "Session And Sampler",
       "path": "/genai/gguf/text-generation/gguf-init/text-only/session-and-sampler/README.md",
       "keywords": "genai gguf text generation gguf init text only session and sampler",
-      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters TextOnly out : class"
+      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Parameters : cluster Model File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer enable reasoning : boolean system prompt : string Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters TextOnly out : class"
     },
     {
-      "title": "Visual",
-      "path": "/genai/gguf/text-generation/gguf-init/visual/README.md",
-      "keywords": "genai gguf text generation gguf init visual",
-      "content": "Visual Description This section groups the GenAI documentation available under Visual. Categories Gemma 3 Qwen 2.5VL"
-    },
-    {
-      "title": "Gemma 3",
-      "path": "/genai/gguf/text-generation/gguf-init/visual/gemma-3/README.md",
-      "keywords": "genai gguf text generation gguf init visual gemma 3",
-      "content": "Gemma 3 Description This section groups the GenAI documentation available under Gemma 3. Pages Session Session And Sampler"
+      "title": "Text+Vision",
+      "path": "/genai/gguf/text-generation/gguf-init/text-vision/README.md",
+      "keywords": "genai gguf text generation gguf init text vision",
+      "content": "Text+Vision Description This section groups the GenAI documentation available under Text+Vision. Pages Session Session And Sample"
     },
     {
       "title": "Session",
-      "path": "/genai/gguf/text-generation/gguf-init/visual/gemma-3/session/README.md",
-      "keywords": "genai gguf text generation gguf init visual gemma 3 session",
-      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string Output parameters Gemma3 out : class"
+      "path": "/genai/gguf/text-generation/gguf-init/text-vision/session/README.md",
+      "keywords": "genai gguf text generation gguf init text vision session",
+      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer enable reasoning : boolean system prompt : string Output parameters MultiModal out : class"
     },
     {
-      "title": "Session And Sampler",
-      "path": "/genai/gguf/text-generation/gguf-init/visual/gemma-3/session-and-sampler/README.md",
-      "keywords": "genai gguf text generation gguf init visual gemma 3 session and sampler",
-      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters Gemma3 out : class"
-    },
-    {
-      "title": "Qwen 2.5VL",
-      "path": "/genai/gguf/text-generation/gguf-init/visual/qwen-2-5vl/README.md",
-      "keywords": "genai gguf text generation gguf init visual qwen 2 5vl",
-      "content": "Qwen 2.5VL Description This section groups the GenAI documentation available under Qwen 2.5VL. Pages Session Session And Sampler"
-    },
-    {
-      "title": "Session",
-      "path": "/genai/gguf/text-generation/gguf-init/visual/qwen-2-5vl/session/README.md",
-      "keywords": "genai gguf text generation gguf init visual qwen 2 5vl session",
-      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Output parameters Qwen25VL out : class"
-    },
-    {
-      "title": "Session And Sampler",
-      "path": "/genai/gguf/text-generation/gguf-init/visual/qwen-2-5vl/session-and-sampler/README.md",
-      "keywords": "genai gguf text generation gguf init visual qwen 2 5vl session and sampler",
-      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters Qwen25VL out : class"
-    },
-    {
-      "title": "TextOnly.lvclass",
-      "path": "/genai/gguf/text-generation/textonly-lvclass/README.md",
-      "keywords": "genai gguf text generation textonly lvclass",
-      "content": "TextOnly.lvclass Description This section groups the GenAI documentation available under TextOnly.lvclass. Categories Simplified Close Session.vi"
-    },
-    {
-      "title": "Simplified Close Session.vi",
-      "path": "/genai/gguf/text-generation/textonly-lvclass/simplified-close-session-vi/README.md",
-      "keywords": "genai gguf text generation textonly lvclass simplified close session vi",
-      "content": "Simplified Close Session.vi Description This section groups the GenAI documentation available under Simplified Close Session.vi. Pages Simplified Close Session"
-    },
-    {
-      "title": "Simplified Close Session",
-      "path": "/genai/gguf/text-generation/textonly-lvclass/simplified-close-session-vi/simplified-close-session/README.md",
-      "keywords": "genai gguf text generation textonly lvclass simplified close session vi simplified close session",
-      "content": "Simplified Close Session Description Type : VI. Input parameters TextOnly in : class Output parameters TextOnly out : class"
+      "title": "Session And Sample",
+      "path": "/genai/gguf/text-generation/gguf-init/text-vision/session-and-sample/README.md",
+      "keywords": "genai gguf text generation gguf init text vision session and sample",
+      "content": "Session And Sample Description Initialize a session and its sampler Type : polymorphic. Input parameters Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer enable reasoning : boolean system prompt : string Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters MultiModal out : class"
     },
     {
       "title": "Whisper",
       "path": "/genai/gguf/whisper/README.md",
       "keywords": "genai gguf whisper",
-      "content": "Whisper Description This section groups the GenAI documentation available under Whisper. Categories Whisper.lvclass"
+      "content": "Whisper Description This section groups the GenAI documentation available under Whisper. Categories Close Whisper Init Whisper Whisper Transcribe"
     },
     {
-      "title": "Whisper.lvclass",
-      "path": "/genai/gguf/whisper/whisper-lvclass/README.md",
-      "keywords": "genai gguf whisper whisper lvclass",
-      "content": "Whisper.lvclass Description This section groups the GenAI documentation available under Whisper.lvclass. Categories CloseWhisper.vi InitWhisper.vi WhisperTranscribe.vi"
-    },
-    {
-      "title": "CloseWhisper.vi",
-      "path": "/genai/gguf/whisper/whisper-lvclass/closewhisper-vi/README.md",
-      "keywords": "genai gguf whisper whisper lvclass closewhisper vi",
-      "content": "CloseWhisper.vi Description This section groups the GenAI documentation available under CloseWhisper.vi. Pages CloseWhisper"
+      "title": "Close Whisper",
+      "path": "/genai/gguf/whisper/close-whisper/README.md",
+      "keywords": "genai gguf whisper close whisper",
+      "content": "Close Whisper Description This section groups the GenAI documentation available under Close Whisper. Pages CloseWhisper"
     },
     {
       "title": "CloseWhisper",
-      "path": "/genai/gguf/whisper/whisper-lvclass/closewhisper-vi/closewhisper/README.md",
-      "keywords": "genai gguf whisper whisper lvclass closewhisper vi closewhisper",
-      "content": "CloseWhisper Description Type : VI. Input parameters Whisper in : class Output parameters Whisper out : class"
+      "path": "/genai/gguf/whisper/close-whisper/closewhisper/README.md",
+      "keywords": "genai gguf whisper close whisper closewhisper",
+      "content": "CloseWhisper Description Close Whisper Session. Type : VI. Input parameters Whisper in : class Output parameters Whisper out : class"
     },
     {
-      "title": "InitWhisper.vi",
-      "path": "/genai/gguf/whisper/whisper-lvclass/initwhisper-vi/README.md",
-      "keywords": "genai gguf whisper whisper lvclass initwhisper vi",
-      "content": "InitWhisper.vi Description This section groups the GenAI documentation available under InitWhisper.vi. Pages InitWhisper"
+      "title": "Init Whisper",
+      "path": "/genai/gguf/whisper/init-whisper/README.md",
+      "keywords": "genai gguf whisper init whisper",
+      "content": "Init Whisper Description This section groups the GenAI documentation available under Init Whisper. Pages InitWhisper"
     },
     {
       "title": "InitWhisper",
-      "path": "/genai/gguf/whisper/whisper-lvclass/initwhisper-vi/initwhisper/README.md",
-      "keywords": "genai gguf whisper whisper lvclass initwhisper vi initwhisper",
-      "content": "InitWhisper Description Type : VI. Input parameters Model File Path : path Output parameters Whisper out : class"
+      "path": "/genai/gguf/whisper/init-whisper/initwhisper/README.md",
+      "keywords": "genai gguf whisper init whisper initwhisper",
+      "content": "InitWhisper Description Initialize Whisper Session Type : VI. Input parameters Model File Path : path Output parameters Whisper out : class"
     },
     {
-      "title": "WhisperTranscribe.vi",
-      "path": "/genai/gguf/whisper/whisper-lvclass/whispertranscribe-vi/README.md",
-      "keywords": "genai gguf whisper whisper lvclass whispertranscribe vi",
-      "content": "WhisperTranscribe.vi Description This section groups the GenAI documentation available under WhisperTranscribe.vi. Pages WhisperTranscribe"
+      "title": "Whisper Transcribe",
+      "path": "/genai/gguf/whisper/whisper-transcribe/README.md",
+      "keywords": "genai gguf whisper whisper transcribe",
+      "content": "Whisper Transcribe Description This section groups the GenAI documentation available under Whisper Transcribe. Pages WhisperTranscribe"
     },
     {
       "title": "WhisperTranscribe",
-      "path": "/genai/gguf/whisper/whisper-lvclass/whispertranscribe-vi/whispertranscribe/README.md",
-      "keywords": "genai gguf whisper whisper lvclass whispertranscribe vi whispertranscribe",
-      "content": "WhisperTranscribe Description Type : VI. Input parameters Whisper in : class Wav File Path : path Additional Output : cluster Txt File Path : path Wts File Path : path Output parameters Whisper out : class transcription : string"
+      "path": "/genai/gguf/whisper/whisper-transcribe/whispertranscribe/README.md",
+      "keywords": "genai gguf whisper whisper transcribe whispertranscribe",
+      "content": "WhisperTranscribe Description Transcribe Speech to Text Type : VI. Input parameters Whisper in : class Wav File Path : path Additional Output : cluster Txt File Path : path Wts File Path : path Output parameters Whisper out : class transcription : string"
     },
     {
       "title": "OpenAI",

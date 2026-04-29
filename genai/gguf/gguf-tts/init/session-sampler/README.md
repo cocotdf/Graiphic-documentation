@@ -11,30 +11,30 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Parameters" src="/_assets/shared-images/1a/1a7a9a6249a8-ccclst.png" width="32"/> <strong>Parameters : <em>cluster</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="Parameters" src="assets/ccclst.png" width="32"/> <strong>Parameters : <em>cluster</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Model Path" src="/_assets/shared-images/09/0971eb44b0da-cpath.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Model Path" src="assets/cpath.png" width="42"/></td>
       <td valign="top"><strong>Model Path : <em>path</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="Tokenizer Path" src="/_assets/shared-images/09/0971eb44b0da-cpath.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Tokenizer Path" src="assets/cpath.png" width="42"/></td>
       <td valign="top"><strong>Tokenizer Path : <em>path</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="n gpu layers" src="/_assets/shared-images/e6/e64a060992b9-ci32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="n gpu layers" src="assets/ci32.png" width="42"/></td>
       <td valign="top"><strong>n gpu layers : <em>integer</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="use guide tokens" src="/_assets/shared-images/06/06612771a6c0-cbool.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="use guide tokens" src="assets/cbool.png" width="42"/></td>
       <td valign="top"><strong>use guide tokens : <em>boolean</em></strong></td>
     </tr>
   </tbody>
 </table>
       </td>
-      <td valign="top" width="30%"><p align="center"><img alt="Parameters" src="/_assets/shared-images/5e/5e72c0c8a186-parameters.png" width="220"/></p></td>
+      <td valign="top" width="30%"><p align="center"><img alt="Parameters" src="assets/Parameters.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>
@@ -42,30 +42,30 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="Sampler Parameters" src="/_assets/shared-images/ba/ba242cb839de-cnclst.png" width="32"/> <strong>Sampler Parameters : <em>cluster</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="Sampler Parameters" src="assets/cnclst.png" width="32"/> <strong>Sampler Parameters : <em>cluster</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="temperature" src="/_assets/shared-images/8c/8c54522fc255-csgl.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="temperature" src="assets/csgl.png" width="42"/></td>
       <td valign="top"><strong>temperature : <em>float</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="top_p" src="/_assets/shared-images/8c/8c54522fc255-csgl.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="top_p" src="assets/csgl.png" width="42"/></td>
       <td valign="top"><strong>top_p : <em>float</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="min_p" src="/_assets/shared-images/8c/8c54522fc255-csgl.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="min_p" src="assets/csgl.png" width="42"/></td>
       <td valign="top"><strong>min_p : <em>float</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="top_k" src="/_assets/shared-images/e6/e64a060992b9-ci32.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="top_k" src="assets/ci32.png" width="42"/></td>
       <td valign="top"><strong>top_k : <em>integer</em></strong></td>
     </tr>
   </tbody>
 </table>
       </td>
-      <td valign="top" width="30%"><p align="center"><img alt="Sampler Parameters" src="/_assets/shared-images/ee/eed1546a2c18-sampler-parameters.png" width="220"/></p></td>
+      <td valign="top" width="30%"><p align="center"><img alt="Sampler Parameters" src="assets/Sampler Parameters.png" width="220"/></p></td>
     </tr>
   </tbody>
 </table>
@@ -75,7 +75,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="TTS out" src="/_assets/shared-images/64/6480698979d7-iacc__modellvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="TTS out" src="assets/iTTSlvclass.png" width="42"/></td>
       <td valign="top"><strong>TTS out : <em>class</em></strong></td>
     </tr>
   </tbody>

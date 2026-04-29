@@ -6,7 +6,7 @@
 <h3>Categories</h3>
 
 <ul>
+  <li><a href="./close-session/README.md">Close Session</a></li>
   <li><a href="./functions/README.md">Functions</a></li>
   <li><a href="./gguf-init/README.md">GGUF Init</a></li>
-  <li><a href="./textonly-lvclass/README.md">TextOnly.lvclass</a></li>
 </ul>

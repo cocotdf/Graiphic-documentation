@@ -8821,7 +8821,7 @@
           ]
         },
         {
-          "title": "LabVIEW GenAI Toolkit",
+          "title": "GenAI",
           "path": "/genai/README.md",
           "kind": "category",
           "children": [
@@ -8884,6 +8884,1055 @@
                   "path": "/genai/general/faq/README.md",
                   "kind": "page",
                   "children": []
+                }
+              ]
+            },
+            {
+              "title": "Anthropic",
+              "path": "/genai/anthropic/README.md",
+              "kind": "category",
+              "children": [
+                {
+                  "title": "Authentification",
+                  "path": "/genai/anthropic/authentification/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Authentification",
+                      "path": "/genai/anthropic/authentification/authentification/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Close",
+                  "path": "/genai/anthropic/close/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Close",
+                      "path": "/genai/anthropic/close/close/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Conversation",
+                  "path": "/genai/anthropic/conversation/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Edit",
+                      "path": "/genai/anthropic/conversation/edit/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Edit Conversation",
+                          "path": "/genai/anthropic/conversation/edit/edit-conversation/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Get",
+                      "path": "/genai/anthropic/conversation/get/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Get Conversation",
+                          "path": "/genai/anthropic/conversation/get/get-conversation/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Reset",
+                      "path": "/genai/anthropic/conversation/reset/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Reset Conversation",
+                          "path": "/genai/anthropic/conversation/reset/reset-conversation/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Header",
+                  "path": "/genai/anthropic/header/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Remove Beta",
+                      "path": "/genai/anthropic/header/remove-beta/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Remove Beta",
+                          "path": "/genai/anthropic/header/remove-beta/remove-beta/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Set Beta",
+                      "path": "/genai/anthropic/header/set-beta/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Set Beta",
+                          "path": "/genai/anthropic/header/set-beta/set-beta/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Set Version",
+                      "path": "/genai/anthropic/header/set-version/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Set Version",
+                          "path": "/genai/anthropic/header/set-version/set-version/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Message",
+                  "path": "/genai/anthropic/message/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Advanced Message",
+                      "path": "/genai/anthropic/message/advanced-message/README.md",
+                      "kind": "page",
+                      "children": []
+                    },
+                    {
+                      "title": "Simplify Image Message",
+                      "path": "/genai/anthropic/message/simplify-image-message/README.md",
+                      "kind": "page",
+                      "children": []
+                    },
+                    {
+                      "title": "Simplify PDF Message",
+                      "path": "/genai/anthropic/message/simplify-pdf-message/README.md",
+                      "kind": "page",
+                      "children": []
+                    },
+                    {
+                      "title": "Simplify Text Message",
+                      "path": "/genai/anthropic/message/simplify-text-message/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Models",
+                  "path": "/genai/anthropic/models/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Get Info",
+                      "path": "/genai/anthropic/models/get-info/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Get Model Info",
+                          "path": "/genai/anthropic/models/get-info/get-model-info/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Get List",
+                      "path": "/genai/anthropic/models/get-list/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Get Models List",
+                          "path": "/genai/anthropic/models/get-list/get-models-list/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Open",
+                  "path": "/genai/anthropic/open/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Open",
+                      "path": "/genai/anthropic/open/open/README.md",
+                      "kind": "page",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "title": "Parameters",
+                  "path": "/genai/anthropic/parameters/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Set Max Token",
+                      "path": "/genai/anthropic/parameters/set-max-token/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Set Max Token",
+                          "path": "/genai/anthropic/parameters/set-max-token/set-max-token/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Set Model",
+                      "path": "/genai/anthropic/parameters/set-model/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Set Model",
+                          "path": "/genai/anthropic/parameters/set-model/set-model/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Audio Process",
+              "path": "/genai/audio-process/README.md",
+              "kind": "category",
+              "children": [
+                {
+                  "title": "Play",
+                  "path": "/genai/audio-process/play/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Buffer",
+                      "path": "/genai/audio-process/play/buffer/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "End Sound Buffer Stream",
+                          "path": "/genai/audio-process/play/buffer/end-sound-buffer-stream/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "EndSoundBufferStream",
+                              "path": "/genai/audio-process/play/buffer/end-sound-buffer-stream/endsoundbufferstream/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Push Sound Buffer Samples",
+                          "path": "/genai/audio-process/play/buffer/push-sound-buffer-samples/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "PushSoundBufferSamples",
+                              "path": "/genai/audio-process/play/buffer/push-sound-buffer-samples/pushsoundbuffersamples/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Free Playback Session",
+                      "path": "/genai/audio-process/play/free-playback-session/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "FreePlaybackSession",
+                          "path": "/genai/audio-process/play/free-playback-session/freeplaybacksession/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Play Sound Example",
+                      "path": "/genai/audio-process/play/play-sound-example/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Drop Content Play",
+                          "path": "/genai/audio-process/play/play-sound-example/drop-content-play/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Init Playback",
+                      "path": "/genai/audio-process/play/init-playback/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Play Sound From A Buffer",
+                          "path": "/genai/audio-process/play/init-playback/play-sound-from-a-buffer/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Play Sound From A File",
+                          "path": "/genai/audio-process/play/init-playback/play-sound-from-a-file/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Read Playback Buffer",
+                      "path": "/genai/audio-process/play/read-playback-buffer/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "ReadPlaybackBuffer",
+                          "path": "/genai/audio-process/play/read-playback-buffer/readplaybackbuffer/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Set Playback Volume",
+                      "path": "/genai/audio-process/play/set-playback-volume/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "SetPlaybackVolume",
+                          "path": "/genai/audio-process/play/set-playback-volume/setplaybackvolume/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Stop Playback Session",
+                      "path": "/genai/audio-process/play/stop-playback-session/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "StopPlaybackSession",
+                          "path": "/genai/audio-process/play/stop-playback-session/stopplaybacksession/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Record",
+                  "path": "/genai/audio-process/record/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Close All Recording Session",
+                      "path": "/genai/audio-process/record/close-all-recording-session/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "CloseAllRecordingSession",
+                          "path": "/genai/audio-process/record/close-all-recording-session/closeallrecordingsession/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Read Global",
+                      "path": "/genai/audio-process/record/read-global/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "ReadGlobal",
+                          "path": "/genai/audio-process/record/read-global/readglobal/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Read Recording Buffer",
+                      "path": "/genai/audio-process/record/read-recording-buffer/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "ReadRecordingBuffer",
+                          "path": "/genai/audio-process/record/read-recording-buffer/readrecordingbuffer/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Record Sound Example",
+                      "path": "/genai/audio-process/record/record-sound-example/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Drop Content Record",
+                          "path": "/genai/audio-process/record/record-sound-example/drop-content-record/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Start Recording",
+                      "path": "/genai/audio-process/record/start-recording/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "StartRecording",
+                          "path": "/genai/audio-process/record/start-recording/startrecording/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Stop External Recording",
+                      "path": "/genai/audio-process/record/stop-external-recording/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "StopExternalRecording",
+                          "path": "/genai/audio-process/record/stop-external-recording/stopexternalrecording/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Stop Recording",
+                      "path": "/genai/audio-process/record/stop-recording/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "StopRecording",
+                          "path": "/genai/audio-process/record/stop-recording/stoprecording/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "GGUF",
+              "path": "/genai/gguf/README.md",
+              "kind": "category",
+              "children": [
+                {
+                  "title": "GGUF",
+                  "path": "/genai/gguf/gguf/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Chat",
+                      "path": "/genai/gguf/gguf/chat/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Set",
+                          "path": "/genai/gguf/gguf/chat/set/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Sampler",
+                              "path": "/genai/gguf/gguf/chat/set/sampler/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "Dry Allowed Length",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/dry-allowed-length/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Dry Base",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/dry-base/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Dry Multiplier",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/dry-multiplier/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Dry Penalty Last N",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/dry-penalty-last-n/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Dynatemp Exponent",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/dynatemp-exponent/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Dynatemp Range",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/dynatemp-range/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Min Keep",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/min-keep/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Min P",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/min-p/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Mirostat",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/mirostat/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Mirostat Eta",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/mirostat-eta/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Mirostat Tau",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/mirostat-tau/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "N Prev",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/n-prev/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "N Probs",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/n-probs/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Penalty Freq",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/penalty-freq/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Penalty Last N",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/penalty-last-n/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Penalty Present",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/penalty-present/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Repeat Penalty",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/repeat-penalty/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Samplers",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/samplers/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Temperature",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/temperature/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Top K",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/top-k/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Top P",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/top-p/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Typ P",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/typ-p/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Xtc Probability",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/xtc-probability/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Xtc Threshold",
+                                  "path": "/genai/gguf/gguf/chat/set/sampler/xtc-threshold/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "title": "Session",
+                              "path": "/genai/gguf/gguf/chat/set/session/README.md",
+                              "kind": "category",
+                              "children": [
+                                {
+                                  "title": "CPU Threads",
+                                  "path": "/genai/gguf/gguf/chat/set/session/cpu-threads/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Defrag Thold",
+                                  "path": "/genai/gguf/gguf/chat/set/session/defrag-thold/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Grp Attn N",
+                                  "path": "/genai/gguf/gguf/chat/set/session/grp-attn-n/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Grp Attn W",
+                                  "path": "/genai/gguf/gguf/chat/set/session/grp-attn-w/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "N Batch",
+                                  "path": "/genai/gguf/gguf/chat/set/session/n-batch/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "N Chunks",
+                                  "path": "/genai/gguf/gguf/chat/set/session/n-chunks/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "N CTX",
+                                  "path": "/genai/gguf/gguf/chat/set/session/n-ctx/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "N Keep",
+                                  "path": "/genai/gguf/gguf/chat/set/session/n-keep/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "N Parallel",
+                                  "path": "/genai/gguf/gguf/chat/set/session/n-parallel/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "N Predict",
+                                  "path": "/genai/gguf/gguf/chat/set/session/n-predict/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "N Sequences",
+                                  "path": "/genai/gguf/gguf/chat/set/session/n-sequences/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "N Ybatch",
+                                  "path": "/genai/gguf/gguf/chat/set/session/n-ybatch/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Nb GPU Layers",
+                                  "path": "/genai/gguf/gguf/chat/set/session/nb-gpu-layers/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Rope Freq Base",
+                                  "path": "/genai/gguf/gguf/chat/set/session/rope-freq-base/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Rope Freq Scale",
+                                  "path": "/genai/gguf/gguf/chat/set/session/rope-freq-scale/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Yarn Attn Factor",
+                                  "path": "/genai/gguf/gguf/chat/set/session/yarn-attn-factor/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Yarn Beta Fast",
+                                  "path": "/genai/gguf/gguf/chat/set/session/yarn-beta-fast/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Yarn Beta Slow",
+                                  "path": "/genai/gguf/gguf/chat/set/session/yarn-beta-slow/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Yarn Ext Factor",
+                                  "path": "/genai/gguf/gguf/chat/set/session/yarn-ext-factor/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                },
+                                {
+                                  "title": "Yarn Orig CTX",
+                                  "path": "/genai/gguf/gguf/chat/set/session/yarn-orig-ctx/README.md",
+                                  "kind": "page",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "GGUF TTS",
+                  "path": "/genai/gguf/gguf-tts/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Close",
+                      "path": "/genai/gguf/gguf-tts/close/README.md",
+                      "kind": "page",
+                      "children": []
+                    },
+                    {
+                      "title": "Init",
+                      "path": "/genai/gguf/gguf-tts/init/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Sampler",
+                          "path": "/genai/gguf/gguf-tts/init/sampler/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Session",
+                          "path": "/genai/gguf/gguf-tts/init/session/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "Session & Sampler",
+                          "path": "/genai/gguf/gguf-tts/init/session-sampler/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Modify",
+                      "path": "/genai/gguf/gguf-tts/modify/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Sampler",
+                          "path": "/genai/gguf/gguf-tts/modify/sampler/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Run",
+                      "path": "/genai/gguf/gguf-tts/run/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Buffer",
+                          "path": "/genai/gguf/gguf-tts/run/buffer/README.md",
+                          "kind": "page",
+                          "children": []
+                        },
+                        {
+                          "title": "File",
+                          "path": "/genai/gguf/gguf-tts/run/file/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Text Generation",
+                  "path": "/genai/gguf/text-generation/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Close Session",
+                      "path": "/genai/gguf/text-generation/close-session/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Simplified Close Session",
+                          "path": "/genai/gguf/text-generation/close-session/simplified-close-session/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Functions",
+                      "path": "/genai/gguf/text-generation/functions/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Generate Streaming",
+                          "path": "/genai/gguf/text-generation/functions/generate-streaming/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Simplified Generate Streaming",
+                              "path": "/genai/gguf/text-generation/functions/generate-streaming/simplified-generate-streaming/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Init Sampler",
+                          "path": "/genai/gguf/text-generation/functions/init-sampler/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Simplified Init Sampler",
+                              "path": "/genai/gguf/text-generation/functions/init-sampler/simplified-init-sampler/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Modify Sampler",
+                          "path": "/genai/gguf/text-generation/functions/modify-sampler/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Simplified Modify Sampler",
+                              "path": "/genai/gguf/text-generation/functions/modify-sampler/simplified-modify-sampler/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Send Image To Model",
+                          "path": "/genai/gguf/text-generation/functions/send-image-to-model/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Simplified Send Image To Model",
+                              "path": "/genai/gguf/text-generation/functions/send-image-to-model/simplified-send-image-to-model/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Send Prompt And Image To Model",
+                          "path": "/genai/gguf/text-generation/functions/send-prompt-and-image-to-model/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Simplified Send Prompt And Image To Model",
+                              "path": "/genai/gguf/text-generation/functions/send-prompt-and-image-to-model/simplified-send-prompt-and-image-to-model/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Send Prompt To Model",
+                          "path": "/genai/gguf/text-generation/functions/send-prompt-to-model/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Simplified Send Prompt To Model",
+                              "path": "/genai/gguf/text-generation/functions/send-prompt-to-model/simplified-send-prompt-to-model/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Stop Generation",
+                          "path": "/genai/gguf/text-generation/functions/stop-generation/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Simplified Stop Generation",
+                              "path": "/genai/gguf/text-generation/functions/stop-generation/simplified-stop-generation/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "GGUF Init",
+                      "path": "/genai/gguf/text-generation/gguf-init/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "Text Only",
+                          "path": "/genai/gguf/text-generation/gguf-init/text-only/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Session",
+                              "path": "/genai/gguf/text-generation/gguf-init/text-only/session/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Session And Sampler",
+                              "path": "/genai/gguf/text-generation/gguf-init/text-only/session-and-sampler/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Text+Vision",
+                          "path": "/genai/gguf/text-generation/gguf-init/text-vision/README.md",
+                          "kind": "category",
+                          "children": [
+                            {
+                              "title": "Session",
+                              "path": "/genai/gguf/text-generation/gguf-init/text-vision/session/README.md",
+                              "kind": "page",
+                              "children": []
+                            },
+                            {
+                              "title": "Session And Sample",
+                              "path": "/genai/gguf/text-generation/gguf-init/text-vision/session-and-sample/README.md",
+                              "kind": "page",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Whisper",
+                  "path": "/genai/gguf/whisper/README.md",
+                  "kind": "category",
+                  "children": [
+                    {
+                      "title": "Close Whisper",
+                      "path": "/genai/gguf/whisper/close-whisper/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "CloseWhisper",
+                          "path": "/genai/gguf/whisper/close-whisper/closewhisper/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Init Whisper",
+                      "path": "/genai/gguf/whisper/init-whisper/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "InitWhisper",
+                          "path": "/genai/gguf/whisper/init-whisper/initwhisper/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Whisper Transcribe",
+                      "path": "/genai/gguf/whisper/whisper-transcribe/README.md",
+                      "kind": "category",
+                      "children": [
+                        {
+                          "title": "WhisperTranscribe",
+                          "path": "/genai/gguf/whisper/whisper-transcribe/whispertranscribe/README.md",
+                          "kind": "page",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -10056,1083 +11105,6 @@
                       "path": "/genai/openai/send-message/send-message/README.md",
                       "kind": "page",
                       "children": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Anthropic",
-              "path": "/genai/anthropic/README.md",
-              "kind": "category",
-              "children": [
-                {
-                  "title": "Authentification",
-                  "path": "/genai/anthropic/authentification/README.md",
-                  "kind": "category",
-                  "children": [
-                    {
-                      "title": "Authentification",
-                      "path": "/genai/anthropic/authentification/authentification/README.md",
-                      "kind": "page",
-                      "children": []
-                    }
-                  ]
-                },
-                {
-                  "title": "Close",
-                  "path": "/genai/anthropic/close/README.md",
-                  "kind": "category",
-                  "children": [
-                    {
-                      "title": "Close",
-                      "path": "/genai/anthropic/close/close/README.md",
-                      "kind": "page",
-                      "children": []
-                    }
-                  ]
-                },
-                {
-                  "title": "Conversation",
-                  "path": "/genai/anthropic/conversation/README.md",
-                  "kind": "category",
-                  "children": [
-                    {
-                      "title": "Edit",
-                      "path": "/genai/anthropic/conversation/edit/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Edit Conversation",
-                          "path": "/genai/anthropic/conversation/edit/edit-conversation/README.md",
-                          "kind": "page",
-                          "children": []
-                        }
-                      ]
-                    },
-                    {
-                      "title": "Get",
-                      "path": "/genai/anthropic/conversation/get/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Get Conversation",
-                          "path": "/genai/anthropic/conversation/get/get-conversation/README.md",
-                          "kind": "page",
-                          "children": []
-                        }
-                      ]
-                    },
-                    {
-                      "title": "Reset",
-                      "path": "/genai/anthropic/conversation/reset/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Reset Conversation",
-                          "path": "/genai/anthropic/conversation/reset/reset-conversation/README.md",
-                          "kind": "page",
-                          "children": []
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "title": "Header",
-                  "path": "/genai/anthropic/header/README.md",
-                  "kind": "category",
-                  "children": [
-                    {
-                      "title": "Remove Beta",
-                      "path": "/genai/anthropic/header/remove-beta/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Remove Beta",
-                          "path": "/genai/anthropic/header/remove-beta/remove-beta/README.md",
-                          "kind": "page",
-                          "children": []
-                        }
-                      ]
-                    },
-                    {
-                      "title": "Set Beta",
-                      "path": "/genai/anthropic/header/set-beta/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Set Beta",
-                          "path": "/genai/anthropic/header/set-beta/set-beta/README.md",
-                          "kind": "page",
-                          "children": []
-                        }
-                      ]
-                    },
-                    {
-                      "title": "Set Version",
-                      "path": "/genai/anthropic/header/set-version/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Set Version",
-                          "path": "/genai/anthropic/header/set-version/set-version/README.md",
-                          "kind": "page",
-                          "children": []
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "title": "Message",
-                  "path": "/genai/anthropic/message/README.md",
-                  "kind": "category",
-                  "children": [
-                    {
-                      "title": "Advanced Message",
-                      "path": "/genai/anthropic/message/advanced-message/README.md",
-                      "kind": "page",
-                      "children": []
-                    },
-                    {
-                      "title": "Simplify Image Message",
-                      "path": "/genai/anthropic/message/simplify-image-message/README.md",
-                      "kind": "page",
-                      "children": []
-                    },
-                    {
-                      "title": "Simplify PDF Message",
-                      "path": "/genai/anthropic/message/simplify-pdf-message/README.md",
-                      "kind": "page",
-                      "children": []
-                    },
-                    {
-                      "title": "Simplify Text Message",
-                      "path": "/genai/anthropic/message/simplify-text-message/README.md",
-                      "kind": "page",
-                      "children": []
-                    }
-                  ]
-                },
-                {
-                  "title": "Models",
-                  "path": "/genai/anthropic/models/README.md",
-                  "kind": "category",
-                  "children": [
-                    {
-                      "title": "Get Info",
-                      "path": "/genai/anthropic/models/get-info/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Get Model Info",
-                          "path": "/genai/anthropic/models/get-info/get-model-info/README.md",
-                          "kind": "page",
-                          "children": []
-                        }
-                      ]
-                    },
-                    {
-                      "title": "Get List",
-                      "path": "/genai/anthropic/models/get-list/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Get Models List",
-                          "path": "/genai/anthropic/models/get-list/get-models-list/README.md",
-                          "kind": "page",
-                          "children": []
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "title": "Open",
-                  "path": "/genai/anthropic/open/README.md",
-                  "kind": "category",
-                  "children": [
-                    {
-                      "title": "Open",
-                      "path": "/genai/anthropic/open/open/README.md",
-                      "kind": "page",
-                      "children": []
-                    }
-                  ]
-                },
-                {
-                  "title": "Parameters",
-                  "path": "/genai/anthropic/parameters/README.md",
-                  "kind": "category",
-                  "children": [
-                    {
-                      "title": "Set Max Token",
-                      "path": "/genai/anthropic/parameters/set-max-token/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Set Max Token",
-                          "path": "/genai/anthropic/parameters/set-max-token/set-max-token/README.md",
-                          "kind": "page",
-                          "children": []
-                        }
-                      ]
-                    },
-                    {
-                      "title": "Set Model",
-                      "path": "/genai/anthropic/parameters/set-model/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Set Model",
-                          "path": "/genai/anthropic/parameters/set-model/set-model/README.md",
-                          "kind": "page",
-                          "children": []
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "GGUF",
-              "path": "/genai/gguf/README.md",
-              "kind": "category",
-              "children": [
-                {
-                  "title": "GGUF",
-                  "path": "/genai/gguf/gguf/README.md",
-                  "kind": "category",
-                  "children": [
-                    {
-                      "title": "Chat",
-                      "path": "/genai/gguf/gguf/chat/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Set",
-                          "path": "/genai/gguf/gguf/chat/set/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "Sampler",
-                              "path": "/genai/gguf/gguf/chat/set/sampler/README.md",
-                              "kind": "category",
-                              "children": [
-                                {
-                                  "title": "Dry Allowed Length",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/dry-allowed-length/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Dry Base",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/dry-base/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Dry Multiplier",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/dry-multiplier/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Dry Penalty Last N",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/dry-penalty-last-n/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Dynatemp Exponent",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/dynatemp-exponent/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Dynatemp Range",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/dynatemp-range/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Min Keep",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/min-keep/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Min P",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/min-p/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Mirostat",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/mirostat/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Mirostat Eta",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/mirostat-eta/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Mirostat Tau",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/mirostat-tau/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "N Prev",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/n-prev/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "N Probs",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/n-probs/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Penalty Freq",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/penalty-freq/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Penalty Last N",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/penalty-last-n/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Penalty Present",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/penalty-present/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Repeat Penalty",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/repeat-penalty/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Samplers",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/samplers/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Temperature",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/temperature/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Top K",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/top-k/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Top P",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/top-p/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Typ P",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/typ-p/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Xtc Probability",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/xtc-probability/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Xtc Threshold",
-                                  "path": "/genai/gguf/gguf/chat/set/sampler/xtc-threshold/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Session",
-                              "path": "/genai/gguf/gguf/chat/set/session/README.md",
-                              "kind": "category",
-                              "children": [
-                                {
-                                  "title": "CPU Threads",
-                                  "path": "/genai/gguf/gguf/chat/set/session/cpu-threads/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Defrag Thold",
-                                  "path": "/genai/gguf/gguf/chat/set/session/defrag-thold/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Grp Attn N",
-                                  "path": "/genai/gguf/gguf/chat/set/session/grp-attn-n/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Grp Attn W",
-                                  "path": "/genai/gguf/gguf/chat/set/session/grp-attn-w/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "N Batch",
-                                  "path": "/genai/gguf/gguf/chat/set/session/n-batch/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "N Chunks",
-                                  "path": "/genai/gguf/gguf/chat/set/session/n-chunks/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "N CTX",
-                                  "path": "/genai/gguf/gguf/chat/set/session/n-ctx/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "N Keep",
-                                  "path": "/genai/gguf/gguf/chat/set/session/n-keep/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "N Parallel",
-                                  "path": "/genai/gguf/gguf/chat/set/session/n-parallel/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "N Predict",
-                                  "path": "/genai/gguf/gguf/chat/set/session/n-predict/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "N Sequences",
-                                  "path": "/genai/gguf/gguf/chat/set/session/n-sequences/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "N Ybatch",
-                                  "path": "/genai/gguf/gguf/chat/set/session/n-ybatch/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Nb GPU Layers",
-                                  "path": "/genai/gguf/gguf/chat/set/session/nb-gpu-layers/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Rope Freq Base",
-                                  "path": "/genai/gguf/gguf/chat/set/session/rope-freq-base/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Rope Freq Scale",
-                                  "path": "/genai/gguf/gguf/chat/set/session/rope-freq-scale/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Yarn Attn Factor",
-                                  "path": "/genai/gguf/gguf/chat/set/session/yarn-attn-factor/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Yarn Beta Fast",
-                                  "path": "/genai/gguf/gguf/chat/set/session/yarn-beta-fast/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Yarn Beta Slow",
-                                  "path": "/genai/gguf/gguf/chat/set/session/yarn-beta-slow/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Yarn Ext Factor",
-                                  "path": "/genai/gguf/gguf/chat/set/session/yarn-ext-factor/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Yarn Orig CTX",
-                                  "path": "/genai/gguf/gguf/chat/set/session/yarn-orig-ctx/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "title": "GGUF TTS",
-                  "path": "/genai/gguf/gguf-tts/README.md",
-                  "kind": "category",
-                  "children": [
-                    {
-                      "title": "Close",
-                      "path": "/genai/gguf/gguf-tts/close/README.md",
-                      "kind": "page",
-                      "children": []
-                    },
-                    {
-                      "title": "Init",
-                      "path": "/genai/gguf/gguf-tts/init/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Sampler",
-                          "path": "/genai/gguf/gguf-tts/init/sampler/README.md",
-                          "kind": "page",
-                          "children": []
-                        },
-                        {
-                          "title": "Session",
-                          "path": "/genai/gguf/gguf-tts/init/session/README.md",
-                          "kind": "page",
-                          "children": []
-                        },
-                        {
-                          "title": "Session & Sampler",
-                          "path": "/genai/gguf/gguf-tts/init/session-sampler/README.md",
-                          "kind": "page",
-                          "children": []
-                        }
-                      ]
-                    },
-                    {
-                      "title": "Modify",
-                      "path": "/genai/gguf/gguf-tts/modify/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Audio Buffer",
-                          "path": "/genai/gguf/gguf-tts/modify/audio-buffer/README.md",
-                          "kind": "page",
-                          "children": []
-                        },
-                        {
-                          "title": "Sampler",
-                          "path": "/genai/gguf/gguf-tts/modify/sampler/README.md",
-                          "kind": "page",
-                          "children": []
-                        }
-                      ]
-                    },
-                    {
-                      "title": "Run",
-                      "path": "/genai/gguf/gguf-tts/run/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Buffer",
-                          "path": "/genai/gguf/gguf-tts/run/buffer/README.md",
-                          "kind": "page",
-                          "children": []
-                        },
-                        {
-                          "title": "File",
-                          "path": "/genai/gguf/gguf-tts/run/file/README.md",
-                          "kind": "page",
-                          "children": []
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "title": "Text Generation",
-                  "path": "/genai/gguf/text-generation/README.md",
-                  "kind": "category",
-                  "children": [
-                    {
-                      "title": "Functions",
-                      "path": "/genai/gguf/text-generation/functions/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Init Sampler",
-                          "path": "/genai/gguf/text-generation/functions/init-sampler/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "Simplified Init Sampler",
-                              "path": "/genai/gguf/text-generation/functions/init-sampler/simplified-init-sampler/README.md",
-                              "kind": "page",
-                              "children": []
-                            }
-                          ]
-                        },
-                        {
-                          "title": "TextOnly.lvclass",
-                          "path": "/genai/gguf/text-generation/functions/textonly-lvclass/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "Simplified Generate Streaming.vi",
-                              "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-generate-streaming-vi/README.md",
-                              "kind": "category",
-                              "children": [
-                                {
-                                  "title": "Simplified Generate Streaming",
-                                  "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-generate-streaming-vi/simplified-generate-streaming/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Simplified Modify Sampler.vi",
-                              "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-modify-sampler-vi/README.md",
-                              "kind": "category",
-                              "children": [
-                                {
-                                  "title": "Simplified Modify Sampler",
-                                  "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-modify-sampler-vi/simplified-modify-sampler/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Simplified Send Prompt To Model.vi",
-                              "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-send-prompt-to-model-vi/README.md",
-                              "kind": "category",
-                              "children": [
-                                {
-                                  "title": "Simplified Send Prompt To Model",
-                                  "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-send-prompt-to-model-vi/simplified-send-prompt-to-model/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Simplified Stop Generation.vi",
-                              "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-stop-generation-vi/README.md",
-                              "kind": "category",
-                              "children": [
-                                {
-                                  "title": "Simplified Stop Generation",
-                                  "path": "/genai/gguf/text-generation/functions/textonly-lvclass/simplified-stop-generation-vi/simplified-stop-generation/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "title": "Visual.lvclass",
-                          "path": "/genai/gguf/text-generation/functions/visual-lvclass/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "Simplified Send Image To Model.vi",
-                              "path": "/genai/gguf/text-generation/functions/visual-lvclass/simplified-send-image-to-model-vi/README.md",
-                              "kind": "category",
-                              "children": [
-                                {
-                                  "title": "Simplified Send Image To Model",
-                                  "path": "/genai/gguf/text-generation/functions/visual-lvclass/simplified-send-image-to-model-vi/simplified-send-image-to-model/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Simplified Send Prompt And Image To Model.vi",
-                              "path": "/genai/gguf/text-generation/functions/visual-lvclass/simplified-send-prompt-and-image-to-model-vi/README.md",
-                              "kind": "category",
-                              "children": [
-                                {
-                                  "title": "Simplified Send Prompt And Image To Model",
-                                  "path": "/genai/gguf/text-generation/functions/visual-lvclass/simplified-send-prompt-and-image-to-model-vi/simplified-send-prompt-and-image-to-model/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "title": "GGUF Init",
-                      "path": "/genai/gguf/text-generation/gguf-init/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Text Only",
-                          "path": "/genai/gguf/text-generation/gguf-init/text-only/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "Session",
-                              "path": "/genai/gguf/text-generation/gguf-init/text-only/session/README.md",
-                              "kind": "page",
-                              "children": []
-                            },
-                            {
-                              "title": "Session And Sampler",
-                              "path": "/genai/gguf/text-generation/gguf-init/text-only/session-and-sampler/README.md",
-                              "kind": "page",
-                              "children": []
-                            }
-                          ]
-                        },
-                        {
-                          "title": "Visual",
-                          "path": "/genai/gguf/text-generation/gguf-init/visual/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "Gemma 3",
-                              "path": "/genai/gguf/text-generation/gguf-init/visual/gemma-3/README.md",
-                              "kind": "category",
-                              "children": [
-                                {
-                                  "title": "Session",
-                                  "path": "/genai/gguf/text-generation/gguf-init/visual/gemma-3/session/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Session And Sampler",
-                                  "path": "/genai/gguf/text-generation/gguf-init/visual/gemma-3/session-and-sampler/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                }
-                              ]
-                            },
-                            {
-                              "title": "Qwen 2.5VL",
-                              "path": "/genai/gguf/text-generation/gguf-init/visual/qwen-2-5vl/README.md",
-                              "kind": "category",
-                              "children": [
-                                {
-                                  "title": "Session",
-                                  "path": "/genai/gguf/text-generation/gguf-init/visual/qwen-2-5vl/session/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                },
-                                {
-                                  "title": "Session And Sampler",
-                                  "path": "/genai/gguf/text-generation/gguf-init/visual/qwen-2-5vl/session-and-sampler/README.md",
-                                  "kind": "page",
-                                  "children": []
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "title": "TextOnly.lvclass",
-                      "path": "/genai/gguf/text-generation/textonly-lvclass/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Simplified Close Session.vi",
-                          "path": "/genai/gguf/text-generation/textonly-lvclass/simplified-close-session-vi/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "Simplified Close Session",
-                              "path": "/genai/gguf/text-generation/textonly-lvclass/simplified-close-session-vi/simplified-close-session/README.md",
-                              "kind": "page",
-                              "children": []
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "title": "Whisper",
-                  "path": "/genai/gguf/whisper/README.md",
-                  "kind": "category",
-                  "children": [
-                    {
-                      "title": "Whisper.lvclass",
-                      "path": "/genai/gguf/whisper/whisper-lvclass/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "CloseWhisper.vi",
-                          "path": "/genai/gguf/whisper/whisper-lvclass/closewhisper-vi/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "CloseWhisper",
-                              "path": "/genai/gguf/whisper/whisper-lvclass/closewhisper-vi/closewhisper/README.md",
-                              "kind": "page",
-                              "children": []
-                            }
-                          ]
-                        },
-                        {
-                          "title": "InitWhisper.vi",
-                          "path": "/genai/gguf/whisper/whisper-lvclass/initwhisper-vi/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "InitWhisper",
-                              "path": "/genai/gguf/whisper/whisper-lvclass/initwhisper-vi/initwhisper/README.md",
-                              "kind": "page",
-                              "children": []
-                            }
-                          ]
-                        },
-                        {
-                          "title": "WhisperTranscribe.vi",
-                          "path": "/genai/gguf/whisper/whisper-lvclass/whispertranscribe-vi/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "WhisperTranscribe",
-                              "path": "/genai/gguf/whisper/whisper-lvclass/whispertranscribe-vi/whispertranscribe/README.md",
-                              "kind": "page",
-                              "children": []
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Audio Process",
-              "path": "/genai/audio-process/README.md",
-              "kind": "category",
-              "children": [
-                {
-                  "title": "Play",
-                  "path": "/genai/audio-process/play/README.md",
-                  "kind": "category",
-                  "children": [
-                    {
-                      "title": "Play Sound Example",
-                      "path": "/genai/audio-process/play/play-sound-example/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Drop Content Play",
-                          "path": "/genai/audio-process/play/play-sound-example/drop-content-play/README.md",
-                          "kind": "page",
-                          "children": []
-                        }
-                      ]
-                    },
-                    {
-                      "title": "Play.lvclass",
-                      "path": "/genai/audio-process/play/play-lvclass/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "FreePlaybackSession.vi",
-                          "path": "/genai/audio-process/play/play-lvclass/freeplaybacksession-vi/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "FreePlaybackSession",
-                              "path": "/genai/audio-process/play/play-lvclass/freeplaybacksession-vi/freeplaybacksession/README.md",
-                              "kind": "page",
-                              "children": []
-                            }
-                          ]
-                        },
-                        {
-                          "title": "ReadPlaybackBuffer.vi",
-                          "path": "/genai/audio-process/play/play-lvclass/readplaybackbuffer-vi/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "ReadPlaybackBuffer",
-                              "path": "/genai/audio-process/play/play-lvclass/readplaybackbuffer-vi/readplaybackbuffer/README.md",
-                              "kind": "page",
-                              "children": []
-                            }
-                          ]
-                        },
-                        {
-                          "title": "StopPlaybackSession.vi",
-                          "path": "/genai/audio-process/play/play-lvclass/stopplaybacksession-vi/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "StopPlaybackSession",
-                              "path": "/genai/audio-process/play/play-lvclass/stopplaybacksession-vi/stopplaybacksession/README.md",
-                              "kind": "page",
-                              "children": []
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "title": "Init Playback",
-                      "path": "/genai/audio-process/play/init-playback/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Play Sound From A Buffer",
-                          "path": "/genai/audio-process/play/init-playback/play-sound-from-a-buffer/README.md",
-                          "kind": "page",
-                          "children": []
-                        },
-                        {
-                          "title": "Play Sound From A File",
-                          "path": "/genai/audio-process/play/init-playback/play-sound-from-a-file/README.md",
-                          "kind": "page",
-                          "children": []
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "title": "Record",
-                  "path": "/genai/audio-process/record/README.md",
-                  "kind": "category",
-                  "children": [
-                    {
-                      "title": "Record Sound Example",
-                      "path": "/genai/audio-process/record/record-sound-example/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "Drop Content Record",
-                          "path": "/genai/audio-process/record/record-sound-example/drop-content-record/README.md",
-                          "kind": "page",
-                          "children": []
-                        }
-                      ]
-                    },
-                    {
-                      "title": "Record.lvclass",
-                      "path": "/genai/audio-process/record/record-lvclass/README.md",
-                      "kind": "category",
-                      "children": [
-                        {
-                          "title": "CloseAllRecordingSession.vi",
-                          "path": "/genai/audio-process/record/record-lvclass/closeallrecordingsession-vi/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "CloseAllRecordingSession",
-                              "path": "/genai/audio-process/record/record-lvclass/closeallrecordingsession-vi/closeallrecordingsession/README.md",
-                              "kind": "page",
-                              "children": []
-                            }
-                          ]
-                        },
-                        {
-                          "title": "ReadGlobal.vi",
-                          "path": "/genai/audio-process/record/record-lvclass/readglobal-vi/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "ReadGlobal",
-                              "path": "/genai/audio-process/record/record-lvclass/readglobal-vi/readglobal/README.md",
-                              "kind": "page",
-                              "children": []
-                            }
-                          ]
-                        },
-                        {
-                          "title": "ReadRecordingBuffer.vi",
-                          "path": "/genai/audio-process/record/record-lvclass/readrecordingbuffer-vi/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "ReadRecordingBuffer",
-                              "path": "/genai/audio-process/record/record-lvclass/readrecordingbuffer-vi/readrecordingbuffer/README.md",
-                              "kind": "page",
-                              "children": []
-                            }
-                          ]
-                        },
-                        {
-                          "title": "StartRecording.vi",
-                          "path": "/genai/audio-process/record/record-lvclass/startrecording-vi/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "StartRecording",
-                              "path": "/genai/audio-process/record/record-lvclass/startrecording-vi/startrecording/README.md",
-                              "kind": "page",
-                              "children": []
-                            }
-                          ]
-                        },
-                        {
-                          "title": "StopExternalRecording.vi",
-                          "path": "/genai/audio-process/record/record-lvclass/stopexternalrecording-vi/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "StopExternalRecording",
-                              "path": "/genai/audio-process/record/record-lvclass/stopexternalrecording-vi/stopexternalrecording/README.md",
-                              "kind": "page",
-                              "children": []
-                            }
-                          ]
-                        },
-                        {
-                          "title": "StopRecording.vi",
-                          "path": "/genai/audio-process/record/record-lvclass/stoprecording-vi/README.md",
-                          "kind": "category",
-                          "children": [
-                            {
-                              "title": "StopRecording",
-                              "path": "/genai/audio-process/record/record-lvclass/stoprecording-vi/stoprecording/README.md",
-                              "kind": "page",
-                              "children": []
-                            }
-                          ]
-                        }
-                      ]
                     }
                   ]
                 }

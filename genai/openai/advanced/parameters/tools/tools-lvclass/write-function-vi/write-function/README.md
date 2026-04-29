@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="tools in" src="/_assets/shared-images/d0/d02f3e0bb4c0-cgguflvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="tools in" src="assets/ctoolslvclass.png" width="42"/></td>
       <td valign="top"><strong>tools in : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -20,21 +20,21 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="tools" src="/_assets/shared-images/d3/d34232a0665a-c1dcclst.png" width="32"/> <strong>tools : <em>array of cluster</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="tools" src="assets/c1dcclst.png" width="32"/> <strong>tools : <em>array of cluster</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="tools" src="/_assets/shared-images/1a/1a7a9a6249a8-ccclst.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="tools" src="assets/ccclst.png" width="42"/></td>
       <td valign="top"><strong>tools : <em>cluster</em></strong>
 <ul>
-  <li><img alt="type" src="/_assets/shared-images/71/714be290bc5b-cstr.png" width="32"/> <strong>type : <em>string</em></strong></li>
-  <li><img alt="function" src="/_assets/shared-images/1a/1a7a9a6249a8-ccclst.png" width="32"/> <strong>function : <em>cluster</em></strong>
+  <li><img alt="type" src="assets/cstr.png" width="32"/> <strong>type : <em>string</em></strong></li>
+  <li><img alt="function" src="assets/ccclst.png" width="32"/> <strong>function : <em>cluster</em></strong>
 <ul>
-  <li><img alt="description" src="/_assets/shared-images/71/714be290bc5b-cstr.png" width="32"/> <strong>description : <em>string</em></strong></li>
-  <li><img alt="name" src="/_assets/shared-images/71/714be290bc5b-cstr.png" width="32"/> <strong>name : <em>string</em></strong></li>
-  <li><img alt="parameters" src="/_assets/shared-images/71/714be290bc5b-cstr.png" width="32"/> <strong>parameters : <em>string</em></strong></li>
-  <li><img alt="strict" src="/_assets/shared-images/06/06612771a6c0-cbool.png" width="32"/> <strong>strict : <em>boolean</em></strong></li>
+  <li><img alt="description" src="assets/cstr.png" width="32"/> <strong>description : <em>string</em></strong></li>
+  <li><img alt="name" src="assets/cstr.png" width="32"/> <strong>name : <em>string</em></strong></li>
+  <li><img alt="parameters" src="assets/cstr.png" width="32"/> <strong>parameters : <em>string</em></strong></li>
+  <li><img alt="strict" src="assets/cbool.png" width="32"/> <strong>strict : <em>boolean</em></strong></li>
 </ul></li>
 </ul></td>
     </tr>
@@ -51,7 +51,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="tools out" src="/_assets/shared-images/a5/a5c2d660da20-igguflvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="tools out" src="assets/itoolslvclass.png" width="42"/></td>
       <td valign="top"><strong>tools out : <em>class</em></strong></td>
     </tr>
   </tbody>

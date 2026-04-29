@@ -11,11 +11,11 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Anthropic in" src="/_assets/shared-images/82/8241d0fa280e-canthropiclvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Anthropic in" src="assets/cAnthropiclvclass.png" width="42"/></td>
       <td valign="top"><strong>Anthropic in : <em>class</em></strong></td>
     </tr>
     <tr>
-      <td width="64" valign="top"><img alt="api_key" src="/_assets/shared-images/71/714be290bc5b-cstr.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="api_key" src="assets/cstr.png" width="42"/></td>
       <td valign="top"><strong>api_key : <em>string</em></strong></td>
     </tr>
   </tbody>
@@ -26,7 +26,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Anthropic out" src="/_assets/shared-images/f4/f47f1679d4c8-ianthropiclvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Anthropic out" src="assets/iAnthropiclvclass.png" width="42"/></td>
       <td valign="top"><strong>Anthropic out : <em>class</em></strong></td>
     </tr>
   </tbody>

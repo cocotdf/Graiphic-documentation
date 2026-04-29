@@ -7,5 +7,5 @@
 
 <ul>
   <li><a href="./text-only/README.md">Text Only</a></li>
-  <li><a href="./visual/README.md">Visual</a></li>
+  <li><a href="./text-vision/README.md">Text+Vision</a></li>
 </ul>

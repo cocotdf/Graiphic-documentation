@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="tool_resources in" src="/_assets/shared-images/d0/d02f3e0bb4c0-cgguflvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="tool_resources in" src="assets/ctool__resourceslvclass.png" width="42"/></td>
       <td valign="top"><strong>tool_resources in : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -20,17 +20,17 @@
 <table>
   <tbody>
     <tr>
-      <td valign="top" width="70%"><p><img alt="tool_resources" src="/_assets/shared-images/1a/1a7a9a6249a8-ccclst.png" width="32"/> <strong>tool_resources : <em>cluster</em></strong></p>
+      <td valign="top" width="70%"><p><img alt="tool_resources" src="assets/ccclst.png" width="32"/> <strong>tool_resources : <em>cluster</em></strong></p>
 
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="code_interpreter" src="/_assets/shared-images/1a/1a7a9a6249a8-ccclst.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="code_interpreter" src="assets/ccclst.png" width="42"/></td>
       <td valign="top"><strong>code_interpreter : <em>cluster</em></strong>
 <ul>
-  <li><img alt="file_ids" src="/_assets/shared-images/ce/ceeb813734df-c1dstr.png" width="32"/> <strong>file_ids : <em>array of string</em></strong>
+  <li><img alt="file_ids" src="assets/c1dstr.png" width="32"/> <strong>file_ids : <em>array of string</em></strong>
 <ul>
-  <li><img alt="String" src="/_assets/shared-images/71/714be290bc5b-cstr.png" width="32"/> <strong>String : <em>string</em></strong></li>
+  <li><img alt="String" src="assets/cstr.png" width="32"/> <strong>String : <em>string</em></strong></li>
 </ul></li>
 </ul></td>
     </tr>
@@ -47,7 +47,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="tool_resources out" src="/_assets/shared-images/a5/a5c2d660da20-igguflvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="tool_resources out" src="assets/itool__resourceslvclass.png" width="42"/></td>
       <td valign="top"><strong>tool_resources out : <em>class</em></strong></td>
     </tr>
   </tbody>

@@ -6,5 +6,7 @@
 <h3>Categories</h3>
 
 <ul>
-  <li><a href="./whisper-lvclass/README.md">Whisper.lvclass</a></li>
+  <li><a href="./close-whisper/README.md">Close Whisper</a></li>
+  <li><a href="./init-whisper/README.md">Init Whisper</a></li>
+  <li><a href="./whisper-transcribe/README.md">Whisper Transcribe</a></li>
 </ul>

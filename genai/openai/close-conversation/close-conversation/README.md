@@ -11,7 +11,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Assistants in" src="/_assets/shared-images/77/7741fcb2046c-copenailvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Assistants in" src="assets/cAssistantslvclass.png" width="42"/></td>
       <td valign="top"><strong>Assistants in : <em>class</em></strong></td>
     </tr>
   </tbody>
@@ -22,7 +22,7 @@
 <table>
   <tbody>
     <tr>
-      <td width="64" valign="top"><img alt="Assistants out" src="/_assets/shared-images/80/80afcce65438-iopenailvclass.png" width="42"/></td>
+      <td width="64" valign="top"><img alt="Assistants out" src="assets/iAssistantslvclass.png" width="42"/></td>
       <td valign="top"><strong>Assistants out : <em>class</em></strong></td>
     </tr>
   </tbody>

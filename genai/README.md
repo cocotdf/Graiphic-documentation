@@ -1,21 +1,21 @@
-<h1>LabVIEW GenAI Toolkit</h1>
+<h1>GenAI Toolkit</h1>
 
 <div class="graiphic-home-hero">
-  <p align="center"><img src="../img/GenAI.png" alt="LabVIEW GenAI Toolkit icon" width="128" /></p>
+  <p align="center"><img src="../img/GenAI.png" alt="GenAI Toolkit icon" width="128" /></p>
   <p class="graiphic-home-kicker">
     <span class="graiphic-home-kicker-line">LLM workflows, speech pipelines,</span>
     <span class="graiphic-home-kicker-line">and multimodal inference for LabVIEW.</span>
   </p>
   <p class="graiphic-home-lead">
-    The LabVIEW GenAI Toolkit gathers Anthropic messaging flows, OpenAI assistants and messages, GGUF runtime setup,
+    The GenAI Toolkit gathers Anthropic messaging flows, OpenAI assistants and messages, GGUF runtime setup,
     local text generation, text-to-speech building blocks, and audio processing utilities
     inside one documentation entry point.
   </p>
   <div class="graiphic-home-pills">
     <span class="graiphic-home-pill">Installation Guide</span>
     <span class="graiphic-home-pill">General</span>
-    <span class="graiphic-home-pill">OpenAI</span>
     <span class="graiphic-home-pill">Anthropic</span>
+    <span class="graiphic-home-pill">OpenAI</span>
     <span class="graiphic-home-pill">GGUF</span>
     <span class="graiphic-home-pill">Audio Process</span>
   </div>
@@ -32,21 +32,21 @@
     <span class="graiphic-home-card-title">General</span>
     <span class="graiphic-home-card-copy">Start with the introduction and FAQ to understand how the toolkit is organized and how to approach the first flows.</span>
   </a>
-  <a class="graiphic-home-card" href="openai/README.md">
-    <span class="graiphic-home-card-title">OpenAI</span>
-    <span class="graiphic-home-card-copy">Work with assistants, files, threads, audio, and advanced OpenAI request structures directly from LabVIEW.</span>
-  </a>
   <a class="graiphic-home-card" href="anthropic/README.md">
     <span class="graiphic-home-card-title">Anthropic</span>
     <span class="graiphic-home-card-copy">Build advanced text, image, and PDF message payloads for Anthropic-oriented LabVIEW workflows.</span>
   </a>
-  <a class="graiphic-home-card" href="gguf/gguf/README.md">
-    <span class="graiphic-home-card-title">GGUF Runtime</span>
-    <span class="graiphic-home-card-copy">Configure chat sessions, samplers, and runtime parameters for local GGUF model execution.</span>
+  <a class="graiphic-home-card" href="openai/README.md">
+    <span class="graiphic-home-card-title">OpenAI</span>
+    <span class="graiphic-home-card-copy">Work with assistants, files, threads, audio, and advanced OpenAI request structures directly from LabVIEW.</span>
   </a>
   <a class="graiphic-home-card" href="audio-process/README.md">
     <span class="graiphic-home-card-title">Audio Process</span>
     <span class="graiphic-home-card-copy">Play or record audio buffers and files to integrate speech output and capture workflows into interactive applications.</span>
+  </a>
+  <a class="graiphic-home-card" href="gguf/gguf/README.md">
+    <span class="graiphic-home-card-title">GGUF Runtime</span>
+    <span class="graiphic-home-card-copy">Configure chat sessions, samplers, and runtime parameters for local GGUF model execution.</span>
   </a>
   <a class="graiphic-home-card" href="gguf/gguf-tts/README.md">
     <span class="graiphic-home-card-title">GGUF TTS</span>
@@ -58,7 +58,7 @@
 
 <ul>
   <li><a href="general/introduction/README.md">Introduction</a></li>
-  <li><a href="installation-guide/genai-toolkit/README.md">LabVIEW GenAI Toolkit Setup</a></li>
+  <li><a href="installation-guide/genai-toolkit/README.md">GenAI Toolkit Setup</a></li>
   <li><a href="anthropic/message/README.md">Anthropic Message</a></li>
   <li><a href="anthropic/message/advanced-message/README.md">Advanced Message</a></li>
   <li><a href="openai/send-message/send-message/README.md">OpenAI Send Message</a></li>
