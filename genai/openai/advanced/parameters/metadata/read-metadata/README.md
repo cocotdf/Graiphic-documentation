@@ -1,10 +1,33 @@
 <h1>Read Metadata</h1>
+
 <h2>Description</h2>
 
-<p>This section groups the GenAI documentation available under Read Metadata.</p>
+<p>Type : VI.</p>
 
-<h3>Pages</h3>
+<p align="center"><img src="assets/read-metadata.png" alt="Read Metadata" width="270" /></p>
 
-<ul>
-  <li><a href="./read-metadata/README.md">Read Metadata</a></li>
-</ul>
+<h3>Input parameters</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="64" valign="top"><img alt="metadata in" src="assets/cmetadatalvclass.png" width="42"/></td>
+      <td valign="top"><strong>metadata in : <em>class</em></strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Output parameters</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="64" valign="top"><img alt="metadata out" src="assets/imetadatalvclass.png" width="42"/></td>
+      <td valign="top"><strong>metadata out : <em>class</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="metadata" src="assets/imap.png" width="42"/></td>
+      <td valign="top"><strong>metadata</strong></td>
+    </tr>
+  </tbody>
+</table>

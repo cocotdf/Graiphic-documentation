@@ -3,7 +3,7 @@
 
 <p>This section groups the GenAI documentation available under Parameters.</p>
 
-<h3>Categories</h3>
+<h3>Pages</h3>
 
 <ul>
   <li><a href="./set-max-token/README.md">Set Max Token</a></li>

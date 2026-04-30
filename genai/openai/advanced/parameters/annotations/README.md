@@ -3,7 +3,7 @@
 
 <p>This section groups the GenAI documentation available under Annotations.</p>
 
-<h3>Categories</h3>
+<h3>Pages</h3>
 
 <ul>
   <li><a href="./read-file-citation/README.md">Read File Citation</a></li>

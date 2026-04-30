@@ -1,10 +1,29 @@
 <h1>Read File Path</h1>
+
 <h2>Description</h2>
 
-<p>This section groups the GenAI documentation available under Read File Path.</p>
+<p>Type : VI.</p>
 
-<h3>Pages</h3>
+<p align="center"><img src="assets/read-file-path.png" alt="Read File Path" width="270" /></p>
 
-<ul>
-  <li><a href="./read-file-path/README.md">Read File Path</a></li>
-</ul>
+<h3>Input parameters</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="64" valign="top"><img alt="annotations in" src="assets/cannotationslvclass.png" width="42"/></td>
+      <td valign="top"><strong>annotations in : <em>class</em></strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Output parameters</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="64" valign="top"><img alt="annotations out" src="assets/iannotationslvclass.png" width="42"/></td>
+      <td valign="top"><strong>annotations out : <em>class</em></strong></td>
+    </tr>
+  </tbody>
+</table>

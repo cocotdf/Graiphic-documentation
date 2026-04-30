@@ -3,9 +3,9 @@
 
 <p>This section groups the GenAI documentation available under Models.</p>
 
-<h3>Categories</h3>
+<h3>Pages</h3>
 
 <ul>
-  <li><a href="./get-info/README.md">Get Info</a></li>
-  <li><a href="./get-list/README.md">Get List</a></li>
+  <li><a href="./get-model-info/README.md">Get Model Info</a></li>
+  <li><a href="./get-models-list/README.md">Get Models List</a></li>
 </ul>

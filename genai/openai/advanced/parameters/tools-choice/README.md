@@ -3,7 +3,7 @@
 
 <p>This section groups the GenAI documentation available under Tools Choice.</p>
 
-<h3>Categories</h3>
+<h3>Pages</h3>
 
 <ul>
   <li><a href="./read-object/README.md">Read Object</a></li>

@@ -7,7 +7,6 @@
 
 <ul>
   <li><a href="./init/README.md">Init</a></li>
-  <li><a href="./modify/README.md">Modify</a></li>
   <li><a href="./run/README.md">Run</a></li>
 </ul>
 
@@ -15,4 +14,5 @@
 
 <ul>
   <li><a href="./close/README.md">Close</a></li>
+  <li><a href="./sampler/README.md">Sampler</a></li>
 </ul>

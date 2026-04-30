@@ -3,7 +3,7 @@
 
 <p>This section groups the GenAI documentation available under Tool Resources.</p>
 
-<h3>Categories</h3>
+<h3>Pages</h3>
 
 <ul>
   <li><a href="./read-code-interpreter/README.md">Read Code Interpreter</a></li>

@@ -3,14 +3,14 @@
 
 <p>This section groups the GenAI documentation available under Record.</p>
 
-<h3>Categories</h3>
+<h3>Pages</h3>
 
 <ul>
-  <li><a href="./close-all-recording-session/README.md">Close All Recording Session</a></li>
-  <li><a href="./read-global/README.md">Read Global</a></li>
-  <li><a href="./read-recording-buffer/README.md">Read Recording Buffer</a></li>
-  <li><a href="./record-sound-example/README.md">Record Sound Example</a></li>
-  <li><a href="./start-recording/README.md">Start Recording</a></li>
-  <li><a href="./stop-external-recording/README.md">Stop External Recording</a></li>
-  <li><a href="./stop-recording/README.md">Stop Recording</a></li>
+  <li><a href="./closeallrecordingsession/README.md">CloseAllRecordingSession</a></li>
+  <li><a href="./readglobal/README.md">ReadGlobal</a></li>
+  <li><a href="./readrecordingbuffer/README.md">ReadRecordingBuffer</a></li>
+  <li><a href="./drop-content-record/README.md">Drop Content Record</a></li>
+  <li><a href="./startrecording/README.md">StartRecording</a></li>
+  <li><a href="./stopexternalrecording/README.md">StopExternalRecording</a></li>
+  <li><a href="./stoprecording/README.md">StopRecording</a></li>
 </ul>

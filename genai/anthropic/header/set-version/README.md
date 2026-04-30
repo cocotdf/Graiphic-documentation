@@ -1,10 +1,33 @@
 <h1>Set Version</h1>
+
 <h2>Description</h2>
 
-<p>This section groups the GenAI documentation available under Set Version.</p>
+<p>Type : VI.</p>
 
-<h3>Pages</h3>
+<p align="center"><img src="assets/set-version.png" alt="Set Version" width="270" /></p>
 
-<ul>
-  <li><a href="./set-version/README.md">Set Version</a></li>
-</ul>
+<h3>Input parameters</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="64" valign="top"><img alt="Anthropic in" src="assets/cAnthropiclvclass.png" width="42"/></td>
+      <td valign="top"><strong>Anthropic in : <em>class</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="version" src="assets/cstr.png" width="42"/></td>
+      <td valign="top"><strong>version : <em>string</em></strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Output parameters</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td width="64" valign="top"><img alt="Anthropic out" src="assets/iAnthropiclvclass.png" width="42"/></td>
+      <td valign="top"><strong>Anthropic out : <em>class</em></strong></td>
+    </tr>
+  </tbody>
+</table>

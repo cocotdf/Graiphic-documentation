@@ -7,10 +7,15 @@
 
 <ul>
   <li><a href="./buffer/README.md">Buffer</a></li>
-  <li><a href="./free-playback-session/README.md">Free Playback Session</a></li>
-  <li><a href="./play-sound-example/README.md">Play Sound Example</a></li>
   <li><a href="./init-playback/README.md">Init Playback</a></li>
-  <li><a href="./read-playback-buffer/README.md">Read Playback Buffer</a></li>
-  <li><a href="./set-playback-volume/README.md">Set Playback Volume</a></li>
-  <li><a href="./stop-playback-session/README.md">Stop Playback Session</a></li>
+</ul>
+
+<h3>Pages</h3>
+
+<ul>
+  <li><a href="./freeplaybacksession/README.md">FreePlaybackSession</a></li>
+  <li><a href="./drop-content-play/README.md">Drop Content Play</a></li>
+  <li><a href="./readplaybackbuffer/README.md">ReadPlaybackBuffer</a></li>
+  <li><a href="./setplaybackvolume/README.md">SetPlaybackVolume</a></li>
+  <li><a href="./stopplaybacksession/README.md">StopPlaybackSession</a></li>
 </ul>

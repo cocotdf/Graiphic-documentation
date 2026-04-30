@@ -3,9 +3,9 @@
 
 <p>This section groups the GenAI documentation available under Audio.</p>
 
-<h3>Categories</h3>
+<h3>Pages</h3>
 
 <ul>
-  <li><a href="./speech/README.md">Speech</a></li>
-  <li><a href="./transcription/README.md">Transcription</a></li>
+  <li><a href="./create-speech/README.md">Create Speech</a></li>
+  <li><a href="./create-transcription/README.md">Create Transcription</a></li>
 </ul>

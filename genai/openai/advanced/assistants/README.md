@@ -3,12 +3,12 @@
 
 <p>This section groups the GenAI documentation available under Assistants.</p>
 
-<h3>Categories</h3>
+<h3>Pages</h3>
 
 <ul>
-  <li><a href="./create/README.md">Create</a></li>
-  <li><a href="./delete/README.md">Delete</a></li>
-  <li><a href="./edit/README.md">Edit</a></li>
-  <li><a href="./get-info/README.md">Get Info</a></li>
-  <li><a href="./get-list/README.md">Get List</a></li>
+  <li><a href="./create-assistant/README.md">Create Assistant</a></li>
+  <li><a href="./delete-assistant/README.md">Delete Assistant</a></li>
+  <li><a href="./edit-assistant/README.md">Edit Assistant</a></li>
+  <li><a href="./get-assistant-info/README.md">Get Assistant Info</a></li>
+  <li><a href="./get-assistants-list/README.md">Get Assistants List</a></li>
 </ul>

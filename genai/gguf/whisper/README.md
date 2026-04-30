@@ -3,10 +3,10 @@
 
 <p>This section groups the GenAI documentation available under Whisper.</p>
 
-<h3>Categories</h3>
+<h3>Pages</h3>
 
 <ul>
-  <li><a href="./close-whisper/README.md">Close Whisper</a></li>
-  <li><a href="./init-whisper/README.md">Init Whisper</a></li>
-  <li><a href="./whisper-transcribe/README.md">Whisper Transcribe</a></li>
+  <li><a href="./closewhisper/README.md">CloseWhisper</a></li>
+  <li><a href="./initwhisper/README.md">InitWhisper</a></li>
+  <li><a href="./whispertranscribe/README.md">WhisperTranscribe</a></li>
 </ul>

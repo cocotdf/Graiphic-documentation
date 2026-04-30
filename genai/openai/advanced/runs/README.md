@@ -3,14 +3,14 @@
 
 <p>This section groups the GenAI documentation available under Runs.</p>
 
-<h3>Categories</h3>
+<h3>Pages</h3>
 
 <ul>
-  <li><a href="./cancel/README.md">Cancel</a></li>
-  <li><a href="./create/README.md">Create</a></li>
+  <li><a href="./cancel-run/README.md">Cancel Run</a></li>
+  <li><a href="./create-run/README.md">Create Run</a></li>
   <li><a href="./create-thread-run/README.md">Create Thread &amp; Run</a></li>
-  <li><a href="./edit/README.md">Edit</a></li>
-  <li><a href="./get-info/README.md">Get Info</a></li>
-  <li><a href="./get-list/README.md">Get List</a></li>
+  <li><a href="./edit-run/README.md">Edit Run</a></li>
+  <li><a href="./get-run-info/README.md">Get Run Info</a></li>
+  <li><a href="./get-runs-list/README.md">Get Runs List</a></li>
   <li><a href="./submit-tool-output/README.md">Submit Tool Output</a></li>
 </ul>

@@ -3,7 +3,7 @@
 
 <p>This section groups the GenAI documentation available under Chunking Strategy.</p>
 
-<h3>Categories</h3>
+<h3>Pages</h3>
 
 <ul>
   <li><a href="./write-auto/README.md">Write Auto</a></li>

@@ -3,9 +3,9 @@
 
 <p>This section groups the GenAI documentation available under Buffer.</p>
 
-<h3>Categories</h3>
+<h3>Pages</h3>
 
 <ul>
-  <li><a href="./end-sound-buffer-stream/README.md">End Sound Buffer Stream</a></li>
-  <li><a href="./push-sound-buffer-samples/README.md">Push Sound Buffer Samples</a></li>
+  <li><a href="./endsoundbufferstream/README.md">EndSoundBufferStream</a></li>
+  <li><a href="./pushsoundbuffersamples/README.md">PushSoundBufferSamples</a></li>
 </ul>
