@@ -1,10 +1,10 @@
-<h1>Simplified Generate Streaming</h1>
+<h1>Generate Streaming</h1>
 
 <h2>Description</h2>
 
 <p>Generate output of the prompt define by &quot;create_set_prompt.vi&quot; token by token. Type : VI.</p>
 
-<p align="center"><img src="assets/simplified-generate-streaming.png" alt="Simplified Generate Streaming" width="270" /></p>
+<p align="center"><img src="assets/generate-streaming.png" alt="Generate Streaming" width="270" /></p>
 
 <h3>Input parameters</h3>
 

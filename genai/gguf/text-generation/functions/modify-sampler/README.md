@@ -1,10 +1,10 @@
-<h1>Simplified Modify Sampler</h1>
+<h1>Modify Sampler</h1>
 
 <h2>Description</h2>
 
 <p>Free the sampler and init a new one Type : VI.</p>
 
-<p align="center"><img src="assets/simplified-modify-sampler.png" alt="Simplified Modify Sampler" width="270" /></p>
+<p align="center"><img src="assets/modify-sampler.png" alt="Modify Sampler" width="270" /></p>
 
 <h3>Input parameters</h3>
 

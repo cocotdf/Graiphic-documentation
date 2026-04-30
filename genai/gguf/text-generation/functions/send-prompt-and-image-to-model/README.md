@@ -1,10 +1,10 @@
-<h1>Simplified Send Prompt And Image To Model</h1>
+<h1>Send Prompt And Image To Model</h1>
 
 <h2>Description</h2>
 
 <p>Send prompt and image to the model Type : VI.</p>
 
-<p align="center"><img src="assets/simplified-send-prompt-and-image-to-model.png" alt="Simplified Send Prompt And Image To Model" width="270" /></p>
+<p align="center"><img src="assets/send-prompt-and-image-to-model.png" alt="Send Prompt And Image To Model" width="270" /></p>
 
 <h3>Input parameters</h3>
 

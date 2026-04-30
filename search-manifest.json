@@ -9744,61 +9744,61 @@
       "title": "Text Generation",
       "path": "/genai/gguf/text-generation/README.md",
       "keywords": "genai gguf text generation",
-      "content": "Text Generation Description This section groups the GenAI documentation available under Text Generation. Categories Functions GGUF Init Pages Simplified Close Session"
+      "content": "Text Generation Description This section groups the GenAI documentation available under Text Generation. Categories Functions GGUF Init Pages Close Session"
     },
     {
-      "title": "Simplified Close Session",
-      "path": "/genai/gguf/text-generation/simplified-close-session/README.md",
-      "keywords": "genai gguf text generation simplified close session",
-      "content": "Simplified Close Session Description Close Text Only Session. Type : VI. Input parameters TextOnly in : class Output parameters TextOnly out : class"
+      "title": "Close Session",
+      "path": "/genai/gguf/text-generation/close-session/README.md",
+      "keywords": "genai gguf text generation close session",
+      "content": "Close Session Description Close Text Only Session. Type : VI. Input parameters TextOnly in : class Output parameters TextOnly out : class"
     },
     {
       "title": "Functions",
       "path": "/genai/gguf/text-generation/functions/README.md",
       "keywords": "genai gguf text generation functions",
-      "content": "Functions Description This section groups the GenAI documentation available under Functions. Pages Simplified Generate Streaming Simplified Init Sampler Simplified Modify Sampler Simplified Send Image To Model Simplified Send Prompt And Image To Model Simplified Send Prompt To Model Simplified Stop Generation"
+      "content": "Functions Description This section groups the GenAI documentation available under Functions. Pages Generate Streaming Init Sampler Modify Sampler Send Image To Model Send Prompt And Image To Model Send Prompt To Model Stop Generation"
     },
     {
-      "title": "Simplified Generate Streaming",
-      "path": "/genai/gguf/text-generation/functions/simplified-generate-streaming/README.md",
-      "keywords": "genai gguf text generation functions simplified generate streaming",
-      "content": "Simplified Generate Streaming Description Generate output of the prompt define by \"create_set_prompt.vi\" token by token. Type : VI. Input parameters TextOnly in : class Output parameters TextOnly out : class generated token : string generation ended : boolean"
+      "title": "Generate Streaming",
+      "path": "/genai/gguf/text-generation/functions/generate-streaming/README.md",
+      "keywords": "genai gguf text generation functions generate streaming",
+      "content": "Generate Streaming Description Generate output of the prompt define by \"create_set_prompt.vi\" token by token. Type : VI. Input parameters TextOnly in : class Output parameters TextOnly out : class generated token : string generation ended : boolean"
     },
     {
-      "title": "Simplified Init Sampler",
-      "path": "/genai/gguf/text-generation/functions/simplified-init-sampler/README.md",
-      "keywords": "genai gguf text generation functions simplified init sampler",
-      "content": "Simplified Init Sampler Description Initialize the sampler of the session Type : VI. Input parameters Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer TextOnly in : class Output parameters TextOnly out : class"
+      "title": "Init Sampler",
+      "path": "/genai/gguf/text-generation/functions/init-sampler/README.md",
+      "keywords": "genai gguf text generation functions init sampler",
+      "content": "Init Sampler Description Initialize the sampler of the session Type : VI. Input parameters Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer TextOnly in : class Output parameters TextOnly out : class"
     },
     {
-      "title": "Simplified Modify Sampler",
-      "path": "/genai/gguf/text-generation/functions/simplified-modify-sampler/README.md",
-      "keywords": "genai gguf text generation functions simplified modify sampler",
-      "content": "Simplified Modify Sampler Description Free the sampler and init a new one Type : VI. Input parameters Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer TextOnly in : class Output parameters TextOnly out : class"
+      "title": "Modify Sampler",
+      "path": "/genai/gguf/text-generation/functions/modify-sampler/README.md",
+      "keywords": "genai gguf text generation functions modify sampler",
+      "content": "Modify Sampler Description Free the sampler and init a new one Type : VI. Input parameters Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer TextOnly in : class Output parameters TextOnly out : class"
     },
     {
-      "title": "Simplified Send Image To Model",
-      "path": "/genai/gguf/text-generation/functions/simplified-send-image-to-model/README.md",
-      "keywords": "genai gguf text generation functions simplified send image to model",
-      "content": "Simplified Send Image To Model Description Type : VI. Input parameters MultiModal in : class image path : path Output parameters MultiModal out : class"
+      "title": "Send Image To Model",
+      "path": "/genai/gguf/text-generation/functions/send-image-to-model/README.md",
+      "keywords": "genai gguf text generation functions send image to model",
+      "content": "Send Image To Model Description Type : VI. Input parameters MultiModal in : class image path : path Output parameters MultiModal out : class"
     },
     {
-      "title": "Simplified Send Prompt And Image To Model",
-      "path": "/genai/gguf/text-generation/functions/simplified-send-prompt-and-image-to-model/README.md",
-      "keywords": "genai gguf text generation functions simplified send prompt and image to model",
-      "content": "Simplified Send Prompt And Image To Model Description Send prompt and image to the model Type : VI. Input parameters image path : path Prompt : string Visual in : class Output parameters Visual out : class"
+      "title": "Send Prompt And Image To Model",
+      "path": "/genai/gguf/text-generation/functions/send-prompt-and-image-to-model/README.md",
+      "keywords": "genai gguf text generation functions send prompt and image to model",
+      "content": "Send Prompt And Image To Model Description Send prompt and image to the model Type : VI. Input parameters image path : path Prompt : string Visual in : class Output parameters Visual out : class"
     },
     {
-      "title": "Simplified Send Prompt To Model",
-      "path": "/genai/gguf/text-generation/functions/simplified-send-prompt-to-model/README.md",
-      "keywords": "genai gguf text generation functions simplified send prompt to model",
-      "content": "Simplified Send Prompt To Model Description Send the prompt to the model and update its context. Type : VI. Input parameters TextOnly in : class Prompt : string Output parameters TextOnly out : class"
+      "title": "Send Prompt To Model",
+      "path": "/genai/gguf/text-generation/functions/send-prompt-to-model/README.md",
+      "keywords": "genai gguf text generation functions send prompt to model",
+      "content": "Send Prompt To Model Description Send the prompt to the model and update its context. Type : VI. Input parameters TextOnly in : class Prompt : string Output parameters TextOnly out : class"
     },
     {
-      "title": "Simplified Stop Generation",
-      "path": "/genai/gguf/text-generation/functions/simplified-stop-generation/README.md",
-      "keywords": "genai gguf text generation functions simplified stop generation",
-      "content": "Simplified Stop Generation Description Add EOT (End Of Transmission) to finish correctly the generation. Type : VI. Input parameters TextOnly in : class Output parameters TextOnly out : class"
+      "title": "Stop Generation",
+      "path": "/genai/gguf/text-generation/functions/stop-generation/README.md",
+      "keywords": "genai gguf text generation functions stop generation",
+      "content": "Stop Generation Description Add EOT (End Of Transmission) to finish correctly the generation. Type : VI. Input parameters TextOnly in : class Output parameters TextOnly out : class"
     },
     {
       "title": "GGUF Init",

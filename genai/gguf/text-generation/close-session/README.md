@@ -1,10 +1,10 @@
-<h1>Simplified Stop Generation</h1>
+<h1>Close Session</h1>
 
 <h2>Description</h2>
 
-<p>Add EOT (End Of Transmission) to finish correctly the generation. Type : VI.</p>
+<p>Close Text Only Session. Type : VI.</p>
 
-<p align="center"><img src="assets/simplified-stop-generation.png" alt="Simplified Stop Generation" width="270" /></p>
+<p align="center"><img src="assets/close-session.png" alt="Close Session" width="270" /></p>
 
 <h3>Input parameters</h3>
 

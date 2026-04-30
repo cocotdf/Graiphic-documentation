@@ -1,10 +1,10 @@
-<h1>Simplified Send Image To Model</h1>
+<h1>Send Image To Model</h1>
 
 <h2>Description</h2>
 
 <p>Type : VI.</p>
 
-<p align="center"><img src="assets/simplified-send-image-to-model.png" alt="Simplified Send Image To Model" width="270" /></p>
+<p align="center"><img src="assets/send-image-to-model.png" alt="Send Image To Model" width="270" /></p>
 
 <h3>Input parameters</h3>
 

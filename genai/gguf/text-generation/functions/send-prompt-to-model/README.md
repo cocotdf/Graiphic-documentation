@@ -1,10 +1,10 @@
-<h1>Simplified Close Session</h1>
+<h1>Send Prompt To Model</h1>
 
 <h2>Description</h2>
 
-<p>Close Text Only Session. Type : VI.</p>
+<p>Send the prompt to the model and update its context. Type : VI.</p>
 
-<p align="center"><img src="assets/simplified-close-session.png" alt="Simplified Close Session" width="270" /></p>
+<p align="center"><img src="assets/send-prompt-to-model.png" alt="Send Prompt To Model" width="270" /></p>
 
 <h3>Input parameters</h3>
 
@@ -13,6 +13,10 @@
     <tr>
       <td width="64" valign="top"><img alt="TextOnly in" src="assets/cTextOnlylvclass.png" width="42"/></td>
       <td valign="top"><strong>TextOnly in : <em>class</em></strong></td>
+    </tr>
+    <tr>
+      <td width="64" valign="top"><img alt="Prompt" src="assets/cstr.png" width="42"/></td>
+      <td valign="top"><strong>Prompt : <em>string</em></strong></td>
     </tr>
   </tbody>
 </table>

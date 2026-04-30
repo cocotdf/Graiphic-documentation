@@ -13,5 +13,5 @@
 <h3>Pages</h3>
 
 <ul>
-  <li><a href="./simplified-close-session/README.md">Simplified Close Session</a></li>
+  <li><a href="./close-session/README.md">Close Session</a></li>
 </ul>

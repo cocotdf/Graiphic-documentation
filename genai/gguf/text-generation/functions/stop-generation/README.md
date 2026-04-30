@@ -1,10 +1,10 @@
-<h1>Simplified Send Prompt To Model</h1>
+<h1>Stop Generation</h1>
 
 <h2>Description</h2>
 
-<p>Send the prompt to the model and update its context. Type : VI.</p>
+<p>Add EOT (End Of Transmission) to finish correctly the generation. Type : VI.</p>
 
-<p align="center"><img src="assets/simplified-send-prompt-to-model.png" alt="Simplified Send Prompt To Model" width="270" /></p>
+<p align="center"><img src="assets/stop-generation.png" alt="Stop Generation" width="270" /></p>
 
 <h3>Input parameters</h3>
 
@@ -13,10 +13,6 @@
     <tr>
       <td width="64" valign="top"><img alt="TextOnly in" src="assets/cTextOnlylvclass.png" width="42"/></td>
       <td valign="top"><strong>TextOnly in : <em>class</em></strong></td>
-    </tr>
-    <tr>
-      <td width="64" valign="top"><img alt="Prompt" src="assets/cstr.png" width="42"/></td>
-      <td valign="top"><strong>Prompt : <em>string</em></strong></td>
     </tr>
   </tbody>
 </table>

@@ -9535,8 +9535,8 @@
                   "kind": "category",
                   "children": [
                     {
-                      "title": "Simplified Close Session",
-                      "path": "/genai/gguf/text-generation/simplified-close-session/README.md",
+                      "title": "Close Session",
+                      "path": "/genai/gguf/text-generation/close-session/README.md",
                       "kind": "page",
                       "children": []
                     },
@@ -9546,44 +9546,44 @@
                       "kind": "category",
                       "children": [
                         {
-                          "title": "Simplified Generate Streaming",
-                          "path": "/genai/gguf/text-generation/functions/simplified-generate-streaming/README.md",
+                          "title": "Generate Streaming",
+                          "path": "/genai/gguf/text-generation/functions/generate-streaming/README.md",
                           "kind": "page",
                           "children": []
                         },
                         {
-                          "title": "Simplified Init Sampler",
-                          "path": "/genai/gguf/text-generation/functions/simplified-init-sampler/README.md",
+                          "title": "Init Sampler",
+                          "path": "/genai/gguf/text-generation/functions/init-sampler/README.md",
                           "kind": "page",
                           "children": []
                         },
                         {
-                          "title": "Simplified Modify Sampler",
-                          "path": "/genai/gguf/text-generation/functions/simplified-modify-sampler/README.md",
+                          "title": "Modify Sampler",
+                          "path": "/genai/gguf/text-generation/functions/modify-sampler/README.md",
                           "kind": "page",
                           "children": []
                         },
                         {
-                          "title": "Simplified Send Image To Model",
-                          "path": "/genai/gguf/text-generation/functions/simplified-send-image-to-model/README.md",
+                          "title": "Send Image To Model",
+                          "path": "/genai/gguf/text-generation/functions/send-image-to-model/README.md",
                           "kind": "page",
                           "children": []
                         },
                         {
-                          "title": "Simplified Send Prompt And Image To Model",
-                          "path": "/genai/gguf/text-generation/functions/simplified-send-prompt-and-image-to-model/README.md",
+                          "title": "Send Prompt And Image To Model",
+                          "path": "/genai/gguf/text-generation/functions/send-prompt-and-image-to-model/README.md",
                           "kind": "page",
                           "children": []
                         },
                         {
-                          "title": "Simplified Send Prompt To Model",
-                          "path": "/genai/gguf/text-generation/functions/simplified-send-prompt-to-model/README.md",
+                          "title": "Send Prompt To Model",
+                          "path": "/genai/gguf/text-generation/functions/send-prompt-to-model/README.md",
                           "kind": "page",
                           "children": []
                         },
                         {
-                          "title": "Simplified Stop Generation",
-                          "path": "/genai/gguf/text-generation/functions/simplified-stop-generation/README.md",
+                          "title": "Stop Generation",
+                          "path": "/genai/gguf/text-generation/functions/stop-generation/README.md",
                           "kind": "page",
                           "children": []
                         }

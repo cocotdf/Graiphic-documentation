@@ -1,10 +1,10 @@
-<h1>Simplified Init Sampler</h1>
+<h1>Init Sampler</h1>
 
 <h2>Description</h2>
 
 <p>Initialize the sampler of the session Type : VI.</p>
 
-<p align="center"><img src="assets/simplified-init-sampler.png" alt="Simplified Init Sampler" width="270" /></p>
+<p align="center"><img src="assets/init-sampler.png" alt="Init Sampler" width="270" /></p>
 
 <h3>Input parameters</h3>
 
